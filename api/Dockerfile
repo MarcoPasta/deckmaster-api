@@ -24,6 +24,13 @@ ENV CGO_ENABLED=0
 RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} \
     go build -ldflags "-s -w" -o /app .
 
+# Ensure a predictable non-root user exists in the final image. Create a
+# minimal passwd entry and a home directory in the builder and copy them
+# into the final (distroless) image so tools that expect a named user work.
+RUN mkdir -p /home/nonroot \
+    && chown 1000:1000 /home/nonroot \
+    && printf 'nonroot:x:1000:1000:nonroot:/home/nonroot:/sbin/nologin\n' > /tmp/passwd
+
 
 # Final image: minimal runtime (non-root)
 FROM gcr.io/distroless/static:nonroot
@@ -32,6 +39,11 @@ WORKDIR /
 
 # Copy the compiled binary from the builder stage
 COPY --from=builder /app /app
+
+# Copy the passwd entry and home directory so the `nonroot` user exists by
+# name inside the final image (some tools / extensions lookup users by name).
+COPY --from=builder /tmp/passwd /etc/passwd
+COPY --from=builder /home/nonroot /home/nonroot
 
 # Expose the default port. Your app can still read a different port from
 # environment variables if it supports that (e.g. PORT).

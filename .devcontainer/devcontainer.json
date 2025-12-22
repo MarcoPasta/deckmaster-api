@@ -1,0 +1,24 @@
+{
+  "name": "deckmaster-dev",
+  "dockerComposeFile": ["../docker-compose.yml", "../docker-compose.dev.yml"],
+  "service": "dev",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "dev",
+  "runServices": ["db"],
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [8080, 5432],
+  "postCreateCommand": "cp .env.example .env || true",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        }
+      },
+      "extensions": ["golang.go"]
+    }
+  }
+}
