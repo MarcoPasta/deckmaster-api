@@ -1,14 +1,12 @@
 package main
 
 import (
-	"net/http"
-
 	"context"
 	"log"
-
-	"github.com/gin-gonic/gin"
+	"net/http"
 
 	"github.com/MarcoPasta/deckmaster/api/models"
+	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
