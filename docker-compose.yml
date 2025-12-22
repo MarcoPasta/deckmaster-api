@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      # Build context set to the `api` directory so the Dockerfile can COPY
+      # module files (`go.mod`/`go.sum`) and source from the same context.
+      context: ./api
+      dockerfile: Dockerfile
+      args:
+        TARGETOS: linux
+        TARGETARCH: amd64
+    image: deckmaster_app:latest
+    ports:
+      - "8080:8080"
+    # Load runtime environment variables from the .env file in project root
+    env_file:
+      - .env
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15-alpine
+    # Use values from the project `.env` file via compose variable substitution.
+    # Compose reads the project `.env` for substitutions, so these map the
+    # DB_* variables to the Postgres-specific names the image expects.
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
