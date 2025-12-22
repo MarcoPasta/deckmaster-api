@@ -1,5 +1,11 @@
 # deckmaster
 
+important notes
+
+project domain: deckmaster.de
+
+
+___
 ## Development: Docker Compose & .env
 
 - **Copy example env:** Create a local `.env` from the safe example before running compose:
