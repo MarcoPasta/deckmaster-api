@@ -4,7 +4,6 @@ import "gorm.io/gorm"
 
 type DigimonCard struct {
 	gorm.Model
-	ID    uint `gorm:"primaryKey"`
 	Name  string
 	Color string
 }
@@ -12,7 +11,7 @@ type DigimonCard struct {
 type DigimonDecks struct {
 	gorm.Model
 	Name  string
-	cards []DigimonCard
+	Cards []DigimonCard `gorm:"many2many:decks_cards"`
 }
 
 // etc..
