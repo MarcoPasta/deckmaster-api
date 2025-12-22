@@ -36,7 +36,6 @@ func main() {
 	}
 
 	ctx := context.Background()
-	err = gorm.G[models.DigimonCard](db).Create(ctx, &card)
 	err = gorm.G[models.DigimonDecks](db).Create(ctx, &deck)
 
 	// Define a simple GET endpoint
