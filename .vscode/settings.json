@@ -1,0 +1,19 @@
+{
+  // format all files on save if a formatter is available
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "golang.go",
+
+  // go-specific settings
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  }
+}
