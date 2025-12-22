@@ -8,3 +8,11 @@ type DigimonCard struct {
 	Name  string
 	Color string
 }
+
+type DigimonDecks struct {
+	gorm.Model
+	Name  string
+	cards []DigimonCard
+}
+
+// etc..

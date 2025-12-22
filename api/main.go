@@ -34,7 +34,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = db.AutoMigrate(&models.DigimonCard{})
+	err = db.AutoMigrate(&models.DigimonDecks{})
 	if err != nil {
 		log.Fatal(err)
 	}
