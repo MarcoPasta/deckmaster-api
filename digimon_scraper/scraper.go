@@ -5,7 +5,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
+	"net/http"
 	"os"
 	"regexp"
 	"strconv"
@@ -14,13 +16,6 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
-type DvCost struct {
-	colors []string
-	cost   int8
-	lvl    string
-}
-
-// TODO: add image link
 type Card struct {
 	Id        string   `json:"id"`
 	Name      string   `json:"name"`
@@ -28,13 +23,17 @@ type Card struct {
 	Color     []string `json:"color"`
 	Cost      int8     `json:"cost"`
 	Dp        int16    `json:"dp"`
-	DvCost1   DvCost   `json:"dvCost1"`
-	DvCost2   DvCost   `json:"dvCost2"`
+	DvCost    []string `json:"dvCost"`
 	Form      string   `json:"form"`
 	Attribute string   `json:"attribute"`
 	Species   []string `json:"species"` // type is a primitve, so we have to use species here
 	CardText  []string `json:"text"`
 	Set       string   `json:"set"`
+}
+
+type Set struct {
+	Set      string `json:"set"`
+	Category string `json:"category"`
 }
 
 // Take string value and parse it to int8 value
@@ -55,28 +54,12 @@ func toInt16(s string) int16 {
 	return int16(parsed)
 }
 
-// Takes the concat. string and marhalls it into a DvCost object
-func splitByDvCosts(dvCosts string) DvCost {
-	re := regexp.MustCompile(`[A-Z][a-z]*`)
-	var obj DvCost
-	fields := strings.Fields(dvCosts)
-	obj.colors = re.FindAllString(fields[0], -1)
-	if len(fields) != 0 {
-		obj.cost = toInt8(fields[1])
-	}
-	obj.lvl = fields[3]
-	return obj
-}
-
-// AI GENERATED
 // normalizeSpaces trims and replaces any whitespace run with a single space.
-
 func normalizeSpaces(s string) string {
 	var reSpaces = regexp.MustCompile(`\s+`)
 	return strings.TrimSpace(reSpaces.ReplaceAllString(s, " "))
 }
 
-// AI GENERATED
 // preserves bracket-only headers (e.g. "[Effect]") as items
 // and joins subsequent non-header lines into one paragraph.
 func cleanCardTextGrouped(lines []string) []string {
@@ -111,6 +94,33 @@ func cleanCardTextGrouped(lines []string) []string {
 	return out
 }
 
+// if values are given that are camel cased, it searches for those values and splits them with a seperator
+func splitByCapital(s string, sep string) string {
+	var result strings.Builder
+	var prev rune
+	for i, curr := range s {
+		if i > 0 && curr >= 'A' && curr <= 'Z' && prev != ' ' {
+			result.WriteString(sep)
+		}
+		result.WriteRune(curr)
+		prev = curr
+	}
+	return result.String()
+}
+
+// searches through each css identifier containing the information for the digivolve cost. If multiple identifiers are found,
+// it loops through each and creates a new string inside
+func groupDvCosts(cost string) []string {
+	var out []string
+	split := strings.Split(cost, "\n")
+	for _, s := range split {
+		normalized := normalizeSpaces(s)
+		transformed := splitByCapital(normalized, "/")
+		out = append(out, transformed)
+	}
+	return out
+}
+
 func onHTMLScrape(e *colly.HTMLElement) Card {
 	card := Card{}
 	card.Id = e.ChildText(".cardNo")
@@ -126,9 +136,6 @@ func onHTMLScrape(e *colly.HTMLElement) Card {
 			card.Cost = toInt8(h.ChildText(".cardInfoData"))
 		case "DP":
 			card.Dp = toInt16(h.ChildText(".cardInfoData"))
-		case "Digivolve Cost 1": // TODO: repair this as it is not working and also fix the digivolution costs
-			dvCosts := h.ChildText(".cardInfoData.cardColor.cardColorCost")
-			card.DvCost1 = splitByDvCosts(dvCosts)
 		case "Form":
 			card.Form = h.ChildText(".cardInfoData")
 		case "Attribute":
@@ -141,10 +148,51 @@ func onHTMLScrape(e *colly.HTMLElement) Card {
 			card.Set = strings.Join(strings.Fields(h.ChildText(".cardInfoData"))[1:4], " ")
 		}
 	})
-
+	card.DvCost = groupDvCosts(e.ChildText(".cardInfoData.cardColor.cardColorCost"))
 	card.CardText = cleanCardTextGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
-
 	return card
+}
+
+func checkPathExist(path string) {
+	if _, err := os.Stat(path); err != nil {
+		if os.IsNotExist(err) {
+			fmt.Printf("Path %v does not exist, creating path..\n", path)
+			err := os.MkdirAll(path, 0750)
+			if err != nil {
+				log.Fatal(err)
+			}
+		} else {
+			log.Fatal(err)
+		}
+	} else { // path does exist
+		return
+	}
+}
+
+func scrapeImage(url string, set string, cards []Card) {
+	path := "./files/images/" + set + "/"
+
+	println("Start scraping images")
+	for _, card := range cards {
+		imgUrl := url + card.Id + ".png"
+		response, err := http.Get(imgUrl)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer response.Body.Close()
+		checkPathExist(path)
+		file, err := os.Create(path + card.Id + ".png")
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer file.Close()
+		_, err = io.Copy(file, response.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Printf("Saved image %v successfully!\n", card.Id)
+	}
+
 }
 
 func main() {
@@ -152,8 +200,11 @@ func main() {
 	// collector object
 	collector := colly.NewCollector()
 
+	baseUrl := "https://world.digimoncard.com/cards/?search=true&category="
+	imgUrl := "https://world.digimoncard.com/images/cardlist/card/"
+
 	/* scraping details:
-	url: https://world.digimoncard.com/cards/?search=true&category=522122
+	url: https://world.digimoncard.com/cards/?search=true&category=XXXXXX
 	Each set or starter/advanced deck contains a category which indicates the cards being placed inside
 	example: the new st-22 has the category 522122, while st-21 has category 522121 and st-20 has category 5122120.
 	Opening a card results in adding a "#card-X" value to the categorie.
@@ -162,34 +213,60 @@ func main() {
 
 	var scrapedCards []Card
 
+	// category json object
+	var sets []Set
+	data, err := os.ReadFile("./collection.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = json.Unmarshal(data, &sets)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var currSet *string
+
 	// notify when sending the request
 	collector.OnRequest(func(r *colly.Request) {
-		fmt.Println("Sending request to website")
+		fmt.Println("Start scraping...\n", *currSet)
 	})
 
 	// define the scraping logic
 	collector.OnHTML(".cardDetailColInner", func(e *colly.HTMLElement) {
-		// TODO: add multiple set categories to iterate over and scrape each set
 		scrapedCards = append(scrapedCards, onHTMLScrape(e))
 	})
 
 	collector.OnScraped(func(r *colly.Response) {
 
-		fmt.Println("after scraping")
+		fmt.Printf("Scraping set %v finished, writing data...\n", *currSet)
 
 		jsonBytes, err := json.Marshal(scrapedCards)
 		if err != nil {
 			log.Fatal(err)
 		}
-		file, err := os.Create("./files/bt-24.json")
+
+		file, err := os.Create("./files/json/" + *currSet)
 		if err != nil {
 			log.Fatal(err)
 		}
 		file.Write(jsonBytes)
+		defer file.Close()
+
+		scrapeImage(imgUrl, *currSet, scrapedCards)
+
+		println("finished scraping: ", *currSet)
+		println("Clearing Array....")
+		scrapedCards = nil
 	})
 
-	// visit page & start scraping
-	collector.Visit("https://world.digimoncard.com/cards/?search=true&category=522033")
+	for _, set := range sets {
+		currUrl := baseUrl + set.Category
+		currSet = &set.Set
+
+		// visit page & start scraping
+		collector.Visit(currUrl)
+
+	}
 
 	println("done!")
 
