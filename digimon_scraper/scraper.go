@@ -245,7 +245,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		file, err := os.Create("./files/json/" + *currSet)
+		file, err := os.Create("./files/json/" + *currSet + ".json")
 		if err != nil {
 			log.Fatal(err)
 		}
