@@ -8,6 +8,7 @@ import (
 )
 
 var DB *gorm.DB
+var DbMigrator gorm.Migrator
 
 func ConnectToDatabase() {
 	dsn := "host=db port=5432 user=postgres dbname=deckmaster password=example"
@@ -18,4 +19,5 @@ func ConnectToDatabase() {
 	}
 
 	DB = db
+	DbMigrator = db.Migrator()
 }
