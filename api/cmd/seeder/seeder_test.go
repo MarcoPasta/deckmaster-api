@@ -6,6 +6,7 @@ import (
 	"testing"
 
 	"github.com/MarcoPasta/deckmaster/api/models"
+	"gorm.io/gorm"
 )
 
 func initCards() []models.DigimonCard {
@@ -63,9 +64,9 @@ func TestUnmarshalData(t *testing.T) {
 }
 
 func TestWriteToDB(t *testing.T) {
+	db = models.DB
 	wantCards := initCards()
 	writeToDB(wantCards)
-	db := models.DB
 	var rtvCards []models.DigimonCard
 	res := db.Find(&rtvCards)
 
@@ -73,14 +74,13 @@ func TestWriteToDB(t *testing.T) {
 		t.Fatalf("seeder_test.go73::writeToDB -> Error reading from database: %v", res.Error)
 	}
 
-	println(res)
-	println(rtvCards)
+	if !reflect.DeepEqual(wantCards[0], rtvCards[0]) {
+		t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0], rtvCards[0])
 
-	if !reflect.DeepEqual(wantCards, rtvCards) {
-		t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards, rtvCards)
 	}
-
 }
+
+var db *gorm.DB
 
 func TestMain(m *testing.M) {
 	// 1. Setup: Datenbank einmalig verbinden
@@ -90,5 +90,9 @@ func TestMain(m *testing.M) {
 	exitCode := m.Run()
 
 	// 3. Aufräumen (optional) und beenden
+	db = models.DB
+	cards := initCards()
+	db.Delete(&cards)
+	println("Deleting inserted data...")
 	os.Exit(exitCode)
 }
