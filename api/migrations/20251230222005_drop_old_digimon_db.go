@@ -9,15 +9,15 @@ import (
 )
 
 func init() {
-	goose.AddMigrationContext(upDbInitDigimon, downDbInitDigimon)
+	goose.AddMigrationContext(upInitDigimonDb, downInitDigimonDb)
 }
 
-func upDbInitDigimon(ctx context.Context, tx *sql.Tx) error {
+func upInitDigimonDb(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is applied.
 	return models.DbMigrator.DropTable(&models.DigimonCard{})
 }
 
-func downDbInitDigimon(ctx context.Context, tx *sql.Tx) error {
+func downInitDigimonDb(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is rolled back.
-	return models.DbMigrator.DropTable(&models.DigimonCard{})
+	return models.DbMigrator.CreateTable(&models.DigimonCard{})
 }

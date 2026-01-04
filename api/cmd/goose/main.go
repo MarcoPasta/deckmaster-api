@@ -22,12 +22,10 @@ const (
 	driver = "postgres"
 	// dbString   = "user=postgres password=example dbname=deckmaster sslmode=disable"
 	dbString   = "postgres://postgres:example@db:5432/deckmaster?sslmode=disable"
-	migrations = "./migrations"
+	migrations = "../migrations/"
 )
 
 func main() {
-	// models.ConnectToDatabase()
-	// routes.SetupRouter()
 
 	// 1. Verbindung zur Datenbank herstellen
 	db, err := sql.Open(driver, dbString)
@@ -59,6 +57,4 @@ func main() {
 	if err := goose.RunContext(ctx, command, db, migrations, arguments...); err != nil {
 		log.Fatalf("Goose Fehler: %v", err)
 	}
-	// Start server on port 8080 (default)
-	// routes.Router.Run()
 }
