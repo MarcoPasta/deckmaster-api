@@ -4,8 +4,10 @@ import (
 	"context"
 	"database/sql"
 	"flag"
+	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 
 	_ "github.com/MarcoPasta/deckmaster/api/migrations"
 	_ "github.com/lib/pq"
@@ -22,10 +24,30 @@ const (
 	driver = "postgres"
 	// dbString   = "user=postgres password=example dbname=deckmaster sslmode=disable"
 	dbString   = "postgres://postgres:example@db:5432/deckmaster?sslmode=disable"
-	migrations = "../migrations/"
+	migrations = "./migrations/"
 )
 
 func main() {
+
+	// 1. Pfad der Executable ermitteln (z.B. /home/user/project/build/goose)
+	exePath, err := os.Executable()
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(exePath)
+
+	// 2. Das Verzeichnis der Executable bestimmen (/home/user/project/build)
+	exeDir := filepath.Dir(exePath)
+	fmt.Println(exeDir)
+
+	// 3. Den Pfad relativ zur Binary berechnen
+	// Join kümmert sich um die korrekten Trennzeichen (/ oder \)
+	migrationPath := filepath.Join(exeDir, "..", "migrations")
+
+	// Zur Kontrolle ausgeben
+	fmt.Println("Suche (clean) Migrations in:", filepath.Clean(migrationPath))
+	fmt.Println("Suche Migrations in:", migrationPath)
 
 	// 1. Verbindung zur Datenbank herstellen
 	db, err := sql.Open(driver, dbString)
