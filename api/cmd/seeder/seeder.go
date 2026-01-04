@@ -8,23 +8,38 @@ import (
 	"github.com/MarcoPasta/deckmaster/api/models"
 )
 
+func unmarshalData() ([]models.DigimonCard, error) {
+	rawFile, err := os.ReadFile("./unmarshalData.json")
+	if err != nil {
+		log.Fatal(err)
+		return nil, err
+	}
+
+	var jsonData []models.DigimonCard
+
+	err = json.Unmarshal(rawFile, &jsonData)
+	if err != nil {
+		log.Fatal(err)
+		return nil, err
+	} else {
+		// log.Printf("JSON: %#v", jsonData)
+		return jsonData, err
+	}
+
+}
+
+func writeToDB(cards []models.DigimonCard) {
+
+	// create db instance
+	db := models.DB
+	db.Create(&cards)
+}
+
 func main() {
 	models.ConnectToDatabase()
-
-	rawFile, err := os.ReadFile("../../data/jsonDigimon/BT24.json")
+	cards, err := unmarshalData()
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	var jsonData *any
-
-	err = json.Unmarshal(rawFile, jsonData)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	log.Printf("JSON: %#v", jsonData)
-
-	// ctx := context.Background()
-	// err = gorm.G[models.DigimonDecks](models.DB).Create(ctx, &deck)
+	writeToDB(cards)
 }

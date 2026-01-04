@@ -1,9 +1,12 @@
 package models
 
-import "gorm.io/gorm"
+import (
+	"time"
+
+	"gorm.io/gorm"
+)
 
 type DigimonCard struct {
-	gorm.Model
 	Id        string
 	Name      string
 	CardType  string
@@ -16,6 +19,8 @@ type DigimonCard struct {
 	Species   []string `gorm:"serializer:json"` // type is a primitve, so we have to use species here
 	CardText  []string `gorm:"serializer:json"`
 	Set       string
+	CreatedAt time.Time `json:"createdAt,omitempty"`
+	UpdatedAt time.Time `json:"updatedAt,omitempty"`
 }
 
 type DigimonDecks struct {

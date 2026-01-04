@@ -27,7 +27,7 @@ type Card struct {
 	Form      string   `json:"form"`
 	Attribute string   `json:"attribute"`
 	Species   []string `json:"species"` // type is a primitve, so we have to use species here
-	CardText  []string `json:"text"`
+	CardText  []string `json:"cardtext"`
 	Set       string   `json:"set"`
 }
 
