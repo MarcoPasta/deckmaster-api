@@ -33,5 +33,6 @@ go.work.sum
 
 api/api
 api/data
-api/build
+api/build/*
+!api/build/.keep
 digimon_scraper/files

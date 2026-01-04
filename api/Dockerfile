@@ -2,7 +2,7 @@
 # - Build stage uses the official Golang image to compile a static binary
 # - Final stage uses a minimal distroless image for a small runtime surface
 
-FROM golang:1.23-bullseye AS builder
+FROM golang:1.25-bookworm AS builder
 
 WORKDIR /src
 
