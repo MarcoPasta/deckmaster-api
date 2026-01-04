@@ -35,19 +35,15 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(exePath)
-
 	// 2. Das Verzeichnis der Executable bestimmen (/home/user/project/build)
 	exeDir := filepath.Dir(exePath)
-	fmt.Println(exeDir)
 
 	// 3. Den Pfad relativ zur Binary berechnen
 	// Join kümmert sich um die korrekten Trennzeichen (/ oder \)
 	migrationPath := filepath.Join(exeDir, "..", "migrations")
 
 	// Zur Kontrolle ausgeben
-	fmt.Println("Suche (clean) Migrations in:", filepath.Clean(migrationPath))
-	fmt.Println("Suche Migrations in:", migrationPath)
+	fmt.Println("Suche Migrations in:", filepath.Clean(migrationPath))
 
 	// 1. Verbindung zur Datenbank herstellen
 	db, err := sql.Open(driver, dbString)
