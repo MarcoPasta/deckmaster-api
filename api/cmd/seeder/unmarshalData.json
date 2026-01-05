@@ -1,6 +1,6 @@
 [
     {
-        "id": "BT24-001",
+        "cardId": "BT24-001",
         "name": "Gigimon",
         "cardType": "Digi-Egg",
         "color": [
@@ -23,7 +23,7 @@
         "set": "TIME STRANGER [BT-24]"
     },
     {
-        "id": "BT24-002",
+        "cardId": "BT24-002",
         "name": "Bukamon",
         "cardType": "Digi-Egg",
         "color": [

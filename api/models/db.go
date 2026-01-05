@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"log"
 
 	"gorm.io/driver/postgres"
@@ -10,8 +11,8 @@ import (
 var DB *gorm.DB
 var DbMigrator gorm.Migrator
 
-func ConnectToDatabase() {
-	dsn := "host=db port=5432 user=postgres dbname=deckmaster password=example"
+func ConnectToDatabase(host string, port string, user string, dbName string, password string) {
+	dsn := fmt.Sprintf("host=%v port=%v user=%v dbname=%v password=%v", host, port, user, dbName, password)
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 
 	if err != nil {

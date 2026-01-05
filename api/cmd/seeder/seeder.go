@@ -5,11 +5,13 @@ import (
 	"log"
 	"os"
 
+	"github.com/MarcoPasta/deckmaster/api/internal"
 	"github.com/MarcoPasta/deckmaster/api/models"
+	"gorm.io/gorm"
 )
 
-func unmarshalData() ([]models.DigimonCard, error) {
-	rawFile, err := os.ReadFile("./unmarshalData.json")
+func unmarshalData(file string) ([]models.DigimonCard, error) {
+	rawFile, err := os.ReadFile(file)
 	if err != nil {
 		log.Fatal(err)
 		return nil, err
@@ -28,18 +30,18 @@ func unmarshalData() ([]models.DigimonCard, error) {
 
 }
 
-func writeToDB(cards []models.DigimonCard) {
+func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
 
 	// create db instance
-	db := models.DB
 	db.Create(&cards)
 }
 
 func main() {
-	models.ConnectToDatabase()
-	cards, err := unmarshalData()
+	models.ConnectToDatabase(internal.GetDBString())
+	db := models.DB
+	cards, err := unmarshalData("./BT24.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-	writeToDB(cards)
+	writeToDB(db, cards)
 }

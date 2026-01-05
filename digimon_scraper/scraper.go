@@ -17,7 +17,7 @@ import (
 )
 
 type Card struct {
-	Id        string   `json:"id"`
+	CardId    string   `json:"cardId"`
 	Name      string   `json:"name"`
 	CardType  string   `json:"cardType"`
 	Color     []string `json:"color"`
@@ -123,7 +123,7 @@ func groupDvCosts(cost string) []string {
 
 func onHTMLScrape(e *colly.HTMLElement) Card {
 	card := Card{}
-	card.Id = e.ChildText(".cardNo")
+	card.CardId = e.ChildText(".cardNo")
 	card.Name = e.ChildText(".cardTitle")
 	card.CardType = e.ChildText(".cardType")
 
@@ -174,14 +174,14 @@ func scrapeImage(url string, set string, cards []Card) {
 
 	println("Start scraping images")
 	for _, card := range cards {
-		imgUrl := url + card.Id + ".png"
+		imgUrl := url + card.CardId + ".png"
 		response, err := http.Get(imgUrl)
 		if err != nil {
 			log.Fatal(err)
 		}
 		defer response.Body.Close()
 		checkPathExist(path)
-		file, err := os.Create(path + card.Id + ".png")
+		file, err := os.Create(path + card.CardId + ".png")
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -190,7 +190,7 @@ func scrapeImage(url string, set string, cards []Card) {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Printf("Saved image %v successfully!\n", card.Id)
+		fmt.Printf("Saved image %v successfully!\n", card.CardId)
 	}
 
 }

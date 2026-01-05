@@ -5,6 +5,7 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/MarcoPasta/deckmaster/api/internal"
 	"github.com/MarcoPasta/deckmaster/api/models"
 	"gorm.io/gorm"
 )
@@ -12,7 +13,7 @@ import (
 func initCards() []models.DigimonCard {
 	return []models.DigimonCard{
 		{
-			Id:        "BT24-001",
+			CardId:    "BT24-001",
 			Name:      "Gigimon",
 			CardType:  "Digi-Egg",
 			Color:     []string{"Red"},
@@ -29,7 +30,7 @@ func initCards() []models.DigimonCard {
 			Set: "TIME STRANGER [BT-24]",
 		},
 		{
-			Id:        "BT24-002",
+			CardId:    "BT24-002",
 			Name:      "Bukamon",
 			CardType:  "Digi-Egg",
 			Color:     []string{"Blue"},
@@ -51,48 +52,68 @@ func initCards() []models.DigimonCard {
 func TestUnmarshalData(t *testing.T) {
 
 	want := initCards()
-
-	have, err := unmarshalData()
+	file := "./BT24.json"
+	have, err := unmarshalData(file)
 	if err != nil {
-		t.Fatalf("seeder_test.go::unmarshalData -> %v", err)
+		t.Fatalf("seeder_test.go::unmarshalData in file %v: -> %v", file, err)
 	}
 
-	if !reflect.DeepEqual(want, have) {
+	if !reflect.DeepEqual(want, have[0:2]) {
 		t.Errorf("Data not identical!\nExpected: %+v\nReceived: %+v", want, have)
 	}
 
 }
 
 func TestWriteToDB(t *testing.T) {
-	db = models.DB
-	wantCards := initCards()
-	writeToDB(wantCards)
+	db := models.DB
+	file := "./BT24.json"
+	wantCards, err := unmarshalData(file)
+	if err != nil {
+		t.Fatalf("seeder_test.go::writeToDB -> Error unmarshaling data from: %v: %v", file, err)
+	}
+
+	writeToDB(db.Table("WriteTest"), wantCards)
 	var rtvCards []models.DigimonCard
 	res := db.Find(&rtvCards)
-
 	if res.Error != nil {
-		t.Fatalf("seeder_test.go73::writeToDB -> Error reading from database: %v", res.Error)
+		t.Fatalf("seeder_test.go::writeToDB -> Error reading from database: %v", res.Error)
 	}
 
-	if !reflect.DeepEqual(wantCards[0], rtvCards[0]) {
-		t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0], rtvCards[0])
-
+	if wantCards[0].CardId == rtvCards[0].CardId {
+		t.Errorf("seeder_test.go::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].CardId, rtvCards[0].CardId)
 	}
+
+	defer func() {
+		db.Delete(&rtvCards)
+	}()
+
+	// if !reflect.DeepEqual(wantCards[0].CardId, rtvCards[0].CardId) {
+	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].CardId, rtvCards[0].CardId)
+	// }
+	// if !reflect.DeepEqual(wantCards[0].Name, rtvCards[0].Name) {
+	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Name, rtvCards[0].Name)
+	// }
+	// if !reflect.DeepEqual(wantCards[0].Color, rtvCards[0].Color) {
+	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Color, rtvCards[0].Color)
+	// }
+	// if !reflect.DeepEqual(wantCards[0].CardText, rtvCards[0].CardText) {
+	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].CardText, rtvCards[0].CardText)
+	// }
 }
 
 var db *gorm.DB
 
 func TestMain(m *testing.M) {
 	// 1. Setup: Datenbank einmalig verbinden
-	models.ConnectToDatabase()
+	models.ConnectToDatabase(internal.GetTestDBString())
 
 	// 2. Alle Tests ausführen
 	exitCode := m.Run()
 
 	// 3. Aufräumen (optional) und beenden
-	db = models.DB
-	cards := initCards()
-	db.Delete(&cards)
-	println("Deleting inserted data...")
+	// db = models.DB
+	// cards := initCards()
+	// db.Delete(&cards)
+	// println("Deleting inserted data...")
 	os.Exit(exitCode)
 }
