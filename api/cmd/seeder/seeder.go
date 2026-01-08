@@ -1,7 +1,9 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
 
@@ -30,10 +32,42 @@ func unmarshalData(file string) ([]models.DigimonCard, error) {
 
 }
 
-func writeToDB(db *gorm.DB, cards models.DigimonCard) {
+func countIdDuplicates(cards []string, id string) int {
+	counter := 0
+	for _, card := range cards {
+		if card == id {
+			counter++
+		}
+	}
+	return counter
+}
 
-	// create db instance
-	db.Create(&cards)
+func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
+	ctx := context.Background()
+	result := gorm.WithResult()
+
+	var writtenCards []string
+	for _, card := range cards {
+		fmt.Println("Current Card: ", card.Id)
+		if counter := countIdDuplicates(writtenCards, card.Id); counter == 0 {
+			err := gorm.G[models.DigimonCard](db, result).Create(ctx, &card)
+			if err != nil {
+				log.Fatalf("seeder.go::writeToDB -> Error writing card %v to DB: %v", card.Id, err)
+			}
+			writtenCards = append(writtenCards, card.Id)
+			fmt.Printf("Currently written Cards:\n %+v\n", writtenCards)
+		} else {
+			fmt.Printf("Duplicate found at: %v; creating alt art...\n", card.Id)
+			altArt := models.DigimonCardAltArt{CardID: card.Id, Image: fmt.Sprintf("%v_P%v", card.Id, counter)}
+			fmt.Println("Alt Art Id->", altArt.Image)
+			err := gorm.G[models.DigimonCardAltArt](db, result).Create(ctx, &altArt)
+			if err != nil {
+				log.Fatalf("seeder.go::writeToDB -> Error writing card %v to DB: %v", card.Id, err)
+			}
+			writtenCards = append(writtenCards, card.Id)
+		}
+		fmt.Println("Card written: ", card.Id)
+	}
 }
 
 func main() {

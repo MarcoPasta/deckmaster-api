@@ -24,6 +24,11 @@ type DigimonCard struct {
 	DeletedAt gorm.DeletedAt `gorm:"index"`
 }
 
+type DigimonCardAltArt struct {
+	gorm.Model
+	CardID string `gorm:"foreignKey:Id"`
+	Image  string
+}
 type DigimonDecks struct {
 	gorm.Model
 	Name  string

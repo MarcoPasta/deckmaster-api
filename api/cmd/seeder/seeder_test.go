@@ -70,24 +70,30 @@ func TestUnmarshalData(t *testing.T) {
 }
 
 func TestWriteToDB(t *testing.T) {
+
+	fmt.Println("Deleting Database...")
+	var dltCards []models.DigimonCard
+	var dltAltCards []models.DigimonCardAltArt
+	_ = db.Find(&dltCards)
+	_ = db.Find(&dltAltCards)
+	db.Unscoped().Delete(&dltCards)
+	db.Unscoped().Delete(&dltAltCards)
+
 	file := "./BT24.json"
 	wantCards, err := unmarshalData(file)
 	if err != nil {
 		t.Fatalf("seeder_test.go::writeToDB -> Error unmarshaling data from: %v: %v", file, err)
 	}
 
-	// db.Unscoped().Delete(&wantCards)
+	writeToDB(db, wantCards)
 
-	for _, card := range wantCards {
-		fmt.Println("Writing Card: ", card.Id)
-		writeToDB(db, card)
+	var rtvCards []models.DigimonCard
+	res := db.Find(&rtvCards)
+	if res.Error != nil {
+		t.Fatalf("seeder_test.go::writeToDB -> Error reading from database: %v", res.Error)
 	}
 
-	// var rtvCards []models.DigimonCard
-	// res := db.Find(&rtvCards)
-	// if res.Error != nil {
-	// 	t.Fatalf("seeder_test.go::writeToDB -> Error reading from database: %v", res.Error)
-	// }
+	println("Result Error: ", res.Error)
 
 	// if wantCards[0].Id == rtvCards[0].Id {
 	// 	t.Errorf("seeder_test.go::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Id, rtvCards[0].Id)
