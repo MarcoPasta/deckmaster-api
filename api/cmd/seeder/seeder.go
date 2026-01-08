@@ -30,7 +30,7 @@ func unmarshalData(file string) ([]models.DigimonCard, error) {
 
 }
 
-func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
+func writeToDB(db *gorm.DB, cards models.DigimonCard) {
 
 	// create db instance
 	db.Create(&cards)
@@ -38,10 +38,10 @@ func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
 
 func main() {
 	models.ConnectToDatabase(internal.GetDBString())
-	db := models.DB
-	cards, err := unmarshalData("./BT24.json")
-	if err != nil {
-		log.Fatal(err)
-	}
-	writeToDB(db, cards)
+	// db := models.DB
+	// cards, err := unmarshalData("./BT24.json")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// writeToDB(db, cards)
 }
