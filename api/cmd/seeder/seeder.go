@@ -68,6 +68,23 @@ func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
 		}
 		fmt.Println("Card written: ", card.Id)
 	}
+
+	defer 
+}
+
+func readDirectory(path string) ([]string, error) {
+	var files []string
+	entries, err := os.ReadDir(path)
+	if err != nil {
+		return nil, err
+	}
+	for _, entry := range entries {
+		if !entry.IsDir() {
+			files = append(files, fmt.Sprintf("%v/%v", path, entry.Name()))
+		}
+	}
+	defer entries.Close()
+	return files, nil
 }
 
 func main() {

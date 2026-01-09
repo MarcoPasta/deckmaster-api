@@ -95,22 +95,9 @@ func TestWriteToDB(t *testing.T) {
 
 	println("Result Error: ", res.Error)
 
-	// if wantCards[0].Id == rtvCards[0].Id {
-	// 	t.Errorf("seeder_test.go::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Id, rtvCards[0].Id)
-	// }
-
-	// db.Unscoped().Delete(&wantCards)
-
-	//db.Exec("TRUNCATE TABLE digimon_cards")
-
-	// for _, card := range wantCards {
-	// 	db.Unscoped().Where("id = ?", card.Id).Delete(&card)
-
-	// }
-
-	// defer func() {
-	// }()
-
+	if wantCards[0].Id != rtvCards[0].Id {
+		t.Errorf("seeder_test.go::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Id, rtvCards[0].Id)
+	}
 	// if !reflect.DeepEqual(wantCards[0].CardId, rtvCards[0].CardId) {
 	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].CardId, rtvCards[0].CardId)
 	// }
@@ -123,6 +110,10 @@ func TestWriteToDB(t *testing.T) {
 	// if !reflect.DeepEqual(wantCards[0].CardText, rtvCards[0].CardText) {
 	// 	t.Errorf("seeder_test.go80::writeToDB -> Expected return value: %v\nReceived value: %v\n", wantCards[0].CardText, rtvCards[0].CardText)
 	// }
+}
+
+func TestReadDirectory(t *testing.T) {
+	path := "./"
 }
 
 var db *gorm.DB

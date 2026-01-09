@@ -245,7 +245,9 @@ func main() {
 			log.Fatal(err)
 		}
 
-		file, err := os.Create("./files/json/" + *currSet + ".json")
+		writePath := "./files/json/"
+		checkPathExist(writePath) // ensure path exists, if not create it
+		file, err := os.Create(writePath + *currSet + ".json")
 		if err != nil {
 			log.Fatal(err)
 		}
