@@ -12,8 +12,22 @@ import (
 	"gorm.io/gorm"
 )
 
-func unmarshalData(file string) ([]models.DigimonCard, error) {
-	rawFile, err := os.ReadFile(file)
+func readDirectory(path string) ([]string, error) {
+	var files []string
+	entries, err := os.ReadDir(path)
+	if err != nil {
+		return nil, err
+	}
+	for _, entry := range entries {
+		if !entry.IsDir() {
+			files = append(files, entry.Name())
+		}
+	}
+	return files, nil
+}
+
+func unmarshalData(path, file string) ([]models.DigimonCard, error) {
+	rawFile, err := os.ReadFile(path + "/" + file)
 	if err != nil {
 		log.Fatal(err)
 		return nil, err
@@ -42,57 +56,63 @@ func countIdDuplicates(cards []string, id string) int {
 	return counter
 }
 
-func writeToDB(db *gorm.DB, cards []models.DigimonCard) {
+func writeToDB(db *gorm.DB, cards []models.DigimonCard, writtenCards []string) error {
 	ctx := context.Background()
 	result := gorm.WithResult()
 
-	var writtenCards []string
 	for _, card := range cards {
 		fmt.Println("Current Card: ", card.Id)
 		if counter := countIdDuplicates(writtenCards, card.Id); counter == 0 {
 			err := gorm.G[models.DigimonCard](db, result).Create(ctx, &card)
 			if err != nil {
-				log.Fatalf("seeder.go::writeToDB -> Error writing card %v to DB: %v", card.Id, err)
+				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
+				return err
 			}
-			writtenCards = append(writtenCards, card.Id)
-			fmt.Printf("Currently written Cards:\n %+v\n", writtenCards)
+			// writtenCards = append(writtenCards, card.Id)
+			// fmt.Printf("Currently written Cards:\n %+v\n", writtenCards)
 		} else {
 			fmt.Printf("Duplicate found at: %v; creating alt art...\n", card.Id)
 			altArt := models.DigimonCardAltArt{CardID: card.Id, Image: fmt.Sprintf("%v_P%v", card.Id, counter)}
 			fmt.Println("Alt Art Id->", altArt.Image)
 			err := gorm.G[models.DigimonCardAltArt](db, result).Create(ctx, &altArt)
 			if err != nil {
-				log.Fatalf("seeder.go::writeToDB -> Error writing card %v to DB: %v", card.Id, err)
+				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
+				return err
 			}
-			writtenCards = append(writtenCards, card.Id)
 		}
+		writtenCards = append(writtenCards, card.Id)
+		fmt.Printf("%v ", card.Id)
 		fmt.Println("Card written: ", card.Id)
 	}
-
-	defer 
+	return nil
 }
 
-func readDirectory(path string) ([]string, error) {
-	var files []string
-	entries, err := os.ReadDir(path)
+func run(db *gorm.DB, path string) error {
+
+	files, err := readDirectory(path)
 	if err != nil {
-		return nil, err
+		fmt.Printf("seeder.go::run() -> Returned error reading directory: %v", err)
+		return err
 	}
-	for _, entry := range entries {
-		if !entry.IsDir() {
-			files = append(files, fmt.Sprintf("%v/%v", path, entry.Name()))
+
+	var writtenCards []string
+	for _, file := range files {
+		cards, err := unmarshalData(path, file)
+		if err != nil {
+			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v", file, err)
+			return err
+		}
+		err = writeToDB(db, cards, writtenCards)
+		if err != nil {
+			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
+			return err
 		}
 	}
-	defer entries.Close()
-	return files, nil
+
+	return nil
 }
 
 func main() {
 	models.ConnectToDatabase(internal.GetDBString())
-	// db := models.DB
-	// cards, err := unmarshalData("./BT24.json")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// writeToDB(db, cards)
+	run(models.DB, os.Getenv("JSON_DIR"))
 }

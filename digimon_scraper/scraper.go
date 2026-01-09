@@ -28,7 +28,7 @@ type Card struct {
 	Form      string   `json:"form"`
 	Attribute string   `json:"attribute"`
 	Species   []string `json:"species"` // type is a primitve, so we have to use species here
-	CardText  []string `json:"cardtext"`
+	Text      []string `json:"text"`
 	Set       string   `json:"set"`
 }
 
@@ -63,7 +63,7 @@ func normalizeSpaces(s string) string {
 
 // preserves bracket-only headers (e.g. "[Effect]") as items
 // and joins subsequent non-header lines into one paragraph.
-func cleanCardTextGrouped(lines []string) []string {
+func cleanGrouped(lines []string) []string {
 	var reHeader = regexp.MustCompile(`^\[[^\]]+\]$`)
 
 	out := make([]string, 0, len(lines))
@@ -150,7 +150,7 @@ func onHTMLScrape(e *colly.HTMLElement) Card {
 		}
 	})
 	card.DvCost = groupDvCosts(e.ChildText(".cardInfoData.cardColor.cardColorCost"))
-	card.CardText = cleanCardTextGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
+	card.Text = cleanGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
 	return card
 }
 
@@ -266,7 +266,7 @@ func main() {
 		file.Write(jsonBytes)
 		defer file.Close()
 
-		scrapeImage(imgUrl, *currSet, scrapedCards)
+		// scrapeImage(imgUrl, *currSet, scrapedCards)
 
 		println("finished scraping: ", *currSet)
 		println("Clearing Array....")
