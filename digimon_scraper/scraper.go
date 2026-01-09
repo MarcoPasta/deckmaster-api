@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math/rand"
 	"net/http"
 	"os"
 	"regexp"
@@ -195,6 +196,15 @@ func scrapeImage(url string, set string, cards []Card) {
 
 }
 
+func RandomString() string {
+	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	b := make([]byte, rand.Intn(10)+10)
+	for i := range b {
+		b[i] = letterBytes[rand.Intn(len(letterBytes))]
+	}
+	return string(b)
+}
+
 func main() {
 
 	// collector object
@@ -238,7 +248,9 @@ func main() {
 
 	collector.OnScraped(func(r *colly.Response) {
 
+		r.Headers.Set("User-Agent", RandomString())
 		fmt.Printf("Scraping set %v finished, writing data...\n", *currSet)
+		fmt.Println("Changing User-Agent...")
 
 		jsonBytes, err := json.Marshal(scrapedCards)
 		if err != nil {
