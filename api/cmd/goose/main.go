@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"github.com/MarcoPasta/deckmaster/api/internal"
+	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	_ "github.com/MarcoPasta/deckmaster/api/migrations"
-	"github.com/MarcoPasta/deckmaster/api/models"
 	_ "github.com/lib/pq"
 	"github.com/pressly/goose/v3"
 )
@@ -45,11 +45,11 @@ func main() {
 	dbArg, command := args[0], args[1]
 	if dbArg == "dev" {
 		dbArg = devDbString
-		models.ConnectToDatabase(internal.GetDBString())
+		repository.ConnectToDatabase(internal.GetDBString())
 		fmt.Println("DB String: ", dbArg)
 	} else {
 		dbArg = testDbString
-		models.ConnectToDatabase(internal.GetTestDBString())
+		repository.ConnectToDatabase(internal.GetTestDBString())
 		fmt.Println("DB String: ", dbArg)
 	}
 

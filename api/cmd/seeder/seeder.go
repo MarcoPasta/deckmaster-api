@@ -8,7 +8,8 @@ import (
 	"os"
 
 	"github.com/MarcoPasta/deckmaster/api/internal"
-	"github.com/MarcoPasta/deckmaster/api/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"gorm.io/gorm"
 )
 
@@ -95,7 +96,6 @@ func run(db *gorm.DB, path string) error {
 			return err
 		}
 		err = writeToDB(db, cards, &writtenCards)
-		fmt.Println("Written cards after function", writtenCards)
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
 			return err
@@ -106,6 +106,6 @@ func run(db *gorm.DB, path string) error {
 }
 
 func main() {
-	models.ConnectToDatabase(internal.GetDBString())
-	run(models.DB, os.Getenv("SEEDER_FILE_DIR"))
+	repository.ConnectToDatabase(internal.GetDBString())
+	run(repository.DB, os.Getenv("SEEDER_FILE_DIR"))
 }

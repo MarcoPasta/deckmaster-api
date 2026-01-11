@@ -2,16 +2,15 @@ package main
 
 import (
 	"github.com/MarcoPasta/deckmaster/api/internal"
+	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	_ "github.com/MarcoPasta/deckmaster/api/migrations"
-	"github.com/MarcoPasta/deckmaster/api/models"
-	"github.com/MarcoPasta/deckmaster/api/routes"
 	_ "github.com/lib/pq"
 )
 
 func main() {
-	models.ConnectToDatabase(internal.GetDBString())
-	routes.SetupRouter()
+	repository.ConnectToDatabase(internal.GetDBString())
+	internal.SetupRouter()
 
 	// Start server on port 8080 (default)
-	routes.Router.Run()
+	internal.Router.Run()
 }

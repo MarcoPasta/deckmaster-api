@@ -8,7 +8,8 @@ import (
 	"testing"
 
 	"github.com/MarcoPasta/deckmaster/api/internal"
-	"github.com/MarcoPasta/deckmaster/api/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"gorm.io/gorm"
 )
 
@@ -173,8 +174,8 @@ var db *gorm.DB
 
 func TestMain(m *testing.M) {
 	// connect to test database
-	models.ConnectToDatabase(internal.GetTestDBString())
-	db = models.DB
+	repository.ConnectToDatabase(internal.GetTestDBString())
+	db = repository.DB
 	// run tests
 	exitCode := m.Run()
 
