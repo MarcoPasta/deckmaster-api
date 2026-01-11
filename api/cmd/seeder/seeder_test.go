@@ -12,6 +12,7 @@ import (
 	"gorm.io/gorm"
 )
 
+// mock data
 func initCards() []models.DigimonCard {
 	return []models.DigimonCard{
 		{
@@ -52,9 +53,9 @@ func initCards() []models.DigimonCard {
 }
 
 func TestReadDirectory(t *testing.T) {
-	path := os.Getenv("JSON_DIR")
+	path := os.Getenv("SEEDER_FILE_DIR")
 	if path == "" {
-		t.Errorf("seeder_test.go::TestReadDirectory() -> JSON_DIR environment variable is not set")
+		t.Errorf("seeder_test.go::TestReadDirectory() -> SEEDER_FILE_DIR environment variable is not set")
 	}
 	files, err := readDirectory(path)
 	if err != nil {
@@ -69,7 +70,7 @@ func TestUnmarshalData(t *testing.T) {
 
 	want := initCards()
 	file := "./BT24.json"
-	have, err := unmarshalData(os.Getenv("JSON_DIR"), file)
+	have, err := unmarshalData(os.Getenv("SEEDER_FILE_DIR"), file)
 	if err != nil {
 		t.Fatalf("seeder_test.go::TestUnmarshalData() in file %v: -> %v", file, err)
 	}
@@ -85,22 +86,21 @@ func TestUnmarshalData(t *testing.T) {
 }
 
 func TestWriteToDB(t *testing.T) {
-
-	file := "./BT24.json"
-	wantCards, err := unmarshalData(os.Getenv("JSON_DIR"), file)
+	file := "BT24.json"
+	wantCards, err := unmarshalData(os.Getenv("SEEDER_FILE_DIR"), file)
 	if err != nil {
 		t.Fatalf("seeder_test.go::TestWriteToDB() -> Error unmarshaling data from: %v: %v", file, err)
 	}
-
 	var writtenCards []string
-	writeToDB(db, wantCards, writtenCards)
-
 	var rtvCards []models.DigimonCard
+	var rtvAltCards []models.DigimonCardAltArt
+
+	writeToDB(db, wantCards, &writtenCards)
+
 	res := db.Find(&rtvCards)
 	if res.Error != nil {
 		t.Fatalf("seeder_test.go::TestWriteToDB() -> Error reading from database: %v", res.Error)
 	}
-
 	if wantCards[0].Id != rtvCards[0].Id {
 		t.Errorf("seeder_test.go::TestWriteToDB() -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Id, rtvCards[0].Id)
 	}
@@ -117,63 +117,65 @@ func TestWriteToDB(t *testing.T) {
 		t.Errorf("seeder_test.go::TestWriteToDB() -> Expected return value: %v\nReceived value: %v\n", wantCards[0].Text, rtvCards[0].Text)
 	}
 
-	var rtvAltCards []models.DigimonCardAltArt
 	res = db.Find(&rtvAltCards)
 	if res.Error != nil {
 		t.Fatalf("seeder_test.go::TestWriteToDB() -> Error reading alt art from database: %v", res.Error)
 	}
-
 	if len(rtvAltCards) == 0 {
 		t.Errorf("seeder_test.go::TestWriteToDB() -> Expected at least one alt art entry in database, found none.")
 	}
 
-	fmt.Println("clearing test")
-	ctx := context.Background()
-	rows, err := gorm.G[models.DigimonCard](db).Where("1=1").Delete(ctx)
-	if err != nil {
-		t.Fatalf("seeder_test.go::TestWriteToDB() -> Error clearing test data from DigimonCard table: %v", err)
-	}
-	fmt.Printf("Deleted %v rows from DigimonCard table\n", rows)
-
-	rows, err = gorm.G[models.DigimonCardAltArt](db).Where("1=1").Delete(ctx)
-	if err != nil {
-		t.Fatalf("seeder_test.go::TestWriteToDB() -> Error clearing test data from DigimonCardAltArt table: %v", err)
-	}
-	fmt.Printf("Deleted %v rows from DigimonCardAltArt table\n", rows)
+	clearTests()
 
 }
 
 func TestRun(t *testing.T) {
-	path := os.Getenv("JSON_DIR")
+	// Arrange
+	path := os.Getenv("SEEDER_FILE_DIR")
+	want := initCards()
+	ctx := context.Background()
 	if path == "" {
-		t.Errorf("seeder_test.go::TestRun() -> JSON_DIR environment variable is not set")
+		t.Errorf("seeder_test.go::TestRun() -> SEEDER_FILE_DIR environment variable is not set")
 	}
+
+	// Act
 	err := run(db, path)
 	if err != nil {
 		t.Errorf("seeder_test.go::TestRun() -> Error running seeder: %v", err)
 	}
-	fmt.Println("clearing test")
-	ctx := context.Background()
-	rows, err := gorm.G[models.DigimonCard](db).Where("1=1").Delete(ctx)
-	if err != nil {
-		t.Fatalf("seeder_test.go::TestRun() -> Error clearing test data from DigimonCard table: %v", err)
-	}
-	fmt.Printf("Deleted %v rows from DigimonCard table\n", rows)
 
-	rows, err = gorm.G[models.DigimonCardAltArt](db).Where("1=1").Delete(ctx)
-	if err != nil {
-		t.Fatalf("seeder_test.go::TestRun() -> Error clearing test data from DigimonCardAltArt table: %v", err)
+	// Assert
+	have, err := gorm.G[models.DigimonCard](db).Where("set = ?", "TIME STRANGER [BT-24]").Find(ctx)
+
+	if want[0].Id != have[0].Id {
+		t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[0].Id, have[0].Id)
 	}
-	fmt.Printf("Deleted %v rows from DigimonCardAltArt table\n", rows)
+	if !reflect.DeepEqual(want[1].Text, have[1].Text) {
+		t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[1].Text, have[1].Text)
+	}
+	if !reflect.DeepEqual(want[0].Color, have[0].Color) {
+		t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[0].Color, have[0].Color)
+	}
+	if !reflect.DeepEqual(want[1].Name, have[1].Name) {
+		t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[1].Name, have[1].Name)
+	}
+
+	clearTests()
+}
+
+func clearTests() {
+	fmt.Println("clearing test")
+	db.Unscoped().Where("1 = 1").Delete(&models.DigimonCard{})
+	db.Unscoped().Where("1 = 1").Delete(&models.DigimonCardAltArt{})
 }
 
 var db *gorm.DB
 
 func TestMain(m *testing.M) {
-	// 1. Setup: Datenbank einmalig verbinden
+	// connect to test database
 	models.ConnectToDatabase(internal.GetTestDBString())
 	db = models.DB
-	// 2. Alle Tests ausführen
+	// run tests
 	exitCode := m.Run()
 
 	os.Exit(exitCode)

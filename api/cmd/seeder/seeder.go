@@ -40,7 +40,6 @@ func unmarshalData(path, file string) ([]models.DigimonCard, error) {
 		log.Fatal(err)
 		return nil, err
 	} else {
-		// log.Printf("JSON: %#v", jsonData)
 		return jsonData, err
 	}
 
@@ -56,33 +55,26 @@ func countIdDuplicates(cards []string, id string) int {
 	return counter
 }
 
-func writeToDB(db *gorm.DB, cards []models.DigimonCard, writtenCards []string) error {
+func writeToDB(db *gorm.DB, cards []models.DigimonCard, writtenCards *[]string) error {
 	ctx := context.Background()
 	result := gorm.WithResult()
 
 	for _, card := range cards {
-		fmt.Println("Current Card: ", card.Id)
-		if counter := countIdDuplicates(writtenCards, card.Id); counter == 0 {
+		if counter := countIdDuplicates(*writtenCards, card.Id); counter == 0 {
 			err := gorm.G[models.DigimonCard](db, result).Create(ctx, &card)
 			if err != nil {
 				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
 				return err
 			}
-			// writtenCards = append(writtenCards, card.Id)
-			// fmt.Printf("Currently written Cards:\n %+v\n", writtenCards)
 		} else {
-			fmt.Printf("Duplicate found at: %v; creating alt art...\n", card.Id)
 			altArt := models.DigimonCardAltArt{CardID: card.Id, Image: fmt.Sprintf("%v_P%v", card.Id, counter)}
-			fmt.Println("Alt Art Id->", altArt.Image)
 			err := gorm.G[models.DigimonCardAltArt](db, result).Create(ctx, &altArt)
 			if err != nil {
 				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
 				return err
 			}
 		}
-		writtenCards = append(writtenCards, card.Id)
-		fmt.Printf("%v ", card.Id)
-		fmt.Println("Card written: ", card.Id)
+		*writtenCards = append(*writtenCards, card.Id)
 	}
 	return nil
 }
@@ -102,7 +94,8 @@ func run(db *gorm.DB, path string) error {
 			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v", file, err)
 			return err
 		}
-		err = writeToDB(db, cards, writtenCards)
+		err = writeToDB(db, cards, &writtenCards)
+		fmt.Println("Written cards after function", writtenCards)
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
 			return err
@@ -114,5 +107,5 @@ func run(db *gorm.DB, path string) error {
 
 func main() {
 	models.ConnectToDatabase(internal.GetDBString())
-	run(models.DB, os.Getenv("JSON_DIR"))
+	run(models.DB, os.Getenv("SEEDER_FILE_DIR"))
 }
