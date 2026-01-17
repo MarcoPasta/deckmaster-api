@@ -22,7 +22,7 @@ ARG TARGETOS=linux
 ARG TARGETARCH=amd64
 ENV CGO_ENABLED=0
 RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} \
-    go build -ldflags "-s -w" -o /app .
+    go build -ldflags "-s -w" -o /app ./cmd/deckmaster
 
 # Ensure a predictable non-root user exists in the final image. Create a
 # minimal passwd entry and a home directory in the builder and copy them
