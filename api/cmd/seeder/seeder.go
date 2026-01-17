@@ -84,7 +84,7 @@ func run(db *gorm.DB, path string) error {
 
 	files, err := readDirectory(path)
 	if err != nil {
-		fmt.Printf("seeder.go::run() -> Returned error reading directory: %v", err)
+		fmt.Printf("seeder.go::run() -> Returned error reading directory: %v\n", err)
 		return err
 	}
 
@@ -92,7 +92,7 @@ func run(db *gorm.DB, path string) error {
 	for _, file := range files {
 		cards, err := unmarshalData(path, file)
 		if err != nil {
-			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v", file, err)
+			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v\n", file, err)
 			return err
 		}
 		err = writeToDB(db, cards, &writtenCards)
