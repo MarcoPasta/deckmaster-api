@@ -26,22 +26,51 @@ func FindAllDigimonCards(c *gin.Context) {
 }
 
 func FindDigimonCardByID(c *gin.Context) {
-
 	id := c.Param("id")
-	log.Println("ID from context: ", id)
 
+	log.Printf("Fetching card with ID: %s", id)
+
+	card, err := repository.FindDigimonCardByID(c, id)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{
+			"error": "Card not found.",
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"content": card})
 }
 
 func FindDigimonCardsByName(c *gin.Context) {
 	name := c.Param("name")
-	log.Println("Name from context: ", name)
+
+	cards, err := repository.FindDigimonCardsByName(c, name)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{
+			"error": "Cards not found.",
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"content": cards})
 }
 
 func FindDigimonCardsByColor(c *gin.Context) {
 	var f Filter
 	if err := c.ShouldBind(&f); err != nil {
-		log.Println("Error binding query parameters")
-	} else {
-		log.Println("Colors from query: ", f.Colors)
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error": "Invalid query parameters.",
+		})
+		return
 	}
+
+	cards, err := repository.FindDigimonCardsByColor(c, f.Colors)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{
+			"error": "Cards not found.",
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"content": cards})
 }
