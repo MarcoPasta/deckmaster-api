@@ -9,7 +9,7 @@ import (
 )
 
 type Filter struct {
-	Colors []string `form:"colors[]" collection_format:"csv"`
+	Colors []string `form:"color[]" collection_format:"csv"`
 }
 
 func FindAllDigimonCards(c *gin.Context) {
@@ -57,6 +57,8 @@ func FindDigimonCardsByName(c *gin.Context) {
 
 func FindDigimonCardsByColor(c *gin.Context) {
 	var f Filter
+
+	log.Printf("Filtering by colors: %+v\n", f)
 	if err := c.ShouldBind(&f); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"error": "Invalid query parameters.",
@@ -64,10 +66,11 @@ func FindDigimonCardsByColor(c *gin.Context) {
 		return
 	}
 
+	log.Printf("Filtering by colors: %+v\n", f.Colors)
 	cards, err := repository.FindDigimonCardsByColor(c, f.Colors)
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{
-			"error": "Cards not found.",
+			"error 404": "Cards not found.",
 		})
 		return
 	}

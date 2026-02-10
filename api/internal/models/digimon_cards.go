@@ -10,7 +10,7 @@ type DigimonCard struct {
 	Id        string `gorm:"primaryKey"`
 	Name      string
 	CardType  string
-	Color     []string `gorm:"serializer:json"`
+	Color     []string `gorm:"serializer:json" collection_format:"multi"`
 	Cost      int8
 	Dp        int16
 	DvCost    []string `gorm:"serializer:json"`
