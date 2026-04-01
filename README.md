@@ -5,6 +5,29 @@ important notes
 project domain: deckmaster.de
 
 ---
+## Tools & usages
+
+### Goose: 
+There are 2 goose variants in this project: the global one, and the locally build one. The global one can be used to create migrations (must be inside api!), the local one is used to either  run or roll back migrations or to view the status of the current db's.
+
+examples:
+
+Build a goose custom binary
+```bash
+make goose
+```
+Create a new migration file
+```bash
+goose create <name>
+```
+Run a migration file
+```bash
+./build/goose <db> <cmd>
+``` 
+with db options being: `test dev`
+cmd options being: `up down status etc.`
+
+---
 
 ## Development: Docker Compose & .env
 

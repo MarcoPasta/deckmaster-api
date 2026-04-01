@@ -36,3 +36,5 @@ api/api
 api/build/*
 !api/build/.keep
 files
+api/cmd/deckmaster/tmp/deckmaster
+api/tmp/
