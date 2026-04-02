@@ -2,7 +2,7 @@
 
 important notes
 
-project domain: deckmaster.de
+project domain: mirage-platform.org
 
 ---
 ## Tools & usages

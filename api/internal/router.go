@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/controller"
+	"github.com/MarcoPasta/deckmaster/api/internal/middleware"
 	"github.com/gin-gonic/gin"
 )
 
@@ -39,5 +40,11 @@ func initRoutes(r *gin.Engine) {
 	FilteredRoutes := r.Group("/filter")
 	FilteredRoutes.GET("/color", func(ctx *gin.Context) {
 		controller.FindDigimonCardsByColor(ctx)
+	})
+
+	authRoutes := r.Group("/auth")
+	authRoutes.Use(middleware.ClerkMiddleware())
+	authRoutes.GET("/clerk", func(ctx *gin.Context) {
+		middleware.ClerkListUsers(ctx)
 	})
 }
