@@ -31,8 +31,9 @@ type DigimonCardAltArt struct {
 }
 type DigimonDecks struct {
 	gorm.Model
-	Name  string
-	Cards []DigimonCard `gorm:"many2many:decks_cards"`
+	UserId string
+	Name   string
+	Cards  []DigimonCard `gorm:"many2many:decks_cards"`
 }
 
 // etc..
