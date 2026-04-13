@@ -53,6 +53,9 @@ func main() {
 		fmt.Println("DB String: ", dbArg)
 	}
 
+	// ###################################################################################
+
+	// 1. Verbindung zur Datenbank herstellen
 	db, err := goose.OpenDBWithDriver(driver, dbArg)
 	if err != nil {
 		log.Fatalf("goose: failed to open DB: %v", err)
@@ -62,15 +65,8 @@ func main() {
 		if err := db.Close(); err != nil {
 			log.Fatalf("goose: failed to close DB: %v", err)
 		}
+		fmt.Println("closing database connection")
 	}()
-	// ###################################################################################
-
-	// 1. Verbindung zur Datenbank herstellen
-	// db, err := sql.Open(driver, devDbString)
-	// if err != nil {
-	// 	log.Fatalf("Fehler beim Öffnen der DB: %v", err)
-	// }
-	// defer db.Close()
 
 	// 2. Das Migrations-Verzeichnis festlegen
 	// Goose wird in diesem Ordner nach .sql Dateien suchen
@@ -86,12 +82,6 @@ func main() {
 	} else {
 		log.Fatal("Bitte gib einen Befehl an (z.B. ./goose up)")
 	}
-	// arguments := []string{}
-	// if len(args) > 2 {
-	// 	arguments = append(arguments, args[2:]...)
-	// }
-
-	// command := arguments[0]
 
 	// 4. Goose Befehl ausführen
 	// Wir übergeben die DB, den Pfad zu den Dateien und den Befehl

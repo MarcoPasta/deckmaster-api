@@ -2,9 +2,11 @@ package internal
 
 import (
 	"net/http"
+	"time"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/controller"
 	"github.com/MarcoPasta/deckmaster/api/internal/middleware"
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -18,14 +20,25 @@ func SetupRouter() {
 }
 
 func initRoutes(r *gin.Engine) {
+	r.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"*"},
+		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
+		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
+		ExposeHeaders:    []string{"Content-Length"},
+		AllowCredentials: true,
+		MaxAge:           12 * time.Hour,
+	}))
+
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"message": "pong",
 		})
 	})
 
+	api := r.Group("/api")
+
 	// Cards
-	CardRoutes := r.Group("/cards")
+	CardRoutes := api.Group("/cards")
 	CardRoutes.GET("", func(ctx *gin.Context) {
 		controller.FindAllDigimonCards(ctx)
 	})
@@ -37,14 +50,16 @@ func initRoutes(r *gin.Engine) {
 	})
 
 	// Filtered
-	FilteredRoutes := r.Group("/filter")
+	FilteredRoutes := CardRoutes.Group("/filter")
 	FilteredRoutes.GET("/color", func(ctx *gin.Context) {
 		controller.FindDigimonCardsByColor(ctx)
 	})
 
-	authRoutes := r.Group("/auth")
-	authRoutes.Use(middleware.ClerkMiddleware())
-	authRoutes.GET("/clerk", func(ctx *gin.Context) {
-		middleware.ClerkListUsers(ctx)
+	// Authentication routes
+	authRoutes := api.Group("/auth")
+	authRoutes.Use(middleware.ClerkAuthorizeHeader())
+	authRoutes.GET("/user", func(ctx *gin.Context) {
+		controller.GetUserInfo(ctx)
 	})
+
 }

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/vue'
+import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/vue";
+import UserData from "./components/UserData.vue";
 </script>
 
 <template>
@@ -10,6 +11,11 @@ import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/vue'
     </Show>
     <Show when="signed-in">
       <UserButton />
+    </Show>
+    <Show when="signed-in">
+      <Suspense fallback="Loading user data...">
+        <UserData />
+      </Suspense>
     </Show>
   </header>
 </template>

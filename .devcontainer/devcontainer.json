@@ -8,6 +8,8 @@
   "shutdownAction": "stopCompose",
   "forwardPorts": [8080, 5432],
   "postCreateCommand": "cp .env.example .env || true",
+  "postStartCommand": "chmod +x ./install_dev_deps.sh",
+  "postAttachCommand": "./install_dev_deps.sh",
   "customizations": {
     "vscode": {
       "settings": {
@@ -18,7 +20,7 @@
           }
         }
       },
-      "extensions": ["golang.go"]
+      "extensions": ["golang.go", "Vue.volar"]
     }
   }
 }

@@ -2,44 +2,40 @@ package middleware
 
 import (
 	"fmt"
+	"net/http"
+	"os"
 
 	"github.com/clerk/clerk-sdk-go/v2"
-	"github.com/clerk/clerk-sdk-go/v2/user"
+	clerkhttp "github.com/clerk/clerk-sdk-go/v2/http"
+	clerkUser "github.com/clerk/clerk-sdk-go/v2/user"
+
 	"github.com/gin-gonic/gin"
 )
 
 // clerk handler
-
-func CheckClerkAuth(c *gin.Context) (error, *clerk.User) {
-
-	fmt.Println("Calling Clerk Handler")
-
-	details, err := user.Get(c, "user_3BlhFfnu05v9ZdYqtLPmEw6IsGL")
-	if err != nil {
-		return err, nil
-	}
-
-	return nil, details
-}
-
-func ClerkListUsers(c *gin.Context) {
-
-	fmt.Println("Listing Clerk Users")
-	userList, err := user.List(c, &user.ListParams{})
-	if err != nil {
-		fmt.Println("Error listing users:", err)
-		return
-	}
-
-	fmt.Println("User list:", userList)
-
-}
-
-func ClerkMiddleware() gin.HandlerFunc {
+func ClerkAuthorizeHeader() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		// Middleware logic here
-		clerk.SetKey("sk_test_TEYkt1b0ykCc55Y03YFkFiqKOZx6MgKEIzvzmqV4ZA")
-		fmt.Println("Setting up Clerk Middleware")
+		clerk.SetKey(os.Getenv("CLERK_SECRET_KEY"))
+
+		handler := clerkhttp.WithHeaderAuthorization()(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+
+			fmt.Println("### Clerk Authorization Middleware ###")
+			claims, ok := clerk.SessionClaimsFromContext(r.Context())
+			if !ok {
+				c.JSON(http.StatusUnauthorized, gin.H{"error": "No Session Claims found"})
+				c.Abort()
+				return
+			}
+			usr, err := clerkUser.Get(r.Context(), claims.Subject)
+			if err != nil {
+				c.JSON(http.StatusUnauthorized, gin.H{"error": "User is not Authorized"})
+				c.Abort()
+				return
+			}
+			fmt.Printf("Authenticated user: %s (ID: %s)\n", *usr.Username, usr.ID)
+		}))
+
+		handler.ServeHTTP(c.Writer, c.Request)
 		c.Next()
 	}
 }
