@@ -171,7 +171,7 @@ func checkPathExist(path string) {
 }
 
 func scrapeImage(url string, set string, cards []Card) {
-	path := os.Getenv("SCRAPER_IMAGE_DIR") + set + "/"
+	path := os.Getenv("DIGIMON_IMAGES_DIR") + set + "/"
 
 	println("Start scraping images")
 	for _, card := range cards {
@@ -257,7 +257,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		writePath := os.Getenv("SCRAPER_JSON_DIR")
+		writePath := os.Getenv("DIGIMON_JSON_DIR")
 		checkPathExist(writePath) // ensure path exists, if not create it
 		file, err := os.Create(writePath + *currSet + ".json")
 		if err != nil {
