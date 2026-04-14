@@ -8,6 +8,7 @@ import (
 
 type DigimonCard struct {
 	Id        string `gorm:"primaryKey"`
+	DeckId    uint   `gorm:"index"` // Foreign key to DigimonDecks
 	Name      string
 	CardType  string
 	Color     []string `gorm:"serializer:json" collection_format:"multi"`
@@ -33,7 +34,7 @@ type DigimonDecks struct {
 	gorm.Model
 	UserId string
 	Name   string
-	Cards  []DigimonCard `gorm:"many2many:decks_cards"`
+	Cards  []DigimonCard `gorm:"foreignKey:DeckId"`
 }
 
 // etc..

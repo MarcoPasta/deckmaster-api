@@ -29,8 +29,8 @@ func initRoutes(r *gin.Engine) {
 		MaxAge:           12 * time.Hour,
 	}))
 
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
+	r.GET("/ping", func(ctx *gin.Context) {
+		ctx.JSON(http.StatusOK, gin.H{
 			"message": "pong",
 		})
 	})
@@ -56,10 +56,23 @@ func initRoutes(r *gin.Engine) {
 	})
 
 	// Authentication routes
-	authRoutes := api.Group("/auth")
-	authRoutes.Use(middleware.ClerkAuthorizeHeader())
-	authRoutes.GET("/user", func(ctx *gin.Context) {
-		controller.GetUserInfo(ctx)
-	})
+	protectedRoutes := api.Group("/auth")
+	protectedRoutes.Use(middleware.ClerkAuthorizeHeader())
+	{
+		protectedRoutes.GET("/user", func(ctx *gin.Context) {
+			controller.GetUserInfo(ctx)
+		})
+		deckRoutes := protectedRoutes.Group("/decks")
+		{
+			deckRoutes.GET("/user", func(ctx *gin.Context) {
+				controller.GetDeckByUserId(ctx)
+			})
+			deckRoutes.POST("/create", func(ctx *gin.Context) {
+				controller.CreateDigimonDeck(ctx)
+			})
+
+		}
+
+	}
 
 }

@@ -22,12 +22,12 @@ func ConnectToDatabase(host string, port string, user string, dbName string, pas
 
 	DB = db
 	DbMigrator = db.Migrator()
-	defer func() {
-		sqlDB, err := db.DB()
-		if err != nil {
-			log.Fatal(err)
-		}
-		fmt.Println("closing connection")
-		sqlDB.Close()
-	}()
+	// defer func() {
+	// 	sqlDB, err := db.DB()
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	}
+	// 	fmt.Println("closing connection")
+	// 	sqlDB.Close()
+	// }()
 }

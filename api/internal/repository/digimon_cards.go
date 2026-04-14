@@ -10,13 +10,13 @@ import (
 )
 
 // FindAllDigimonCards retrieves all Digimon cards from the database
-func FindAllDigimonCards(c *gin.Context) ([]models.DigimonCard, error) {
-	return gorm.G[models.DigimonCard](DB).Find(c)
+func FindAllDigimonCards(ctx *gin.Context) ([]models.DigimonCard, error) {
+	return gorm.G[models.DigimonCard](DB).Find(ctx)
 }
 
 // FindDigimonCardByID retrieves a single Digimon card by its ID
-func FindDigimonCardByID(c *gin.Context, id string) (*models.DigimonCard, error) {
-	card, err := gorm.G[models.DigimonCard](DB).Where("id = ?", id).First(c)
+func FindDigimonCardByID(ctx *gin.Context, id string) (*models.DigimonCard, error) {
+	card, err := gorm.G[models.DigimonCard](DB).Where("id = ?", id).First(ctx)
 	if err != nil {
 		return nil, err
 	}
@@ -24,14 +24,14 @@ func FindDigimonCardByID(c *gin.Context, id string) (*models.DigimonCard, error)
 }
 
 // FindDigimonCardsByName retrieves all Digimon cards that match the given name
-func FindDigimonCardsByName(c *gin.Context, name string) ([]models.DigimonCard, error) {
-	return gorm.G[models.DigimonCard](DB).Where("name ILIKE ?", "%"+name+"%").Find(c)
+func FindDigimonCardsByName(ctx *gin.Context, name string) ([]models.DigimonCard, error) {
+	return gorm.G[models.DigimonCard](DB).Where("name ILIKE ?", "%"+name+"%").Find(ctx)
 }
 
 // FindDigimonCardsByColor retrieves all Digimon cards that have any of the specified colors
-func FindDigimonCardsByColor(c *gin.Context, colors []string) ([]models.DigimonCard, error) {
+func FindDigimonCardsByColor(ctx *gin.Context, colors []string) ([]models.DigimonCard, error) {
 	var cards []models.DigimonCard
-	query := DB.WithContext(c)
+	query := DB.WithContext(ctx)
 
 	log.Printf("Querying by colors: %+v\n", colors)
 
