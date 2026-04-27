@@ -6,10 +6,10 @@
   "remoteUser": "dev",
   "runServices": ["db"],
   "shutdownAction": "stopCompose",
-  "forwardPorts": [8080, 5432],
+  "forwardPorts": [8080, 8000, 5432],
   "postCreateCommand": "cp .env.example .env || true",
   "postStartCommand": "chmod +x ./install_dev_deps.sh",
-  "postAttachCommand": "./install_dev_deps.sh",
+  "postAttachCommand": "./install_dev_deps.sh && export PATH=\"$HOME/.local/bin:$PATH\" && uv sync --directory deckmaster-api",
   "customizations": {
     "vscode": {
       "settings": {
@@ -20,7 +20,15 @@
           }
         }
       },
-      "extensions": ["golang.go", "Vue.volar"]
+      "extensions": [
+        "golang.go",
+        "Vue.volar",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "be5invis.toml",
+        "FastAPILabs.fastapi-vscode",
+        "charliermarsh.ruff"
+      ]
     }
   }
 }

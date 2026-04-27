@@ -8,9 +8,7 @@ import (
 	"log"
 	"math/rand"
 	"os"
-	"regexp"
 	"strconv"
-	"strings"
 
 	"github.com/gocolly/colly/v2"
 )
@@ -31,25 +29,26 @@ type Card struct {
 }
 
 type Attack struct {
-	Name   string   `json:"name"`
 	Cost   []string `json:"cost"`
+	Name   string   `json:"name"`
 	Effect string   `json:"effect"`
 	Damage string   `json:"damage"`
 }
 
 type Set struct {
-	CharIdentifier    string `json:"cardIdentifier"`
-	NumeralIdentifier string `json:"numeralIdentifier"`
+	Set      string `json:"set"`
+	Uri      string `json:"uri"`
+	Category string `json:"category"`
 }
 
-// Take string value and parse it to int8 value
-func toInt8(s string) int8 {
-	parsed, err := strconv.ParseInt(s, 10, 8)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return int8(parsed)
-}
+// // Take string value and parse it to int8 value
+// func toInt8(s string) int8 {
+// 	parsed, err := strconv.ParseInt(s, 10, 8)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	return int8(parsed)
+// }
 
 // Take string value and parse it to int16 value
 func toInt16(s string) int16 {
@@ -60,103 +59,107 @@ func toInt16(s string) int16 {
 	return int16(parsed)
 }
 
-// normalizeSpaces trims and replaces any whitespace run with a single space.
-func normalizeSpaces(s string) string {
-	var reSpaces = regexp.MustCompile(`\s+`)
-	return strings.TrimSpace(reSpaces.ReplaceAllString(s, " "))
-}
+// // normalizeSpaces trims and replaces any whitespace run with a single space.
+// func normalizeSpaces(s string) string {
+// 	var reSpaces = regexp.MustCompile(`\s+`)
+// 	return strings.TrimSpace(reSpaces.ReplaceAllString(s, " "))
+// }
 
-// preserves bracket-only headers (e.g. "[Effect]") as items
-// and joins subsequent non-header lines into one paragraph.
-func cleanGrouped(lines []string) []string {
-	var reHeader = regexp.MustCompile(`^\[[^\]]+\]$`)
+// // preserves bracket-only headers (e.g. "[Effect]") as items
+// // and joins subsequent non-header lines into one paragraph.
+// func cleanGrouped(lines []string) []string {
+// 	var reHeader = regexp.MustCompile(`^\[[^\]]+\]$`)
 
-	out := make([]string, 0, len(lines))
-	var buf string
-	flushBuf := func() {
-		if buf != "" {
-			out = append(out, buf)
-			buf = ""
-		}
-	}
+// 	out := make([]string, 0, len(lines))
+// 	var buf string
+// 	flushBuf := func() {
+// 		if buf != "" {
+// 			out = append(out, buf)
+// 			buf = ""
+// 		}
+// 	}
 
-	for _, l := range lines {
-		t := normalizeSpaces(l)
-		if t == "" {
-			continue
-		}
-		if reHeader.MatchString(t) {
-			flushBuf()
-			out = append(out, t) // header on its own line
-			continue
-		}
-		if buf == "" {
-			buf = t
-		} else {
-			buf += " " + t
-		}
-	}
-	flushBuf()
-	return out
-}
+// 	for _, l := range lines {
+// 		t := normalizeSpaces(l)
+// 		if t == "" {
+// 			continue
+// 		}
+// 		if reHeader.MatchString(t) {
+// 			flushBuf()
+// 			out = append(out, t) // header on its own line
+// 			continue
+// 		}
+// 		if buf == "" {
+// 			buf = t
+// 		} else {
+// 			buf += " " + t
+// 		}
+// 	}
+// 	flushBuf()
+// 	return out
+// }
 
-// if values are given that are camel cased, it searches for those values and splits them with a seperator
-func splitByCapital(s string, sep string) string {
-	var result strings.Builder
-	var prev rune
-	for i, curr := range s {
-		if i > 0 && curr >= 'A' && curr <= 'Z' && prev != ' ' {
-			result.WriteString(sep)
-		}
-		result.WriteRune(curr)
-		prev = curr
-	}
-	return result.String()
-}
+// // if values are given that are camel cased, it searches for those values and splits them with a seperator
+// func splitByCapital(s string, sep string) string {
+// 	var result strings.Builder
+// 	var prev rune
+// 	for i, curr := range s {
+// 		if i > 0 && curr >= 'A' && curr <= 'Z' && prev != ' ' {
+// 			result.WriteString(sep)
+// 		}
+// 		result.WriteRune(curr)
+// 		prev = curr
+// 	}
+// 	return result.String()
+// }
 
-// searches through each css identifier containing the information for the digivolve cost. If multiple identifiers are found,
-// it loops through each and creates a new string inside
-func groupDvCosts(cost string) []string {
-	var out []string
-	split := strings.Split(cost, "\n")
-	for _, s := range split {
-		normalized := normalizeSpaces(s)
-		transformed := splitByCapital(normalized, "/")
-		out = append(out, transformed)
-	}
-	return out
-}
+// // searches through each css identifier containing the information for the digivolve cost. If multiple identifiers are found,
+// // it loops through each and creates a new string inside
+// func groupDvCosts(cost string) []string {
+// 	var out []string
+// 	split := strings.Split(cost, "\n")
+// 	for _, s := range split {
+// 		normalized := normalizeSpaces(s)
+// 		transformed := splitByCapital(normalized, "/")
+// 		out = append(out, transformed)
+// 	}
+// 	return out
+// }
 
 func onHTMLScrape(e *colly.HTMLElement) Card {
 	card := Card{}
-	card.Id = e.ChildText(".cardNo")
-	card.Name = e.ChildText(".cardTitle")
-	card.CardType = e.ChildText(".cardType")
+	// card.Id = e.ChildText(".cardNo")
+	card.Name = e.ChildText(".color-block")
+	card.Kp = toInt16(e.ChildText(".card-hp"))
+	card.Phase = e.ChildText(".card-type")
+	card.EnergyType = e.ChildAttr(".energy", "title")
 
-	e.ForEach(".cardInfoBox", func(i int, h *colly.HTMLElement) {
+	// e.ForEach(".cardInfoBox", func(i int, h *colly.HTMLElement) {
 
-		switch h.ChildText(".cardInfoTit") {
-		case "Color":
-			card.Color = strings.Fields(h.ChildText(".cardInfoData"))
-		case "Cost":
-			card.Cost = toInt8(h.ChildText(".cardInfoData"))
-		case "DP":
-			card.Dp = toInt16(h.ChildText(".cardInfoData"))
-		case "Form":
-			card.Form = h.ChildText(".cardInfoData")
-		case "Attribute":
-			card.Attribute = h.ChildText(".cardInfoData")
-		case "Type":
-			// we have to case for "Type" here as it is the used keyword in the html
-			card.Species = strings.Fields(h.ChildText(".cardInfoData"))
-		case "Notes":
-			// same goes for Set, the html keyword used here is "Notes"
-			card.Set = strings.Join(strings.Fields(h.ChildText(".cardInfoData"))[1:4], " ")
-		}
-	})
-	card.DvCost = groupDvCosts(e.ChildText(".cardInfoData.cardColor.cardColorCost"))
-	card.Text = cleanGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
-	return card
+	// 	switch h.ChildText(".cardInfoTit") {
+	// 	case "Color":
+	// 		card.Color = strings.Fields(h.ChildText(".cardInfoData"))
+	// 	case "Cost":
+	// 		card.Cost = toInt8(h.ChildText(".cardInfoData"))
+	// 	case "DP":
+	// 		card.Dp = toInt16(h.ChildText(".cardInfoData"))
+	// 	case "Form":
+	// 		card.Form = h.ChildText(".cardInfoData")
+	// 	case "Attribute":
+	// 		card.Attribute = h.ChildText(".cardInfoData")
+	// 	case "Type":
+	// 		// we have to case for "Type" here as it is the used keyword in the html
+	// 		card.Species = strings.Fields(h.ChildText(".cardInfoData"))
+	// 	case "Notes":
+	// 		// same goes for Set, the html keyword used here is "Notes"
+	// 		card.Set = strings.Join(strings.Fields(h.ChildText(".cardInfoData"))[1:4], " ")
+	// 	}
+	// })
+	// card.DvCost = groupDvCosts(e.ChildText(".cardInfoData.cardColor.cardColorCost"))
+	// card.Text = cleanGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
+	// return card
+	fmt.Println("CARD DETAILS: ", card)
+	return Card{}
 }
 
 func checkPathExist(path string) {
@@ -201,6 +204,7 @@ func checkPathExist(path string) {
 
 // }
 
+// used to change user agent after each scrape to avoid being blocked by the server
 func RandomString() string {
 	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	b := make([]byte, rand.Intn(10)+10)
@@ -262,7 +266,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		writePath := os.Getenv("DIGIMON_JSON_DIR")
+		writePath := os.Getenv("POKEMON_JSON_DIR")
 		checkPathExist(writePath) // ensure path exists, if not create it
 		file, err := os.Create(writePath + *currSet + ".json")
 		if err != nil {
@@ -279,7 +283,7 @@ func main() {
 	})
 
 	for _, set := range sets {
-		currUrl := baseUrl + set.Category
+		currUrl := baseUrl + set.Uri
 		currSet = &set.Set
 
 		// visit page & start scraping

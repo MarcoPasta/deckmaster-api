@@ -1,6 +1,20 @@
 version: "3.8"
 
 services:
+
+  deckmaster-api:
+    build:
+      context: ./deckmaster-api
+      dockerfile: Dockerfile
+    image: deckmaster_api:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+    restart: unless-stopped
+
   app:
     build:
       # Build context set to the `api` directory so the Dockerfile can COPY
@@ -48,7 +62,7 @@ services:
     volumes:
       - postgres_test:/var/lib/postgresql/data
     ports:
-      - "5431:5432"
+      - "5431:15432"
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "postgres"]
       interval: 10s
