@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"log"
 	"os"
@@ -12,6 +13,10 @@ import (
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"gorm.io/gorm"
 )
+
+type TCard interface {
+	models.DigimonCard | models.PokemonCard
+}
 
 func readDirectory(path string) ([]string, error) {
 	var files []string
@@ -27,21 +32,34 @@ func readDirectory(path string) ([]string, error) {
 	return files, nil
 }
 
-func unmarshalData(path, file string) ([]models.DigimonCard, error) {
+func unmarshalData(path string, file string, mode string) ([]models.DigimonCard, []models.PokemonCard, error) {
 	rawFile, err := os.ReadFile(path + "/" + file)
 	if err != nil {
-		log.Fatal(err)
-		return nil, err
+		log.Fatalf("seeder.go::unmarshalData() -> Error reading file: %v\n", err)
+		return nil, nil, err
 	}
 
-	var jsonData []models.DigimonCard
+	var digimonData []models.DigimonCard
+	var pokemonData []models.PokemonCard
 
-	err = json.Unmarshal(rawFile, &jsonData)
-	if err != nil {
-		log.Fatal(err)
-		return nil, err
+	if mode == "digimon" {
+		err = json.Unmarshal(rawFile, &digimonData)
+		if err != nil {
+			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
+			return nil, nil, err
+		} else {
+			return digimonData, nil, err
+		}
+	} else if mode == "pokemon" {
+		err = json.Unmarshal(rawFile, &pokemonData)
+		if err != nil {
+			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
+			return nil, nil, err
+		} else {
+			return nil, pokemonData, err
+		}
 	} else {
-		return jsonData, err
+		return nil, nil, fmt.Errorf("seeder.go::unmarshalData() -> Invalid mode: %s\n", mode)
 	}
 
 }
@@ -56,32 +74,22 @@ func countIdDuplicates(cards []string, id string) int {
 	return counter
 }
 
-func writeToDB(db *gorm.DB, cards []models.DigimonCard, writtenCards *[]string) error {
+func writeToDB[T TCard](db *gorm.DB, cards []T, writtenCards *[]string) error {
 	ctx := context.Background()
 	result := gorm.WithResult()
 
 	for _, card := range cards {
-		if counter := countIdDuplicates(*writtenCards, card.Id); counter == 0 {
-			err := gorm.G[models.DigimonCard](db, result).Create(ctx, &card)
-			if err != nil {
-				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
-				return err
-			}
-		} else {
-			altArt := models.DigimonCardAltArt{CardID: card.Id, Image: fmt.Sprintf("%v_P%v", card.Id, counter)}
-			err := gorm.G[models.DigimonCardAltArt](db, result).Create(ctx, &altArt)
-			if err != nil {
-				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card.Id, err)
-				return err
-			}
+		err := gorm.G[T](db, result).Create(ctx, &card)
+		if err != nil {
+			fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card, err)
+			return err
 		}
-		*writtenCards = append(*writtenCards, card.Id)
 	}
+	*writtenCards = append(*writtenCards, "test")
 	return nil
 }
 
-func run(db *gorm.DB, path string) error {
-
+func run(db *gorm.DB, path string, mode string) error {
 	files, err := readDirectory(path)
 	if err != nil {
 		fmt.Printf("seeder.go::run() -> Returned error reading directory: %v\n", err)
@@ -90,12 +98,16 @@ func run(db *gorm.DB, path string) error {
 
 	var writtenCards []string
 	for _, file := range files {
-		cards, err := unmarshalData(path, file)
+		digimonCards, pokemonCards, err := unmarshalData(path, file, mode)
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v\n", file, err)
 			return err
 		}
-		err = writeToDB(db, cards, &writtenCards)
+		if mode == "digimon" {
+			err = writeToDB(db, digimonCards, &writtenCards)
+		} else if mode == "pokemon" {
+			err = writeToDB(db, pokemonCards, &writtenCards)
+		}
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
 			return err
@@ -106,6 +118,16 @@ func run(db *gorm.DB, path string) error {
 }
 
 func main() {
+	mode := flag.String("mode", "pokemon", "ich schreib mal iwas rein")
+	flag.Parse()
+	var seedDir string
+	if *mode == "pokemon" {
+		seedDir = "POKEMON_SEEDER_DIR"
+	} else if *mode == "digimon" {
+		seedDir = "DIGIMON_SEEDER_DIR"
+	} else {
+		log.Fatalf("seeder.go::main() -> Invalid mode: %s", *mode)
+	}
 	repository.ConnectToDatabase(internal.GetDBString())
-	run(repository.DB, os.Getenv("SEEDER_FILE_DIR"))
+	run(repository.DB, os.Getenv(seedDir), *mode)
 }

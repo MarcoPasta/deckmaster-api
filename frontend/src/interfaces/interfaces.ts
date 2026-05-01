@@ -16,3 +16,41 @@ export interface DigimonCards {
   updatedAt: Date;
   deletedAt: Date | null;
 }
+
+export interface PokemonCard {
+  id: number;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt: Date | null;
+  deckId: number; // Foreign key to PokemonDecks
+  cardType: string;
+  phase: string;
+  name: string;
+  kp: number;
+  energyType: string;
+  ability: string;
+  attacks: Attack[];
+  attacksEN: Attack[];
+  weakness: string;
+  resistance: string;
+  retreatCost: number;
+  cardNumber: string;
+  set: string;
+}
+
+export interface Attack {
+  cost: string[];
+  name: string;
+  effect: string;
+  damage: string;
+}
+
+export interface PokemonDecks {
+  id: number;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt: Date | null;
+  userId: string;
+  name: string;
+  cards: PokemonCard[];
+}

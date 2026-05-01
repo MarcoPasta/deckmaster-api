@@ -1,8 +1,20 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onMounted, ref } from "vue";
+import { useApi } from "../composables/useApi";
+import type { PokemonCard } from "../interfaces/interfaces";
 
+const { get } = useApi();
 const searchQuery = ref("");
 const activeFilter = ref("all");
+
+onMounted(async () => {
+  try {
+    const data = await get<PokemonCard[]>("/pokemon/cards");
+    console.log(data);
+  } catch (e) {
+    console.error("Failed to fetch cards:", e);
+  }
+});
 const filters = ["All", "Creatures", "Spells", "Artifacts", "Lands"];
 
 interface Card {

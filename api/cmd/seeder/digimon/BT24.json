@@ -1,6 +1,6 @@
 [
     {
-        "cardId": "BT24-001",
+        "id": "BT24-001",
         "name": "Gigimon",
         "cardType": "Digi-Egg",
         "color": [
@@ -16,14 +16,14 @@
         "species": [
             "Lesser/LIBERATOR"
         ],
-        "": [
+        "text": [
             "[Inherited Effect]",
             "[Your Turn] [Once Per Turn] When your opponent's security stack is removed from, you may delete 1 of their Digimon with 3000 DP or less."
         ],
         "set": "TIME STRANGER [BT-24]"
     },
     {
-        "cardId": "BT24-002",
+        "id": "BT24-002",
         "name": "Bukamon",
         "cardType": "Digi-Egg",
         "color": [
@@ -39,7 +39,7 @@
         "species": [
             "Lesser/Iliad/TS"
         ],
-        "": [
+        "text": [
             "[Inherited Effect]",
             "[End of Your Turn] [Once Per Turn] By paying 1 cost, this blue Digimon with the [TS] trait unsuspends."
         ],
