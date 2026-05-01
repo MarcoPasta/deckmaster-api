@@ -1,6 +1,7 @@
 echo "Installing Go development dependencies..."
-# go install github.com/pressly/goose/v3/cmd/goose@latest;
-# go install github.com/air-verse/air@latest;
+go install github.com/pressly/goose/v3/cmd/goose@latest;
+go install github.com/air-verse/air@latest;
+go install github.com/chromedp/chromedp@latest;
 echo "Go development dependencies installed successfully."
 echo "Installing Python development dependencies..."
 echo "Adding bash alias"

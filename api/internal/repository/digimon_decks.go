@@ -20,7 +20,7 @@ func CreateDigimonDeck(ctx *gin.Context, deck models.DigimonDecks) (models.Digim
 	return deck, nil
 }
 
-// GetDeckByUserId retrieves all Digimon decks for a given user ID
-func GetDeckByUserId(ctx *gin.Context, userId string) ([]models.DigimonDecks, error) {
+// GetDigimonDeckByUserId retrieves all Digimon decks for a given user ID
+func GetDigimonDeckByUserId(ctx *gin.Context, userId string) ([]models.DigimonDecks, error) {
 	return gorm.G[models.DigimonDecks](DB).Where("user_id = ?", userId).Find(ctx)
 }

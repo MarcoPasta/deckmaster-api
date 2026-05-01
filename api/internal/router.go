@@ -37,8 +37,8 @@ func initRoutes(r *gin.Engine) {
 
 	api := r.Group("/api")
 
-	// Cards
-	CardRoutes := api.Group("/cards")
+	// Digimon Cards
+	CardRoutes := api.Group("/digimon/cards")
 	CardRoutes.GET("", func(ctx *gin.Context) {
 		controller.FindAllDigimonCards(ctx)
 	})
@@ -49,10 +49,28 @@ func initRoutes(r *gin.Engine) {
 		controller.FindDigimonCardsByName(ctx)
 	})
 
-	// Filtered
-	FilteredRoutes := CardRoutes.Group("/filter")
-	FilteredRoutes.GET("/color", func(ctx *gin.Context) {
+	// Digimon Filtered
+	DigimonFilteredRoutes := CardRoutes.Group("/filter")
+	DigimonFilteredRoutes.GET("/color", func(ctx *gin.Context) {
 		controller.FindDigimonCardsByColor(ctx)
+	})
+
+	// Pokemon Cards
+	PokemonCardRoutes := api.Group("/pokemon/cards")
+	PokemonCardRoutes.GET("", func(ctx *gin.Context) {
+		controller.FindAllPokemonCards(ctx)
+	})
+	PokemonCardRoutes.GET("/id/:id", func(ctx *gin.Context) {
+		controller.FindPokemonCardByID(ctx)
+	})
+	PokemonCardRoutes.GET("/name/:name", func(ctx *gin.Context) {
+		controller.FindPokemonCardsByName(ctx)
+	})
+
+	// Pokemon Filtered
+	PokemonFilteredRoutes := PokemonCardRoutes.Group("/filter")
+	PokemonFilteredRoutes.GET("/energy-type", func(ctx *gin.Context) {
+		controller.FindPokemonCardsByEnergyType(ctx)
 	})
 
 	// Authentication routes
@@ -62,16 +80,17 @@ func initRoutes(r *gin.Engine) {
 		protectedRoutes.GET("/user", func(ctx *gin.Context) {
 			controller.GetUserInfo(ctx)
 		})
-		deckRoutes := protectedRoutes.Group("/decks")
+		// Digimon
+		DigimondeckRoutes := protectedRoutes.Group("/digimon/decks")
 		{
-			deckRoutes.GET("/user", func(ctx *gin.Context) {
-				controller.GetDeckByUserId(ctx)
+			DigimondeckRoutes.GET("/user", func(ctx *gin.Context) {
+				controller.GetDigimonDeckByUserId(ctx)
 			})
-			deckRoutes.POST("/create", func(ctx *gin.Context) {
+			DigimondeckRoutes.POST("/create", func(ctx *gin.Context) {
 				controller.CreateDigimonDeck(ctx)
 			})
-
 		}
+		PokemonDeckRoutes := protectedRoutes.Group("/pokemon/decks")
 
 	}
 

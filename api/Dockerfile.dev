@@ -1,4 +1,4 @@
-FROM golang:1.25-bookworm
+FROM golang:1.26.2-trixie
 
 # Install common development tools and a shell
 RUN apt-get update \
@@ -7,8 +7,15 @@ RUN apt-get update \
        curl \
        git \
        bash \
+       chromium \
        build-essential \
     && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js 24
+ENV NODE_VERSION=24.0.0
+RUN ARCH=$(dpkg --print-architecture) \
+    && curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${ARCH}.tar.xz \
+       | tar -xJ -C /usr/local --strip-components=1
 
 # Create a non-root developer user with UID 1000
 ARG USER=dev

@@ -3,14 +3,19 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"math/rand"
+	"net/http"
 	"os"
 	"strconv"
+	"strings"
+	"time"
 
-	"github.com/gocolly/colly/v2"
+	"github.com/chromedp/chromedp"
 )
 
 type Card struct {
@@ -39,16 +44,8 @@ type Set struct {
 	Set      string `json:"set"`
 	Uri      string `json:"uri"`
 	Category string `json:"category"`
+	Amount   int    `json:"amount"`
 }
-
-// // Take string value and parse it to int8 value
-// func toInt8(s string) int8 {
-// 	parsed, err := strconv.ParseInt(s, 10, 8)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-// 	return int8(parsed)
-// }
 
 // Take string value and parse it to int16 value
 func toInt16(s string) int16 {
@@ -59,107 +56,113 @@ func toInt16(s string) int16 {
 	return int16(parsed)
 }
 
-// // normalizeSpaces trims and replaces any whitespace run with a single space.
-// func normalizeSpaces(s string) string {
-// 	var reSpaces = regexp.MustCompile(`\s+`)
-// 	return strings.TrimSpace(reSpaces.ReplaceAllString(s, " "))
-// }
+// scrapeCard uses chromedp to extract card data from the rendered DOM
+func scrapeCard(ctx context.Context, browserCtx context.Context) (Card, error) {
+	var card Card
 
-// // preserves bracket-only headers (e.g. "[Effect]") as items
-// // and joins subsequent non-header lines into one paragraph.
-// func cleanGrouped(lines []string) []string {
-// 	var reHeader = regexp.MustCompile(`^\[[^\]]+\]$`)
+	var name, phase, hpRaw, energyType, cardNumber string
+	var weaknessTitle, resistanceTitle string
+	var retreatCount int
+	var attacks []Attack
 
-// 	out := make([]string, 0, len(lines))
-// 	var buf string
-// 	flushBuf := func() {
-// 		if buf != "" {
-// 			out = append(out, buf)
-// 			buf = ""
-// 		}
-// 	}
+	// use Evaluate with optional chaining so missing elements (e.g. Trainer cards) don't error out
+	err := chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelector(".color-block h1")?.textContent?.trim() || ""`, &name),
+		chromedp.Evaluate(`document.querySelector(".card-type h2")?.textContent?.trim() || ""`, &phase),
+		chromedp.Evaluate(`document.querySelector(".card-hp")?.textContent?.trim() || ""`, &hpRaw),
+		chromedp.Evaluate(`document.querySelector(".card-basic-info .energy")?.getAttribute("title") || ""`, &energyType),
+		chromedp.Evaluate(`document.querySelector(".stats-footer span")?.textContent?.trim() || ""`, &cardNumber),
+	)
+	if err != nil {
+		return card, fmt.Errorf("scraping basic info: %w", err)
+	}
 
-// 	for _, l := range lines {
-// 		t := normalizeSpaces(l)
-// 		if t == "" {
-// 			continue
-// 		}
-// 		if reHeader.MatchString(t) {
-// 			flushBuf()
-// 			out = append(out, t) // header on its own line
-// 			continue
-// 		}
-// 		if buf == "" {
-// 			buf = t
-// 		} else {
-// 			buf += " " + t
-// 		}
-// 	}
-// 	flushBuf()
-// 	return out
-// }
+	card.Name = strings.TrimSpace(name)
+	card.Phase = strings.TrimSpace(phase)
+	card.EnergyType = strings.TrimSpace(energyType)
+	card.CardNumber = strings.TrimSpace(cardNumber)
 
-// // if values are given that are camel cased, it searches for those values and splits them with a seperator
-// func splitByCapital(s string, sep string) string {
-// 	var result strings.Builder
-// 	var prev rune
-// 	for i, curr := range s {
-// 		if i > 0 && curr >= 'A' && curr <= 'Z' && prev != ' ' {
-// 			result.WriteString(sep)
-// 		}
-// 		result.WriteRune(curr)
-// 		prev = curr
-// 	}
-// 	return result.String()
-// }
+	if strings.Contains(card.Phase, "Pokémon") || strings.Contains(card.Phase, "Mega-Entwicklungs-ex") {
+		card.CardType = "Pokemon"
+	} else if strings.Contains(card.Phase, "Item") || strings.Contains(card.Phase, "Unterstützer") || strings.Contains(card.Phase, "Stadion") || strings.Contains(card.Phase, "Ausrüstung") {
+		card.CardType = "Trainer"
+		card.Phase = "" // phase is not relevant for Trainer cards, so clear it out
+	}
 
-// // searches through each css identifier containing the information for the digivolve cost. If multiple identifiers are found,
-// // it loops through each and creates a new string inside
-// func groupDvCosts(cost string) []string {
-// 	var out []string
-// 	split := strings.Split(cost, "\n")
-// 	for _, s := range split {
-// 		normalized := normalizeSpaces(s)
-// 		transformed := splitByCapital(normalized, "/")
-// 		out = append(out, transformed)
-// 	}
-// 	return out
-// }
+	// parse HP: strip "KP" prefix
+	hpStr := strings.TrimSpace(strings.TrimPrefix(strings.TrimSpace(hpRaw), "KP"))
+	if hpStr != "" {
+		card.Kp = toInt16(hpStr)
+	}
 
-func onHTMLScrape(e *colly.HTMLElement) Card {
-	card := Card{}
-	// card.Id = e.ChildText(".cardNo")
-	card.Name = e.ChildText(".color-block")
-	card.Kp = toInt16(e.ChildText(".card-hp"))
-	card.Phase = e.ChildText(".card-type")
-	card.EnergyType = e.ChildAttr(".energy", "title")
+	// weakness: get title from first li in the first .stat block
+	chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelector(".pokemon-stats .stat:first-child .card-energies li")?.getAttribute("title") || ""`, &weaknessTitle),
+	)
+	card.Weakness = strings.TrimSpace(weaknessTitle)
 
-	// e.ForEach(".cardInfoBox", func(i int, h *colly.HTMLElement) {
+	// resistance: get title from li in the second .stat block
+	chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelector(".pokemon-stats .stat:nth-child(2) .card-energies li")?.getAttribute("title") || ""`, &resistanceTitle),
+	)
+	card.Resistance = strings.TrimSpace(resistanceTitle)
 
-	// 	switch h.ChildText(".cardInfoTit") {
-	// 	case "Color":
-	// 		card.Color = strings.Fields(h.ChildText(".cardInfoData"))
-	// 	case "Cost":
-	// 		card.Cost = toInt8(h.ChildText(".cardInfoData"))
-	// 	case "DP":
-	// 		card.Dp = toInt16(h.ChildText(".cardInfoData"))
-	// 	case "Form":
-	// 		card.Form = h.ChildText(".cardInfoData")
-	// 	case "Attribute":
-	// 		card.Attribute = h.ChildText(".cardInfoData")
-	// 	case "Type":
-	// 		// we have to case for "Type" here as it is the used keyword in the html
-	// 		card.Species = strings.Fields(h.ChildText(".cardInfoData"))
-	// 	case "Notes":
-	// 		// same goes for Set, the html keyword used here is "Notes"
-	// 		card.Set = strings.Join(strings.Fields(h.ChildText(".cardInfoData"))[1:4], " ")
-	// 	}
-	// })
-	// card.DvCost = groupDvCosts(e.ChildText(".cardInfoData.cardColor.cardColorCost"))
-	// card.Text = cleanGrouped(strings.Split(e.ChildText(".cardInfoBoxSmall"), "\n"))
-	// return card
-	fmt.Println("CARD DETAILS: ", card)
-	return Card{}
+	// retreat cost = count of li elements inside .stat.last .card-energies
+	chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelectorAll(".pokemon-stats .stat.last .card-energies li").length`, &retreatCount),
+	)
+	card.RetreatCost = int8(retreatCount)
+
+	// set name from stats-footer
+	var setName string
+	chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelector(".stats-footer h3 a")?.textContent?.trim() || ""`, &setName),
+	)
+	card.Set = strings.TrimSpace(setName)
+
+	// attacks: extract each .ability block
+	var attackCount int
+	chromedp.Run(ctx,
+		chromedp.Evaluate(`document.querySelectorAll(".pokemon-abilities .ability").length`, &attackCount),
+	)
+
+	for i := range attackCount {
+		var atk Attack
+		prefix := fmt.Sprintf(".pokemon-abilities .ability:nth-child(%d)", i+1)
+
+		var atkName, atkDamage, atkEffect string
+		chromedp.Run(ctx,
+			chromedp.Evaluate(fmt.Sprintf(
+				`document.querySelector("%s h4.label")?.textContent?.trim() || ""`, prefix), &atkName),
+		)
+		chromedp.Run(ctx,
+			chromedp.Evaluate(fmt.Sprintf(
+				`document.querySelector("%s span.right.plus")?.textContent?.trim() || ""`, prefix), &atkDamage),
+		)
+		chromedp.Run(ctx,
+			chromedp.Evaluate(fmt.Sprintf(
+				`document.querySelector("%s pre")?.textContent?.trim() || ""`, prefix), &atkEffect),
+		)
+
+		// attack cost: get title attrs from each li in the attack's ul
+		var costTitles []string
+		chromedp.Run(ctx,
+			chromedp.Evaluate(fmt.Sprintf(
+				`Array.from(document.querySelectorAll("%s ul.left li")).map(li => li.getAttribute("title") || "")`,
+				prefix,
+			), &costTitles),
+		)
+
+		atk.Name = strings.TrimSpace(atkName)
+		atk.Damage = strings.TrimSpace(atkDamage)
+		atk.Effect = strings.TrimSpace(atkEffect)
+		atk.Cost = costTitles
+		attacks = append(attacks, atk)
+	}
+	card.Attacks = attacks
+
+	fmt.Printf("CARD DETAILS: %+v\n", card)
+	return card, nil
 }
 
 func checkPathExist(path string) {
@@ -178,61 +181,109 @@ func checkPathExist(path string) {
 	}
 }
 
-// func scrapeImage(url string, set string, cards []Card) {
-// 	path := os.Getenv("DIGIMON_IMAGES_DIR") + set + "/"
+// downloadImage downloads an image from the given URL and saves it to the set directory.
+// The file is named after the set with the card index.
+func downloadImage(imgUrl string, set string, index int) error {
+	path := os.Getenv("POKEMON_IMAGES_DIR") + set + "/"
+	checkPathExist(path)
 
-// 	println("Start scraping images")
-// 	for _, card := range cards {
-// 		imgUrl := url + card.Id + ".png"
-// 		response, err := http.Get(imgUrl)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		defer response.Body.Close()
-// 		checkPathExist(path)
-// 		file, err := os.Create(path + card.Id + ".png")
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		defer file.Close()
-// 		_, err = io.Copy(file, response.Body)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		fmt.Printf("Saved image %v successfully!\n", card.Id)
+	fileName := set + "_" + strconv.Itoa(index)
+
+	response, err := http.Get(imgUrl)
+	if err != nil {
+		return fmt.Errorf("failed to fetch image: %w", err)
+	}
+	defer response.Body.Close()
+
+	if response.StatusCode != http.StatusOK {
+		return fmt.Errorf("got status %d for %s", response.StatusCode, imgUrl)
+	}
+
+	filePath := path + fileName + ".png"
+	file, err := os.Create(filePath)
+	if err != nil {
+		return fmt.Errorf("failed to create file: %w", err)
+	}
+	defer file.Close()
+
+	_, err = io.Copy(file, response.Body)
+	if err != nil {
+		return fmt.Errorf("failed to write image: %w", err)
+	}
+
+	fmt.Printf("Saved image %v successfully!\n", fileName)
+	return nil
+}
+
+// user agents to rotate through on each browser restart
+var userAgents = []string{
+	"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+	"Mozilla/5.0 (Macintosh; Intel Mac OS X 14.5; rv:126.0) Gecko/20100101 Firefox/126.0",
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+}
+
+var uaIndex int
+
+/* Random Strings to supplement User Agent creation*/
+// func RandomString() string {
+// 	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// 	b := make([]byte, rand.Intn(10)+10)
+// 	for i := range b {
+// 		b[i] = letterBytes[rand.Intn(len(letterBytes))]
 // 	}
-
+// 	return string(b)
 // }
 
-// used to change user agent after each scrape to avoid being blocked by the server
-func RandomString() string {
-	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	b := make([]byte, rand.Intn(10)+10)
-	for i := range b {
-		b[i] = letterBytes[rand.Intn(len(letterBytes))]
+// newBrowserContext creates a chromedp context with anti-detection flags
+func newBrowserContext() (context.Context, context.CancelFunc) {
+	ua := userAgents[uaIndex%len(userAgents)]
+	uaIndex++
+
+	opts := append(chromedp.DefaultExecAllocatorOptions[:],
+		chromedp.ExecPath("/usr/bin/chromium"),
+		chromedp.Flag("headless", "new"),
+		chromedp.Flag("no-sandbox", true),
+		chromedp.Flag("disable-gpu", true),
+		chromedp.Flag("disable-blink-features", "AutomationControlled"),
+		chromedp.UserAgent(ua),
+	)
+
+	allocCtx, allocCancel := chromedp.NewExecAllocator(context.Background(), opts...)
+	ctx, ctxCancel := chromedp.NewContext(allocCtx)
+
+	cancel := func() {
+		ctxCancel()
+		allocCancel()
 	}
-	return string(b)
+	fmt.Printf("Using User-Agent: %s\n", ua)
+	return ctx, cancel
 }
 
 func main() {
+	// CLI usage: go run scraper.go [cards|images]
+	mode := "cards"
+	if len(os.Args) > 1 {
+		mode = os.Args[1]
+	}
+	if mode != "cards" && mode != "images" {
+		log.Fatalf("Usage: %s [cards|images]", os.Args[0])
+	}
+	fmt.Printf("Running in mode: %s\n", mode)
 
-	// collector object
-	collector := colly.NewCollector()
-
-	baseUrl := "https://www.pokemon.com/de/pokemon-sammelkartenspiel/pokemon-karten/series"
-	// imgUrl := "https://world.digimoncard.com/images/cardlist/card/"
+	baseUrlDE := "https://www.pokemon.com/de/pokemon-sammelkartenspiel/pokemon-karten/series/"
+	// baseUrlEN := "https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/series/"
+	imgURLDE := "https://assets.pokemon.com/static-assets/content-assets/cms2-de-de/img/cards/web/"
 
 	/* scraping details:
 	url: https://www.pokemon.com/de/pokemon-sammelkartenspiel/pokemon-karten/series/EX0?/Y/ --> Extension & Number followed by the card number, Example: /me02/1/
 	Each set or starter/advanced deck contains a category which indicates the cards being placed inside
-	example: the new st-22 has the category 522122, while st-21 has category 522121 and st-20 has category 5122120.
-	Opening a card results in adding a "#card-X" value to the categorie.
-	All informations relevant to a card is inside a <div> which has the class "cardInfoCol"
 	*/
 
-	var scrapedCards []Card
-
-	// category json object
+	// inject the set to be scraped from a collection
 	var sets []Set
 	data, err := os.ReadFile("./collection.json")
 	if err != nil {
@@ -243,54 +294,110 @@ func main() {
 		log.Fatal(err)
 	}
 
-	var currSet *string
+	// check path before writing to insure path and env exists before scraping cards for a loooong time
+	writePath := os.Getenv("POKEMON_SCRAPER_DIR")
+	checkPathExist(writePath)
 
-	// notify when sending the request
-	collector.OnRequest(func(r *colly.Request) {
-		fmt.Println("Start scraping...\n", *currSet)
-	})
-
-	// define the scraping logic
-	collector.OnHTML(".cardDetailColInner", func(e *colly.HTMLElement) {
-		scrapedCards = append(scrapedCards, onHTMLScrape(e))
-	})
-
-	collector.OnScraped(func(r *colly.Response) {
-
-		r.Headers.Set("User-Agent", RandomString())
-		fmt.Printf("Scraping set %v finished, writing data...\n", *currSet)
-		fmt.Println("Changing User-Agent...")
-
-		jsonBytes, err := json.Marshal(scrapedCards)
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		writePath := os.Getenv("POKEMON_JSON_DIR")
-		checkPathExist(writePath) // ensure path exists, if not create it
-		file, err := os.Create(writePath + *currSet + ".json")
-		if err != nil {
-			log.Fatal(err)
-		}
-		file.Write(jsonBytes)
-		defer file.Close()
-
-		// scrapeImage(imgUrl, *currSet, scrapedCards)
-
-		println("finished scraping: ", *currSet)
-		println("Clearing Array....")
-		scrapedCards = nil
-	})
-
+	// create a single browser context -- first one started inside the loop
 	for _, set := range sets {
-		currUrl := baseUrl + set.Uri
-		currSet = &set.Set
+		var scrapedCards []Card
 
-		// visit page & start scraping
-		collector.Visit(currUrl)
+		// browser restart interval to prevent resource exhaustion and rotate user agent /////
+		const restartEvery = 30
+		var browserCtx context.Context
+		var browserCancel context.CancelFunc
+		//////////////////////////////////////////////////////////////////////////////////////////
 
+		for i := 1; i <= set.Amount; i++ {
+			fmt.Printf("##### CARD %v/%v #####\n", i, set.Amount)
+
+			// add a random delay between requests (1-3s) to avoid rate limiting
+			if i > 1 {
+				delay := time.Duration(1000+rand.Intn(2000)) * time.Millisecond
+				time.Sleep(delay)
+			}
+			////////////////////////////////////////////////////////////////////////
+
+			switch mode {
+			case "cards":
+				// start or restart browser every N cards
+				if browserCtx == nil || ((i-1)%restartEvery == 0 && i > 1) {
+					if browserCancel != nil {
+						browserCancel()
+					}
+					browserCtx, browserCancel = newBrowserContext()
+					fmt.Printf("Browser (re)started at card %d\n", i)
+				}
+
+				// define the curling url
+				currUrl := baseUrlDE + set.Uri + fmt.Sprintf("%d/", i)
+				fmt.Printf("Visiting url: %v\n", currUrl)
+				fmt.Printf("Start scraping set: %v\n", set.Set)
+
+				// create a new tab for each card to avoid context cancellation issues
+				tabCtx, tabCancel := chromedp.NewContext(browserCtx)
+				timeoutCtx, timeoutCancel := context.WithTimeout(tabCtx, 20*time.Second)
+
+				// navigate and wait for the card content to render
+				err := chromedp.Run(timeoutCtx,
+					chromedp.Navigate(currUrl),
+					chromedp.WaitVisible(".card-detail", chromedp.ByQuery),
+				)
+				if err != nil {
+					timeoutCancel()
+					tabCancel()
+					fmt.Printf("Failed to load page for set %v card %d: %v\n", set.Set, i, context.Cause(timeoutCtx))
+					continue
+				}
+
+				card, err := scrapeCard(timeoutCtx, browserCtx)
+				timeoutCancel()
+				tabCancel()
+				if err != nil {
+					fmt.Printf("Failed to scrape card for set %v card %d: %v\n", set.Set, i, err)
+					continue
+				}
+				scrapedCards = append(scrapedCards, card)
+
+			case "images":
+				// directly download the image file via URL
+				upperCaseUri := strings.ToUpper(set.Uri)
+				curlImgUrl := imgURLDE + upperCaseUri + strings.Trim(upperCaseUri, "/") + "_DE_" + fmt.Sprintf("%d", i) + ".png"
+				fmt.Printf("Downloading image: %v\n", curlImgUrl)
+
+				err := downloadImage(curlImgUrl, set.Set, i)
+				if err != nil {
+					fmt.Printf("Failed to download image for set %v card %d: %v\n", set.Set, i, err)
+					continue
+				}
+			}
+		}
+
+		if browserCancel != nil {
+			browserCancel()
+			browserCtx = nil
+			browserCancel = nil
+		}
+
+		if mode == "cards" {
+			// write scraped data to JSON
+			fmt.Printf("Scraping set %v finished, writing data...\n", set.Set)
+			jsonBytes, err := json.Marshal(scrapedCards)
+			if err != nil {
+				log.Fatal(err)
+			}
+
+			// writing files after scraping
+			file, err := os.Create(writePath + set.Set + ".json")
+			if err != nil {
+				log.Fatal(err)
+			}
+			file.Write(jsonBytes)
+			file.Close()
+		}
+
+		fmt.Printf("Finished scraping: %v\n", set.Set)
 	}
 
 	println("done!")
-
 }

@@ -62,7 +62,7 @@ services:
     volumes:
       - postgres_test:/var/lib/postgresql/data
     ports:
-      - "5431:15432"
+      - "15432:5432"
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "postgres"]
       interval: 10s

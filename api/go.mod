@@ -1,6 +1,6 @@
 module github.com/MarcoPasta/deckmaster/api
 
-go 1.25.0
+go 1.26.2
 
 require (
 	github.com/clerk/clerk-sdk-go/v2 v2.5.1
