@@ -7,48 +7,64 @@ const { get } = useApi();
 const searchQuery = ref("");
 const activeFilter = ref("all");
 
+const allCards = ref<PokemonCard[]>([]);
+const chosenCards = ref<PokemonCard[]>([]);
+
 onMounted(async () => {
   try {
-    const data = await get<PokemonCard[]>("/pokemon/cards");
-    console.log(data);
+    const data = await get<{ content: PokemonCard[] }>("/pokemon/cards");
+    allCards.value = data.content;
   } catch (e) {
     console.error("Failed to fetch cards:", e);
   }
 });
-const filters = ["All", "Creatures", "Spells", "Artifacts", "Lands"];
 
-interface Card {
-  id: number;
-  name: string;
-  type: string;
+const filters = ["All", "Pokémon", "Trainer", "Energy"];
+
+function getCardImage(card: PokemonCard): string {
+  if (!card.CardNumber || !card.Code) return "";
+  const number = card.CardNumber.split("/")[0];
+  return `/assets/cards/de/${card.Code}/${card.Code}_${number}.png`;
 }
 
-const allCards: Card[] = Array.from({ length: 24 }, (_, i) => ({
-  id: i + 1,
-  name: `Card ${i + 1}`,
-  type: ["creatures", "spells", "artifacts", "lands"][i % 4],
-}));
-
-const chosenCards = ref<Card[]>([]);
-
 const filteredCards = computed(() => {
-  return allCards.filter((card) => {
-    const matchesSearch = card.name
+  return allCards.value.filter((card) => {
+    const matchesSearch = (card.Name ?? "")
       .toLowerCase()
       .includes(searchQuery.value.toLowerCase());
     const matchesFilter =
-      activeFilter.value === "all" || card.type === activeFilter.value;
+      activeFilter.value === "all" ||
+      (card.CardType ?? "").toLowerCase() === activeFilter.value.toLowerCase();
     return matchesSearch && matchesFilter;
   });
 });
 
-function addCard(card: Card) {
-  chosenCards.value.push({ ...card, id: Date.now() + Math.random() });
+function addCard(card: PokemonCard) {
+  chosenCards.value.push(card);
 }
 
-function removeCard(index: number) {
-  chosenCards.value.splice(index, 1);
+function removeCard(cardId: number) {
+  const idx = chosenCards.value.findIndex((c) => c.ID === cardId);
+  if (idx !== -1) chosenCards.value.splice(idx, 1);
 }
+
+interface CardGroup {
+  card: PokemonCard;
+  count: number;
+}
+
+const groupedChosenCards = computed<CardGroup[]>(() => {
+  const map = new Map<number, CardGroup>();
+  for (const card of chosenCards.value) {
+    const existing = map.get(card.ID);
+    if (existing) {
+      existing.count++;
+    } else {
+      map.set(card.ID, { card, count: 1 });
+    }
+  }
+  return [...map.values()];
+});
 </script>
 
 <template>
@@ -90,13 +106,11 @@ function removeCard(index: number) {
       <div class="card-grid">
         <div
           v-for="card in filteredCards"
-          :key="card.id"
+          :key="card.ID"
           class="card-slot"
           @click="addCard(card)"
         >
-          <div class="card-placeholder">
-            <span class="card-label">{{ card.name }}</span>
-          </div>
+          <img :src="getCardImage(card)" :alt="card.Name" class="card-image" />
         </div>
       </div>
     </div>
@@ -107,16 +121,29 @@ function removeCard(index: number) {
         <span class="panel-title">Deck ({{ chosenCards.length }})</span>
       </div>
 
-      <div class="card-grid">
+      <div class="deck-grid">
         <div
-          v-for="(card, index) in chosenCards"
-          :key="card.id"
-          class="card-slot"
-          @click="removeCard(index)"
+          v-for="group in groupedChosenCards"
+          :key="group.card.ID"
+          class="card-stack"
+          @click="removeCard(group.card.ID)"
         >
-          <div class="card-placeholder card-chosen">
-            <span class="card-label">{{ card.name }}</span>
-          </div>
+          <img
+            v-for="n in group.count"
+            :key="n"
+            :src="getCardImage(group.card)"
+            :alt="group.card.Name"
+            class="card-image card-chosen"
+            :style="{
+              position: 'absolute',
+              top: `${(n - 1) * 10}px`,
+              left: `${(n - 1) * 10}px`,
+              zIndex: n,
+            }"
+          />
+          <span v-if="group.count > 1" class="card-count">{{
+            group.count
+          }}</span>
         </div>
       </div>
 
@@ -184,7 +211,7 @@ function removeCard(index: number) {
 .card-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   grid-auto-rows: min-content;
   gap: 10px;
   overflow-y: auto;
@@ -196,39 +223,59 @@ function removeCard(index: number) {
   cursor: pointer;
 }
 
-.card-placeholder {
+.card-image {
   width: 100%;
   height: 100%;
-  border: 2px dashed var(--border);
+  object-fit: cover;
   border-radius: 10px;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.card-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-stack .card-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.deck-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-auto-rows: min-content;
+  gap: 40px 40px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.card-stack {
+  position: relative;
+  aspect-ratio: 5 / 7;
+  cursor: pointer;
+}
+
+.card-count {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background: var(--accent-border, #7c4dff);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:
-    border-color 0.2s,
-    background 0.2s;
-}
-
-.card-placeholder:hover {
-  border-color: var(--accent-border);
-  background: var(--accent-bg);
-}
-
-.card-chosen {
-  border-style: solid;
-  border-color: var(--accent-border);
-  background: var(--accent-bg);
-}
-
-.card-chosen:hover {
-  border-color: #e53935;
-  background: rgba(229, 57, 53, 0.1);
-}
-
-.card-label {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text);
+  z-index: 100;
+  padding: 0 6px;
 }
 
 .empty-state {

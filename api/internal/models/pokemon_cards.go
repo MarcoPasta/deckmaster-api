@@ -18,6 +18,7 @@ type PokemonCard struct {
 	RetreatCost int8
 	CardNumber  string
 	Set         string
+	Code        string
 }
 
 type Attack struct {

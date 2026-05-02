@@ -51,6 +51,8 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - shared
 
   test-db:
     image: postgres:15-alpine
@@ -68,7 +70,13 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - shared
 
 volumes:
   postgres_data:
   postgres_test:
+
+networks:
+  shared:
+    name: mirage-platform

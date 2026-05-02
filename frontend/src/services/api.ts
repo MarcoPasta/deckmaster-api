@@ -14,7 +14,7 @@ async function request<T>(
   token?: string | null,
   options: RequestOptions = {},
 ): Promise<T> {
-  const url = new URL(path, BASE_URL);
+  const url = new URL(BASE_URL + path);
 
   if (options.params) {
     for (const [key, value] of Object.entries(options.params)) {
