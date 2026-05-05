@@ -90,7 +90,15 @@ func initRoutes(r *gin.Engine) {
 				controller.CreateDigimonDeck(ctx)
 			})
 		}
-		// PokemonDeckRoutes := protectedRoutes.Group("/pokemon/decks")
+		PokemondeckRoutes := protectedRoutes.Group("/pokemon/decks")
+		{
+			PokemondeckRoutes.GET("/user", func(ctx *gin.Context) {
+				controller.GetPokemonDecksByUserId(ctx)
+			})
+			PokemondeckRoutes.POST("/create", func(ctx *gin.Context) {
+				controller.CreatePokemonDeck(ctx)
+			})
+		}
 
 	}
 

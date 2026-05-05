@@ -12,7 +12,7 @@ import (
 
 func CreateDigimonDeck(ctx *gin.Context) {
 
-	body := utils.CreateDeckRequest{}
+	body := utils.CreateDigimonDeckRequest{}
 	err := ctx.ShouldBindBodyWithJSON(&body)
 	if err != nil {
 		ctx.JSON(http.StatusBadRequest, gin.H{"error": "Invalid request body blabla"})

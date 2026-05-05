@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#FDFBF5"/>
+  
+  <!-- Large blue triangle top-left -->
+  <g transform="translate(30,30) rotate(-15,25,25)">
+    <path d="M10,45 Q5,20 25,5 Q45,5 45,30 Q40,50 20,50 Q10,50 10,45Z" fill="#1BA8D5"/>
+    <path d="M18,38 Q15,25 25,15 Q35,15 35,28 Q33,40 23,40 Q18,40 18,38Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small red triangle top area -->
+  <g transform="translate(90,15) rotate(20,12,12)">
+    <path d="M5,20 Q3,10 12,4 Q21,4 21,14 Q19,22 10,22 Q5,22 5,20Z" fill="#E86B5A"/>
+    <path d="M8,17 Q7,12 12,8 Q17,8 17,13 Q16,18 11,18 Q8,18 8,17Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Medium blue triangle top-center -->
+  <g transform="translate(160,40) rotate(-30,20,20)">
+    <path d="M8,35 Q4,15 20,5 Q36,5 36,22 Q32,38 16,38 Q8,38 8,35Z" fill="#1BA8D5"/>
+    <path d="M14,28 Q12,18 20,12 Q28,12 28,20 Q26,30 18,30 Q14,30 14,28Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Large red triangle top-right -->
+  <g transform="translate(280,20) rotate(10,28,28)">
+    <path d="M10,50 Q5,22 28,5 Q50,8 48,32 Q44,52 22,52 Q10,52 10,50Z" fill="#E86B5A"/>
+    <path d="M18,40 Q15,26 28,16 Q40,18 38,30 Q35,42 24,42 Q18,42 18,40Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small blue dot top-right -->
+  <g transform="translate(370,50) rotate(-45,8,8)">
+    <path d="M3,14 Q2,6 8,3 Q14,3 14,9 Q13,15 7,15 Q3,15 3,14Z" fill="#1BA8D5"/>
+    <path d="M5,11 Q5,7 8,6 Q11,6 11,9 Q10,12 7,12 Q5,12 5,11Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Medium red triangle right side -->
+  <g transform="translate(420,30) rotate(35,18,18)">
+    <path d="M6,30 Q3,12 18,4 Q33,6 32,20 Q28,34 14,34 Q6,34 6,30Z" fill="#E86B5A"/>
+    <path d="M12,24 Q10,15 18,10 Q26,11 25,18 Q22,26 15,26 Q12,26 12,24Z" fill="#FDFBF5"/>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(50,110) rotate(25,22,22)">
+    <path d="M8,38 Q4,16 22,5 Q40,6 38,25 Q34,42 17,42 Q8,42 8,38Z" fill="#E86B5A"/>
+    <path d="M15,30 Q13,20 22,13 Q32,14 30,23 Q27,33 18,33 Q15,33 15,30Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(140,130) rotate(-20,15,15)">
+    <path d="M5,26 Q3,10 15,4 Q27,5 26,17 Q23,28 12,28 Q5,28 5,26Z" fill="#1BA8D5"/>
+    <path d="M9,20 Q8,13 15,9 Q22,10 21,16 Q19,22 13,22 Q9,22 9,20Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small red dot -->
+  <g transform="translate(230,120) rotate(60,6,6)">
+    <path d="M2,10 Q1,4 6,2 Q11,2 11,7 Q10,11 5,11 Q2,11 2,10Z" fill="#E86B5A"/>
+    <path d="M4,8 Q3,5 6,4 Q9,4 9,6 Q8,9 5,9 Q4,9 4,8Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(290,100) rotate(-5,20,20)">
+    <path d="M7,34 Q4,14 20,5 Q36,6 35,22 Q31,38 15,38 Q7,38 7,34Z" fill="#1BA8D5"/>
+    <path d="M13,27 Q11,17 20,11 Q29,12 28,20 Q25,30 16,30 Q13,30 13,27Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(380,120) rotate(40,18,18)">
+    <path d="M6,30 Q3,12 18,4 Q33,6 32,20 Q28,34 14,34 Q6,34 6,30Z" fill="#E86B5A"/>
+    <path d="M12,24 Q10,15 18,10 Q26,11 25,18 Q22,26 15,26 Q12,26 12,24Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(460,100) rotate(-25,12,12)">
+    <path d="M4,20 Q2,8 12,3 Q22,4 21,14 Q18,22 9,22 Q4,22 4,20Z" fill="#1BA8D5"/>
+    <path d="M7,16 Q6,10 12,7 Q18,8 17,13 Q15,18 10,18 Q7,18 7,16Z" fill="#FDFBF5"/>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(20,200) rotate(-10,18,18)">
+    <path d="M6,30 Q3,12 18,4 Q33,6 32,20 Q28,34 14,34 Q6,34 6,30Z" fill="#1BA8D5"/>
+    <path d="M12,24 Q10,15 18,10 Q26,11 25,18 Q22,26 15,26 Q12,26 12,24Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(100,220) rotate(30,14,14)">
+    <path d="M5,24 Q3,10 14,4 Q25,5 24,16 Q21,26 11,26 Q5,26 5,24Z" fill="#E86B5A"/>
+    <path d="M8,19 Q7,12 14,8 Q21,9 20,15 Q18,21 12,21 Q8,21 8,19Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(190,210) rotate(-40,10,10)">
+    <path d="M3,17 Q2,7 10,3 Q18,3 17,11 Q15,18 8,18 Q3,18 3,17Z" fill="#1BA8D5"/>
+    <path d="M6,13 Q5,8 10,6 Q15,6 14,10 Q13,14 8,14 Q6,14 6,13Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(260,230) rotate(15,22,22)">
+    <path d="M8,38 Q4,16 22,5 Q40,6 38,25 Q34,42 17,42 Q8,42 8,38Z" fill="#E86B5A"/>
+    <path d="M15,30 Q13,20 22,13 Q32,14 30,23 Q27,33 18,33 Q15,33 15,30Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(360,210) rotate(-55,16,16)">
+    <path d="M5,28 Q3,11 16,4 Q29,5 28,17 Q25,30 12,30 Q5,30 5,28Z" fill="#1BA8D5"/>
+    <path d="M10,22 Q8,14 16,9 Q24,10 23,16 Q21,24 13,24 Q10,24 10,22Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(440,230) rotate(20,12,12)">
+    <path d="M4,20 Q2,8 12,3 Q22,4 21,14 Q18,22 9,22 Q4,22 4,20Z" fill="#E86B5A"/>
+    <path d="M7,16 Q6,10 12,7 Q18,8 17,13 Q15,18 10,18 Q7,18 7,16Z" fill="#FDFBF5"/>
+  </g>
+
+  <!-- Row 4 -->
+  <g transform="translate(60,310) rotate(45,16,16)">
+    <path d="M5,28 Q3,11 16,4 Q29,5 28,17 Q25,30 12,30 Q5,30 5,28Z" fill="#1BA8D5"/>
+    <path d="M10,22 Q8,14 16,9 Q24,10 23,16 Q21,24 13,24 Q10,24 10,22Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(150,320) rotate(-35,20,20)">
+    <path d="M7,34 Q4,14 20,5 Q36,6 35,22 Q31,38 15,38 Q7,38 7,34Z" fill="#E86B5A"/>
+    <path d="M13,27 Q11,17 20,11 Q29,12 28,20 Q25,30 16,30 Q13,30 13,27Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small blue dot -->
+  <g transform="translate(240,305) rotate(10,7,7)">
+    <path d="M2,12 Q1,5 7,2 Q13,2 12,8 Q11,13 6,13 Q2,13 2,12Z" fill="#1BA8D5"/>
+    <path d="M4,9 Q4,6 7,5 Q10,5 9,7 Q9,10 6,10 Q4,10 4,9Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(300,330) rotate(-20,18,18)">
+    <path d="M6,30 Q3,12 18,4 Q33,6 32,20 Q28,34 14,34 Q6,34 6,30Z" fill="#1BA8D5"/>
+    <path d="M12,24 Q10,15 18,10 Q26,11 25,18 Q22,26 15,26 Q12,26 12,24Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(390,310) rotate(50,14,14)">
+    <path d="M5,24 Q3,10 14,4 Q25,5 24,16 Q21,26 11,26 Q5,26 5,24Z" fill="#E86B5A"/>
+    <path d="M8,19 Q7,12 14,8 Q21,9 20,15 Q18,21 12,21 Q8,21 8,19Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small red dot -->
+  <g transform="translate(470,340) rotate(-15,6,6)">
+    <path d="M2,10 Q1,4 6,2 Q11,2 11,7 Q10,11 5,11 Q2,11 2,10Z" fill="#E86B5A"/>
+    <path d="M4,8 Q3,5 6,4 Q9,4 9,6 Q8,9 5,9 Q4,9 4,8Z" fill="#FDFBF5"/>
+  </g>
+
+  <!-- Row 5 -->
+  <g transform="translate(10,400) rotate(5,24,24)">
+    <path d="M8,42 Q4,18 24,5 Q44,7 42,28 Q38,46 19,46 Q8,46 8,42Z" fill="#E86B5A"/>
+    <path d="M16,34 Q13,22 24,13 Q35,15 33,26 Q30,37 20,37 Q16,37 16,34Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(120,420) rotate(-30,12,12)">
+    <path d="M4,20 Q2,8 12,3 Q22,4 21,14 Q18,22 9,22 Q4,22 4,20Z" fill="#1BA8D5"/>
+    <path d="M7,16 Q6,10 12,7 Q18,8 17,13 Q15,18 10,18 Q7,18 7,16Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(200,410) rotate(25,16,16)">
+    <path d="M5,28 Q3,11 16,4 Q29,5 28,17 Q25,30 12,30 Q5,30 5,28Z" fill="#1BA8D5"/>
+    <path d="M10,22 Q8,14 16,9 Q24,10 23,16 Q21,24 13,24 Q10,24 10,22Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(310,420) rotate(-45,18,18)">
+    <path d="M6,30 Q3,12 18,4 Q33,6 32,20 Q28,34 14,34 Q6,34 6,30Z" fill="#E86B5A"/>
+    <path d="M12,24 Q10,15 18,10 Q26,11 25,18 Q22,26 15,26 Q12,26 12,24Z" fill="#FDFBF5"/>
+  </g>
+  
+  <g transform="translate(410,430) rotate(15,20,20)">
+    <path d="M7,34 Q4,14 20,5 Q36,6 35,22 Q31,38 15,38 Q7,38 7,34Z" fill="#1BA8D5"/>
+    <path d="M13,27 Q11,17 20,11 Q29,12 28,20 Q25,30 16,30 Q13,30 13,27Z" fill="#FDFBF5"/>
+  </g>
+  
+  <!-- Small red dot bottom -->
+  <g transform="translate(480,460) rotate(30,6,6)">
+    <path d="M2,10 Q1,4 6,2 Q11,2 11,7 Q10,11 5,11 Q2,11 2,10Z" fill="#E86B5A"/>
+    <path d="M4,8 Q3,5 6,4 Q9,4 9,6 Q8,9 5,9 Q4,9 4,8Z" fill="#FDFBF5"/>
+  </g>
+</svg>

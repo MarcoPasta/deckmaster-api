@@ -52,6 +52,15 @@
 
 body {
   margin: 0;
+  background-image: url("/assets/pattern-bg-dark.svg");
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  background-color: #16171d;
+}
+
+#app {
+  background: var(--bg);
+  min-height: 100vh;
 }
 
 h1,

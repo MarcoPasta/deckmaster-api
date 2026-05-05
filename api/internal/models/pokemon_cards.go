@@ -4,7 +4,6 @@ import "gorm.io/gorm"
 
 type PokemonCard struct {
 	gorm.Model
-	DeckId      uint `gorm:"index"` // Foreign key to PokemonDecks
 	CardType    string
 	Phase       string
 	Name        string
@@ -30,7 +29,14 @@ type Attack struct {
 
 type PokemonDecks struct {
 	gorm.Model
-	UserId string
-	Name   string
-	Cards  []PokemonCard `gorm:"foreignKey:DeckId"`
+	UserId  string             `json:"userId"`
+	Name    string             `json:"name"`
+	Entries []PokemonDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
+}
+
+type PokemonDeckEntry struct {
+	gorm.Model
+	DeckId uint        `json:"deckId"`
+	CardId uint        `json:"cardId"`
+	Card   PokemonCard `gorm:"foreignKey:CardId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"card"`
 }

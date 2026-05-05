@@ -22,7 +22,6 @@ export interface PokemonCard {
   CreatedAt: Date;
   UpdatedAt: Date;
   DeletedAt: Date | null;
-  DeckId: number;
   CardType: string;
   Phase: string;
   Name: string;
@@ -46,12 +45,22 @@ export interface Attack {
   damage: string;
 }
 
+export interface PokemonDeckEntry {
+  ID: number;
+  CreatedAt: Date;
+  UpdatedAt: Date;
+  DeletedAt: Date | null;
+  deckId: number;
+  cardId: number;
+  card: PokemonCard;
+}
+
 export interface PokemonDecks {
   ID: number;
   CreatedAt: Date;
   UpdatedAt: Date;
   DeletedAt: Date | null;
-  UserId: string;
-  Name: string;
-  Cards: PokemonCard[];
+  userId: string;
+  name: string;
+  entries: PokemonDeckEntry[];
 }
