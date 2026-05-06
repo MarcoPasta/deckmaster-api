@@ -35,6 +35,6 @@ go.work.sum
 api/api
 api/build/*
 !api/build/.keep
-files
+#files
 api/cmd/deckmaster/tmp/deckmaster
 api/tmp/

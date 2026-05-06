@@ -1,0 +1,5181 @@
+[
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Strawickl",
+        "kp": 50,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Käferbiss",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "1/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Folikon",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Käfergebrumm",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "2/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Matrifol",
+        "kp": 130,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Heilende Wickel",
+                "effect": "Heile 100 Schadenspunkte bei jedem deiner Basis-Pokémon.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Kreuzschere",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu.",
+                "damage": "90+"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "3/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Waumboll",
+        "kp": 60,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Absorber",
+                "effect": "Heile 10 Schadenspunkte bei diesem Pokémon.",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "4/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Elfun-ex",
+        "kp": 230,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Energiegabe",
+                "effect": "Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Wundersame Baumwolle",
+                "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 50 Schadenspunkte zu.",
+                "damage": "50×"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "5/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Sesokitz",
+        "kp": 70,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Rückwärtskick",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "6/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kronjuwild",
+        "kp": 130,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Runterdrücken",
+                "effect": "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Solarstrahl",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "7/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Schnuthelm",
+        "kp": 60,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Abrupter Kopfstoß",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "8/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Hydragil",
+        "kp": 100,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Säurespeier",
+                "effect": "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "9/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Viridium",
+        "kp": 120,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Gigasauger",
+                "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast.",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Smaragdgrüne Klinge",
+                "effect": "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+                "damage": "130"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "10/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Floink",
+        "kp": 70,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Walzer",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "11/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Ferkokel",
+        "kp": 110,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Glühen",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Brandstempel",
+                "effect": "",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "12/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Flambirex",
+        "kp": 180,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Brandstempel",
+                "effect": "",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "13/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Grillmak",
+        "kp": 70,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Sammeln",
+                "effect": "Ziehe 1 Karte.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Kratzer",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "14/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Grillchita",
+        "kp": 100,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Sanfter Hieb",
+                "effect": "",
+                "damage": "70"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "15/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Lichtel",
+        "kp": 60,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Erleuchten und Verbrennen",
+                "effect": "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte auf deinen Ablagestapel legen.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "16/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Laternecto",
+        "kp": 80,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Feuersturm",
+                "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "17/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Skelabra",
+        "kp": 150,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Zündende Säule",
+                "effect": "Wenn du 10 oder mehr Basis-Fire-Energiekarten in deinem Ablagestapel hast, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "50+"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Alles abbrennen",
+                "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "180"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "18/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Furnifraß",
+        "kp": 120,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Züngelnder Fang",
+                "effect": "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 Fire-Pokémon und Basis-Fire-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Feuerkrallen",
+                "effect": "",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "19/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Reshiram-ex",
+        "kp": 230,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schlitzer",
+                "effect": "",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Flammen-Ausbruch",
+                "effect": "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "130+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "20/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Ottaro",
+        "kp": 70,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser"
+                ],
+                "name": "Aquaknarre",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "21/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zwottronin",
+        "kp": 100,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Energiegeladene Muschel",
+                "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 30 Schadenspunkte zu.",
+                "damage": "30×"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "22/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Admurai",
+        "kp": 160,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Energiegeladener Schlitzer",
+                "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 50 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "23/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Barschuft",
+        "kp": 90,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Biss",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Gebleckte Fänge",
+                "effect": "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "24/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Piccolente",
+        "kp": 70,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Feuerwehr",
+                "effect": "Lege 1 Fire-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Flügelschlag",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "25/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Swaroness",
+        "kp": 120,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Flattern",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Luftschnitt",
+                "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "26/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Gelatini",
+        "kp": 60,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Verprügler",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Eisiger Abgrund",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "27/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Gelatroppo",
+        "kp": 90,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Ramme",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Eisstrahl",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "28/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Gelatwino",
+        "kp": 150,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Ramme",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Doppelfroster",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu. Zeigt mindestens 1 Kopf, ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "90×"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "29/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Keldeo-ex",
+        "kp": 210,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Orkanstoß",
+                "effect": "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schallkante",
+                "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "120"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "30/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Elezeba",
+        "kp": 60,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schmetterkick",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Stromtritt",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "31/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zebritz",
+        "kp": 120,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schmetterkick",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Elektrokugel",
+                "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "32/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Wattzapf",
+        "kp": 40,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Überraschungsangriff",
+                "effect": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "33/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Voltula",
+        "kp": 90,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Ladungsstoß",
+                "effect": "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu.",
+                "damage": "50×"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "34/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Flunschlik",
+        "kp": 110,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schlammblitz",
+                "effect": "Wenn an dieses Pokémon mindestens 1 Fighting-Energie angelegt ist, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Plumps",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "35/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Fleknoil",
+        "kp": 60,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Herzstempel",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "36/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Fletiamo",
+        "kp": 90,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Freudige Rückkehr",
+                "effect": "Nimm 1 Pokémon von deiner Bank und alle angelegten Karten auf deine Hand.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Windstoß",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "37/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Symvolara",
+        "kp": 120,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Reflektor",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Telekinese",
+                "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 70 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "38/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Makabaja",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Gezielter Wunsch",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 2,
+        "cardNumber": "39/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Echnatoll",
+        "kp": 120,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Überlieferndes Schadtoll",
+                "effect": "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf 1 Pokémon deines Gegners.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Perplex",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 2,
+        "cardNumber": "40/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Mollimorba",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Super-Psischlag",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "41/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Hypnomorba",
+        "kp": 90,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Flüchtiger Glücksblick",
+                "effect": "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Psychoschuss",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "42/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Morbitesse",
+        "kp": 150,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Synchro-Schuss",
+                "effect": "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+                "damage": "90+"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 2,
+        "cardNumber": "43/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Quabbel",
+        "kp": 80,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Meeresdunkel",
+                "effect": "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 3,
+        "cardNumber": "44/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Apoquallyp-ex",
+        "kp": 270,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Powerdruck",
+                "effect": "Wenn an dieses Pokémon mindestens 2 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "80+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 3,
+        "cardNumber": "45/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kiesling",
+        "kp": 80,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Härtner",
+                "effect": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken zugefügt wird, wenn jener Schaden 40 Schadenspunkte oder weniger beträgt.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Steine",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "46/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Sedimantur",
+        "kp": 110,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Katapult",
+                "effect": "Wenn das Aktive Pokémon deines Gegners Fighting-Resistenz hat, fügt diese Attacke 50 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Juwelenkraft",
+                "effect": "",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "47/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Brockoloss",
+        "kp": 170,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Rachekanone",
+                "effect": "Diese Attacke fügt für jede Schadensmarke auf allen Fighting-Pokémon auf deiner Bank 20 Schadenspunkte zu.",
+                "damage": "20×"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Schwerer Einschlag",
+                "effect": "",
+                "damage": "160"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "48/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Karadonis",
+        "kp": 110,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Ellbogenstoß",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Aufwärtshieb",
+                "effect": "Wenn das Aktive Pokémon deines Gegners kein Pokémon-ex ist, hat diese Attacke keine Auswirkungen. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "49/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Flapteryx",
+        "kp": 80,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Akrobatik",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "50/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Aeropteryx",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Steinwurf",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "51/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Lin-Fu",
+        "kp": 60,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Tritt",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "52/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Wie-Shu",
+        "kp": 100,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Fußtritt",
+                "effect": "",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Geballter Kinnhaken",
+                "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "53/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Terrakium",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Heimzahlung",
+                "effect": "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "50+"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Schollenbrecher",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "54/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Felilou",
+        "kp": 60,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Unheilvolle Einladung",
+                "effect": "Durchsuche dein Deck nach bis zu 3 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "55/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kleoparda",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Abschlag",
+                "effect": "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "56/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Zurrokex",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Kopfnuss",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Einmarschieren",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "57/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Irokex",
+        "kp": 120,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Angriff der Grobiane",
+                "effect": "Wirf 1 Münze für jedes Darkness-Pokémon, das du im Spiel hast. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu.",
+                "damage": "60×"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "58/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Unratütox",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Sabbern",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Matschbombe",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "59/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Deponitox",
+        "kp": 140,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Würgegas",
+                "effect": "",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Mülltreffer",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "60/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Zorua",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Bodycheck",
+                "effect": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "61/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zoroark",
+        "kp": 120,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Gedankenstoß",
+                "effect": "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu.",
+                "damage": "30×"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schmarotzer",
+                "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "62/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Skallyk",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Verspielter Kick",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "63/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Grypheldis",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schneidender Wind",
+                "effect": "",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "64/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kapuno",
+        "kp": 80,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Bodyslam",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Fänge der Dunkelheit",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "65/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Duodino",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Doppelschlag",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+                "damage": "40×"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Pechschwarze Fänge",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "66/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Trikephalo-ex",
+        "kp": 330,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Finsterer Biss",
+                "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+                "damage": "200"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "67/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kastadur",
+        "kp": 70,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall"
+                ],
+                "name": "Piiieks",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Metallklaue",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 2,
+        "cardNumber": "68/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Tentantel",
+        "kp": 140,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall"
+                ],
+                "name": "Blattgeißel",
+                "effect": "Diese Attacke fügt 1 Pokémon deines Gegners für jede an dieses Pokémon angelegte Energie 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Metallklaue",
+                "effect": "",
+                "damage": "130"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 3,
+        "cardNumber": "69/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Fermicula",
+        "kp": 110,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Kollektiver Biss",
+                "effect": "Wenn sich Fermicula auf deiner Bank befindet, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos"
+                ],
+                "name": "Klammer",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 1,
+        "cardNumber": "70/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Shardrago",
+        "kp": 120,
+        "energyType": "Drache",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Zerfetzer",
+                "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Hinterhalt",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu.",
+                "damage": "90+"
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "71/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Nagelotz",
+        "kp": 60,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Besorgung",
+                "effect": "Durchsuche dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Nagen",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "72/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kukmarda",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Energiefokus",
+                "effect": "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Hyperzahn dieses Pokémon 240 Schadenspunkte.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Hyperzahn",
+                "effect": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "73/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Yorkleff",
+        "kp": 60,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Knuddler",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "10+"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "74/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Terribark",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Brüller",
+                "effect": "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Sprungangriff",
+                "effect": "",
+                "damage": "70"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "75/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Bissbark",
+        "kp": 160,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schnüffler",
+                "effect": "Wirf 3 Münzen. Nimm bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel auf deine Hand.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Spezial-Reißzähne",
+                "effect": "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "76/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Bisofank-ex",
+        "kp": 220,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Goldbrecher",
+                "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "77/86 Double Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Boreos",
+        "kp": 120,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Windhülle",
+                "effect": "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Orkan",
+                "effect": "Verschiebe 1 Basis-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "78/86 Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Antikes Federfossil",
+        "kp": 60,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Spiele diese Karte, als ob sie ein Basis-energyTypeless-Pokémon mit 60 KP wäre. Diese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen.Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "79/86 Common",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-Ausrüstung",
+        "name": "Reif der Tapferkeit",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wenn das Pokémon, an das diese Karte angelegt ist, kein Regelfeld hat, fügen die Attacken, die es einsetzt, dem Aktiven Pokémon-ex deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "80/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Cheren",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Ziehe 3 Karten.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "81/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Energie-Zugewinn",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "82/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Kasper",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Jeder Spieler mischt seine Handkarten in sein Deck. Wirf anschließend 1 Münze. Bei Kopf ziehst du 5 Karten und dein Gegner zieht 3 Karten. Bei Zahl ziehst du 3 Karten und dein Gegner zieht 5 Karten.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "83/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Lotta",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Entwicklungs-Pokémon und 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "84/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Ausrüstungsentsorger",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wähle bis zu 2 an Pokémon (deine oder die deines Gegners) angelegte Pokémon-Ausrüstungen und lege sie auf den Ablagestapel.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "85/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "",
+        "phase": "Spezial",
+        "name": "Zünd-Energie",
+        "kp": 0,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende deines Zuges auf deinen Ablagestapel.Solange diese Karte an ein Pokémon angelegt ist, liefert sie energyTypeless-Energie.Wenn diese Karte an ein Entwicklungs-Pokémon angelegt ist, liefert sie stattdessen energyTypelessenergyTypelessenergyTypeless-Energien.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "86/86 Uncommon",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Strawickl",
+        "kp": 50,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Käferbiss",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "87/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Folikon",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Käfergebrumm",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "88/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Matrifol",
+        "kp": 130,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Heilende Wickel",
+                "effect": "Heile 100 Schadenspunkte bei jedem deiner Basis-Pokémon.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Kreuzschere",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu.",
+                "damage": "90+"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "89/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Waumboll",
+        "kp": 60,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Absorber",
+                "effect": "Heile 10 Schadenspunkte bei diesem Pokémon.",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "90/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Sesokitz",
+        "kp": 70,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Rückwärtskick",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "91/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kronjuwild",
+        "kp": 130,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Runterdrücken",
+                "effect": "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Solarstrahl",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "92/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Schnuthelm",
+        "kp": 60,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Abrupter Kopfstoß",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "93/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Hydragil",
+        "kp": 100,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Säurespeier",
+                "effect": "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "94/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Viridium",
+        "kp": 120,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Gigasauger",
+                "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast.",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Pflanze",
+                    "Farblos"
+                ],
+                "name": "Smaragdgrüne Klinge",
+                "effect": "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+                "damage": "130"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "95/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Floink",
+        "kp": 70,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Walzer",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "96/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Ferkokel",
+        "kp": 110,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Glühen",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Brandstempel",
+                "effect": "",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "97/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Flambirex",
+        "kp": 180,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Brandstempel",
+                "effect": "",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "98/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Grillmak",
+        "kp": 70,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Sammeln",
+                "effect": "Ziehe 1 Karte.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Kratzer",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "99/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Grillchita",
+        "kp": 100,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Sanfter Hieb",
+                "effect": "",
+                "damage": "70"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "100/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Lichtel",
+        "kp": 60,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Erleuchten und Verbrennen",
+                "effect": "Schau dir die oberste Karte deines Decks an. Du kannst jene Karte auf deinen Ablagestapel legen.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "101/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Laternecto",
+        "kp": 80,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Feuersturm",
+                "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "102/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Skelabra",
+        "kp": 150,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Zündende Säule",
+                "effect": "Wenn du 10 oder mehr Basis-Fire-Energiekarten in deinem Ablagestapel hast, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "50+"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Alles abbrennen",
+                "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "180"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "103/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Furnifraß",
+        "kp": 120,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Züngelnder Fang",
+                "effect": "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 3 Fire-Pokémon und Basis-Fire-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Feuerkrallen",
+                "effect": "",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "104/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Ottaro",
+        "kp": 70,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser"
+                ],
+                "name": "Aquaknarre",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "105/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zwottronin",
+        "kp": 100,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Energiegeladene Muschel",
+                "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 30 Schadenspunkte zu.",
+                "damage": "30×"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "106/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Admurai",
+        "kp": 160,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Energiegeladener Schlitzer",
+                "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte Energie 50 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "107/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Barschuft",
+        "kp": 90,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Biss",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Gebleckte Fänge",
+                "effect": "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "108/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Piccolente",
+        "kp": 70,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Feuerwehr",
+                "effect": "Lege 1 Fire-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Flügelschlag",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "109/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Swaroness",
+        "kp": 120,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Flattern",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Luftschnitt",
+                "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "110/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Gelatini",
+        "kp": 60,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Verprügler",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Eisiger Abgrund",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "111/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Gelatroppo",
+        "kp": 90,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Ramme",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Eisstrahl",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "112/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Gelatwino",
+        "kp": 150,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Ramme",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Doppelfroster",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu. Zeigt mindestens 1 Kopf, ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "90×"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "113/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Elezeba",
+        "kp": 60,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schmetterkick",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Stromtritt",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "114/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zebritz",
+        "kp": 120,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schmetterkick",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Elektrokugel",
+                "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "115/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Wattzapf",
+        "kp": 40,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Überraschungsangriff",
+                "effect": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "116/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Voltula",
+        "kp": 90,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Ladungsstoß",
+                "effect": "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu.",
+                "damage": "50×"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "117/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Flunschlik",
+        "kp": 110,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schlammblitz",
+                "effect": "Wenn an dieses Pokémon mindestens 1 Fighting-Energie angelegt ist, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Plumps",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "118/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Fleknoil",
+        "kp": 60,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Herzstempel",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "119/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Fletiamo",
+        "kp": 90,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Freudige Rückkehr",
+                "effect": "Nimm 1 Pokémon von deiner Bank und alle angelegten Karten auf deine Hand.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Windstoß",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "120/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Symvolara",
+        "kp": 120,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Reflektor",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Telekinese",
+                "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 70 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "121/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Makabaja",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Gezielter Wunsch",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 2,
+        "cardNumber": "122/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Echnatoll",
+        "kp": 120,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Überlieferndes Schadtoll",
+                "effect": "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf 1 Pokémon deines Gegners.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Perplex",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 2,
+        "cardNumber": "123/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Mollimorba",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Super-Psischlag",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "124/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Hypnomorba",
+        "kp": 90,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Flüchtiger Glücksblick",
+                "effect": "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Psychoschuss",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "125/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Quabbel",
+        "kp": 80,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Meeresdunkel",
+                "effect": "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 3,
+        "cardNumber": "126/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kiesling",
+        "kp": 80,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Härtner",
+                "effect": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken zugefügt wird, wenn jener Schaden 40 Schadenspunkte oder weniger beträgt.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Steine",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "127/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Sedimantur",
+        "kp": 110,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Katapult",
+                "effect": "Wenn das Aktive Pokémon deines Gegners Fighting-Resistenz hat, fügt diese Attacke 50 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Juwelenkraft",
+                "effect": "",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "128/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Brockoloss",
+        "kp": 170,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Rachekanone",
+                "effect": "Diese Attacke fügt für jede Schadensmarke auf allen Fighting-Pokémon auf deiner Bank 20 Schadenspunkte zu.",
+                "damage": "20×"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Schwerer Einschlag",
+                "effect": "",
+                "damage": "160"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "129/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Karadonis",
+        "kp": 110,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Ellbogenstoß",
+                "effect": "",
+                "damage": "30"
+            },
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Aufwärtshieb",
+                "effect": "Wenn das Aktive Pokémon deines Gegners kein Pokémon-ex ist, hat diese Attacke keine Auswirkungen. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "130/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Flapteryx",
+        "kp": 80,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Akrobatik",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "131/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Aeropteryx",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Steinwurf",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "132/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Lin-Fu",
+        "kp": 60,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Tritt",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "133/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Wie-Shu",
+        "kp": 100,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Fußtritt",
+                "effect": "",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Geballter Kinnhaken",
+                "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "134/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Terrakium",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Heimzahlung",
+                "effect": "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "50+"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Schollenbrecher",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "135/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Felilou",
+        "kp": 60,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Unheilvolle Einladung",
+                "effect": "Durchsuche dein Deck nach bis zu 3 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "136/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kleoparda",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Abschlag",
+                "effect": "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "137/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Zurrokex",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Kopfnuss",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Einmarschieren",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "138/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Irokex",
+        "kp": 120,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Angriff der Grobiane",
+                "effect": "Wirf 1 Münze für jedes Darkness-Pokémon, das du im Spiel hast. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu.",
+                "damage": "60×"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "139/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Unratütox",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Sabbern",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Matschbombe",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "140/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Deponitox",
+        "kp": 140,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Würgegas",
+                "effect": "",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Mülltreffer",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "141/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Zorua",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Bodycheck",
+                "effect": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "142/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Zoroark",
+        "kp": 120,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Gedankenstoß",
+                "effect": "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu.",
+                "damage": "30×"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schmarotzer",
+                "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "143/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Skallyk",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Verspielter Kick",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "144/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Grypheldis",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schneidender Wind",
+                "effect": "",
+                "damage": "90"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "145/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kapuno",
+        "kp": 80,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Bodyslam",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Fänge der Dunkelheit",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "146/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Duodino",
+        "kp": 110,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Doppelschlag",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+                "damage": "40×"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Pechschwarze Fänge",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "147/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Kastadur",
+        "kp": 70,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall"
+                ],
+                "name": "Piiieks",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Metallklaue",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 2,
+        "cardNumber": "148/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Tentantel",
+        "kp": 140,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall"
+                ],
+                "name": "Blattgeißel",
+                "effect": "Diese Attacke fügt 1 Pokémon deines Gegners für jede an dieses Pokémon angelegte Energie 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Metallklaue",
+                "effect": "",
+                "damage": "130"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 3,
+        "cardNumber": "149/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Fermicula",
+        "kp": 110,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Kollektiver Biss",
+                "effect": "Wenn sich Fermicula auf deiner Bank befindet, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "20+"
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos"
+                ],
+                "name": "Klammer",
+                "effect": "",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 1,
+        "cardNumber": "150/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Shardrago",
+        "kp": 120,
+        "energyType": "Drache",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Zerfetzer",
+                "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "40"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Hinterhalt",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu.",
+                "damage": "90+"
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "151/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Nagelotz",
+        "kp": 60,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Besorgung",
+                "effect": "Durchsuche dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Nagen",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "152/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Kukmarda",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Energiefokus",
+                "effect": "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Hyperzahn dieses Pokémon 240 Schadenspunkte.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Hyperzahn",
+                "effect": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "153/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Yorkleff",
+        "kp": 60,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Knuddler",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+                "damage": "10+"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "154/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Terribark",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Brüller",
+                "effect": "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Sprungangriff",
+                "effect": "",
+                "damage": "70"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "155/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Bissbark",
+        "kp": 160,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schnüffler",
+                "effect": "Wirf 3 Münzen. Nimm bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel auf deine Hand.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Spezial-Reißzähne",
+                "effect": "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "156/86 Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Elfun-ex",
+        "kp": 230,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Energiegabe",
+                "effect": "Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Wundersame Baumwolle",
+                "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 50 Schadenspunkte zu.",
+                "damage": "50×"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "157/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Reshiram-ex",
+        "kp": 230,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schlitzer",
+                "effect": "",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Flammen-Ausbruch",
+                "effect": "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "130+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "158/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Keldeo-ex",
+        "kp": 210,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Orkanstoß",
+                "effect": "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schallkante",
+                "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "120"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "159/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Apoquallyp-ex",
+        "kp": 270,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Powerdruck",
+                "effect": "Wenn an dieses Pokémon mindestens 2 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "80+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 3,
+        "cardNumber": "160/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Trikephalo-ex",
+        "kp": 330,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Finsterer Biss",
+                "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+                "damage": "200"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "161/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Bisofank-ex",
+        "kp": 220,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Goldbrecher",
+                "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "162/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Kasper",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Jeder Spieler mischt seine Handkarten in sein Deck. Wirf anschließend 1 Münze. Bei Kopf ziehst du 5 Karten und dein Gegner zieht 3 Karten. Bei Zahl ziehst du 3 Karten und dein Gegner zieht 5 Karten.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "163/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Lotta",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Entwicklungs-Pokémon und 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "164/86 Ultra Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Elfun-ex",
+        "kp": 230,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Energiegabe",
+                "effect": "Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Wundersame Baumwolle",
+                "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 50 Schadenspunkte zu.",
+                "damage": "50×"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "165/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Reshiram-ex",
+        "kp": 230,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schlitzer",
+                "effect": "",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Flammen-Ausbruch",
+                "effect": "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "130+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "166/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Keldeo-ex",
+        "kp": 210,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Orkanstoß",
+                "effect": "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schallkante",
+                "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "120"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "167/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Apoquallyp-ex",
+        "kp": 270,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Powerdruck",
+                "effect": "Wenn an dieses Pokémon mindestens 2 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "80+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 3,
+        "cardNumber": "168/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Trikephalo-ex",
+        "kp": 330,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Finsterer Biss",
+                "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+                "damage": "200"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "169/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Bisofank-ex",
+        "kp": 220,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Goldbrecher",
+                "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "170/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Lotta",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Entwicklungs-Pokémon und 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "171/86 Special Illustration Rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Victini",
+        "kp": 80,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "V-Stärke",
+                "effect": "Wenn du 4 oder weniger Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "172/86 Black White rare",
+        "set": "Weiße Flammen"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Reshiram-ex",
+        "kp": 230,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schlitzer",
+                "effect": "",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Flammen-Ausbruch",
+                "effect": "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "130+"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "173/86 Black White rare",
+        "set": "Weiße Flammen"
+    }
+]

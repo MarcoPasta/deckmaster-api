@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Assets such as cards
-public/assets/cards/*
+#public/assets/cards/*

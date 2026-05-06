@@ -1,0 +1,3483 @@
+[
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Webarak",
+        "kp": 60,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Klebriger Faden",
+                "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "1/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Ariados",
+        "kp": 110,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Giftring",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "2/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Shaymin",
+        "kp": 70,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Blumen schicken",
+                "effect": "Durchsuche dein Deck nach 1 Energiekarte und lege sie an 1 Grass-Pokémon auf deiner Bank an. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Blattschritt",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "3/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Serpifeu",
+        "kp": 70,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Waghalsiger Sturmangriff",
+                "effect": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "4/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Efoserp",
+        "kp": 100,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Solarschneider",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "5/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Serpiroyal",
+        "kp": 160,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Hoheitlicher Befehl",
+                "effect": "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu.",
+                "damage": "20×"
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Pflanze",
+                    "Pflanze"
+                ],
+                "name": "Solarschlinge",
+                "effect": "Wenn Rosys Ermutigung in deinem Ablagestapel ist, fügt diese Attacke 150 Schadenspunkte mehr zu.",
+                "damage": "100+"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "6/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Purmel",
+        "kp": 40,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Nagen",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "7/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Puponcho",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Verstecken",
+                "effect": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "8/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Vivillon",
+        "kp": 120,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Durchdringender Strahl",
+                "effect": "Wenn ein Stadion im Spiel ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+                "damage": "60+"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "9/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Bauz",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Freunde finden",
+                "effect": "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "10/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Arboretoss",
+        "kp": 100,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Blattwerk",
+                "effect": "",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Federschuss",
+                "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel, und diese Attacke fügt 1 Pokémon deines Gegners 90 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "11/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Silvarro-ex",
+        "kp": 320,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schmetterpfeil",
+                "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "240"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "12/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Dartignis",
+        "kp": 90,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Flackern",
+                "effect": "",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "13/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Fiaro",
+        "kp": 150,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Feuerflügel",
+                "effect": "",
+                "damage": "110"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "14/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Molunk",
+        "kp": 70,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Feuerkrallen",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "15/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Amfira-ex",
+        "kp": 260,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Ränkeschmied",
+                "effect": "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Unheilskrallen",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und vergiftet. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+                "damage": "100"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "16/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Tortunator",
+        "kp": 120,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer",
+                    "Farblos"
+                ],
+                "name": "Heißer Atem",
+                "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "80+"
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "17/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Jurob",
+        "kp": 80,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Regenplatscher",
+                "effect": "",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser"
+                ],
+                "name": "Wellenplatscher",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "18/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Jugong",
+        "kp": 130,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser"
+                ],
+                "name": "Wellenplatscher",
+                "effect": "",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "19/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Sterndu",
+        "kp": 70,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Aquaknarre",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "20/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Starmie-ex",
+        "kp": 330,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Wasserschwall",
+                "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "120"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Nebelstrahl",
+                "effect": "Der Schaden dieser Attacke wird durch Schwäche oder Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "210"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "21/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Lapras-ex",
+        "kp": 210,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Hydrowende",
+                "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte zu. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+                "damage": "30×"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser",
+                    "Wasser"
+                ],
+                "name": "Surfer",
+                "effect": "",
+                "damage": "140"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "22/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Amarino",
+        "kp": 100,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Eissturm",
+                "effect": "Das Aktive Pokémon deines Gegners schläft jetzt.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "23/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Amagarga",
+        "kp": 170,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Gefrierschock",
+                "effect": "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon keine Attacken einsetzen.",
+                "damage": "150"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "24/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Volcanion",
+        "kp": 130,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Stärke",
+                "effect": "",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Mächtiger Dampf",
+                "effect": "Wirf 1 Münze für jede an dieses Pokémon angelegte Water-Energie. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
+                "damage": "90×"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "25/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Sheinux",
+        "kp": 70,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Doppelkratzer",
+                "effect": "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+                "damage": "10×"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "26/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Luxio",
+        "kp": 90,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Statischer Schock",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "27/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Luxtra",
+        "kp": 150,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Unablässiger Ansturm",
+                "effect": "Diese Attacke fügt für jede von dir genommene Preiskarte 70 Schadenspunkte zu.",
+                "damage": "70×"
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Voltkraft",
+                "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "200"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "28/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Dedenne",
+        "kp": 70,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Generatorschweif",
+                "effect": "Wähle bis zu so viele Basis-Lightning-Energiekarten aus deinem Ablagestapel, wie Energien an alle Pokémon deines Gegners angelegt sind, und lege sie beliebig an deine Lightning-Pokémon an.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Donnerschock",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "29/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Piepi",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Spotlight",
+                "effect": "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Psycho"
+                ],
+                "name": "Plumps",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "30/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Pixi-ex",
+        "kp": 320,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Psycho"
+                ],
+                "name": "Mondschnuppen",
+                "effect": "Du kannst bis zu 4 Energiekarten aus deiner Hand auf deinen Ablagestapel legen, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu.",
+                "damage": "120+"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "31/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Flunkifer",
+        "kp": 110,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Doppelschmaus",
+                "effect": "Lege bis zu 2 Energiekarten aus deiner Hand auf deinen Ablagestapel, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu.",
+                "damage": "60×"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "32/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Psiau",
+        "kp": 60,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Nickerchen",
+                "effect": "Heile 20 Schadenspunkte bei diesem Pokémon.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Zertrampeln",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "33/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Psiaugon",
+        "kp": 100,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Perplex",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Psychokinese",
+                "effect": "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "34/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Parfi",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Lockduft",
+                "effect": "Heile 30 Schadenspunkte bei 1 deiner Pokémon.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Ramme",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "35/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Parfinesse",
+        "kp": 120,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Farblos"
+                ],
+                "name": "Diebeskuss",
+                "effect": "Heile 30 Schadenspunkte bei diesem Pokémon.",
+                "damage": "50"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "36/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Nasgnet",
+        "kp": 90,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Steine",
+                "effect": "",
+                "damage": "40"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "37/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Voluminas",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Steine",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Niederstreckende Nase",
+                "effect": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "260"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "38/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Hippopotas",
+        "kp": 100,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Sandwirbel",
+                "effect": "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt.",
+                "damage": "10"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Biss",
+                "effect": "",
+                "damage": "60"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "39/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Hippoterus",
+        "kp": 150,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Wirbelspeier",
+                "effect": "Wenn du Tarragon während dieses Zuges aus deiner Hand gespielt hast, lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel.",
+                "damage": "80"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schwerer Einschlag",
+                "effect": "",
+                "damage": "130"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "40/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Demeteros",
+        "kp": 120,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Felsen",
+                "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+                "damage": "50"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Windende Faust",
+                "effect": "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand.",
+                "damage": "120"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "41/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Bithora",
+        "kp": 80,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Zweifachzug",
+                "effect": "Ziehe 2 Karten.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Kratzer",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "42/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Thanathora",
+        "kp": 130,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Einhämmern",
+                "effect": "",
+                "damage": "80"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "43/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Balgoras",
+        "kp": 100,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Rotsehen",
+                "effect": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu.",
+                "damage": "20×"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "44/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Monargoras",
+        "kp": 180,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Chaos anrichten",
+                "effect": "Wirf so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
+                "damage": "160"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "45/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Resladero",
+        "kp": 70,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf"
+                ],
+                "name": "Rachekick",
+                "effect": "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+                "damage": "30+"
+            }
+        ],
+        "weakness": "Psycho",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "46/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Zygarde-ex",
+        "kp": 310,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Gaia-Welle",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": "200"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Tilgendes Nichts",
+                "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "47/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Nebulak",
+        "kp": 70,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Überraschungsangriff",
+                "effect": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "48/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Alpollo",
+        "kp": 100,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Spuk",
+                "effect": "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "49/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Gengar",
+        "kp": 130,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Gedankenstoß",
+                "effect": "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu.",
+                "damage": "10+"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "50/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Pionskora",
+        "kp": 80,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Gifthieb",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "51/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Piondragi",
+        "kp": 140,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Niederschleudern",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Bedrohlicher Schweif",
+                "effect": "Dieses Pokémon fügt auch sich selbst 70 Schadenspunkte zu. Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet.",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "52/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Yveltal-ex",
+        "kp": 210,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Seelenvernichter",
+                "effect": "Mache jedes Pokémon deines Gegners, das 50 oder weniger verbleibende KP hat, kampfunfähig.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Finsterschlag",
+                "effect": "Während deines nächsten Zuges kann dieses Pokémon Finsterschlag nicht einsetzen.",
+                "damage": "210"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "53/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Baojian",
+        "kp": 120,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis"
+                ],
+                "name": "Beharken",
+                "effect": "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Aufwärtsklinge",
+                "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+                "damage": "80+"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "54/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Panzaeron-ex",
+        "kp": 260,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall",
+                    "Metall",
+                    "Farblos"
+                ],
+                "name": "Überschallreißer",
+                "effect": "Mische alle an dieses Pokémon angelegten Energien in dein Deck, und diese Attacke fügt 1 Pokémon deines Gegners 220 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 0,
+        "cardNumber": "55/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Gramokles",
+        "kp": 70,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Zerschneider",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 2,
+        "cardNumber": "56/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Duokles",
+        "kp": 100,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Kollektive Klingenkraft",
+                "effect": "Zeige deinem Gegner beliebig viele Gramokles, Duokles und Durengard auf deiner Hand, und diese Attacke fügt für jede auf diese Weise gezeigte Karte 60 Schadenspunkte zu.",
+                "damage": "60×"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 2,
+        "cardNumber": "57/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Durengard",
+        "kp": 150,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schlitzer",
+                "effect": "",
+                "damage": "80"
+            },
+            {
+                "cost": [
+                    "Metall",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Metallschlitzer",
+                "effect": "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+                "damage": "230"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 3,
+        "cardNumber": "58/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Clavion",
+        "kp": 70,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall"
+                ],
+                "name": "Gedächtnisschloss",
+                "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 1,
+        "cardNumber": "59/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Rattfratz",
+        "kp": 40,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Bodycheck",
+                "effect": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "60/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Rattikarl",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Wegkratzen",
+                "effect": "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Vergeltender Nager",
+                "effect": "Diese Attacke fügt für jede Schadensmarke auf allen Rattfratz auf deiner Bank 40 Schadenspunkte zu.",
+                "damage": "40×"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "61/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Mauzi-ex",
+        "kp": 170,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schweif einziehen",
+                "effect": "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand.",
+                "damage": "60"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "62/88 Double Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Relaxo",
+        "kp": 160,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schlemmermaul",
+                "effect": "Wirf so lange 1 Münze, bis sie Zahl zeigt. Durchsuche dein Deck nach bis zu so vielen Basis-Energien, wie du Kopf geworfen hast, und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Kollaps",
+                "effect": "Dieses Pokémon schläft jetzt.",
+                "damage": "160"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "63/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Scoppel",
+        "kp": 70,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Schmetterkick",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "64/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Grebbit",
+        "kp": 150,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Erdbeben",
+                "effect": "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "140"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Verdreschen",
+                "effect": "",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 4,
+        "cardNumber": "65/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Dartiri",
+        "kp": 60,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Zwitscherer",
+                "effect": "Durchsuche dein Deck nach bis zu 2 Pokémon mit Fighting-Resistenz, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Pikser",
+                "effect": "",
+                "damage": "20"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "66/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Coiffwaff",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Handschnitt",
+                "effect": "Lege so lange zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf seiner Hand hat.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Kopfnuss",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "67/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Antikes Kieferfossil",
+        "kp": 60,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Spiele diese Karte, als ob sie ein Basis-energyTypeless-Pokémon mit 60 KP wäre. Diese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen.Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "68/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Antikes Flossenfossil",
+        "kp": 60,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Spiele diese Karte, als ob sie ein Basis-energyTypeless-Pokémon mit 60 KP wäre. Diese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen.Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "69/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-Ausrüstung",
+        "name": "Datenkern",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Das Mega-Zygarde-ex, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Geosprenger",
+                "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "350"
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "70/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Schmetterhammer",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wirf 1 Münze. Lege bei Kopf 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "71/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Energiesuche",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "72/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Energieklatsche",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Dein Gegner zeigt dir seine Handkarten und du wählst 1 Energiekarte, die du dort findest, und legst sie unter sein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "73/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Buddelschaufel",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "74/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Violette",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Heile 150 Schadenspunkte bei 1 deiner Psychic-Pokémon.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "75/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Richter",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "76/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Illumina City",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Basis-Pokémon durchsuchen und es auf seine Bank legen. Jener Spieler mischt anschließend sein Deck. Wenn ein Spieler auf diese Weise sein Deck durchsucht, endet sein Zug.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "77/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Illumina-Galette",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "78/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Kaylen",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Bevor du Karten ziehst, kannst du beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. (Wenn du keine Karten auf diese Weise ziehen kannst, kannst du diese Karte nicht einsetzen.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "79/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Pokéball",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "80/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Poképad",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Pokémon, das kein Regelfeld hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "81/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Pokémon-Fänger",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "82/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Trank",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Heile 30 Schadenspunkte bei 1 deiner Pokémon.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "83/88 Common",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Rosys Ermutigung",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Phase-2-Pokémon an.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "84/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Tarragon",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Nimm eine beliebige Kombination aus bis zu 4 Fighting-Pokémon und Basis-Fighting-Energiekarten aus deinem Ablagestapel auf deine Hand.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "85/88 Uncommon",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "",
+        "phase": "Spezial",
+        "name": "Wachsende Grass-Energie",
+        "kp": 0,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Grass-Energie.Das Grass-Pokémon, an das diese Karte angelegt ist, erhält +20 KP.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "86/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "",
+        "phase": "Spezial",
+        "name": "Steinharte Fighting-Energie",
+        "kp": 0,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Fighting-Energie.Verhindere alle Effekte der von den Pokémon deines Gegners eingesetzten Attacken, die dem Fighting-Pokémon zugefügt werden, an das diese Karte angelegt ist.​​​​​​​ (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "87/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "",
+        "phase": "Spezial",
+        "name": "Telepathische Psychic-Energie",
+        "kp": 0,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Psychic-Energie.Wenn du diese Karte aus deiner Hand an ein Psychic-Pokémon anlegst, durchsuche dein Deck nach bis zu 2 Basis-Psychic-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "88/88 Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Puponcho",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Verstecken",
+                "effect": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "89/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Bauz",
+        "kp": 80,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Pflanze"
+                ],
+                "name": "Freunde finden",
+                "effect": "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Tackle",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "90/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Fiaro",
+        "kp": 150,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Feuerflügel",
+                "effect": "",
+                "damage": "110"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "91/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-2-Pokémon",
+        "name": "Amagarga",
+        "kp": 170,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Wasser",
+                    "Wasser",
+                    "Farblos"
+                ],
+                "name": "Gefrierschock",
+                "effect": "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon keine Attacken einsetzen.",
+                "damage": "150"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "92/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Dedenne",
+        "kp": 70,
+        "energyType": "Elektro",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Elektro"
+                ],
+                "name": "Generatorschweif",
+                "effect": "Wähle bis zu so viele Basis-Lightning-Energiekarten aus deinem Ablagestapel, wie Energien an alle Pokémon deines Gegners angelegt sind, und lege sie beliebig an deine Lightning-Pokémon an.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Elektro",
+                    "Farblos"
+                ],
+                "name": "Donnerschock",
+                "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "93/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Piepi",
+        "kp": 70,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Spotlight",
+                "effect": "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Psycho"
+                ],
+                "name": "Plumps",
+                "effect": "",
+                "damage": "30"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "94/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Basis-Pokémon",
+        "name": "Psiau",
+        "kp": 60,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Nickerchen",
+                "effect": "Heile 20 Schadenspunkte bei diesem Pokémon.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho"
+                ],
+                "name": "Zertrampeln",
+                "effect": "",
+                "damage": "10"
+            }
+        ],
+        "weakness": "Finsternis",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "95/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Voluminas",
+        "kp": 140,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Rollende Steine",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Farblos"
+                ],
+                "name": "Niederstreckende Nase",
+                "effect": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel.",
+                "damage": "260"
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "96/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Piondragi",
+        "kp": 140,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Niederschleudern",
+                "effect": "",
+                "damage": "60"
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Finsternis"
+                ],
+                "name": "Bedrohlicher Schweif",
+                "effect": "Dieses Pokémon fügt auch sich selbst 70 Schadenspunkte zu. Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet.",
+                "damage": "100"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 3,
+        "cardNumber": "97/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Duokles",
+        "kp": 100,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Kollektive Klingenkraft",
+                "effect": "Zeige deinem Gegner beliebig viele Gramokles, Duokles und Durengard auf deiner Hand, und diese Attacke fügt für jede auf diese Weise gezeigte Karte 60 Schadenspunkte zu.",
+                "damage": "60×"
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "Pflanze",
+        "retreatCost": 2,
+        "cardNumber": "98/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Phase-1-Pokémon",
+        "name": "Rattikarl",
+        "kp": 90,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Wegkratzen",
+                "effect": "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "20"
+            },
+            {
+                "cost": [
+                    "Farblos"
+                ],
+                "name": "Vergeltender Nager",
+                "effect": "Diese Attacke fügt für jede Schadensmarke auf allen Rattfratz auf deiner Bank 40 Schadenspunkte zu.",
+                "damage": "40×"
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "99/88 Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Silvarro-ex",
+        "kp": 320,
+        "energyType": "Pflanze",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Pflanze",
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schmetterpfeil",
+                "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+                "damage": "240"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Feuer",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "100/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Amfira-ex",
+        "kp": 260,
+        "energyType": "Feuer",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Feuer"
+                ],
+                "name": "Ränkeschmied",
+                "effect": "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Feuer",
+                    "Feuer"
+                ],
+                "name": "Unheilskrallen",
+                "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und vergiftet. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+                "damage": "100"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Wasser",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "101/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Starmie-ex",
+        "kp": 330,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Wasserschwall",
+                "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "120"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Nebelstrahl",
+                "effect": "Der Schaden dieser Attacke wird durch Schwäche oder Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "210"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "102/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Pixi-ex",
+        "kp": 320,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Psycho"
+                ],
+                "name": "Mondschnuppen",
+                "effect": "Du kannst bis zu 4 Energiekarten aus deiner Hand auf deinen Ablagestapel legen, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu.",
+                "damage": "120+"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "103/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Zygarde-ex",
+        "kp": 310,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Gaia-Welle",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": "200"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Tilgendes Nichts",
+                "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "104/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Yveltal-ex",
+        "kp": 210,
+        "energyType": "Finsternis",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Seelenvernichter",
+                "effect": "Mache jedes Pokémon deines Gegners, das 50 oder weniger verbleibende KP hat, kampfunfähig.",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Finsternis",
+                    "Finsternis",
+                    "Farblos"
+                ],
+                "name": "Finsterschlag",
+                "effect": "Während deines nächsten Zuges kann dieses Pokémon Finsterschlag nicht einsetzen.",
+                "damage": "210"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 1,
+        "cardNumber": "105/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Panzaeron-ex",
+        "kp": 260,
+        "energyType": "Metall",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Metall",
+                    "Metall",
+                    "Farblos"
+                ],
+                "name": "Überschallreißer",
+                "effect": "Mische alle an dieses Pokémon angelegten Energien in dein Deck, und diese Attacke fügt 1 Pokémon deines Gegners 220 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "Kampf",
+        "retreatCost": 0,
+        "cardNumber": "106/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Mauzi-ex",
+        "kp": 170,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schweif einziehen",
+                "effect": "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand.",
+                "damage": "60"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "107/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Energieaufbereitung",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "108/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Wald der Vitalität",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Die Grass-Pokémon jedes Spielers können sich während des Zuges, in dem der Spieler jene Pokémon spielt, zu Grass-Pokémon entwickeln, außer während seines ersten Zuges.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "109/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Violette",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Heile 150 Schadenspunkte bei 1 deiner Psychic-Pokémon.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "110/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Illumina City",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Basis-Pokémon durchsuchen und es auf seine Bank legen. Jener Spieler mischt anschließend sein Deck. Wenn ein Spieler auf diese Weise sein Deck durchsucht, endet sein Zug.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "111/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Kaylen",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Bevor du Karten ziehst, kannst du beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. (Wenn du keine Karten auf diese Weise ziehen kannst, kannst du diese Karte nicht einsetzen.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "112/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Poképad",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Durchsuche dein Deck nach 1 Pokémon, das kein Regelfeld hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. (Pokémon-ex, Pokémon-V usw. haben Regelfelder.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "113/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Rosys Ermutigung",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Phase-2-Pokémon an.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "114/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Zauberasche",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "115/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Tarragon",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Nimm eine beliebige Kombination aus bis zu 4 Fighting-Pokémon und Basis-Fighting-Energiekarten aus deinem Ablagestapel auf deine Hand.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "116/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Wunderpflaster",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Lege 1 Basis-Psychic-Energiekarte aus deinem Ablagestapel an 1 Psychic-Pokémon auf deiner Bank an.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "117/88 Ultra Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Starmie-ex",
+        "kp": 330,
+        "energyType": "Wasser",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Wasser"
+                ],
+                "name": "Wasserschwall",
+                "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": "120"
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Nebelstrahl",
+                "effect": "Der Schaden dieser Attacke wird durch Schwäche oder Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+                "damage": "210"
+            }
+        ],
+        "weakness": "Elektro",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "118/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Pixi-ex",
+        "kp": 320,
+        "energyType": "Psycho",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Psycho",
+                    "Psycho"
+                ],
+                "name": "Mondschnuppen",
+                "effect": "Du kannst bis zu 4 Energiekarten aus deiner Hand auf deinen Ablagestapel legen, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu.",
+                "damage": "120+"
+            }
+        ],
+        "weakness": "Metall",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "119/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Zygarde-ex",
+        "kp": 310,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Gaia-Welle",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": "200"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Tilgendes Nichts",
+                "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "120/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Pokémon-ex",
+        "name": "Mauzi-ex",
+        "kp": 170,
+        "energyType": "Farblos",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "",
+                "damage": ""
+            },
+            {
+                "cost": [
+                    "Farblos",
+                    "Farblos",
+                    "Farblos"
+                ],
+                "name": "Schweif einziehen",
+                "effect": "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand.",
+                "damage": "60"
+            },
+            {
+                "cost": [],
+                "name": "Pokémon-ex-Regel",
+                "effect": "",
+                "damage": ""
+            }
+        ],
+        "weakness": "Kampf",
+        "resistance": "",
+        "retreatCost": 1,
+        "cardNumber": "121/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Violette",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Heile 150 Schadenspunkte bei 1 deiner Psychic-Pokémon.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "122/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Trainer",
+        "phase": "",
+        "name": "Rosys Ermutigung",
+        "kp": 0,
+        "energyType": "",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "",
+                "effect": "Du kannst diese Karte nur einsetzen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Phase-2-Pokémon an.",
+                "damage": ""
+            }
+        ],
+        "weakness": "",
+        "resistance": "",
+        "retreatCost": 0,
+        "cardNumber": "123/88 Special Illustration Rare",
+        "set": "Optimale Ordnung"
+    },
+    {
+        "cardType": "Pokemon",
+        "phase": "Mega-Entwicklungs-ex",
+        "name": "Mega-Zygarde-ex",
+        "kp": 310,
+        "energyType": "Kampf",
+        "ability": "",
+        "attacks": [
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Gaia-Welle",
+                "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+                "damage": "200"
+            },
+            {
+                "cost": [
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf",
+                    "Kampf"
+                ],
+                "name": "Tilgendes Nichts",
+                "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+                "damage": ""
+            }
+        ],
+        "weakness": "Pflanze",
+        "resistance": "",
+        "retreatCost": 2,
+        "cardNumber": "124/88 Mega Hyper Rare",
+        "set": "Optimale Ordnung"
+    }
+]
