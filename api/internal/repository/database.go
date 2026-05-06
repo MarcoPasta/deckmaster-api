@@ -43,7 +43,7 @@ func RunMigrations() {
 		panic(err)
 	}
 
-	if err := goose.Up(sqlDb, "../../migrations"); err != nil {
+	if err := goose.Up(sqlDb, "../../migrations/"); err != nil {
 		panic(err)
 	}
 }
