@@ -84,10 +84,12 @@ func CheckTableValue() error {
 		fmt.Println("No Digimon cards found in the database. Please run the seeders.")
 		return RunSeeder("digimon")
 	}
+
+	return nil
 }
 
 func RunSeeder(flag string) error {
-
+	log.Println("Running seeder with flag:", flag)
 	cmd := exec.Command("go", "run", "../../cmd/seeder/seeder.go", "-mode ", flag)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
