@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Naruto Uzumaki",
+    "description": "I'll be the greatest Hokage",
+    "cost": 6,
+    "power": 6,
+    "keyword": "Team 7 / Jutsu",
+    "group": "Leaf Village",
+    "effect": "MAIN ↯ Hide an enemy character with Power 5 or less in this mission and another enemy character with Power 2 or less in play.UPGRADE MAIN effect: Instead, defeat both of them.",
+    "effect_types": [
+      "MAIN"
+    ],
+    "rarity": "L",
+    "card_number": "00",
+    "set": "1"
+  },
+  {
+    "name": "Hiruzen Sarutobi",
+    "description": "The Professor",
+    "cost": 3,
+    "power": 3,
+    "keyword": "Hokage",
+    "group": "Leaf Village",
+    "effect": "MAIN ↯ POWERUP 2 another friendly Leaf Village character.",
+    "effect_types": [
+      "MAIN"
+    ],
+    "rarity": "C",
+    "card_number": "01",
+    "set": "1"
+  }
+]

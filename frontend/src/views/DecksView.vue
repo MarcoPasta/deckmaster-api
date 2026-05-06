@@ -1,47 +1,59 @@
 <script setup lang="ts">
 import { useUser } from "@clerk/vue";
-import { ref, watch } from "vue";
+import { computed, ref } from "vue";
 import { useRouter } from "vue-router";
-import { useApi } from "../composables/useApi";
-import type { PokemonCard, PokemonDecks } from "../interfaces/interfaces";
+import { useNarutoDecks } from "../composables/naruto/useNarutoDecks";
+import { usePokemonDecks } from "../composables/pokemon/usePokemonDecks";
+import { useTcgState } from "../composables/useTcgState";
+import type {
+  NarutoCard,
+  NarutoDecks,
+  PokemonCard,
+  PokemonDecks,
+} from "../interfaces/interfaces";
+
+type AnyDeck = PokemonDecks | NarutoDecks;
+type AnyCard = PokemonCard | NarutoCard;
 
 const router = useRouter();
 const { user } = useUser();
-const { get } = useApi();
+const { selectedTcg } = useTcgState();
 
-const decks = ref<PokemonDecks[]>([]);
+const pokemonDecks = usePokemonDecks(() => user.value?.id);
+const narutoDecks = useNarutoDecks(() => user.value?.id);
 
-async function fetchDecks(userId: string) {
-  try {
-    const data = await get<{ content: PokemonDecks[] }>(
-      "/auth/pokemon/decks/user",
-      { id: userId },
-    );
-    decks.value = data.content;
-  } catch (e) {
-    console.error("Failed to fetch decks:", e);
-  }
+const decks = computed<AnyDeck[]>(() => {
+  if (selectedTcg.value === "naruto") return narutoDecks.decks.value;
+  return pokemonDecks.decks.value;
+});
+
+function getPreviewImage(deck: AnyDeck): string {
+  if (selectedTcg.value === "naruto")
+    return narutoDecks.getPreviewImage(deck as NarutoDecks);
+  return pokemonDecks.getPreviewImage(deck as PokemonDecks);
 }
 
-watch(
-  () => user.value?.id,
-  (userId) => {
-    if (userId) fetchDecks(userId);
-  },
-  { immediate: true },
-);
-
-function getPreviewImage(deck: PokemonDecks): string {
-  const entry = deck.entries?.[0];
-  if (!entry?.card?.CardNumber || !entry?.card?.Code) return "";
-  const number = entry.card.CardNumber.split("/")[0];
-  return `/assets/cards/de/${entry.card.Code}/${entry.card.Code}_${number}.png`;
+function getCardImage(card: AnyCard): string {
+  if (selectedTcg.value === "naruto")
+    return narutoDecks.getCardImage(card as NarutoCard);
+  return pokemonDecks.getCardImage(card as PokemonCard);
 }
 
-function getCardImage(card: PokemonCard): string {
-  if (!card.CardNumber || !card.Code) return "";
-  const number = card.CardNumber.split("/")[0];
-  return `/assets/cards/de/${card.Code}/${card.Code}_${number}.png`;
+function buildDeckText(deck: AnyDeck): string {
+  if (selectedTcg.value === "naruto")
+    return narutoDecks.buildDeckText(deck as NarutoDecks);
+  return pokemonDecks.buildDeckText(deck as PokemonDecks);
+}
+
+async function copyDeckAsImage(deck: AnyDeck): Promise<Blob | null> {
+  if (selectedTcg.value === "naruto")
+    return narutoDecks.copyDeckAsImage(deck as NarutoDecks);
+  return pokemonDecks.copyDeckAsImage(deck as PokemonDecks);
+}
+
+function deleteDeckLocal(id: number) {
+  if (selectedTcg.value === "naruto") return narutoDecks.deleteDeckLocal(id);
+  return pokemonDecks.deleteDeckLocal(id);
 }
 
 function formatDate(date: Date | string): string {
@@ -53,9 +65,9 @@ function formatDate(date: Date | string): string {
 }
 
 const dialogOpen = ref(false);
-const selectedDeck = ref<PokemonDecks | null>(null);
+const selectedDeck = ref<AnyDeck | null>(null);
 
-function openDeck(deck: PokemonDecks) {
+function openDeck(deck: AnyDeck) {
   selectedDeck.value = deck;
   dialogOpen.value = true;
 }
@@ -74,58 +86,6 @@ function editDeck() {
 
 const shareMenuOpen = ref(false);
 
-function buildDeckText(deck: PokemonDecks): string {
-  const entries = deck.entries ?? [];
-  const groups: Record<string, { card: PokemonCard; count: number }[]> = {
-    Pokémon: [],
-    Trainer: [],
-    Energy: [],
-  };
-
-  const cardCounts = new Map<number, { card: PokemonCard; count: number }>();
-  for (const entry of entries) {
-    const existing = cardCounts.get(entry.card.ID);
-    if (existing) {
-      existing.count++;
-    } else {
-      cardCounts.set(entry.card.ID, { card: entry.card, count: 1 });
-    }
-  }
-
-  for (const { card, count } of cardCounts.values()) {
-    const type = card.CardType?.toLowerCase();
-    if (type === "pokemon" || type === "pokémon") {
-      groups["Pokémon"].push({ card, count });
-    } else if (type === "trainer") {
-      groups["Trainer"].push({ card, count });
-    } else if (type === "energy" || type === "energie") {
-      groups["Energy"].push({ card, count });
-    } else {
-      groups["Trainer"].push({ card, count });
-    }
-  }
-
-  const lines: string[] = [];
-  for (const [label, cards] of Object.entries(groups)) {
-    if (cards.length === 0) continue;
-    const total = cards.reduce((sum, c) => sum + c.count, 0);
-    lines.push(`${label}: ${total}`);
-    for (const { card, count } of cards) {
-      const number = card.CardNumber?.split("/")[0] ?? "";
-      const code = (card.Code ?? "").toUpperCase();
-      const cardType = (card.CardType ?? "").toLowerCase();
-      const displayName =
-        cardType === "energie" || cardType === "energy"
-          ? `${card.EnergyType}-Energie`
-          : card.Name;
-      lines.push(`${count} ${displayName} ${code} ${number}`);
-    }
-    lines.push("");
-  }
-
-  return lines.join("\n").trim();
-}
-
 async function copyAsText() {
   if (!selectedDeck.value) return;
   const text = buildDeckText(selectedDeck.value);
@@ -135,125 +95,11 @@ async function copyAsText() {
 
 async function copyAsImage() {
   if (!selectedDeck.value) return;
-  const deck = selectedDeck.value;
-  const entries = deck.entries ?? [];
-
-  // Group cards by ID
-  const cardGroups: { card: PokemonCard; count: number }[] = [];
-  const groupMap = new Map<number, { card: PokemonCard; count: number }>();
-  for (const entry of entries) {
-    const existing = groupMap.get(entry.card.ID);
-    if (existing) {
-      existing.count++;
-    } else {
-      const group = { card: entry.card, count: 1 };
-      groupMap.set(entry.card.ID, group);
-      cardGroups.push(group);
-    }
-  }
-
-  const cardWidth = 120;
-  const cardHeight = Math.round(cardWidth * (7 / 5));
-  const cols = 6;
-  const gap = 16;
-  const stackOffset = 6;
-  const padding = 20;
-  const rows = Math.ceil(cardGroups.length / cols);
-  const maxStack = Math.max(...cardGroups.map((g) => g.count), 1);
-  const extraOffset = (maxStack - 1) * stackOffset;
-  const canvasWidth =
-    padding * 2 + cols * cardWidth + (cols - 1) * gap + extraOffset;
-  const canvasHeight =
-    padding * 2 + rows * (cardHeight + extraOffset) + (rows - 1) * gap;
-
-  const canvas = document.createElement("canvas");
-  canvas.width = canvasWidth;
-  canvas.height = canvasHeight;
-  const ctx = canvas.getContext("2d")!;
-
-  // Draw tiled pattern background
-  const patternImg = await new Promise<HTMLImageElement>((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => resolve(img);
-    img.onerror = reject;
-    img.src = "/assets/pattern-bg-dark.svg";
-  });
-  const pattern = ctx.createPattern(patternImg, "repeat");
-  if (pattern) {
-    ctx.fillStyle = pattern;
-    ctx.fillRect(0, 0, canvasWidth, canvasHeight);
-  } else {
-    ctx.fillStyle = "#16171d";
-    ctx.fillRect(0, 0, canvasWidth, canvasHeight);
-  }
-
-  // Load unique card images
-  const loadImage = (src: string): Promise<HTMLImageElement> => {
-    return new Promise((resolve, reject) => {
-      const img = new Image();
-      img.crossOrigin = "anonymous";
-      img.onload = () => resolve(img);
-      img.onerror = reject;
-      img.src = src;
-    });
-  };
-
-  const images = await Promise.all(
-    cardGroups.map(({ card }) => {
-      const src = getCardImage(card);
-      return src ? loadImage(src).catch(() => null) : Promise.resolve(null);
-    }),
-  );
-
-  for (let i = 0; i < cardGroups.length; i++) {
-    const img = images[i];
-    if (!img) continue;
-    const { count } = cardGroups[i];
-    const col = i % cols;
-    const row = Math.floor(i / cols);
-    const baseX = padding + col * (cardWidth + gap);
-    const baseY = padding + row * (cardHeight + extraOffset + gap);
-
-    // Draw stacked copies
-    for (let n = 0; n < count; n++) {
-      const x = baseX + n * stackOffset;
-      const y = baseY + n * stackOffset;
-      ctx.drawImage(img, x, y, cardWidth, cardHeight);
-    }
-
-    // Draw count badge if more than 1
-    if (count > 1) {
-      const badgeX = baseX + (count - 1) * stackOffset + cardWidth - 8;
-      const badgeY = baseY + (count - 1) * stackOffset + cardHeight - 8;
-      const text = String(count);
-      ctx.font = "bold 14px sans-serif";
-      const textWidth = ctx.measureText(text).width;
-      const badgeWidth = Math.max(22, textWidth + 10);
-      const badgeHeight = 22;
-
-      ctx.fillStyle = "#7c4dff";
-      ctx.beginPath();
-      ctx.roundRect(
-        badgeX - badgeWidth,
-        badgeY - badgeHeight,
-        badgeWidth,
-        badgeHeight,
-        11,
-      );
-      ctx.fill();
-
-      ctx.fillStyle = "#ffffff";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      ctx.fillText(text, badgeX - badgeWidth / 2, badgeY - badgeHeight / 2);
-    }
-  }
-
-  canvas.toBlob(async (blob) => {
-    if (!blob) return;
+  const blob = await copyDeckAsImage(selectedDeck.value);
+  if (blob) {
     await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
-    shareMenuOpen.value = false;
-  }, "image/png");
+  }
+  shareMenuOpen.value = false;
 }
 
 function duplicateDeck() {
@@ -264,7 +110,7 @@ function duplicateDeck() {
 
 function deleteDeck() {
   if (!selectedDeck.value) return;
-  decks.value = decks.value.filter((d) => d.ID !== selectedDeck.value!.ID);
+  deleteDeckLocal(selectedDeck.value.ID);
   dialogOpen.value = false;
 }
 </script>
@@ -317,7 +163,7 @@ function deleteDeck() {
             <img
               v-if="getCardImage(entry.card)"
               :src="getCardImage(entry.card)"
-              :alt="entry.card.Name"
+              :alt="(entry.card as any).Name ?? (entry.card as any).name ?? ''"
               class="dialog-card-img"
             />
           </div>

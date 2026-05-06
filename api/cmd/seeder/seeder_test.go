@@ -100,6 +100,37 @@ func initPokemonCards() []models.PokemonCard {
 	}
 }
 
+func initNarutoCards() []models.NarutoCard {
+	return []models.NarutoCard{
+		{
+			Name:        "Naruto Uzumaki",
+			Description: "I'll be the greatest Hokage",
+			Cost:        6,
+			Power:       6,
+			Keyword:     "Team 7 / Jutsu",
+			Group:       "Leaf Village",
+			Effect:      "MAIN ↯ Hide an enemy character with Power 5 or less in this mission and another enemy character with Power 2 or less in play.UPGRADE MAIN effect: Instead, defeat both of them.",
+			EffectTypes: []string{"MAIN"},
+			Rarity:      "L",
+			CardNumber:  "00",
+			Set:         "1",
+		},
+		{
+			Name:        "Hiruzen Sarutobi",
+			Description: "The Professor",
+			Cost:        3,
+			Power:       3,
+			Keyword:     "Hokage",
+			Group:       "Leaf Village",
+			Effect:      "MAIN ↯ POWERUP 2 another friendly Leaf Village character.",
+			EffectTypes: []string{"MAIN"},
+			Rarity:      "C",
+			CardNumber:  "01",
+			Set:         "1",
+		},
+	}
+}
+
 func TestReadDirectory(t *testing.T) {
 	logInfo("Test: readDirectory")
 	// Arrange
@@ -139,11 +170,12 @@ func TestUnmarshalData(t *testing.T) {
 	}{
 		{"pokemon", "pokemon", "OptimaleOrdnung.json"},
 		{"digimon", "digimon", "BT24.json"},
+		{"naruto", "naruto", "Set1.json"},
 	}
 
 	for i, tt := range tests {
 		fmt.Printf("seeder_test.go::TestUnmarshalData() -> Running test %v for mode: %v\n", i, tt.mode)
-		dig, pok, err := unmarshalData(tt.dir, tt.file, tt.mode)
+		dig, pok, nar, err := unmarshalData(tt.dir, tt.file, tt.mode)
 		if err != nil {
 			t.Fatalf("seeder_test.go::TestUnmarshalData() in file %v: -> %v", tt.file, err)
 		}
@@ -174,6 +206,19 @@ func TestUnmarshalData(t *testing.T) {
 			} else {
 				logSuccess("seeder_test.go::TestUnmarshalData() -> Test successful")
 			}
+		case "naruto":
+			want := initNarutoCards()
+			if !reflect.DeepEqual(want[0].Name, nar[0].Name) {
+				t.Errorf("Data not identical!\nExpected: %+v\nReceived: %+v", want[0].Name, nar[0].Name)
+			} else {
+				logSuccess("seeder_test.go::TestUnmarshalData() -> Test successful")
+			}
+
+			if !reflect.DeepEqual(want[1].Effect, nar[1].Effect) {
+				t.Errorf("Data not identical!\nExpected: %+v\nReceived: %+v", want[1].Effect, nar[1].Effect)
+			} else {
+				logSuccess("seeder_test.go::TestUnmarshalData() -> Test successful")
+			}
 		}
 		clearTests()
 	}
@@ -189,13 +234,14 @@ func TestWriteToDB(t *testing.T) {
 	}{
 		{"pokemon", "pokemon", "OptimaleOrdnung.json"},
 		{"digimon", "digimon", "BT24.json"},
+		{"naruto", "naruto", "Set1.json"},
 	}
 
 	ctx := context.Background()
 
 	for i, tt := range tests {
 		fmt.Printf("seeder_test.go::TestWriteToDB() -> Running test %v for mode: %v\n", i, tt.mode)
-		dig, pok, err := unmarshalData(tt.dir, tt.file, tt.mode)
+		dig, pok, nar, err := unmarshalData(tt.dir, tt.file, tt.mode)
 		// fmt.Println("DIGIMON: ", dig)
 		// fmt.Println("POKEMON: ", pok)
 		if err != nil {
@@ -210,6 +256,8 @@ func TestWriteToDB(t *testing.T) {
 
 		case "digimon":
 			writeToDB(db, dig, &writtenCards)
+		case "naruto":
+			writeToDB(db, nar, &writtenCards)
 		}
 
 		// Assert
@@ -352,6 +400,25 @@ func TestRun(t *testing.T) {
 			} else {
 				logSuccess("seeder_test.go::TestRun() -> Test successful")
 			}
+		case "naruto":
+			have, err := gorm.G[models.NarutoCard](db).Where("set = ?", "1").Find(ctx)
+			if err != nil {
+				t.Errorf("seeder_test.go::TestRun() -> Could not retrieve from Naruto Database: %v\n", err)
+			} else {
+				logSuccess("seeder_test.go::TestRun() -> Test successful")
+			}
+			want := initNarutoCards()
+			// Assert
+			if have != nil && want[0].Name != have[0].Name {
+				t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[0].Name, have[0].Name)
+			} else {
+				logSuccess("seeder_test.go::TestRun() -> Test successful")
+			}
+			if have != nil && !reflect.DeepEqual(want[1].Effect, have[1].Effect) {
+				t.Errorf("seeder_test.go::TestRun() -> Expected return value: %v\nReceived value: %v\n", want[1].Effect, have[1].Effect)
+			} else {
+				logSuccess("seeder_test.go::TestRun() -> Test successful")
+			}
 		}
 		clearTests()
 	}
@@ -361,6 +428,7 @@ func clearTests() {
 	fmt.Println("clearing testsuite")
 	db.Unscoped().Where("1 = 1").Delete(&models.DigimonCard{})
 	db.Unscoped().Where("1 = 1").Delete(&models.PokemonCard{})
+	db.Unscoped().Where("1 = 1").Delete(&models.NarutoCard{})
 }
 
 func logSuccess(message string) {

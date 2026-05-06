@@ -58,6 +58,13 @@ body {
   background-color: #16171d;
 }
 
+body[data-tcg="naruto"] {
+  background-image: url("/assets/pattern-bg-naruto.svg");
+  background-repeat: repeat;
+  background-size: 70px 70px;
+  background-color: #16171d;
+}
+
 #app {
   background: var(--bg);
   min-height: 100vh;

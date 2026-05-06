@@ -73,6 +73,12 @@ func initRoutes(r *gin.Engine) {
 		controller.FindPokemonCardsByEnergyType(ctx)
 	})
 
+	// Naruto Cards
+	NarutoCardRoutes := api.Group("/naruto/cards")
+	NarutoCardRoutes.GET("", func(ctx *gin.Context) {
+		controller.FindAllNarutoCards(ctx)
+	})
+
 	// Authentication routes
 	protectedRoutes := api.Group("/auth")
 	protectedRoutes.Use(middleware.ClerkAuthorizeHeader())
@@ -97,6 +103,15 @@ func initRoutes(r *gin.Engine) {
 			})
 			PokemondeckRoutes.POST("/create", func(ctx *gin.Context) {
 				controller.CreatePokemonDeck(ctx)
+			})
+		}
+		NarutodeckRoutes := protectedRoutes.Group("/naruto/decks")
+		{
+			NarutodeckRoutes.GET("/user", func(ctx *gin.Context) {
+				controller.GetNarutoDecksByUserId(ctx)
+			})
+			NarutodeckRoutes.POST("/create", func(ctx *gin.Context) {
+				controller.CreateNarutoDeck(ctx)
 			})
 		}
 

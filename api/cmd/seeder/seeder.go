@@ -15,7 +15,7 @@ import (
 )
 
 type TCard interface {
-	models.DigimonCard | models.PokemonCard
+	models.DigimonCard | models.PokemonCard | models.NarutoCard
 }
 
 func readDirectory(path string) ([]string, error) {
@@ -29,50 +29,61 @@ func readDirectory(path string) ([]string, error) {
 			files = append(files, entry.Name())
 		}
 	}
+	fmt.Println("found files: ", files)
 	return files, nil
 }
 
-func unmarshalData(path string, file string, mode string) ([]models.DigimonCard, []models.PokemonCard, error) {
+func unmarshalData(path string, file string, mode string) ([]models.DigimonCard, []models.PokemonCard, []models.NarutoCard, error) {
 	rawFile, err := os.ReadFile(path + "/" + file)
 	if err != nil {
 		log.Fatalf("seeder.go::unmarshalData() -> Error reading file: %v\n", err)
-		return nil, nil, err
+		return nil, nil, nil, err
 	}
 
 	var digimonData []models.DigimonCard
 	var pokemonData []models.PokemonCard
+	var narutoData []models.NarutoCard
 
 	if mode == "digimon" {
 		err = json.Unmarshal(rawFile, &digimonData)
 		if err != nil {
 			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
-			return nil, nil, err
+			return nil, nil, nil, err
 		} else {
-			return digimonData, nil, err
+			return digimonData, nil, nil, err
 		}
 	} else if mode == "pokemon" {
 		err = json.Unmarshal(rawFile, &pokemonData)
 		if err != nil {
 			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
-			return nil, nil, err
+			return nil, nil, nil, err
 		} else {
-			return nil, pokemonData, err
+			return nil, pokemonData, nil, err
+		}
+	} else if mode == "naruto" {
+		err = json.Unmarshal(rawFile, &narutoData)
+		if err != nil {
+			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
+			return nil, nil, nil, err
+		} else {
+			fmt.Println("Successfully unmarshaled Naruto data: ", narutoData)
+			return nil, nil, narutoData, err
 		}
 	} else {
-		return nil, nil, fmt.Errorf("seeder.go::unmarshalData() -> Invalid mode: %s\n", mode)
+		return nil, nil, nil, fmt.Errorf("seeder.go::unmarshalData() -> Invalid mode: %s\n", mode)
 	}
 
 }
 
-func countIdDuplicates(cards []string, id string) int {
-	counter := 0
-	for _, card := range cards {
-		if card == id {
-			counter++
-		}
-	}
-	return counter
-}
+// func countIdDuplicates(cards []string, id string) int {
+// 	counter := 0
+// 	for _, card := range cards {
+// 		if card == id {
+// 			counter++
+// 		}
+// 	}
+// 	return counter
+// }
 
 func writeToDB[T TCard](db *gorm.DB, cards []T, writtenCards *[]string) error {
 	ctx := context.Background()
@@ -98,7 +109,7 @@ func run(db *gorm.DB, path string, mode string) error {
 
 	var writtenCards []string
 	for _, file := range files {
-		digimonCards, pokemonCards, err := unmarshalData(path, file, mode)
+		digimonCards, pokemonCards, narutoCards, err := unmarshalData(path, file, mode)
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error unmarshaling data from file %v: %v\n", file, err)
 			return err
@@ -107,6 +118,8 @@ func run(db *gorm.DB, path string, mode string) error {
 			err = writeToDB(db, digimonCards, &writtenCards)
 		} else if mode == "pokemon" {
 			err = writeToDB(db, pokemonCards, &writtenCards)
+		} else if mode == "naruto" {
+			err = writeToDB(db, narutoCards, &writtenCards)
 		}
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
@@ -125,6 +138,9 @@ func main() {
 		seedDir = "POKEMON_SEEDER_DIR"
 	} else if *mode == "digimon" {
 		seedDir = "DIGIMON_SEEDER_DIR"
+	} else if *mode == "naruto" {
+		seedDir = "NARUTO_SEEDER_DIR"
+		fmt.Println("Running Naruto seeder...")
 	} else {
 		log.Fatalf("seeder.go::main() -> Invalid mode: %s", *mode)
 	}

@@ -1,23 +1,38 @@
 <script setup lang="ts">
 import { useUser } from "@clerk/vue";
 import { computed, onMounted, onUnmounted, ref, watch } from "vue";
+import { useNarutoBuilder } from "../composables/naruto/useNarutoBuilder";
 import { usePokemonBuilder } from "../composables/pokemon/usePokemonBuilder";
-import type { PokemonCard } from "../interfaces/interfaces";
+import { useTcgState } from "../composables/useTcgState";
+import type { NarutoCard, PokemonCard } from "../interfaces/interfaces";
+
+type AnyCard = PokemonCard | NarutoCard;
 
 const STORAGE_KEY = "builder-deck";
 const STORAGE_NAME_KEY = "builder-deck-name";
 const STORAGE_ID_KEY = "builder-deck-id";
 
 const { user } = useUser();
-const {
-  allCards,
-  filters,
-  getCardImage,
-  cardKey,
-  filterCards,
-  parseDeckList,
-  saveDeck: saveToApi,
-} = usePokemonBuilder();
+const { selectedTcg } = useTcgState();
+
+const pokemon = usePokemonBuilder();
+const naruto = useNarutoBuilder();
+
+const filters = computed(() => {
+  if (selectedTcg.value === "naruto") return naruto.filters;
+  return pokemon.filters;
+});
+
+function getCardImage(card: AnyCard): string {
+  if (selectedTcg.value === "naruto")
+    return naruto.getCardImage(card as NarutoCard);
+  return pokemon.getCardImage(card as PokemonCard);
+}
+
+function cardKey(card: AnyCard): string {
+  if (selectedTcg.value === "naruto") return naruto.cardKey(card as NarutoCard);
+  return pokemon.cardKey(card as PokemonCard);
+}
 
 const searchQuery = ref("");
 const activeFilter = ref("all");
@@ -33,7 +48,7 @@ const tooltipImage = ref("");
 const tooltipPos = ref({ x: 0, y: 0 });
 const tooltipVisible = ref(false);
 
-function showTooltip(card: PokemonCard, event: MouseEvent) {
+function showTooltip(card: AnyCard, event: MouseEvent) {
   tooltipImage.value = getCardImage(card);
   tooltipPos.value = { x: event.clientX + 16, y: event.clientY + 16 };
   tooltipVisible.value = true;
@@ -47,9 +62,16 @@ function hideTooltip() {
   tooltipVisible.value = false;
 }
 
-const chosenCards = ref<PokemonCard[]>(
+const chosenCards = ref<AnyCard[]>(
   JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "[]"),
 );
+
+// Clear deck when TCG switches
+watch(selectedTcg, () => {
+  chosenCards.value = [];
+  activeFilter.value = "all";
+  searchQuery.value = "";
+});
 
 watch(
   chosenCards,
@@ -63,15 +85,26 @@ watch(deckName, (val) => {
   sessionStorage.setItem(STORAGE_NAME_KEY, val);
 });
 
-const filteredCards = computed(() =>
-  filterCards(allCards.value, searchQuery.value, activeFilter.value),
-);
+const filteredCards = computed(() => {
+  if (selectedTcg.value === "naruto") {
+    return naruto.filterCards(
+      naruto.allCards.value,
+      searchQuery.value,
+      activeFilter.value,
+    );
+  }
+  return pokemon.filterCards(
+    pokemon.allCards.value,
+    searchQuery.value,
+    activeFilter.value,
+  );
+});
 
-function addCard(card: PokemonCard) {
+function addCard(card: AnyCard) {
   chosenCards.value.push(card);
 }
 
-function removeCard(card: PokemonCard) {
+function removeCard(card: AnyCard) {
   const key = cardKey(card);
   const idx = chosenCards.value.findIndex((c) => cardKey(c) === key);
   if (idx !== -1) chosenCards.value.splice(idx, 1);
@@ -83,7 +116,7 @@ function clearDeck() {
 }
 
 interface CardGroup {
-  card: PokemonCard;
+  card: AnyCard;
   key: string;
   count: number;
 }
@@ -106,7 +139,19 @@ async function saveDeck() {
   if (!deckName.value.trim() || chosenCards.value.length === 0) return;
   saving.value = true;
   try {
-    await saveToApi(user.value!.id, deckName.value.trim(), chosenCards.value);
+    if (selectedTcg.value === "naruto") {
+      await naruto.saveDeck(
+        user.value!.id,
+        deckName.value.trim(),
+        chosenCards.value as NarutoCard[],
+      );
+    } else {
+      await pokemon.saveDeck(
+        user.value!.id,
+        deckName.value.trim(),
+        chosenCards.value as PokemonCard[],
+      );
+    }
     chosenCards.value = [];
     deckName.value = "";
     editingDeckId.value = null;
@@ -123,13 +168,24 @@ async function saveDeck() {
 async function importDeck() {
   try {
     const text = await navigator.clipboard.readText();
-    const imported = parseDeckList(text, allCards.value);
+    let imported: AnyCard[];
+    if (selectedTcg.value === "naruto") {
+      imported = naruto.parseDeckList(text, naruto.allCards.value);
+    } else {
+      imported = pokemon.parseDeckList(text, pokemon.allCards.value);
+    }
     if (imported.length > 0) {
       chosenCards.value = imported;
     }
   } catch (e) {
     console.error("Failed to import deck:", e);
   }
+}
+
+function cardName(card: AnyCard): string {
+  if ("Name" in card) return card.Name ?? "";
+  if ("name" in card) return card.name ?? "";
+  return "";
 }
 
 // Responsive detection
@@ -236,7 +292,7 @@ function stopDrag() {
           <template v-if="isNarrow">
             <img
               :src="getCardImage(group.card)"
-              :alt="group.card.Name"
+              :alt="cardName(group.card)"
               class="card-image card-chosen"
             />
           </template>
@@ -246,7 +302,7 @@ function stopDrag() {
               v-for="n in group.count"
               :key="n"
               :src="getCardImage(group.card)"
-              :alt="group.card.Name"
+              :alt="cardName(group.card)"
               class="card-image card-chosen"
               :style="{
                 position: 'absolute',
@@ -316,7 +372,11 @@ function stopDrag() {
           @mousemove="moveTooltip($event)"
           @mouseleave="hideTooltip"
         >
-          <img :src="getCardImage(card)" :alt="card.Name" class="card-image" />
+          <img
+            :src="getCardImage(card)"
+            :alt="cardName(card)"
+            class="card-image"
+          />
         </div>
       </div>
     </div>
@@ -482,15 +542,16 @@ function stopDrag() {
   min-height: 0;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 1fr;
+  grid-auto-rows: min-content;
   gap: 12px 16px;
-  overflow: hidden;
+  overflow-y: auto;
   padding-right: 30px;
   padding-bottom: 20px;
 }
 
 .card-stack {
   position: relative;
+  aspect-ratio: 5 / 7;
   min-height: 0;
   cursor: pointer;
 }
@@ -528,7 +589,7 @@ function stopDrag() {
   position: fixed;
   z-index: 9999;
   pointer-events: none;
-  width: 220px;
+  width: 300px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
@@ -576,7 +637,8 @@ function stopDrag() {
   }
 
   .card-grid {
-    grid-template-columns: repeat(4, minmax(70px, 1fr));
+    grid-template-columns: repeat(8, minmax(50px, 1fr));
+    gap: 8px;
   }
 
   .deck-grid {

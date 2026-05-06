@@ -7,4 +7,5 @@ echo "Installing Python development dependencies..."
 echo "Adding bash alias"
 echo "alias ll=\"ls -l\"" >> ~/.bashrc
 echo "alias la=\"ls -la\"" >> ~/.bashrc
+echo "alias cgoose=\"./build/goose\"" >> ~/.bashrc
 curl -LsSf https://astral.sh/uv/install.sh | sh

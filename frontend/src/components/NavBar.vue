@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { Show, SignInButton, UserButton } from "@clerk/vue";
+import { ref } from "vue";
+import { useTcgState, type TcgType } from "../composables/useTcgState";
+
+const { selectedTcg, setTcg } = useTcgState();
 
 const navItems = [
   { label: "Builder", path: "/builder" },
@@ -7,10 +11,40 @@ const navItems = [
   { label: "Profile", path: "/profile" },
   { label: "", path: "/" },
 ];
+
+const tcgOptions: { label: string; value: TcgType }[] = [
+  { label: "Pokémon", value: "pokemon" },
+  { label: "Digimon", value: "digimon" },
+  { label: "Naruto Mythos", value: "naruto" },
+];
+const tcgMenuOpen = ref(false);
+
+const tcgLabel = () =>
+  tcgOptions.find((o) => o.value === selectedTcg.value)?.label ?? "Pokémon";
 </script>
 
 <template>
   <nav class="navbar">
+    <div class="tcg-dropdown">
+      <button class="nav-item tcg-trigger" @click="tcgMenuOpen = !tcgMenuOpen">
+        {{ tcgLabel() }}
+        <v-icon icon="mdi-chevron-down" class="tcg-arrow" />
+      </button>
+      <div v-if="tcgMenuOpen" class="tcg-menu">
+        <button
+          v-for="option in tcgOptions"
+          :key="option.value"
+          class="tcg-option"
+          :class="{ 'tcg-option--active': option.value === selectedTcg }"
+          @click="
+            setTcg(option.value);
+            tcgMenuOpen = false;
+          "
+        >
+          {{ option.label }}
+        </button>
+      </div>
+    </div>
     <router-link
       v-for="item in navItems"
       :key="item.path"
@@ -80,5 +114,69 @@ const navItems = [
   align-items: center;
   justify-content: center;
   padding: 4px 12px;
+}
+
+.tcg-dropdown {
+  position: relative;
+}
+
+.tcg-trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.tcg-arrow {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.tcg-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 160px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 4px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.tcg-option {
+  padding: 8px 14px;
+  border: none;
+  background: none;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+
+.tcg-option:hover {
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.tcg-option--active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.tcg-option--active:hover {
+  background: var(--accent);
+  color: #fff;
 }
 </style>

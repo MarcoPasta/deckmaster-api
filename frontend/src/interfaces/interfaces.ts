@@ -64,3 +64,41 @@ export interface PokemonDecks {
   name: string;
   entries: PokemonDeckEntry[];
 }
+
+export interface NarutoCard {
+  ID: number;
+  CreatedAt: Date;
+  UpdatedAt: Date;
+  DeletedAt: Date | null;
+  name: string;
+  description: string;
+  cost: number;
+  power: number;
+  keyword: string;
+  group: string;
+  effect: string;
+  effect_types: string[];
+  rarity: string;
+  card_number: string;
+  set: string;
+}
+
+export interface NarutoDeckEntry {
+  ID: number;
+  CreatedAt: Date;
+  UpdatedAt: Date;
+  DeletedAt: Date | null;
+  deckId: number;
+  cardId: number;
+  card: NarutoCard;
+}
+
+export interface NarutoDecks {
+  ID: number;
+  CreatedAt: Date;
+  UpdatedAt: Date;
+  DeletedAt: Date | null;
+  userId: string;
+  name: string;
+  entries: NarutoDeckEntry[];
+}
