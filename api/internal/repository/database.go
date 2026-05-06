@@ -48,7 +48,7 @@ func RunMigrations() {
 	}
 }
 
-func CheckTableValue() {
+func CheckTableValue() error {
 	if !DbMigrator.HasTable("users") {
 		log.Fatal("Table 'users' does not exist. Please run the migrations.")
 	}
@@ -62,7 +62,7 @@ func CheckTableValue() {
 
 	if len(rtvPok) == 0 {
 		fmt.Println("No Pokémon cards found in the database. Please run the seeders.")
-		RunSeeder("pokemon")
+		return RunSeeder("pokemon")
 	}
 
 	rtvNaruto, err := gorm.G[models.NarutoCard](DB).Find(ctx)
@@ -72,7 +72,7 @@ func CheckTableValue() {
 
 	if len(rtvNaruto) == 0 {
 		fmt.Println("No Naruto cards found in the database. Please run the seeders.")
-		RunSeeder("naruto")
+		return RunSeeder("naruto")
 	}
 
 	rtvDigimon, err := gorm.G[models.DigimonCard](DB).Find(ctx)
@@ -82,6 +82,7 @@ func CheckTableValue() {
 
 	if len(rtvDigimon) == 0 {
 		fmt.Println("No Digimon cards found in the database. Please run the seeders.")
+		return RunSeeder("digimon")
 	}
 }
 
