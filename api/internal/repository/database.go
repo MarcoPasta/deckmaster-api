@@ -2,11 +2,12 @@ package repository
 
 import (
 	"context"
-	"embed"
 	"fmt"
 	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
+	"runtime"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"github.com/pressly/goose/v3"
@@ -30,11 +31,12 @@ func ConnectToDatabase(host string, port string, user string, dbName string, pas
 	DbMigrator = db.Migrator()
 }
 
-var embedMigrations embed.FS
+//go:embed migrations/*.go
+// var embedMigrations embed.FS
 
 func RunMigrations() {
 	// Migrate the schema
-	goose.SetBaseFS(embedMigrations)
+	// goose.SetBaseFS(embedMigrations)
 	sqlDb, err := DB.DB()
 	if err != nil {
 		panic(err)
@@ -43,7 +45,12 @@ func RunMigrations() {
 		panic(err)
 	}
 
-	if err := goose.Up(sqlDb, "../../migrations/"); err != nil {
+	// Resolve migrations directory relative to this source file so goose
+	// can find it regardless of the current working directory.
+	_, file, _, _ := runtime.Caller(0)
+	migrationsDir := filepath.Join(filepath.Dir(file), "migrations")
+
+	if err := goose.Up(sqlDb, migrationsDir); err != nil {
 		panic(err)
 	}
 }
