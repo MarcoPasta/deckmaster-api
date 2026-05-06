@@ -31,12 +31,8 @@ func ConnectToDatabase(host string, port string, user string, dbName string, pas
 	DbMigrator = db.Migrator()
 }
 
-//go:embed migrations/*.go
-// var embedMigrations embed.FS
-
 func RunMigrations() {
 	// Migrate the schema
-	// goose.SetBaseFS(embedMigrations)
 	sqlDb, err := DB.DB()
 	if err != nil {
 		panic(err)
