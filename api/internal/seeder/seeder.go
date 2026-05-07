@@ -8,7 +8,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"reflect"
 	"slices"
 
 	"github.com/MarcoPasta/deckmaster/api/internal"
@@ -32,7 +31,7 @@ func readDirectory(path string) ([]string, error) {
 			files = append(files, entry.Name())
 		}
 	}
-	fmt.Println("found files: ", files)
+	// fmt.Println("found files: ", files)
 	return files, nil
 }
 
@@ -69,7 +68,7 @@ func unmarshalData(path string, file string, mode string) ([]models.DigimonCard,
 			log.Fatalf("seeder.go::unmarshalData() -> Error unmarshaling data: %v\n", err)
 			return nil, nil, nil, err
 		} else {
-			fmt.Println("Successfully unmarshaled Naruto data: ", narutoData)
+			// fmt.Println("Successfully unmarshaled Naruto data: ", narutoData)
 			return nil, nil, narutoData, err
 		}
 	} else {
@@ -78,60 +77,84 @@ func unmarshalData(path string, file string, mode string) ([]models.DigimonCard,
 
 }
 
-func containsIdDuplicate[T TCard](writtenCards *[]string, cards []T, mode string) bool {
+func containsIdDuplicate(writtenCards *[]string, card models.DigimonCard, mode string) bool {
 
-	for _, card := range cards {
+	// log.Println("Checking card with ID:", card.Id)
+	if slices.Contains(*writtenCards, string(card.Id)) {
+		// log.Println("Duplicate ID found:", card.Id)
+		return true
+	} else {
 
-		switch mode {
-		case "digimon":
-			id := reflect.ValueOf(card).FieldByName("Id").String()
-			log.Println("Checking card with ID:", id)
-			if slices.Contains(*writtenCards, id) {
-				log.Println("Duplicate ID found:", id)
-				return true
-			} else {
-
-				*writtenCards = append(*writtenCards, id)
-			}
-		case "pokemon":
-			id := reflect.ValueOf(card).FieldByName("ID").String()
-			log.Println("Checking card with ID:", id)
-			if slices.Contains(*writtenCards, id) {
-				log.Println("Duplicate ID found:", id)
-				return true
-			} else {
-				*writtenCards = append(*writtenCards, id)
-			}
-		case "naruto":
-			id := reflect.ValueOf(card).FieldByName("ID").String()
-			log.Println("Checking card with ID:", id)
-			if slices.Contains(*writtenCards, id) {
-				log.Println("Duplicate ID found:", id)
-				return true
-			} else {
-				*writtenCards = append(*writtenCards, id)
-			}
-		}
+		*writtenCards = append(*writtenCards, card.Id)
+		return false
 	}
-	return false
+
+	// switch mode {
+	// case "digimon":
+	// case "pokemon":
+	// 	id := reflect.ValueOf(card).FieldByName("Id")
+	// 	log.Println("Checking card with ID:", id.Uint())
+	// 	if slices.Contains(*writtenCards, string(id.Uint())) {
+	// 		log.Println("Duplicate ID found:", id)
+	// 		return true
+	// 	} else {
+	// 		*writtenCards = append(*writtenCards, string(id.Uint()))
+	// 	}
+	// case "naruto":
+	// 	id := reflect.ValueOf(card).FieldByName("Id")
+	// 	log.Println("Checking card with ID:", id.Uint())
+	// 	if slices.Contains(*writtenCards, string(id.Uint())) {
+	// 		log.Println("Duplicate ID found:", id)
+	// 		return true
+	// 	} else {
+	// 		*writtenCards = append(*writtenCards, string(id.Uint()))
+	// 	}
+	// }
+}
+
+func cardMapper[T TCard](cards []T) []models.DigimonCard {
+	result := make([]models.DigimonCard, len(cards))
+	for i, card := range cards {
+		result[i] = any(card).(models.DigimonCard)
+	}
+
+	return result
 }
 
 func writeToDB[T TCard](db *gorm.DB, cards []T, writtenCards *[]string, mode string) error {
 	ctx := context.Background()
 	result := gorm.WithResult()
+	var digCards []models.DigimonCard
 
-	for _, card := range cards {
+	if mode == "digimon" {
+		// log.Println("Type matches Digimon Type")
+		digCards = cardMapper(cards)
+		// log.Println(digCards)
+		for _, card := range digCards {
 
-		if !containsIdDuplicate(writtenCards, cards, mode) {
+			if !containsIdDuplicate(writtenCards, card, mode) {
+				err := gorm.G[models.DigimonCard](db, result).Create(ctx, &card)
+				if err != nil {
+					fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card, err)
+					return err
+				}
+				// log.Println("Card written to DB: ", card.Id)
+			} else {
+				// log.Println("inside continue")
+				continue
+			}
+		}
+	} else {
+		// log.Println("Type does not match Digimon Type")
+		for _, card := range cards {
+			// log.Println("Current Card: ", card)
+			// log.Println("Card written to DB")
 			err := gorm.G[T](db, result).Create(ctx, &card)
 			if err != nil {
 				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card, err)
 				return err
 			}
-		} else {
-			continue
 		}
-
 	}
 	return nil
 }
@@ -167,12 +190,13 @@ func run(db *gorm.DB, path string, mode string) error {
 	return nil
 }
 
-func Main(args ...string) {
+func Main(args ...string) error {
 
 	var mode *string
 	if len(args) > 0 {
 		fmt.Println("Received arguments:", args)
 		mode = flag.String(args[0], args[1], "ich schreib mal iwas rein")
+		flag.Parse()
 	} else {
 		mode = flag.String("mode", "pokemon", "ich schreib mal iwas rein")
 		flag.Parse()
@@ -186,8 +210,15 @@ func Main(args ...string) {
 		seedDir = "NARUTO_SEEDER_DIR"
 		fmt.Println("Running Naruto seeder...")
 	} else {
-		log.Fatalf("seeder.go::main() -> Invalid mode: %s", *mode)
+		return fmt.Errorf("seeder.go::main() -> Invalid mode: %s", *mode)
 	}
 	repository.ConnectToDatabase(internal.GetDBString())
-	run(repository.DB, os.Getenv(seedDir), *mode)
+	err := run(repository.DB, os.Getenv(seedDir), *mode)
+	// Source - https://stackoverflow.com/a/57972717
+	// Posted by VolatileCoder, modified by community. See post 'Timeline' for change history
+	// Retrieved 2026-05-07, License - CC BY-SA 4.0
+
+	flag.CommandLine = flag.NewFlagSet(os.Args[0], flag.ExitOnError) //flags are now reset
+
+	return err
 }

@@ -13,6 +13,7 @@ import (
 var Router *gin.Engine
 
 func SetupRouter() {
+	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	initRoutes(r)
 

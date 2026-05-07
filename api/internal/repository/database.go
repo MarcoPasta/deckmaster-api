@@ -52,6 +52,7 @@ func CheckTableValue() error {
 	ctx := context.Background()
 
 	rtvPok, err := gorm.G[models.PokemonCard](DB).Find(ctx)
+	log.Println("retrieved pokemon cards")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -62,6 +63,7 @@ func CheckTableValue() error {
 	}
 
 	rtvNaruto, err := gorm.G[models.NarutoCard](DB).Find(ctx)
+	log.Println("retrieved naruto cards")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -72,6 +74,7 @@ func CheckTableValue() error {
 	}
 
 	rtvDigimon, err := gorm.G[models.DigimonCard](DB).Find(ctx)
+	log.Println("retrieved digimon cards")
 	if err != nil {
 		log.Fatal(err)
 	}
