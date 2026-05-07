@@ -29,6 +29,7 @@ func ConnectToDatabase(host string, port string, user string, dbName string, pas
 }
 
 func RunMigrations() {
+	log.Println("Running database migrations...")
 	sqlDb, err := DB.DB()
 	if err != nil {
 		panic(err)
