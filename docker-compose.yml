@@ -15,6 +15,19 @@ services:
   #     - db
   #   restart: unless-stopped
 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: deckmaster_frontend:latest
+    ports:
+      - "8081:80"
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - shared
+
   app:
     build:
       # Build context set to the `api` directory so the Dockerfile can COPY
