@@ -30,7 +30,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "1/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -62,7 +63,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "2/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -100,7 +102,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "3/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -123,7 +126,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "4/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -147,7 +151,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "5/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -181,7 +186,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "6/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -204,7 +210,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "7/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -235,7 +242,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -267,7 +275,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "9/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -297,7 +306,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "10/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -320,7 +330,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "11/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -351,7 +362,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "12/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -374,7 +386,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "13/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -405,7 +418,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "14/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -428,7 +442,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -451,7 +466,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "16/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -474,7 +490,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "17/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -507,7 +524,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "18/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -530,7 +548,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "19/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -560,7 +579,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "20/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -583,7 +603,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -615,7 +636,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "22/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -654,7 +676,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -685,7 +708,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "24/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -724,7 +748,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "25/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -757,7 +782,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "26/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -789,7 +815,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "27/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -823,7 +850,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "28/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -846,7 +874,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "29/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -876,7 +905,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "30/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -918,7 +948,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "31/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -941,7 +972,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -970,7 +1002,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "33/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1003,7 +1036,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "34/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1026,7 +1060,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "35/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1057,7 +1092,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "36/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1080,7 +1116,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "37/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1112,7 +1149,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "38/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1150,7 +1188,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "39/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1181,7 +1220,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1213,7 +1253,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "41/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1247,7 +1288,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "42/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1279,7 +1321,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "43/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1312,7 +1355,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "44/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1341,7 +1385,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "45/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1364,7 +1409,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "46/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1387,7 +1433,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "47/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1416,7 +1463,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "48/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1449,7 +1497,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "49/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1481,7 +1530,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1512,7 +1562,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "51/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1535,7 +1586,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "52/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1559,7 +1611,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "53/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1582,7 +1635,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "54/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1613,7 +1667,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1636,7 +1691,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "56/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1669,7 +1725,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "57/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1703,7 +1760,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "58/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1737,7 +1795,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "59/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1773,7 +1832,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "60/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1805,7 +1865,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "61/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1828,7 +1889,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "62/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1860,7 +1922,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1895,7 +1958,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "64/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1933,7 +1997,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "65/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -1974,7 +2039,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "66/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2007,7 +2073,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "67/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2031,7 +2098,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "68/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2071,7 +2139,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "69/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2105,7 +2174,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "70/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2128,7 +2198,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "71/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2159,7 +2230,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "72/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2183,7 +2255,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "73/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2214,7 +2287,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "74/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2246,7 +2320,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "75/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2278,7 +2353,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "76/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2310,7 +2386,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "77/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2343,7 +2420,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "78/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2366,7 +2444,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "79/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2399,7 +2478,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "80/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2436,7 +2516,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "81/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2470,7 +2551,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "82/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2501,7 +2583,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "83/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2534,7 +2617,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "84/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2557,7 +2641,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "85/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2588,7 +2673,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "86/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2612,7 +2698,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "87/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2644,7 +2731,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "88/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2675,7 +2763,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "89/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2698,7 +2787,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "90/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2721,7 +2811,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "91/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2751,7 +2842,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "92/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2783,7 +2875,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "93/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2806,7 +2899,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "94/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2829,7 +2923,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "95/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2861,7 +2956,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "96/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2894,7 +2990,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "97/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2927,7 +3024,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "98/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2950,7 +3048,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "99/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -2973,7 +3072,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "100/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3013,7 +3113,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "101/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3036,7 +3137,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "102/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3065,7 +3167,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "103/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3103,7 +3206,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "104/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3126,7 +3230,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "105/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3160,7 +3265,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "106/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3184,7 +3290,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "107/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3215,7 +3322,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "108/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3238,7 +3346,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "109/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3271,7 +3380,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "110/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3304,7 +3414,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "111/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3335,7 +3446,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "112/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3366,7 +3478,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "113/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3389,7 +3502,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "114/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3421,7 +3535,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "115/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3453,7 +3568,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "116/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3485,7 +3601,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "117/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3519,7 +3636,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "118/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3561,7 +3679,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "119/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3584,7 +3703,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "120/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3613,7 +3733,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "121/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3649,7 +3770,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "122/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3673,7 +3795,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "123/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3707,7 +3830,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "124/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3737,7 +3861,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "125/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3761,7 +3886,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "126/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3793,7 +3919,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "127/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3825,7 +3952,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "128/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3848,7 +3976,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "129/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3871,7 +4000,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "130/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3895,7 +4025,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "131/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3920,7 +4051,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "132/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3953,7 +4085,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "133/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -3984,7 +4117,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "134/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4008,7 +4142,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "135/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4044,7 +4179,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "136/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4069,7 +4205,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "137/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4102,7 +4239,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "138/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4141,7 +4279,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "139/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4175,7 +4314,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "140/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4207,7 +4347,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "141/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4241,7 +4382,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "142/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4265,7 +4407,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "143/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4289,7 +4432,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "144/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4326,7 +4470,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "145/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4351,7 +4496,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "146/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4374,7 +4520,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "147/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4397,7 +4544,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "148/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4429,7 +4577,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "149/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4469,7 +4618,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "150/182 Double Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4503,7 +4653,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "151/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4535,7 +4686,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "152/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4558,7 +4710,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "153/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4583,7 +4736,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "154/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4613,7 +4767,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "155/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4636,7 +4791,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "156/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4668,7 +4824,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "157/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4691,7 +4848,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "158/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4721,7 +4879,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "159/182 Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4744,7 +4903,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "160/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4765,7 +4925,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "161/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -4786,7 +4947,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "162/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4807,7 +4969,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "163/182 Common",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4828,7 +4991,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "164/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4849,7 +5013,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "165/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4870,7 +5035,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "166/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4891,7 +5057,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "167/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4912,7 +5079,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "168/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4933,7 +5101,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "169/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4954,7 +5123,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "170/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4975,7 +5145,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -4996,7 +5167,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "172/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5017,7 +5189,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "173/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5038,7 +5211,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "174/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5059,7 +5233,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "175/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5080,7 +5255,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "176/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5101,7 +5277,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "177/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5122,7 +5299,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "178/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5143,7 +5321,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "179/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5164,7 +5343,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "180/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -5185,7 +5365,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "181/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "",
@@ -5206,7 +5387,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "182/182 Uncommon",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5238,7 +5420,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "183/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5269,7 +5452,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "184/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5299,7 +5483,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "185/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5330,7 +5515,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "186/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5360,7 +5546,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "187/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5393,7 +5580,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "188/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5423,7 +5611,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "189/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5456,7 +5645,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "190/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5488,7 +5678,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "191/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5522,7 +5713,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "192/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5551,7 +5743,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "193/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5583,7 +5776,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "194/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5606,7 +5800,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "195/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5638,7 +5833,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "196/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5670,7 +5866,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "197/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5701,7 +5898,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "198/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5725,7 +5923,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "199/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5757,7 +5956,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "200/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5782,7 +5982,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "201/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5805,7 +6006,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "202/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5837,7 +6039,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "203/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5871,7 +6074,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "204/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5901,7 +6105,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "205/182 Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5939,7 +6144,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "206/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -5978,7 +6184,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "207/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6020,7 +6227,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "208/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6058,7 +6266,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "209/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6096,7 +6305,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "210/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6137,7 +6347,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "211/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6177,7 +6388,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "212/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6214,7 +6426,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "213/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6254,7 +6467,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "214/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6292,7 +6506,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "215/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6334,7 +6549,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "216/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6370,7 +6586,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "217/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6409,7 +6626,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "218/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6449,7 +6667,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "219/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6470,7 +6689,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "220/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6491,7 +6711,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "221/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6512,7 +6733,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "222/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6533,7 +6755,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "223/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6554,7 +6777,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "224/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6575,7 +6799,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "225/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6596,7 +6821,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "226/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6617,7 +6843,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "227/182 Ultra Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6655,7 +6882,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "228/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6697,7 +6925,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "229/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6735,7 +6964,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "230/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6772,7 +7002,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "231/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6810,7 +7041,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "232/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6852,7 +7084,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "233/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6888,7 +7121,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "234/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -6927,7 +7161,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "235/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6948,7 +7183,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "236/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6969,7 +7205,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "237/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -6990,7 +7227,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "238/182 Special Illustration Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -7028,7 +7266,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "239/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -7065,7 +7304,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "240/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -7103,7 +7343,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "241/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Pokemon",
@@ -7139,7 +7380,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "242/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -7160,7 +7402,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "243/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     },
     {
         "cardType": "Trainer",
@@ -7181,6 +7424,7 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "244/182 Hyper Rare",
-        "set": "Ewige Rivalen"
+        "set": "Ewige Rivalen",
+        "code": "dri"
     }
 ]

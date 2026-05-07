@@ -8,7 +8,6 @@ import (
 
 type DigimonCard struct {
 	Id        string `gorm:"primaryKey"`
-	DeckId    uint   `gorm:"index"` // Foreign key to DigimonDecks
 	Name      string
 	CardType  string
 	Color     []string `gorm:"serializer:json" collection_format:"multi"`
@@ -25,16 +24,18 @@ type DigimonCard struct {
 	DeletedAt gorm.DeletedAt `gorm:"index"`
 }
 
-type DigimonCardAltArt struct {
-	gorm.Model
-	CardID string `gorm:"foreignKey:Id"`
-	Image  string
-}
+type DigimonCardAltArt struct{}
+
 type DigimonDecks struct {
 	gorm.Model
-	UserId string
-	Name   string
-	Cards  []DigimonCard `gorm:"foreignKey:DeckId"`
+	UserId  string             `json:"userId"`
+	Name    string             `json:"name"`
+	Entries []DigimonDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
 }
 
-// etc..
+type DigimonDeckEntry struct {
+	gorm.Model
+	DeckId uint        `json:"deckId"`
+	CardId uint        `json:"cardId"`
+	Card   DigimonCard `gorm:"foreignKey:CardId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"card"`
+}

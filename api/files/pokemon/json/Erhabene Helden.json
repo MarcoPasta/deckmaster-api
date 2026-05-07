@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -44,7 +45,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "2/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -81,7 +83,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "3/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -104,7 +107,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "4/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -136,7 +140,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "5/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -170,7 +175,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "6/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -200,7 +206,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "7/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -232,7 +239,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -256,7 +264,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "9/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -281,7 +290,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "10/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -304,7 +314,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -333,7 +344,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "12/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -364,7 +376,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "13/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -387,7 +400,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "14/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -417,7 +431,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -440,7 +455,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "16/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -464,7 +480,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "17/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -487,7 +504,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "18/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -517,7 +535,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "19/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -541,7 +560,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "20/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -565,7 +585,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -590,7 +611,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "22/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -613,7 +635,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -644,7 +667,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "24/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -668,7 +692,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "25/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -706,7 +731,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "26/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -736,7 +762,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "27/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -770,7 +797,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "28/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -793,7 +821,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "29/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -818,7 +847,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "30/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -843,7 +873,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "31/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -877,7 +908,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "32/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -911,7 +943,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "33/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -934,7 +967,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "34/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -968,7 +1002,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "35/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -991,7 +1026,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "36/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1024,7 +1060,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "37/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1071,7 +1108,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "38/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1101,7 +1139,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "39/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1132,7 +1171,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1156,7 +1196,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "41/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1180,7 +1221,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "42/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1205,7 +1247,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "43/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1237,7 +1280,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "44/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1269,7 +1313,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "45/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1292,7 +1337,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "46/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1325,7 +1371,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "47/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1365,7 +1412,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "48/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1397,7 +1445,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1430,7 +1479,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1464,7 +1514,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "51/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1487,7 +1538,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "52/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1517,7 +1569,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "53/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1550,7 +1603,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "54/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1582,7 +1636,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1615,7 +1670,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "56/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1658,7 +1714,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "57/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1689,7 +1746,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "58/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1712,7 +1770,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "59/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1743,7 +1802,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "60/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1777,7 +1837,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "61/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1800,7 +1861,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "62/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1824,7 +1886,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1855,7 +1918,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "64/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1879,7 +1943,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "65/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1913,7 +1978,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "66/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1946,7 +2012,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "67/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -1983,7 +2050,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "68/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2007,7 +2075,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "69/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2045,7 +2114,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "70/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2068,7 +2138,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "71/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2099,7 +2170,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "72/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2144,7 +2216,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "73/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2168,7 +2241,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "74/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2202,7 +2276,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "75/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2238,7 +2313,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "76/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2261,7 +2337,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "77/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2295,7 +2372,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "78/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2332,7 +2410,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "79/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2356,7 +2435,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "80/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2380,7 +2460,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "81/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2411,7 +2492,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "82/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2443,7 +2525,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "83/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2480,7 +2563,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "84/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2503,7 +2587,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "85/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2527,7 +2612,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "86/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2558,7 +2644,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "87/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2589,7 +2676,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "88/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2620,7 +2708,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "89/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2643,7 +2732,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "90/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2675,7 +2765,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "91/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2707,7 +2798,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "92/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2730,7 +2822,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "93/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2762,7 +2855,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "94/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2785,7 +2879,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "95/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2818,7 +2913,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "96/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2842,7 +2938,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "97/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2875,7 +2972,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "98/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2905,7 +3003,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "99/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2928,7 +3027,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "100/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2958,7 +3058,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "101/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -2990,7 +3091,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "102/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3021,7 +3123,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "103/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3044,7 +3147,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "104/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3074,7 +3178,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "105/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3097,7 +3202,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "106/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3137,7 +3243,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "107/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3173,7 +3280,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "108/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3196,7 +3304,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "109/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3225,7 +3334,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "110/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3263,7 +3373,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "111/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3286,7 +3397,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "112/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3318,7 +3430,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "113/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3357,7 +3470,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "114/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3380,7 +3494,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "115/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3411,7 +3526,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "116/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3442,7 +3558,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "117/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3465,7 +3582,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "118/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3498,7 +3616,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "119/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3532,7 +3651,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "120/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3578,7 +3698,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "121/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3611,7 +3732,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "122/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3634,7 +3756,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "123/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3657,7 +3780,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "124/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3687,7 +3811,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "125/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3719,7 +3844,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "126/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3753,7 +3879,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "127/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3777,7 +3904,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "128/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3811,7 +3939,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "129/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3834,7 +3963,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "130/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3866,7 +3996,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "131/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3900,7 +4031,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "132/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3923,7 +4055,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "133/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3947,7 +4080,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "134/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -3978,7 +4112,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "135/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4001,7 +4136,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "136/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4037,7 +4173,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "137/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4061,7 +4198,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "138/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4101,7 +4239,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "139/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4134,7 +4273,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "140/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4167,7 +4307,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "141/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4204,7 +4345,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "142/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4233,7 +4375,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "143/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4266,7 +4409,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "144/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4306,7 +4450,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "145/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4329,7 +4474,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "146/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4352,7 +4498,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "147/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4382,7 +4529,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "148/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4420,7 +4568,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "149/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4444,7 +4593,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "150/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4474,7 +4624,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "151/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4505,7 +4656,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "152/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4539,7 +4691,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "153/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4574,7 +4727,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "154/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4610,7 +4764,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "155/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4642,7 +4797,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "156/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4675,7 +4831,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "157/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4707,7 +4864,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "158/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4737,7 +4895,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "159/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4781,7 +4940,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "160/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4813,7 +4973,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "161/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4853,7 +5014,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "162/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4876,7 +5038,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "163/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4907,7 +5070,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "164/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4930,7 +5094,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "165/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -4962,7 +5127,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "166/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5001,7 +5167,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "167/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5032,7 +5199,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "168/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5064,7 +5232,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "169/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5097,7 +5266,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "170/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5126,7 +5296,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "171/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5159,7 +5330,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "172/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5183,7 +5355,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "173/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5217,7 +5390,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "174/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5246,7 +5420,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "175/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5280,7 +5455,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "176/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5303,7 +5479,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "177/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5336,7 +5513,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "178/217 Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5382,7 +5560,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "179/217 Double Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5403,7 +5582,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "180/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5424,7 +5604,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "181/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5445,7 +5626,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "182/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5466,7 +5648,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "183/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5487,7 +5670,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "184/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5508,7 +5692,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "185/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5529,7 +5714,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "186/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5550,7 +5736,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "187/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5571,7 +5758,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "188/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5592,7 +5780,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "189/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5613,7 +5802,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "190/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5634,7 +5824,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "191/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5655,7 +5846,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "192/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5676,7 +5868,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "193/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5697,7 +5890,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "194/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5718,7 +5912,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "195/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5739,7 +5934,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "196/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5760,7 +5956,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "197/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5781,7 +5978,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "198/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5802,7 +6000,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "199/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5823,7 +6022,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "200/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5844,7 +6044,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "201/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5865,7 +6066,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "202/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5886,7 +6088,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "203/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5907,7 +6110,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "204/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5928,7 +6132,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "205/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -5949,7 +6154,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "206/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5970,7 +6176,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "207/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -5991,7 +6198,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "208/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6012,7 +6220,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "209/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6033,7 +6242,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "210/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6054,7 +6264,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "211/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6075,7 +6286,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "212/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6096,7 +6308,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "213/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6117,7 +6330,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "214/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -6138,7 +6352,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "215/217 Common",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "",
@@ -6159,7 +6374,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "216/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "",
@@ -6180,7 +6396,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "217/217 Uncommon",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6210,7 +6427,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "218/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6241,7 +6459,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "219/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6271,7 +6490,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "220/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6294,7 +6514,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "221/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6325,7 +6546,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "222/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6355,7 +6577,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "223/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6389,7 +6612,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "224/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6412,7 +6636,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "225/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6442,7 +6667,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "226/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6465,7 +6691,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "227/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6497,7 +6724,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "228/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6528,7 +6756,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "229/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6562,7 +6791,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "230/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6585,7 +6815,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "231/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6617,7 +6848,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "232/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6640,7 +6872,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "233/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6672,7 +6905,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "234/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6703,7 +6937,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "235/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6735,7 +6970,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "236/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6768,7 +7004,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "237/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6792,7 +7029,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "238/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6822,7 +7060,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "239/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6854,7 +7093,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "240/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6877,7 +7117,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "241/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6908,7 +7149,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "242/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6942,7 +7184,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "243/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6965,7 +7208,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "244/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -6999,7 +7243,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "245/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7032,7 +7277,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "246/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7064,7 +7310,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "247/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7094,7 +7341,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "248/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7127,7 +7375,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "249/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7156,7 +7405,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "250/217 Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7195,7 +7445,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "251/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7234,7 +7485,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "252/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7267,7 +7519,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "253/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7288,7 +7541,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "254/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7309,7 +7563,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "255/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7330,7 +7585,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "256/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7351,7 +7607,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "257/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7372,7 +7629,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "258/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7393,7 +7651,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "259/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7414,7 +7673,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "260/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7435,7 +7695,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "261/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7456,7 +7717,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "262/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7477,7 +7739,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "263/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -7498,7 +7761,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "264/217 Ultra Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7531,7 +7795,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "265/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7565,7 +7830,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "266/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7595,7 +7861,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "267/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7626,7 +7893,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "268/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7656,7 +7924,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "269/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7687,7 +7956,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "270/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7718,7 +7988,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "271/217 Mega Attack Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7743,7 +8014,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "272/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7768,7 +8040,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "273/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7793,7 +8066,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "274/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7826,7 +8100,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "275/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7857,7 +8132,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "276/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7900,7 +8176,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "277/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7934,7 +8211,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "278/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -7972,7 +8250,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "279/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8008,7 +8287,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "280/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8045,7 +8325,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "281/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8075,7 +8356,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "282/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8106,7 +8388,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "283/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8136,7 +8419,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "284/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8167,7 +8451,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "285/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8203,7 +8488,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "286/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8239,7 +8525,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "287/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8276,7 +8563,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "288/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8313,7 +8601,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "289/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8344,7 +8633,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "290/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -8365,7 +8655,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "291/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -8386,7 +8677,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "292/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Trainer",
@@ -8407,7 +8699,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "293/217 Special Illustration Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8432,7 +8725,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "294/217 Mega Hyper Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     },
     {
         "cardType": "Pokemon",
@@ -8463,6 +8757,7 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "295/217 Mega Hyper Rare",
-        "set": "Erhabene Helden"
+        "set": "Erhabene Helden",
+        "code": "asc"
     }
 ]

@@ -5,9 +5,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"os/exec"
-	"path/filepath"
-	"runtime"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"github.com/pressly/goose/v3"
@@ -32,7 +29,6 @@ func ConnectToDatabase(host string, port string, user string, dbName string, pas
 }
 
 func RunMigrations() {
-	// Migrate the schema
 	sqlDb, err := DB.DB()
 	if err != nil {
 		panic(err)
@@ -41,10 +37,10 @@ func RunMigrations() {
 		panic(err)
 	}
 
-	// Resolve migrations directory relative to this source file so goose
-	// can find it regardless of the current working directory.
-	_, file, _, _ := runtime.Caller(0)
-	migrationsDir := filepath.Join(filepath.Dir(file), "migrations")
+	migrationsDir := os.Getenv("GOOSE_MIGRATION_DIR")
+	if migrationsDir == "" {
+		migrationsDir = "/migrations"
+	}
 
 	if err := goose.Up(sqlDb, migrationsDir); err != nil {
 		panic(err)
@@ -52,10 +48,6 @@ func RunMigrations() {
 }
 
 func CheckTableValue() error {
-	if !DbMigrator.HasTable("users") {
-		log.Fatal("Table 'users' does not exist. Please run the migrations.")
-	}
-
 	ctx := context.Background()
 
 	rtvPok, err := gorm.G[models.PokemonCard](DB).Find(ctx)
@@ -65,7 +57,7 @@ func CheckTableValue() error {
 
 	if len(rtvPok) == 0 {
 		fmt.Println("No Pokémon cards found in the database. Please run the seeders.")
-		return RunSeeder("pokemon")
+		return fmt.Errorf("pokemon") // RunSeeder("pokemon")
 	}
 
 	rtvNaruto, err := gorm.G[models.NarutoCard](DB).Find(ctx)
@@ -75,7 +67,7 @@ func CheckTableValue() error {
 
 	if len(rtvNaruto) == 0 {
 		fmt.Println("No Naruto cards found in the database. Please run the seeders.")
-		return RunSeeder("naruto")
+		return fmt.Errorf("naruto") // RunSeeder("naruto")
 	}
 
 	rtvDigimon, err := gorm.G[models.DigimonCard](DB).Find(ctx)
@@ -85,18 +77,8 @@ func CheckTableValue() error {
 
 	if len(rtvDigimon) == 0 {
 		fmt.Println("No Digimon cards found in the database. Please run the seeders.")
-		return RunSeeder("digimon")
+		return fmt.Errorf("digimon") // RunSeeder("digimon")
 	}
 
 	return nil
-}
-
-func RunSeeder(flag string) error {
-	log.Println("Running seeder with flag:", flag)
-	cmd := exec.Command("go", "run", "../../cmd/seeder/seeder.go", "-mode ", flag)
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
-	cmd.Env = os.Environ()
-	return cmd.Run()
-
 }

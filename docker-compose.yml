@@ -32,8 +32,9 @@ services:
       - .env
     depends_on:
       - db
-      - test-db
     restart: unless-stopped
+    networks:
+      - shared
 
   db:
     image: postgres:15-alpine

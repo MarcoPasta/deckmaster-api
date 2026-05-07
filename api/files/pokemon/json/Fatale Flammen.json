@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -43,7 +44,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "2/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -74,7 +76,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "3/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -108,7 +111,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "4/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -132,7 +136,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "5/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -156,7 +161,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "6/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -186,7 +192,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "7/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -219,7 +226,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "8/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -242,7 +250,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "9/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -275,7 +284,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "10/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -304,7 +314,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "11/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -327,7 +338,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "12/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -351,7 +363,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "13/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -374,7 +387,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "14/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -399,7 +413,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "15/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -425,7 +440,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "16/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -459,7 +475,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "17/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -496,7 +513,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "18/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -527,7 +545,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "19/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -550,7 +569,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "20/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -574,7 +594,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "21/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -604,7 +625,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "22/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -636,7 +658,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -670,7 +693,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "24/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -706,7 +730,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "25/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -730,7 +755,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "26/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -762,7 +788,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "27/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -795,7 +822,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "28/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -831,7 +859,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "29/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -855,7 +884,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "30/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -879,7 +909,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "31/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -910,7 +941,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -934,7 +966,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "33/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -958,7 +991,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "34/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -981,7 +1015,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "35/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1017,7 +1052,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "36/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1041,7 +1077,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "37/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1075,7 +1112,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "38/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1108,7 +1146,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "39/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1140,7 +1179,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "40/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1170,7 +1210,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "41/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1201,7 +1242,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "42/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1224,7 +1266,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "43/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1247,7 +1290,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "44/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1271,7 +1315,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "45/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1294,7 +1339,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "46/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1325,7 +1371,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "47/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1357,7 +1404,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "48/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1380,7 +1428,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1403,7 +1452,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1426,7 +1476,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1450,7 +1501,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "52/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1480,7 +1532,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "53/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1503,7 +1556,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "54/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1526,7 +1580,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1556,7 +1611,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "56/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1579,7 +1635,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "57/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1612,7 +1669,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "58/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1635,7 +1693,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "59/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1658,7 +1717,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "60/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1690,7 +1750,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "61/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1721,7 +1782,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "62/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1753,7 +1815,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1785,7 +1848,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "64/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1818,7 +1882,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "65/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1852,7 +1917,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "66/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1884,7 +1950,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "67/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1915,7 +1982,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "68/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1949,7 +2017,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "69/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -1986,7 +2055,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "70/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2019,7 +2089,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "71/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2052,7 +2123,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "72/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2083,7 +2155,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "73/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2108,7 +2181,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "74/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2133,7 +2207,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "75/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2156,7 +2231,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "76/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2190,7 +2266,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "77/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2214,7 +2291,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "78/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2248,7 +2326,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "79/94 Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2280,7 +2359,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "80/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2303,7 +2383,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "81/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2332,7 +2413,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "82/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2364,7 +2446,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "83/94 Common",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2396,7 +2479,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "84/94 Double Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2417,7 +2501,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "85/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2438,7 +2523,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "86/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2459,7 +2545,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "87/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2480,7 +2567,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "88/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2501,7 +2589,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "89/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2522,7 +2611,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "90/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2543,7 +2633,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "91/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2564,7 +2655,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "92/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2585,7 +2677,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "93/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -2606,7 +2699,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "94/94 Uncommon",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2636,7 +2730,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "95/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2659,7 +2754,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "96/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2689,7 +2785,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "97/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2721,7 +2818,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "98/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2745,7 +2843,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "99/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2769,7 +2868,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "100/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2799,7 +2899,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "101/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2822,7 +2923,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "102/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2853,7 +2955,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "103/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2884,7 +2987,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "104/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2918,7 +3022,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "105/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2942,7 +3047,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "106/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -2976,7 +3082,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "107/94 Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3010,7 +3117,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "108/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3034,7 +3142,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "109/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3071,7 +3180,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "110/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3107,7 +3217,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "111/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3143,7 +3254,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "112/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3175,7 +3287,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "113/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3212,7 +3325,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "114/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3244,7 +3358,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "115/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3265,7 +3380,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "116/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3286,7 +3402,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "117/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3307,7 +3424,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "118/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3328,7 +3446,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "119/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3349,7 +3468,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "120/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3370,7 +3490,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "121/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3391,7 +3512,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "122/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3412,7 +3534,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "123/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "",
@@ -3433,7 +3556,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "124/94 Ultra Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3457,7 +3581,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "125/94 Special Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3493,7 +3618,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "126/94 Special Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3525,7 +3651,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "127/94 Special Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3557,7 +3684,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "128/94 Special Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Trainer",
@@ -3578,7 +3706,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "129/94 Special Illustration Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     },
     {
         "cardType": "Pokemon",
@@ -3602,6 +3731,7 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "130/94 Mega Hyper Rare",
-        "set": "Fatale Flammen"
+        "set": "Fatale Flammen",
+        "code": "pfl"
     }
 ]

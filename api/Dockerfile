@@ -4,6 +4,12 @@
 
 FROM golang:1.26.2-trixie AS builder
 
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+       ca-certificates \
+       bash \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /src
 
 # Cache go modules
@@ -32,21 +38,20 @@ RUN mkdir -p /home/nonroot \
     && printf 'nonroot:x:1000:1000:nonroot:/home/nonroot:/sbin/nologin\n' > /tmp/passwd
 
 
-# Final image: minimal runtime (non-root)
-FROM gcr.io/distroless/static:nonroot
+# Final image: minimal runtime with shell access
+FROM alpine:3.21
+
+RUN adduser -D -u 1000 nonroot
 
 WORKDIR /
 
 # Copy the compiled binary from the builder stage
 COPY --from=builder /app /app
 
-# Copy the passwd entry and home directory so the `nonroot` user exists by
-# name inside the final image (some tools / extensions lookup users by name).
-COPY --from=builder /tmp/passwd /etc/passwd
-COPY --from=builder /home/nonroot /home/nonroot
+# Copy data files and migrations from the build context (rooted at /src)
+COPY --from=builder /src/files /files
+COPY --from=builder /src/migrations /migrations
 
-# Expose the default port. Your app can still read a different port from
-# environment variables if it supports that (e.g. PORT).
 EXPOSE 8080
 
 USER nonroot

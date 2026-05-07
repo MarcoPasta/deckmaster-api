@@ -1,4 +1,4 @@
-package main
+package seeder
 
 import (
 	"context"
@@ -7,6 +7,9 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
+	"reflect"
+	"slices"
 
 	"github.com/MarcoPasta/deckmaster/api/internal"
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
@@ -34,7 +37,7 @@ func readDirectory(path string) ([]string, error) {
 }
 
 func unmarshalData(path string, file string, mode string) ([]models.DigimonCard, []models.PokemonCard, []models.NarutoCard, error) {
-	rawFile, err := os.ReadFile(path + "/" + file)
+	rawFile, err := os.ReadFile(filepath.Join(path, file))
 	if err != nil {
 		log.Fatalf("seeder.go::unmarshalData() -> Error reading file: %v\n", err)
 		return nil, nil, nil, err
@@ -75,32 +78,66 @@ func unmarshalData(path string, file string, mode string) ([]models.DigimonCard,
 
 }
 
-// func countIdDuplicates(cards []string, id string) int {
-// 	counter := 0
-// 	for _, card := range cards {
-// 		if card == id {
-// 			counter++
-// 		}
-// 	}
-// 	return counter
-// }
+func containsIdDuplicate[T TCard](writtenCards *[]string, cards []T, mode string) bool {
 
-func writeToDB[T TCard](db *gorm.DB, cards []T, writtenCards *[]string) error {
+	for _, card := range cards {
+
+		switch mode {
+		case "digimon":
+			id := reflect.ValueOf(card).FieldByName("Id").String()
+			log.Println("Checking card with ID:", id)
+			if slices.Contains(*writtenCards, id) {
+				log.Println("Duplicate ID found:", id)
+				return true
+			} else {
+
+				*writtenCards = append(*writtenCards, id)
+			}
+		case "pokemon":
+			id := reflect.ValueOf(card).FieldByName("ID").String()
+			log.Println("Checking card with ID:", id)
+			if slices.Contains(*writtenCards, id) {
+				log.Println("Duplicate ID found:", id)
+				return true
+			} else {
+				*writtenCards = append(*writtenCards, id)
+			}
+		case "naruto":
+			id := reflect.ValueOf(card).FieldByName("ID").String()
+			log.Println("Checking card with ID:", id)
+			if slices.Contains(*writtenCards, id) {
+				log.Println("Duplicate ID found:", id)
+				return true
+			} else {
+				*writtenCards = append(*writtenCards, id)
+			}
+		}
+	}
+	return false
+}
+
+func writeToDB[T TCard](db *gorm.DB, cards []T, writtenCards *[]string, mode string) error {
 	ctx := context.Background()
 	result := gorm.WithResult()
 
 	for _, card := range cards {
-		err := gorm.G[T](db, result).Create(ctx, &card)
-		if err != nil {
-			fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card, err)
-			return err
+
+		if !containsIdDuplicate(writtenCards, cards, mode) {
+			err := gorm.G[T](db, result).Create(ctx, &card)
+			if err != nil {
+				fmt.Printf("seeder.go::writeToDB() -> Error writing card %v to DB: %v", card, err)
+				return err
+			}
+		} else {
+			continue
 		}
+
 	}
-	*writtenCards = append(*writtenCards, "test")
 	return nil
 }
 
 func run(db *gorm.DB, path string, mode string) error {
+
 	files, err := readDirectory(path)
 	if err != nil {
 		fmt.Printf("seeder.go::run() -> Returned error reading directory: %v\n", err)
@@ -115,11 +152,11 @@ func run(db *gorm.DB, path string, mode string) error {
 			return err
 		}
 		if mode == "digimon" {
-			err = writeToDB(db, digimonCards, &writtenCards)
+			err = writeToDB(db, digimonCards, &writtenCards, mode)
 		} else if mode == "pokemon" {
-			err = writeToDB(db, pokemonCards, &writtenCards)
+			err = writeToDB(db, pokemonCards, &writtenCards, mode)
 		} else if mode == "naruto" {
-			err = writeToDB(db, narutoCards, &writtenCards)
+			err = writeToDB(db, narutoCards, &writtenCards, mode)
 		}
 		if err != nil {
 			fmt.Printf("seeder.go::run() -> Returned error writing to database: %v", err)
@@ -130,9 +167,16 @@ func run(db *gorm.DB, path string, mode string) error {
 	return nil
 }
 
-func main() {
-	mode := flag.String("mode", "pokemon", "ich schreib mal iwas rein")
-	flag.Parse()
+func Main(args ...string) {
+
+	var mode *string
+	if len(args) > 0 {
+		fmt.Println("Received arguments:", args)
+		mode = flag.String(args[0], args[1], "ich schreib mal iwas rein")
+	} else {
+		mode = flag.String("mode", "pokemon", "ich schreib mal iwas rein")
+		flag.Parse()
+	}
 	var seedDir string
 	if *mode == "pokemon" {
 		seedDir = "POKEMON_SEEDER_DIR"

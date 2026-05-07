@@ -34,7 +34,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "1/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -58,7 +59,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "2/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -88,7 +90,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "3/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -119,7 +122,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "4/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -142,7 +146,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "5/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -171,7 +176,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "6/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -204,7 +210,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "7/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -227,7 +234,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -251,7 +259,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "9/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -274,7 +283,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "10/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -305,7 +315,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -328,7 +339,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "12/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -351,7 +363,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "13/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -387,7 +400,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "14/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -410,7 +424,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -433,7 +448,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "16/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -465,7 +481,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "17/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -499,7 +516,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "18/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -522,7 +540,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "19/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -546,7 +565,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "20/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -579,7 +599,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -604,7 +625,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "22/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -627,7 +649,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "23/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -661,7 +684,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "24/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -697,7 +721,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "25/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -720,7 +745,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "26/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -753,7 +779,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "27/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -800,7 +827,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "28/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -824,7 +852,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "29/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -860,7 +889,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "30/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -893,7 +923,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "31/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -938,7 +969,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "32/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -961,7 +993,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "33/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -985,7 +1018,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "34/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1008,7 +1042,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "35/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1040,7 +1075,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "36/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1064,7 +1100,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "37/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1094,7 +1131,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "38/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1118,7 +1156,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "39/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1142,7 +1181,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1172,7 +1212,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "41/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1205,7 +1246,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "42/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1230,7 +1272,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "43/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1261,7 +1304,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "44/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1293,7 +1337,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "45/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1325,7 +1370,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "46/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1357,7 +1403,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "47/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1381,7 +1428,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "48/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1415,7 +1463,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "49/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1438,7 +1487,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1484,7 +1534,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1507,7 +1558,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "52/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1541,7 +1593,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "53/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1564,7 +1617,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "54/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1588,7 +1642,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1611,7 +1666,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "56/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1643,7 +1699,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "57/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1677,7 +1734,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "58/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1702,7 +1760,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "59/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1725,7 +1784,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "60/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1748,7 +1808,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "61/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1772,7 +1833,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "62/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1803,7 +1865,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1826,7 +1889,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "64/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1858,7 +1922,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "65/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1889,7 +1954,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "66/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1925,7 +1991,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "67/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1948,7 +2015,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "68/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -1971,7 +2039,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "69/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2005,7 +2074,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "70/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2029,7 +2099,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "71/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2052,7 +2123,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "72/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2084,7 +2156,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "73/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2108,7 +2181,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "74/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2133,7 +2207,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "75/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2164,7 +2239,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "76/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2187,7 +2263,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "77/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2220,7 +2297,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "78/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2243,7 +2321,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "79/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2283,7 +2362,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "80/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2307,7 +2387,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "81/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2347,7 +2428,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "82/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2370,7 +2452,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "83/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2393,7 +2476,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "84/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2425,7 +2509,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "85/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2457,7 +2542,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "86/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2491,7 +2577,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "87/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2523,7 +2610,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "88/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2560,7 +2648,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "89/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2584,7 +2673,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "90/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2617,7 +2707,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "91/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2650,7 +2741,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "92/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2683,7 +2775,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "93/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2716,7 +2809,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "94/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2750,7 +2844,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "95/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2784,7 +2879,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "96/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2808,7 +2904,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "97/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2840,7 +2937,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "98/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2872,7 +2970,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "99/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2896,7 +2995,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "100/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2926,7 +3026,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "101/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2959,7 +3060,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "102/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -2991,7 +3093,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "103/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3025,7 +3128,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "104/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3057,7 +3161,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "105/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3090,7 +3195,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "106/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3121,7 +3227,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "107/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3145,7 +3252,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "108/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3170,7 +3278,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "109/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3208,7 +3317,8 @@
         "resistance": "Pflanze",
         "retreatCost": 4,
         "cardNumber": "110/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3242,7 +3352,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "111/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3267,7 +3378,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "112/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3299,7 +3411,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "113/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3322,7 +3435,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "114/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3352,7 +3466,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "115/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3375,7 +3490,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "116/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3399,7 +3515,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "117/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3428,7 +3545,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "118/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3459,7 +3577,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "119/175 Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3493,7 +3612,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "120/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3516,7 +3636,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "121/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3540,7 +3661,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "122/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3564,7 +3686,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "123/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3588,7 +3711,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "124/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3618,7 +3742,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "125/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3641,7 +3766,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "126/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3673,7 +3799,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "127/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3719,7 +3846,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "128/175 Double Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3746,7 +3874,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "129/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3773,7 +3902,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "130/175 Common",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3794,7 +3924,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "131/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3815,7 +3946,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "132/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3836,7 +3968,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "133/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3857,7 +3990,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "134/175 ACE SPEC rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3878,7 +4012,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "135/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3899,7 +4034,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "136/175 ACE SPEC rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3920,7 +4056,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "137/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3941,7 +4078,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "138/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -3962,7 +4100,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "139/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -3983,7 +4122,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "140/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4004,7 +4144,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "141/175 Uncommon",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4025,7 +4166,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "142/175 ACE SPEC rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4049,7 +4191,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "143/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4079,7 +4222,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "144/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4102,7 +4246,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "145/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4138,7 +4283,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "146/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4171,7 +4317,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "147/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4203,7 +4350,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "148/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4236,7 +4384,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "149/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4259,7 +4408,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "150/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4283,7 +4433,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "151/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4306,7 +4457,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "152/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4339,7 +4491,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "153/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4372,7 +4525,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "154/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4403,7 +4557,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "155/175 Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4439,7 +4594,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "156/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4486,7 +4642,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "157/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4531,7 +4688,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "158/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4577,7 +4735,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "159/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4613,7 +4772,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "160/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4653,7 +4813,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "161/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4691,7 +4852,8 @@
         "resistance": "Pflanze",
         "retreatCost": 4,
         "cardNumber": "162/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4712,7 +4874,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "163/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4733,7 +4896,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "164/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4754,7 +4918,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "165/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4775,7 +4940,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "166/175 Ultra Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4811,7 +4977,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "167/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4857,7 +5024,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "168/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4893,7 +5061,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "169/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -4939,7 +5108,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "170/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4960,7 +5130,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -4981,7 +5152,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "172/175 Special Illustration Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -5027,7 +5199,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "173/175 Hyper Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Trainer",
@@ -5048,7 +5221,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "174/175 Hyper Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     },
     {
         "cardType": "Pokemon",
@@ -5069,6 +5243,7 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "175/175 Hyper Rare",
-        "set": "Stellarkrone"
+        "set": "Stellarkrone",
+        "code": "scr"
     }
 ]

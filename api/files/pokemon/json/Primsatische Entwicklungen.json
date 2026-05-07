@@ -21,7 +21,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -55,7 +56,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "2/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -79,7 +81,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "3/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -102,7 +105,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "4/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -134,7 +138,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "5/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -180,7 +185,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "6/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -203,7 +209,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "7/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -232,7 +239,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -255,7 +263,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "9/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -284,7 +293,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "10/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -320,7 +330,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "11/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -363,7 +374,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "12/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -396,7 +408,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "13/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -442,7 +455,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "14/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -475,7 +489,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -509,7 +524,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "16/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -556,7 +572,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "17/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -588,7 +605,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "18/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -613,7 +631,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "19/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -643,7 +662,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "20/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -672,7 +692,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -705,7 +726,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "22/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -751,7 +773,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -785,7 +808,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "24/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -817,7 +841,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "25/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -863,7 +888,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "26/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -908,7 +934,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "27/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -953,7 +980,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "28/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -986,7 +1014,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "29/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1032,7 +1061,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "30/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1074,7 +1104,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "31/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1111,7 +1142,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "32/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1143,7 +1175,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "33/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1190,7 +1223,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "34/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1222,7 +1256,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "35/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1252,7 +1287,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "36/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1283,7 +1319,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "37/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1306,7 +1343,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "38/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1330,7 +1368,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "39/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1361,7 +1400,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1408,7 +1448,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "41/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1440,7 +1481,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "42/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1471,7 +1513,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "43/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1501,7 +1544,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "44/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1530,7 +1574,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "45/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1554,7 +1599,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "46/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1577,7 +1623,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "47/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1610,7 +1657,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "48/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1643,7 +1691,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "49/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1666,7 +1715,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1704,7 +1754,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "51/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1729,7 +1780,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "52/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1765,7 +1817,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "53/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1796,7 +1849,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "54/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1831,7 +1885,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "55/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1868,7 +1923,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "56/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1898,7 +1954,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "57/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1941,7 +1998,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "58/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -1974,7 +2032,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "59/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2021,7 +2080,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "60/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2044,7 +2104,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "61/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2067,7 +2128,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "62/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2100,7 +2162,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2139,7 +2202,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "64/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2174,7 +2238,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "65/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2198,7 +2263,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "66/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2228,7 +2294,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "67/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2262,7 +2329,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "68/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2295,7 +2363,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "69/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2326,7 +2395,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "70/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2358,7 +2428,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "71/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2388,7 +2459,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "72/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2432,7 +2504,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "73/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2462,7 +2535,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "74/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2505,7 +2579,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "75/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2547,7 +2622,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "76/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2577,7 +2653,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "77/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2607,7 +2684,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "78/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2639,7 +2717,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "79/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2670,7 +2749,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "80/131 Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2702,7 +2782,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "81/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2733,7 +2814,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "82/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2756,7 +2838,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "83/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2780,7 +2863,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "84/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2809,7 +2893,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "85/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2835,7 +2920,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "86/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2859,7 +2945,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "87/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2890,7 +2977,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "88/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2913,7 +3001,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "89/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2936,7 +3025,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "90/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -2975,7 +3065,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "91/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3015,7 +3106,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "92/131 Double Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3036,7 +3128,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "93/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3057,7 +3150,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "94/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3078,7 +3172,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "95/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3099,7 +3194,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "96/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3120,7 +3216,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "97/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3141,7 +3238,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "98/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3162,7 +3260,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "99/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3183,7 +3282,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "100/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3204,7 +3304,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "101/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3225,7 +3326,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "102/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3246,7 +3348,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "103/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3267,7 +3370,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "104/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3288,7 +3392,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "105/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3309,7 +3414,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "106/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3330,7 +3436,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "107/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3351,7 +3458,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "108/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3372,7 +3480,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "109/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3393,7 +3502,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "110/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3414,7 +3524,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "111/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3435,7 +3546,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "112/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3456,7 +3568,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "113/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3477,7 +3590,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "114/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3498,7 +3612,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "115/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3519,7 +3634,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "116/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3540,7 +3656,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "117/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3561,7 +3678,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "118/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3582,7 +3700,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "119/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3603,7 +3722,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "120/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3624,7 +3744,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "121/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3645,7 +3766,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "122/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3666,7 +3788,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "123/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3687,7 +3810,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "124/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3708,7 +3832,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "125/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3729,7 +3854,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "126/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3750,7 +3876,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "127/131 Common",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3771,7 +3898,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "128/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -3792,7 +3920,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "129/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3813,7 +3942,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "130/131 Uncommon",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3834,7 +3964,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "131/131 ACE SPEC rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3855,7 +3986,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "132/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3876,7 +4008,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "133/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3897,7 +4030,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "134/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3918,7 +4052,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "135/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3939,7 +4074,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "136/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3960,7 +4096,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "137/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -3981,7 +4118,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "138/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -4002,7 +4140,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "139/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -4023,7 +4162,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "140/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -4044,7 +4184,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "141/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -4065,7 +4206,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "142/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -4086,7 +4228,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "143/131 Ultra Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4132,7 +4275,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "144/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4175,7 +4319,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "145/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4221,7 +4366,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "146/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4266,7 +4412,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "147/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4313,7 +4460,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "148/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4359,7 +4507,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "149/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4405,7 +4554,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "150/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4440,7 +4590,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "151/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4485,7 +4636,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "152/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4531,7 +4683,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "153/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4573,7 +4726,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "154/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4620,7 +4774,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "155/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4667,7 +4822,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "156/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4704,7 +4860,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "157/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4741,7 +4898,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "158/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4778,7 +4936,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "159/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4821,7 +4980,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "160/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4868,7 +5028,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "161/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4909,7 +5070,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "162/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4945,7 +5107,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "163/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -4980,7 +5143,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "164/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5024,7 +5188,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "165/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5062,7 +5227,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "166/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5105,7 +5271,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "167/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5144,7 +5311,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "168/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5190,7 +5358,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "169/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5211,7 +5380,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "170/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5232,7 +5402,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5253,7 +5424,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "172/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5274,7 +5446,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "173/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5295,7 +5468,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "174/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Trainer",
@@ -5316,7 +5490,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "175/131 Special Illustration Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5353,7 +5528,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "176/131 Hyper Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5396,7 +5572,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "177/131 Hyper Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5433,7 +5610,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "178/131 Hyper Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5476,7 +5654,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "179/131 Hyper Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     },
     {
         "cardType": "Pokemon",
@@ -5522,6 +5701,7 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "180/131 Hyper Rare",
-        "set": "Prismatische Entwicklungen"
+        "set": "Prismatische Entwicklungen",
+        "code": "pre"
     }
 ]

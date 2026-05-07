@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "1/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -44,7 +45,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "2/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -76,7 +78,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "3/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -99,7 +102,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "4/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -132,7 +136,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "5/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -165,7 +170,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "6/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -200,7 +206,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "7/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -223,7 +230,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -247,7 +255,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "9/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -279,7 +288,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "10/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -309,7 +319,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -340,7 +351,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "12/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -372,7 +384,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "13/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -404,7 +417,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "14/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -436,7 +450,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "15/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -459,7 +474,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "16/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -489,7 +505,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "17/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -513,7 +530,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "18/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -545,7 +563,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "19/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -577,7 +596,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "20/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -610,7 +630,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "21/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -644,7 +665,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "22/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -668,7 +690,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -699,7 +722,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "24/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -732,7 +756,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "25/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -755,7 +780,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "26/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -778,7 +804,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "27/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -807,7 +834,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "28/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -840,7 +868,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "29/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -875,7 +904,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "30/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -898,7 +928,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "31/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -930,7 +961,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -962,7 +994,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "33/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -995,7 +1028,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "34/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1027,7 +1061,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "35/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1061,7 +1096,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "36/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1085,7 +1121,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "37/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1116,7 +1153,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "38/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1139,7 +1177,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "39/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1162,7 +1201,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1193,7 +1233,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "41/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1216,7 +1257,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "42/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1239,7 +1281,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "43/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1272,7 +1315,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "44/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1295,7 +1339,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "45/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1318,7 +1363,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "46/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1350,7 +1396,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "47/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1374,7 +1421,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "48/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1397,7 +1445,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1431,7 +1480,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "50/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1454,7 +1504,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1477,7 +1528,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "52/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1509,7 +1561,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "53/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1532,7 +1585,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "54/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1561,7 +1615,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "55/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1590,7 +1645,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "56/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1614,7 +1670,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "57/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1645,7 +1702,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "58/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1676,7 +1734,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "59/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1707,7 +1766,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "60/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1736,7 +1796,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "61/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1759,7 +1820,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "62/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1790,7 +1852,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "63/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1823,7 +1886,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "64/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1855,7 +1919,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "65/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1888,7 +1953,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "66/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1911,7 +1977,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "67/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1943,7 +2010,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "68/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -1977,7 +2045,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "69/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2012,7 +2081,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "70/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2035,7 +2105,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "71/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2067,7 +2138,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "72/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2098,7 +2170,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "73/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2128,7 +2201,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "74/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2151,7 +2225,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "75/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2174,7 +2249,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "76/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2206,7 +2282,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "77/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2229,7 +2306,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "78/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2252,7 +2330,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "79/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2276,7 +2355,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "80/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2309,7 +2389,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "81/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2332,7 +2413,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "82/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2356,7 +2438,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "83/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2387,7 +2470,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "84/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2420,7 +2504,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "85/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2454,7 +2539,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "86/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2483,7 +2569,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "87/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2516,7 +2603,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "88/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2539,7 +2627,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "89/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2571,7 +2660,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "90/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2595,7 +2685,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "91/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2619,7 +2710,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "92/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2654,7 +2746,8 @@
         "resistance": "Pflanze",
         "retreatCost": 4,
         "cardNumber": "93/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2688,7 +2781,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "94/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2721,7 +2815,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "95/132 Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2744,7 +2839,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "96/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2773,7 +2869,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "97/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2796,7 +2893,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "98/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2829,7 +2927,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "99/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2862,7 +2961,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "100/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2893,7 +2993,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "101/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2916,7 +3017,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "102/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2939,7 +3041,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "103/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -2970,7 +3073,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "104/132 Double Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3002,7 +3106,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "105/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3036,7 +3141,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "106/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3067,7 +3173,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "107/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3099,7 +3206,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "108/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3131,7 +3239,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "109/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3161,7 +3270,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "110/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3193,7 +3303,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "111/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3227,7 +3338,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "112/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3248,7 +3360,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "113/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3269,7 +3382,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "114/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3290,7 +3404,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "115/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3311,7 +3426,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "116/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3332,7 +3448,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "117/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3353,7 +3470,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "118/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3374,7 +3492,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "119/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3395,7 +3514,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "120/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3416,7 +3536,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "121/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3437,7 +3558,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "122/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3458,7 +3580,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "123/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3479,7 +3602,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "124/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3500,7 +3624,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "125/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3521,7 +3646,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "126/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3542,7 +3668,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "127/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3563,7 +3690,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "128/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3584,7 +3712,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "129/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3605,7 +3734,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "130/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3626,7 +3756,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "131/132 Common",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -3647,7 +3778,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "132/132 Uncommon",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3670,7 +3802,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "133/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3694,7 +3827,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "134/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3727,7 +3861,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "135/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3757,7 +3892,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "136/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3787,7 +3923,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "137/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3819,7 +3956,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "138/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3843,7 +3981,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "139/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3875,7 +4014,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "140/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3906,7 +4046,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "141/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3937,7 +4078,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "142/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3960,7 +4102,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "143/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -3989,7 +4132,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "144/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4022,7 +4166,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "145/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4046,7 +4191,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "146/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4077,7 +4223,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "147/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4106,7 +4253,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "148/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4130,7 +4278,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "149/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4165,7 +4314,8 @@
         "resistance": "Pflanze",
         "retreatCost": 4,
         "cardNumber": "150/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4188,7 +4338,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "151/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4220,7 +4371,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "152/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4250,7 +4402,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "153/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4282,7 +4435,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "154/132 Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4314,7 +4468,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "155/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4348,7 +4503,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "156/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4382,7 +4538,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "157/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4416,7 +4573,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "158/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4447,7 +4605,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "159/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4479,7 +4638,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "160/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4513,7 +4673,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "161/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4547,7 +4708,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "162/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4580,7 +4742,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "163/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4611,7 +4774,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "164/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4632,7 +4796,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "165/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4653,7 +4818,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "166/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4674,7 +4840,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "167/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4695,7 +4862,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "168/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4716,7 +4884,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "169/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4737,7 +4906,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "170/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4758,7 +4928,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4779,7 +4950,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "172/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4800,7 +4972,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "173/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4821,7 +4994,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "174/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4842,7 +5016,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "175/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -4863,7 +5038,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "176/132 Ultra Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4895,7 +5071,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "177/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4926,7 +5103,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "178/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4958,7 +5136,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "179/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -4992,7 +5171,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "180/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -5025,7 +5205,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "181/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -5056,7 +5237,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "182/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -5077,7 +5259,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "183/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -5098,7 +5281,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "184/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -5119,7 +5303,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "185/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Trainer",
@@ -5140,7 +5325,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "186/132 Special Illustration Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -5171,7 +5357,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "187/132 Mega Hyper Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     },
     {
         "cardType": "Pokemon",
@@ -5203,6 +5390,7 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "188/132 Mega Hyper Rare",
-        "set": "Mega-Entwicklung"
+        "set": "Mega-Entwicklung",
+        "code": "meg"
     }
 ]

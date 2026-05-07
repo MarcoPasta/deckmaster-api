@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -50,7 +51,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "2/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -82,7 +84,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "3/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -105,7 +108,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "4/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -142,7 +146,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "5/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -166,7 +171,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "6/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -200,7 +206,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "7/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -229,7 +236,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "8/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -252,7 +260,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "9/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -285,7 +294,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "10/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -317,7 +327,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -350,7 +361,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "12/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -382,7 +394,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "13/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -414,7 +427,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "14/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -438,7 +452,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -461,7 +476,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "16/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -484,7 +500,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "17/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -516,7 +533,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "18/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -548,7 +566,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "19/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -588,7 +607,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "20/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -620,7 +640,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -643,7 +664,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "22/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -672,7 +694,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "23/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -703,7 +726,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "24/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -735,7 +759,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "25/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -768,7 +793,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "26/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -800,7 +826,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "27/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -834,7 +861,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "28/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -868,7 +896,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "29/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -908,7 +937,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "30/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -940,7 +970,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "31/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -973,7 +1004,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -996,7 +1028,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "33/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1019,7 +1052,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "34/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1051,7 +1085,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "35/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1074,7 +1109,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "36/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1106,7 +1142,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "37/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1139,7 +1176,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "38/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1163,7 +1201,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "39/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1197,7 +1236,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "40/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1220,7 +1260,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "41/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1252,7 +1293,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "42/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1282,7 +1324,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "43/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1305,7 +1348,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "44/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1341,7 +1385,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "45/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1373,7 +1418,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "46/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1406,7 +1452,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "47/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1439,7 +1486,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "48/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1470,7 +1518,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1494,7 +1543,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1524,7 +1574,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1547,7 +1598,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "52/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1579,7 +1631,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "53/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1613,7 +1666,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "54/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1636,7 +1690,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1659,7 +1714,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "56/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1691,7 +1747,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "57/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1715,7 +1772,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "58/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1747,7 +1805,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "59/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1780,7 +1839,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "60/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1803,7 +1863,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "61/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1836,7 +1897,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "62/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1859,7 +1921,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "63/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1890,7 +1953,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "64/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1924,7 +1988,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "65/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1959,7 +2024,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "66/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -1998,7 +2064,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "67/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2031,7 +2098,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "68/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2065,7 +2133,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "69/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2097,7 +2166,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "70/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2130,7 +2200,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "71/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2161,7 +2232,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "72/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2192,7 +2264,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "73/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2215,7 +2288,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "74/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2248,7 +2322,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "75/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2283,7 +2358,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "76/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2320,7 +2396,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "77/86 Double Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2353,7 +2430,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "78/86 Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2380,7 +2458,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "79/86 Common",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2401,7 +2480,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "80/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2422,7 +2502,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "81/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2443,7 +2524,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "82/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2464,7 +2546,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "83/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2485,7 +2568,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "84/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -2506,7 +2590,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "85/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "",
@@ -2527,7 +2612,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "86/86 Uncommon",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2550,7 +2636,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "87/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2580,7 +2667,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "88/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2612,7 +2700,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "89/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2635,7 +2724,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "90/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2659,7 +2749,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "91/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2693,7 +2784,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "92/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2722,7 +2814,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "93/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2745,7 +2838,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "94/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2778,7 +2872,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "95/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2810,7 +2905,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "96/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2843,7 +2939,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "97/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2875,7 +2972,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "98/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2907,7 +3005,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "99/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2931,7 +3030,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "100/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2954,7 +3054,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "101/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -2977,7 +3078,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "102/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3009,7 +3111,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "103/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3041,7 +3144,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "104/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3073,7 +3177,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "105/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3096,7 +3201,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "106/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3125,7 +3231,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "107/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3156,7 +3263,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "108/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3188,7 +3296,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "109/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3221,7 +3330,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "110/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3253,7 +3363,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "111/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3287,7 +3398,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "112/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3321,7 +3433,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "113/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3353,7 +3466,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "114/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3386,7 +3500,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "115/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3409,7 +3524,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "116/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3432,7 +3548,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "117/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3464,7 +3581,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "118/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3487,7 +3605,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "119/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3519,7 +3638,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "120/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3552,7 +3672,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "121/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3576,7 +3697,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "122/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3610,7 +3732,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "123/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3633,7 +3756,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "124/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3665,7 +3789,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "125/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3688,7 +3813,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "126/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3720,7 +3846,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "127/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3753,7 +3880,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "128/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3786,7 +3914,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "129/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3817,7 +3946,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "130/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3841,7 +3971,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "131/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3871,7 +4002,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "132/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3894,7 +4026,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "133/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3926,7 +4059,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "134/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3960,7 +4094,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "135/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -3983,7 +4118,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "136/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4006,7 +4142,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "137/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4038,7 +4175,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "138/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4062,7 +4200,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "139/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4094,7 +4233,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "140/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4127,7 +4267,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "141/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4150,7 +4291,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "142/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4183,7 +4325,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "143/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4206,7 +4349,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "144/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4237,7 +4381,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "145/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4271,7 +4416,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "146/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4306,7 +4452,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "147/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4339,7 +4486,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "148/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4373,7 +4521,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "149/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4405,7 +4554,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "150/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4438,7 +4588,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "151/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4469,7 +4620,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "152/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4500,7 +4652,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "153/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4523,7 +4676,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "154/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4556,7 +4710,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "155/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4591,7 +4746,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "156/86 Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4628,7 +4784,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "157/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4668,7 +4825,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "158/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4708,7 +4866,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "159/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4744,7 +4903,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "160/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4783,7 +4943,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "161/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4820,7 +4981,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "162/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -4841,7 +5003,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "163/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -4862,7 +5025,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "164/86 Ultra Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4899,7 +5063,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "165/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4939,7 +5104,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "166/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -4979,7 +5145,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "167/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -5015,7 +5182,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "168/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -5054,7 +5222,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "169/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -5091,7 +5260,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "170/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Trainer",
@@ -5112,7 +5282,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/86 Special Illustration Rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -5136,7 +5307,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "172/86 Black White rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     },
     {
         "cardType": "Pokemon",
@@ -5176,6 +5348,7 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "173/86 Black White rare",
-        "set": "Weiße Flammen"
+        "set": "Weiße Flammen",
+        "code": "wht"
     }
 ]

@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -50,7 +51,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "2/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -81,7 +83,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "3/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -112,7 +115,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "4/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -143,7 +147,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "5/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -169,7 +174,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "6/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -203,7 +209,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "7/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -237,7 +244,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "8/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -271,7 +279,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "9/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -303,7 +312,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "10/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -335,7 +345,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -373,7 +384,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "12/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -405,7 +417,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "13/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -437,7 +450,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "14/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -482,7 +496,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "15/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -505,7 +520,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "16/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -529,7 +545,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "17/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -561,7 +578,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "18/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -591,7 +609,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "19/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -622,7 +641,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "20/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -655,7 +675,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "22/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -689,7 +710,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "24/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -720,7 +742,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "25/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -754,7 +777,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "26/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -785,7 +809,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "27/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -817,7 +842,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "28/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -847,7 +873,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "29/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -870,7 +897,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "30/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -902,7 +930,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "31/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -936,7 +965,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -967,7 +997,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "33/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1000,7 +1031,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "34/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1033,7 +1065,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "35/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1072,7 +1105,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "36/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1109,7 +1143,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "37/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1146,7 +1181,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "38/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1182,7 +1218,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "39/64 Double Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1213,7 +1250,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "40/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1247,7 +1285,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "41/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1279,7 +1318,8 @@
         "resistance": "Pflanze",
         "retreatCost": 4,
         "cardNumber": "42/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1311,7 +1351,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "43/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1343,7 +1384,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "44/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1373,7 +1415,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "45/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1405,7 +1448,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "46/64 Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1438,7 +1482,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "47/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1462,7 +1507,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "48/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1496,7 +1542,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1528,7 +1575,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1551,7 +1599,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1574,7 +1623,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "52/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1607,7 +1657,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "53/64 Common",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1628,7 +1679,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "54/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1649,7 +1701,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "55/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1670,7 +1723,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "56/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1691,7 +1745,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "57/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1712,7 +1767,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "58/64 ACE SPEC rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1733,7 +1789,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "59/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1754,7 +1811,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "60/64 ACE SPEC rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1775,7 +1833,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "61/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1796,7 +1855,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "62/64 ACE SPEC rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1817,7 +1877,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "63/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -1838,7 +1899,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "64/64 Uncommon",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1864,7 +1926,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "65/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1898,7 +1961,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "66/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1930,7 +1994,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "67/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1962,7 +2027,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "68/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -1992,7 +2058,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "69/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2023,7 +2090,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "70/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2056,7 +2124,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "71/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2086,7 +2155,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "72/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2115,7 +2185,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "73/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2145,7 +2216,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "74/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2177,7 +2249,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "75/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2211,7 +2284,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "76/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2241,7 +2315,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "77/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2275,7 +2350,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "78/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2308,7 +2384,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "79/64 Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2346,7 +2423,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "80/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2391,7 +2469,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "81/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2430,7 +2509,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "82/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2467,7 +2547,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "83/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2504,7 +2585,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "84/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2540,7 +2622,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "85/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2561,7 +2644,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "86/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2582,7 +2666,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "87/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2603,7 +2688,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "88/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2624,7 +2710,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "89/64 Ultra Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2663,7 +2750,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "90/64 Special Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2700,7 +2788,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "91/64 Special Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2737,7 +2826,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "92/64 Special Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2773,7 +2863,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "93/64 Special Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2794,7 +2885,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "94/64 Special Illustration Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2830,7 +2922,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "95/64 Hyper Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Trainer",
@@ -2851,7 +2944,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "96/64 Hyper Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "Pokemon",
@@ -2872,7 +2966,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "97/64 Hyper Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "",
@@ -2893,7 +2988,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "98/64 Hyper Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     },
     {
         "cardType": "",
@@ -2914,6 +3010,7 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "99/64 Hyper Rare",
-        "set": "Nebel der Sagen"
+        "set": "Nebel der Sagen",
+        "code": "sfa"
     }
 ]

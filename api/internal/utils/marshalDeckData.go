@@ -8,9 +8,9 @@ import (
 
 // marshalling types
 type CreateDigimonDeckRequest struct {
-	UserId string               `json:"userId" binding:"required"`
-	Name   string               `json:"name" binding:"required"`
-	Cards  []models.DigimonCard `json:"cards" binding:"required"`
+	UserId  string                    `json:"userId" binding:"required"`
+	Name    string                    `json:"name" binding:"required"`
+	Entries []models.DigimonDeckEntry `json:"entries" binding:"required"`
 }
 
 type CreatePokemonDeckRequest struct {
@@ -28,9 +28,9 @@ type CreateNarutoDeckRequest struct {
 // marshalling functions
 func MarshalDigimonDeckRequest(body CreateDigimonDeckRequest) models.DigimonDecks {
 	return models.DigimonDecks{
-		UserId: body.UserId,
-		Name:   body.Name,
-		Cards:  body.Cards,
+		UserId:  body.UserId,
+		Name:    body.Name,
+		Entries: body.Entries,
 	}
 }
 

@@ -1,4 +1,4 @@
-package main
+package seeder
 
 import (
 	"context"
@@ -252,12 +252,12 @@ func TestWriteToDB(t *testing.T) {
 		// Act
 		switch tt.mode {
 		case "pokemon":
-			writeToDB(db, pok, &writtenCards)
+			writeToDB(db, pok, &writtenCards, "pokemon")
 
 		case "digimon":
-			writeToDB(db, dig, &writtenCards)
+			writeToDB(db, dig, &writtenCards, "digimon")
 		case "naruto":
-			writeToDB(db, nar, &writtenCards)
+			writeToDB(db, nar, &writtenCards, "naruto")
 		}
 
 		// Assert

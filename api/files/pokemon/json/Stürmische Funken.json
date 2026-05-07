@@ -20,7 +20,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "1/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -43,7 +44,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "2/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -66,7 +68,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "3/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -103,7 +106,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "4/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -126,7 +130,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "5/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -157,7 +162,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "6/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -188,7 +194,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "7/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -211,7 +218,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "8/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -241,7 +249,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "9/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -274,7 +283,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "10/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -307,7 +317,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "11/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -331,7 +342,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "12/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -362,7 +374,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "13/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -393,7 +406,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "14/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -427,7 +441,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "15/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -450,7 +465,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "16/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -473,7 +489,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "17/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -506,7 +523,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "18/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -540,7 +558,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "19/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -572,7 +591,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "20/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -602,7 +622,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "21/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -625,7 +646,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "22/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -648,7 +670,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "23/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -680,7 +703,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "24/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -713,7 +737,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "25/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -744,7 +769,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "26/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -777,7 +803,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "27/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -810,7 +837,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "28/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -834,7 +862,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "29/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -858,7 +887,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "30/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -888,7 +918,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "31/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -911,7 +942,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "32/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -944,7 +976,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "33/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -978,7 +1011,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "34/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1011,7 +1045,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "35/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1056,7 +1091,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "36/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1092,7 +1128,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "37/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1125,7 +1162,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "38/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1159,7 +1197,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "39/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1191,7 +1230,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "40/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1214,7 +1254,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "41/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1251,7 +1292,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "42/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1274,7 +1316,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "43/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1306,7 +1349,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "44/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1338,7 +1382,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "45/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1362,7 +1407,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "46/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1393,7 +1439,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "47/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1435,7 +1482,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "48/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1465,7 +1513,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "49/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1488,7 +1537,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "50/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1511,7 +1561,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "51/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1541,7 +1592,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "52/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1565,7 +1617,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "53/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1597,7 +1650,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "54/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1622,7 +1676,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "55/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1653,7 +1708,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "56/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1696,7 +1752,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "57/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1719,7 +1776,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "58/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1749,7 +1807,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "59/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1785,7 +1844,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "60/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1816,7 +1876,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "61/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1848,7 +1909,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "62/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1881,7 +1943,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "63/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1905,7 +1968,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "64/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1938,7 +2002,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "65/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1961,7 +2026,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "66/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -1995,7 +2061,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "67/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2033,7 +2100,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "68/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2067,7 +2135,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "69/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2091,7 +2160,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "70/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2115,7 +2185,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "71/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2146,7 +2217,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "72/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2169,7 +2241,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "73/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2201,7 +2274,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "74/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2224,7 +2298,8 @@
         "resistance": "Kampf",
         "retreatCost": 0,
         "cardNumber": "75/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2261,7 +2336,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "76/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2295,7 +2371,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "77/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2318,7 +2395,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "78/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2350,7 +2428,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "79/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2374,7 +2453,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "80/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2407,7 +2487,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "81/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2439,7 +2520,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "82/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2472,7 +2554,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "83/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2504,7 +2587,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "84/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2535,7 +2619,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "85/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2582,7 +2667,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "86/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2613,7 +2699,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "87/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2647,7 +2734,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "88/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2679,7 +2767,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "89/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2704,7 +2793,8 @@
         "resistance": "Kampf",
         "retreatCost": 3,
         "cardNumber": "90/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2751,7 +2841,8 @@
         "resistance": "Kampf",
         "retreatCost": 4,
         "cardNumber": "91/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2785,7 +2876,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "92/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2815,7 +2907,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "93/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2838,7 +2931,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "94/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2870,7 +2964,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "95/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2903,7 +2998,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "96/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2936,7 +3032,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "97/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2959,7 +3056,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "98/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -2991,7 +3089,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "99/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3023,7 +3122,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "100/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3057,7 +3157,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "101/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3080,7 +3181,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "102/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3113,7 +3215,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "103/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3145,7 +3248,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "104/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3177,7 +3281,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "105/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3222,7 +3327,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "106/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3253,7 +3359,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "107/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3284,7 +3391,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "108/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3316,7 +3424,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "109/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3350,7 +3459,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "110/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3374,7 +3484,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "111/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3397,7 +3508,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "112/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3430,7 +3542,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "113/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3453,7 +3566,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "114/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3485,7 +3599,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "115/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3519,7 +3634,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "116/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3551,7 +3667,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "117/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3584,7 +3701,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "118/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3631,7 +3749,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "119/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3654,7 +3773,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "120/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3686,7 +3806,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "121/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3709,7 +3830,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "122/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3732,7 +3854,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "123/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3756,7 +3879,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "124/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3780,7 +3904,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "125/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3804,7 +3929,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "126/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3838,7 +3964,8 @@
         "resistance": "Pflanze",
         "retreatCost": 3,
         "cardNumber": "127/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3869,7 +3996,8 @@
         "resistance": "Pflanze",
         "retreatCost": 1,
         "cardNumber": "128/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3903,7 +4031,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "129/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3940,7 +4069,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "130/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -3973,7 +4103,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "131/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4007,7 +4138,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "132/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4053,7 +4185,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "133/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4085,7 +4218,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "134/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4118,7 +4252,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "135/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4142,7 +4277,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "136/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4175,7 +4311,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "137/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4207,7 +4344,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "138/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4240,7 +4378,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "140/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4273,7 +4412,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "141/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4319,7 +4459,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "142/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4349,7 +4490,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "143/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4382,7 +4524,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "144/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4405,7 +4548,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "145/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4429,7 +4573,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "146/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4465,7 +4610,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "147/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4488,7 +4634,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "148/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4511,7 +4658,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "149/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4541,7 +4689,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "150/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4576,7 +4725,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "151/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4600,7 +4750,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "152/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4634,7 +4785,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "153/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4667,7 +4819,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "154/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4700,7 +4853,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "155/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4733,7 +4887,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "156/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4756,7 +4911,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "157/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4787,7 +4943,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "158/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4834,7 +4991,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "159/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4875,7 +5033,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "160/191 Double Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4908,7 +5067,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "161/191 Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4929,7 +5089,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "162/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -4950,7 +5111,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "163/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -4971,7 +5133,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "165/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -4992,7 +5155,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "166/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5013,7 +5177,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "167/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5034,7 +5199,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "168/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5055,7 +5221,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "169/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5076,7 +5243,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "170/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5097,7 +5265,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "171/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5118,7 +5287,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "172/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5139,7 +5309,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "173/191 Common",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5160,7 +5331,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "174/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5181,7 +5353,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "175/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5202,7 +5375,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "176/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5223,7 +5397,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "177/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5244,7 +5419,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "178/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5265,7 +5441,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "179/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5286,7 +5463,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "180/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5307,7 +5485,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "181/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5328,7 +5507,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "182/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5349,7 +5529,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "183/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5370,7 +5551,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "184/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5391,7 +5573,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "185/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5412,7 +5595,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "186/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5433,7 +5617,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "187/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5464,7 +5649,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "188/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5485,7 +5671,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "189/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -5506,7 +5693,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "190/191 Uncommon",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "",
@@ -5527,7 +5715,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "191/191 ACE SPEC rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5550,7 +5739,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "192/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5581,7 +5771,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "193/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5611,7 +5802,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "194/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5643,7 +5835,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "195/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5675,7 +5868,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "196/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5708,7 +5902,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "197/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5731,7 +5926,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "198/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5754,7 +5950,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "199/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5784,7 +5981,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "200/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5816,7 +6014,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "201/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5840,7 +6039,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "202/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5874,7 +6074,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "203/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5906,7 +6107,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "204/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5929,7 +6131,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "205/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5961,7 +6164,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "206/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -5984,7 +6188,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "207/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6007,7 +6212,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "208/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6031,7 +6237,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "209/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6063,7 +6270,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "210/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6096,7 +6304,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "211/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6119,7 +6328,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "212/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6149,7 +6359,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "213/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6183,7 +6394,8 @@
         "resistance": "Kampf",
         "retreatCost": 1,
         "cardNumber": "214/191 Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6220,7 +6432,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "215/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6256,7 +6469,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "216/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6293,7 +6507,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "217/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6335,7 +6550,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "218/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6378,7 +6594,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "219/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6415,7 +6632,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "220/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6462,7 +6680,8 @@
         "resistance": "Kampf",
         "retreatCost": 4,
         "cardNumber": "221/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6507,7 +6726,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "222/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6554,7 +6774,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "223/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6600,7 +6821,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "225/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6646,7 +6868,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "226/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6682,7 +6905,8 @@
         "resistance": "",
         "retreatCost": 4,
         "cardNumber": "227/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6729,7 +6953,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "228/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6750,7 +6975,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "229/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6771,7 +6997,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "230/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6792,7 +7019,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "231/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6813,7 +7041,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "232/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6834,7 +7063,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "233/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6855,7 +7085,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "234/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -6876,7 +7107,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "235/191 Ultra Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6913,7 +7145,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "236/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6950,7 +7183,8 @@
         "resistance": "",
         "retreatCost": 2,
         "cardNumber": "237/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -6993,7 +7227,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "238/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7030,7 +7265,8 @@
         "resistance": "Kampf",
         "retreatCost": 2,
         "cardNumber": "239/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7077,7 +7313,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "240/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7114,7 +7351,8 @@
         "resistance": "Pflanze",
         "retreatCost": 2,
         "cardNumber": "241/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7160,7 +7398,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "242/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7181,7 +7420,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "243/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7202,7 +7442,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "244/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7223,7 +7464,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "245/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7244,7 +7486,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "246/191 Special Illustration Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7287,7 +7530,8 @@
         "resistance": "",
         "retreatCost": 1,
         "cardNumber": "247/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7333,7 +7577,8 @@
         "resistance": "",
         "retreatCost": 3,
         "cardNumber": "248/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Pokemon",
@@ -7354,7 +7599,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "249/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7375,7 +7621,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "250/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "Trainer",
@@ -7396,7 +7643,8 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "251/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     },
     {
         "cardType": "",
@@ -7417,6 +7665,7 @@
         "resistance": "",
         "retreatCost": 0,
         "cardNumber": "252/191 Hyper Rare",
-        "set": "Stürmische Funken"
+        "set": "Stürmische Funken",
+        "code": "ssp"
     }
 ]

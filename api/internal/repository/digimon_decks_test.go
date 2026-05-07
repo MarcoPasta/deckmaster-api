@@ -13,45 +13,9 @@ import (
 
 func initTestDeck() models.DigimonDecks {
 	return models.DigimonDecks{
-
-		UserId: "test-user-id",
-		Name:   "Test Deck",
-		Cards: []models.DigimonCard{
-			{
-				Id:        "BT24-001",
-				Name:      "Gigimon",
-				CardType:  "Digi-Egg",
-				Color:     []string{"Red"},
-				Cost:      0,
-				Dp:        0,
-				DvCost:    []string{""},
-				Form:      "In-Training",
-				Attribute: "",
-				Species:   []string{"Lesser/LIBERATOR"},
-				Text: []string{
-					"[Inherited Effect]",
-					"[Your Turn] [Once Per Turn] When your opponent's security stack is removed from, you may delete 1 of their Digimon with 3000 DP or less.",
-				},
-				Set: "TIME STRANGER [BT-24]",
-			},
-			{
-				Id:        "BT24-002",
-				Name:      "Bukamon",
-				CardType:  "Digi-Egg",
-				Color:     []string{"Blue"},
-				Cost:      0,
-				Dp:        0,
-				DvCost:    []string{""},
-				Form:      "In-Training",
-				Attribute: "",
-				Species:   []string{"Lesser/Iliad/TS"},
-				Text: []string{
-					"[Inherited Effect]",
-					"[End of Your Turn] [Once Per Turn] By paying 1 cost, this blue Digimon with the [TS] trait unsuspends.",
-				},
-				Set: "TIME STRANGER [BT-24]",
-			},
-		},
+		UserId:  "test-user-id",
+		Name:    "Test Deck",
+		Entries: []models.DigimonDeckEntry{},
 	}
 }
 
@@ -71,8 +35,8 @@ func TestCreateDigimonDeck(t *testing.T) {
 	if createdDeck.Name != insertDeck.Name {
 		t.Errorf("repository_test.go::TestCreateDigimonDeck() -> expected Name %s, got %s", insertDeck.Name, createdDeck.Name)
 	}
-	if len(createdDeck.Cards) != len(insertDeck.Cards) {
-		t.Errorf("repository_test.go::TestCreateDigimonDeck() -> expected %d cards, got %d", len(insertDeck.Cards), len(createdDeck.Cards))
+	if len(createdDeck.Entries) != len(insertDeck.Entries) {
+		t.Errorf("repository_test.go::TestCreateDigimonDeck() -> expected %d entries, got %d", len(insertDeck.Entries), len(createdDeck.Entries))
 	}
 
 	clearTests()
@@ -81,9 +45,9 @@ func TestCreateDigimonDeck(t *testing.T) {
 func TestCreateDigimonDeck_EmptyUserIdNoCards(t *testing.T) {
 	var ctx gin.Context
 	deck := models.DigimonDecks{
-		UserId: "",
-		Name:   "Invalid Deck",
-		Cards:  []models.DigimonCard{},
+		UserId:  "",
+		Name:    "Invalid Deck",
+		Entries: []models.DigimonDeckEntry{},
 	}
 
 	createdDeck, err := repository.CreateDigimonDeck(&ctx, deck)
@@ -94,8 +58,8 @@ func TestCreateDigimonDeck_EmptyUserIdNoCards(t *testing.T) {
 	if createdDeck.UserId != "" {
 		t.Errorf("repository_test.go::TestCreateDigimonDeck_EmptyUserId() -> expected empty UserId, got %s", createdDeck.UserId)
 	}
-	if len(createdDeck.Cards) != 0 {
-		t.Errorf("repository_test.go::TestCreateDigimonDeck_EmptyUserId() -> expected 0 cards, got %d", len(createdDeck.Cards))
+	if len(createdDeck.Entries) != 0 {
+		t.Errorf("repository_test.go::TestCreateDigimonDeck_EmptyUserId() -> expected 0 entries, got %d", len(createdDeck.Entries))
 	}
 
 	clearTests()
