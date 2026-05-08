@@ -7,7 +7,7 @@ const { selectedTcg, setTcg } = useTcgState();
 
 const navItems = [
   { label: "Builder", path: "/builder" },
-  { label: "Decks", path: "/decks", ShowWhen: "signed-in" },
+  { label: "Decks", path: "/decks", ShowWhen: "signed-in" as const },
   { label: "Profile", path: "/profile" },
   { label: "", path: "/" },
 ];
