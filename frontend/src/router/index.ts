@@ -7,7 +7,12 @@ import ProfileView from "../views/ProfileView.vue";
 const routes = [
   { path: "/", name: "Home", component: HomeView },
   { path: "/builder/:deckId?", name: "Builder", component: BuilderView },
-  { path: "/decks", name: "Decks", component: DecksView },
+  {
+    path: "/decks",
+    name: "Decks",
+    component: DecksView,
+    meta: { requiresAuth: true },
+  },
   { path: "/profile", name: "Profile", component: ProfileView },
 ];
 

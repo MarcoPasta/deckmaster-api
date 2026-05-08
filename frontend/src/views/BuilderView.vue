@@ -722,7 +722,7 @@ function stopDrag() {
     flex-direction: column;
     padding: 8px;
     padding-bottom: 0;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 76px);
     position: relative;
     overflow: hidden;
   }
@@ -743,7 +743,7 @@ function stopDrag() {
 
   .deck-panel {
     position: absolute;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 20px);
     left: 0;
     right: 0;
     height: 60%;
@@ -813,7 +813,7 @@ function stopDrag() {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 0 4px;
+    padding: 18px 0 4px;
     cursor: pointer;
   }
 

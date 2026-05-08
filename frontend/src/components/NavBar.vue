@@ -7,7 +7,7 @@ const { selectedTcg, setTcg } = useTcgState();
 
 const navItems = [
   { label: "Builder", path: "/builder" },
-  { label: "Decks", path: "/decks" },
+  { label: "Decks", path: "/decks", ShowWhen: "signed-in" },
   { label: "Profile", path: "/profile" },
   { label: "", path: "/" },
 ];
@@ -45,15 +45,25 @@ const tcgLabel = () =>
         </button>
       </div>
     </div>
-    <router-link
-      v-for="item in navItems"
-      :key="item.path"
-      :to="item.path"
-      class="nav-item"
-      active-class="nav-item--active"
-    >
-      {{ item.label }}
-    </router-link>
+    <template v-for="item in navItems" :key="item.path">
+      <Show v-if="item.ShowWhen" :when="item.ShowWhen">
+        <router-link
+          :to="item.path"
+          class="nav-item"
+          active-class="nav-item--active"
+        >
+          {{ item.label }}
+        </router-link>
+      </Show>
+      <router-link
+        v-else
+        :to="item.path"
+        class="nav-item"
+        active-class="nav-item--active"
+      >
+        {{ item.label }}
+      </router-link>
+    </template>
     <div class="nav-item nav-user">
       <Show when="signed-in">
         <UserButton />
