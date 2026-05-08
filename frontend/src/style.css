@@ -182,6 +182,11 @@ code {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+    border-inline: none;
+  }
 }
 
 #center {

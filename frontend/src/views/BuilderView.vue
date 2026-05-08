@@ -62,6 +62,32 @@ function hideTooltip() {
   tooltipVisible.value = false;
 }
 
+const mobileThumbnail = ref<string | null>(null);
+let pressTimer: ReturnType<typeof setTimeout> | null = null;
+
+function onTouchStart(card: AnyCard) {
+  if (!isMobile.value) return;
+  pressTimer = setTimeout(() => {
+    mobileThumbnail.value = getCardImage(card);
+  }, 300);
+}
+
+function onTouchEnd() {
+  if (pressTimer) {
+    clearTimeout(pressTimer);
+    pressTimer = null;
+  }
+  mobileThumbnail.value = null;
+}
+
+function onTouchMove() {
+  if (pressTimer) {
+    clearTimeout(pressTimer);
+    pressTimer = null;
+  }
+  mobileThumbnail.value = null;
+}
+
 const chosenCards = ref<AnyCard[]>(
   JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "[]"),
 );
@@ -190,8 +216,12 @@ function cardName(card: AnyCard): string {
 
 // Responsive detection
 const isNarrow = ref(window.innerWidth < 1280);
+const isMobile = ref(window.innerWidth <= 480);
+const drawerOpen = ref(false);
+
 function onResize() {
   isNarrow.value = window.innerWidth < 1280;
+  isMobile.value = window.innerWidth <= 480;
 }
 onMounted(() => window.addEventListener("resize", onResize));
 onUnmounted(() => window.removeEventListener("resize", onResize));
@@ -237,8 +267,18 @@ function stopDrag() {
     }"
   >
     <!-- Deck panel (top on narrow, right on wide) -->
-    <div class="builder-panel deck-panel">
-      <div class="panel-header">
+    <div
+      class="builder-panel deck-panel"
+      :class="{ 'drawer-open': drawerOpen }"
+    >
+      <div
+        v-if="isMobile"
+        class="drawer-handle"
+        @click="drawerOpen = !drawerOpen"
+      >
+        <div class="drawer-handle-bar" />
+      </div>
+      <div class="panel-header" @click="isMobile && (drawerOpen = !drawerOpen)">
         <span class="panel-title">Deck ({{ chosenCards.length }})</span>
       </div>
 
@@ -287,6 +327,10 @@ function stopDrag() {
           @mouseenter="showTooltip(group.card, $event)"
           @mousemove="moveTooltip($event)"
           @mouseleave="hideTooltip"
+          @touchstart="onTouchStart(group.card)"
+          @touchend="onTouchEnd"
+          @touchcancel="onTouchEnd"
+          @touchmove="onTouchMove"
         >
           <!-- Narrow: single image per card -->
           <template v-if="isNarrow">
@@ -324,7 +368,7 @@ function stopDrag() {
     </div>
 
     <!-- Draggable divider -->
-    <div class="divider" @mousedown.prevent="startDrag">
+    <div v-if="!isMobile" class="divider" @mousedown.prevent="startDrag">
       <div class="divider-handle" />
     </div>
 
@@ -371,6 +415,10 @@ function stopDrag() {
           @mouseenter="showTooltip(card, $event)"
           @mousemove="moveTooltip($event)"
           @mouseleave="hideTooltip"
+          @touchstart="onTouchStart(card)"
+          @touchend="onTouchEnd"
+          @touchcancel="onTouchEnd"
+          @touchmove="onTouchMove"
         >
           <img
             :src="getCardImage(card)"
@@ -382,13 +430,22 @@ function stopDrag() {
       </div>
     </div>
 
-    <!-- Card tooltip -->
+    <!-- Card tooltip (desktop) -->
     <div
       v-if="tooltipVisible && tooltipImage"
       class="card-tooltip"
       :style="{ top: tooltipPos.y + 'px', left: tooltipPos.x + 'px' }"
     >
       <img :src="tooltipImage" class="card-tooltip-img" />
+    </div>
+
+    <!-- Mobile thumbnail overlay -->
+    <div
+      v-if="mobileThumbnail"
+      class="mobile-thumbnail-overlay"
+      @touchend="onTouchEnd"
+    >
+      <img :src="mobileThumbnail" class="mobile-thumbnail-img" />
     </div>
   </div>
 </template>
@@ -656,6 +713,115 @@ function stopDrag() {
     position: relative;
     object-fit: cover;
     object-position: center;
+  }
+}
+
+/* Mobile layout: collapsible deck drawer */
+@media (max-width: 480px) {
+  .builder {
+    flex-direction: column;
+    padding: 8px;
+    padding-bottom: 0;
+    height: calc(100vh - 56px);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .pool-panel {
+    order: 1;
+    flex: 1;
+    min-height: 0;
+    border-radius: 12px;
+    padding: 8px 4px;
+    margin-bottom: 48px;
+    overflow: hidden;
+  }
+
+  .deck-panel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    max-height: 60%;
+    border-radius: 16px 16px 0 0;
+    padding: 10px 8px;
+    transform: translateY(calc(100% - 44px));
+    transition: transform 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .deck-panel.drawer-open {
+    transform: translateY(0);
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+  }
+
+  .deck-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px 8px;
+    padding-right: 4px;
+  }
+
+  .deck-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .deck-name-input {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .search-wrapper {
+    max-width: 100%;
+  }
+
+  .card-tooltip {
+    display: none;
+  }
+
+  .mobile-thumbnail-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .mobile-thumbnail-img {
+    width: 70%;
+    max-width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  .drawer-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0 4px;
+    cursor: pointer;
+  }
+
+  .drawer-handle-bar {
+    width: 36px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
   }
 }
 </style>

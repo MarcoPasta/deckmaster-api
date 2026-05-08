@@ -179,4 +179,23 @@ const tcgLabel = () =>
   background: var(--accent);
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    gap: 2px;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 6px auto 0;
+  }
+
+  .nav-item {
+    padding: 6px 10px;
+    font-size: 13px;
+    min-width: unset;
+  }
+
+  .nav-user {
+    padding: 4px 8px;
+  }
+}
 </style>
