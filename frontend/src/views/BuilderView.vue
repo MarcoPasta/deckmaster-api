@@ -375,6 +375,7 @@ function stopDrag() {
           <img
             :src="getCardImage(card)"
             :alt="cardName(card)"
+            loading="lazy"
             class="card-image"
           />
         </div>
