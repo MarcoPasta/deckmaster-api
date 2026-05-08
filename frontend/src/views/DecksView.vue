@@ -96,8 +96,15 @@ async function copyAsText() {
 async function copyAsImage() {
   if (!selectedDeck.value) return;
   const blob = await copyDeckAsImage(selectedDeck.value);
-  if (blob) {
-    await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+  if (!blob) return;
+
+  if (window.innerWidth <= 480) {
+    const url = URL.createObjectURL(blob);
+    window.open(url, "_blank");
+  } else {
+    await navigator.clipboard.write([
+      new ClipboardItem({ "image/png": blob }),
+    ]);
   }
   shareMenuOpen.value = false;
 }
