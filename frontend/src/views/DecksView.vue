@@ -95,16 +95,21 @@ async function copyAsText() {
 
 async function copyAsImage() {
   if (!selectedDeck.value) return;
-  const blob = await copyDeckAsImage(selectedDeck.value);
-  if (!blob) return;
 
   if (window.innerWidth <= 480) {
-    const url = URL.createObjectURL(blob);
-    window.open(url, "_blank");
+    const newTab = window.open("", "_blank");
+    const blob = await copyDeckAsImage(selectedDeck.value);
+    if (blob && newTab) {
+      const url = URL.createObjectURL(blob);
+      newTab.location.href = url;
+    }
   } else {
-    await navigator.clipboard.write([
-      new ClipboardItem({ "image/png": blob }),
-    ]);
+    const blob = await copyDeckAsImage(selectedDeck.value);
+    if (blob) {
+      await navigator.clipboard.write([
+        new ClipboardItem({ "image/png": blob }),
+      ]);
+    }
   }
   shareMenuOpen.value = false;
 }
