@@ -105,6 +105,9 @@ func initRoutes(r *gin.Engine) {
 			PokemondeckRoutes.POST("/create", func(ctx *gin.Context) {
 				controller.CreatePokemonDeck(ctx)
 			})
+			PokemondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
+				controller.GetPokemonDeckImage(ctx)
+			})
 		}
 		NarutodeckRoutes := protectedRoutes.Group("/naruto/decks")
 		{
@@ -113,6 +116,9 @@ func initRoutes(r *gin.Engine) {
 			})
 			NarutodeckRoutes.POST("/create", func(ctx *gin.Context) {
 				controller.CreateNarutoDeck(ctx)
+			})
+			NarutodeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
+				controller.GetNarutoDeckImage(ctx)
 			})
 		}
 

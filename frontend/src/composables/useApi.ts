@@ -67,5 +67,19 @@ export function useApi() {
     }
   }
 
-  return { get, post, put, del, loading, error };
+  async function getBlob(path: string, params?: Record<string, string>) {
+    loading.value = true;
+    error.value = null;
+    try {
+      const token = await getToken();
+      return await api.getBlob(path, token, { params });
+    } catch (e) {
+      error.value = e instanceof ApiError ? e : null;
+      throw e;
+    } finally {
+      loading.value = false;
+    }
+  }
+
+  return { get, post, put, del, getBlob, loading, error };
 }

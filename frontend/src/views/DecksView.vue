@@ -4,6 +4,7 @@ import { computed, ref } from "vue";
 import { useRouter } from "vue-router";
 import { useNarutoDecks } from "../composables/naruto/useNarutoDecks";
 import { usePokemonDecks } from "../composables/pokemon/usePokemonDecks";
+import { useApi } from "../composables/useApi";
 import { useTcgState } from "../composables/useTcgState";
 import type {
   NarutoCard,
@@ -18,6 +19,7 @@ type AnyCard = PokemonCard | NarutoCard;
 const router = useRouter();
 const { user } = useUser();
 const { selectedTcg } = useTcgState();
+const { getBlob } = useApi();
 
 const pokemonDecks = usePokemonDecks(() => user.value?.id);
 const narutoDecks = useNarutoDecks(() => user.value?.id);
@@ -43,12 +45,6 @@ function buildDeckText(deck: AnyDeck): string {
   if (selectedTcg.value === "naruto")
     return narutoDecks.buildDeckText(deck as NarutoDecks);
   return pokemonDecks.buildDeckText(deck as PokemonDecks);
-}
-
-async function copyDeckAsImage(deck: AnyDeck): Promise<Blob | null> {
-  if (selectedTcg.value === "naruto")
-    return narutoDecks.copyDeckAsImage(deck as NarutoDecks);
-  return pokemonDecks.copyDeckAsImage(deck as PokemonDecks);
 }
 
 function deleteDeckLocal(id: number) {
@@ -96,20 +92,23 @@ async function copyAsText() {
 async function copyAsImage() {
   if (!selectedDeck.value) return;
 
-  if (window.innerWidth <= 480) {
-    const newTab = window.open("", "_blank");
-    const blob = await copyDeckAsImage(selectedDeck.value);
-    if (blob && newTab) {
+  const tcg = selectedTcg.value === "naruto" ? "naruto" : "pokemon";
+  const isMobile = window.innerWidth <= 480;
+  const newTab = isMobile ? window.open("", "_blank") : null;
+
+  const blob = await getBlob(
+    `/auth/${tcg}/decks/${selectedDeck.value.ID}/image`,
+  );
+
+  if (isMobile) {
+    if (newTab) {
       const url = URL.createObjectURL(blob);
       newTab.location.href = url;
     }
   } else {
-    const blob = await copyDeckAsImage(selectedDeck.value);
-    if (blob) {
-      await navigator.clipboard.write([
-        new ClipboardItem({ "image/png": blob }),
-      ]);
-    }
+    await navigator.clipboard.write([
+      new ClipboardItem({ "image/png": blob }),
+    ]);
   }
   shareMenuOpen.value = false;
 }
