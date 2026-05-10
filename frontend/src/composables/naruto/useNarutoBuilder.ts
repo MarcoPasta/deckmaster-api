@@ -1,4 +1,4 @@
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import type { NarutoCard } from "../../interfaces/interfaces";
 import { useApi } from "../useApi";
 
@@ -6,16 +6,21 @@ export function useNarutoBuilder() {
   const { get, post } = useApi();
 
   const allCards = ref<NarutoCard[]>([]);
+  const loading = ref(false);
   const filters = ["All", "Ninja", "Jutsu", "Mission", "Client"];
 
-  onMounted(async () => {
+  async function fetchCards() {
+    if (allCards.value.length > 0) return;
+    loading.value = true;
     try {
       const data = await get<{ content: NarutoCard[] }>("/naruto/cards");
       allCards.value = data.content;
     } catch (e) {
       console.error("Failed to fetch naruto cards:", e);
+    } finally {
+      loading.value = false;
     }
-  });
+  }
 
   function getCardImage(card: NarutoCard): string {
     if (!card.card_number || !card.rarity) return "";
@@ -91,6 +96,8 @@ export function useNarutoBuilder() {
 
   return {
     allCards,
+    loading,
+    fetchCards,
     filters,
     getCardImage,
     cardKey,

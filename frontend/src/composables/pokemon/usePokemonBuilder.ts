@@ -1,4 +1,4 @@
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import type { PokemonCard } from "../../interfaces/interfaces";
 import { useApi } from "../useApi";
 
@@ -6,16 +6,21 @@ export function usePokemonBuilder() {
   const { get, post } = useApi();
 
   const allCards = ref<PokemonCard[]>([]);
+  const loading = ref(false);
   const filters = ["All", "Pokémon", "Trainer", "Energy"];
 
-  onMounted(async () => {
+  async function fetchCards() {
+    if (allCards.value.length > 0) return;
+    loading.value = true;
     try {
       const data = await get<{ content: PokemonCard[] }>("/pokemon/cards");
       allCards.value = data.content;
     } catch (e) {
       console.error("Failed to fetch cards:", e);
+    } finally {
+      loading.value = false;
     }
-  });
+  }
 
   function getCardImage(card: PokemonCard): string {
     if (!card.CardNumber || !card.Code) return "";
@@ -107,6 +112,8 @@ export function usePokemonBuilder() {
 
   return {
     allCards,
+    loading,
+    fetchCards,
     filters,
     getCardImage,
     cardKey,

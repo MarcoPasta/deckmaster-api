@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useUser } from "@clerk/vue";
+import { useVirtualizer } from "@tanstack/vue-virtual";
 import { computed, onMounted, onUnmounted, ref, watch } from "vue";
 import { useNarutoBuilder } from "../composables/naruto/useNarutoBuilder";
 import { usePokemonBuilder } from "../composables/pokemon/usePokemonBuilder";
@@ -98,6 +99,25 @@ watch(selectedTcg, () => {
   activeFilter.value = "all";
   searchQuery.value = "";
 });
+
+// Lazy-fetch only the active TCG's cards
+watch(
+  selectedTcg,
+  (tcg) => {
+    if (tcg === "naruto") {
+      naruto.fetchCards();
+    } else {
+      pokemon.fetchCards();
+    }
+  },
+  { immediate: true },
+);
+
+const isLoading = computed(() =>
+  selectedTcg.value === "naruto"
+    ? naruto.loading.value
+    : pokemon.loading.value,
+);
 
 watch(
   chosenCards,
@@ -222,9 +242,60 @@ const drawerOpen = ref(false);
 function onResize() {
   isNarrow.value = window.innerWidth < 1280;
   isMobile.value = window.innerWidth <= 480;
+  computeItemSize();
 }
-onMounted(() => window.addEventListener("resize", onResize));
+onMounted(() => {
+  window.addEventListener("resize", onResize);
+  computeItemSize();
+});
 onUnmounted(() => window.removeEventListener("resize", onResize));
+
+// Virtual scrolling
+const cardGridEl = ref<HTMLElement | null>(null);
+
+const columnCount = computed(() => {
+  if (isMobile.value) return 4;
+  if (isNarrow.value) return 8;
+  return 6;
+});
+
+const gapPx = computed(() => {
+  if (isMobile.value) return 4;
+  if (isNarrow.value) return 8;
+  return 12;
+});
+
+const itemSize = ref(120);
+
+function computeItemSize() {
+  if (!cardGridEl.value) return;
+  const containerWidth = cardGridEl.value.clientWidth;
+  const cols = columnCount.value;
+  const gap = gapPx.value;
+  const colWidth = (containerWidth - gap * (cols - 1)) / cols;
+  itemSize.value = colWidth * (7 / 5) + gap;
+}
+
+const rowCount = computed(() =>
+  Math.ceil(filteredCards.value.length / columnCount.value),
+);
+
+const rowVirtualizer = useVirtualizer(
+  computed(() => ({
+    count: rowCount.value,
+    getScrollElement: () => cardGridEl.value,
+    estimateSize: () => itemSize.value,
+    overscan: 3,
+  })),
+);
+
+function getCardAtPosition(rowIndex: number, colIndex: number): AnyCard | undefined {
+  return filteredCards.value[rowIndex * columnCount.value + colIndex];
+}
+
+watch([searchQuery, activeFilter, selectedTcg], () => {
+  if (cardGridEl.value) cardGridEl.value.scrollTop = 0;
+});
 
 // Draggable divider
 const splitPercent = ref(40);
@@ -337,6 +408,7 @@ function stopDrag() {
             <img
               :src="getCardImage(group.card)"
               :alt="cardName(group.card)"
+              loading="lazy"
               class="card-image card-chosen"
             />
           </template>
@@ -347,6 +419,7 @@ function stopDrag() {
               :key="n"
               :src="getCardImage(group.card)"
               :alt="cardName(group.card)"
+              loading="lazy"
               class="card-image card-chosen"
               :style="{
                 position: 'absolute',
@@ -406,26 +479,51 @@ function stopDrag() {
         </div>
       </div>
 
-      <div class="card-grid">
+      <div v-if="isLoading" class="pool-loading">
+        <v-progress-circular indeterminate color="deep-purple-accent-2" />
+      </div>
+      <div v-else ref="cardGridEl" class="card-grid">
         <div
-          v-for="card in filteredCards"
-          :key="card.ID"
-          class="card-slot"
-          @click="addCard(card)"
-          @mouseenter="showTooltip(card, $event)"
-          @mousemove="moveTooltip($event)"
-          @mouseleave="hideTooltip"
-          @touchstart="onTouchStart(card)"
-          @touchend="onTouchEnd"
-          @touchcancel="onTouchEnd"
-          @touchmove="onTouchMove"
+          :style="{ height: rowVirtualizer.getTotalSize() + 'px', position: 'relative' }"
         >
-          <img
-            :src="getCardImage(card)"
-            :alt="cardName(card)"
-            loading="lazy"
-            class="card-image"
-          />
+          <div
+            v-for="virtualRow in rowVirtualizer.getVirtualItems()"
+            :key="virtualRow.index"
+            class="virtual-row"
+            :style="{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: itemSize + 'px',
+              transform: `translateY(${virtualRow.start}px)`,
+              gridTemplateColumns: `repeat(${columnCount}, 1fr)`,
+              gap: gapPx + 'px',
+            }"
+          >
+            <template v-for="col in columnCount" :key="col">
+              <div
+                v-if="getCardAtPosition(virtualRow.index, col - 1)"
+                class="card-slot"
+                @click="addCard(getCardAtPosition(virtualRow.index, col - 1)!)"
+                @mouseenter="showTooltip(getCardAtPosition(virtualRow.index, col - 1)!, $event)"
+                @mousemove="moveTooltip($event)"
+                @mouseleave="hideTooltip"
+                @touchstart="onTouchStart(getCardAtPosition(virtualRow.index, col - 1)!)"
+                @touchend="onTouchEnd"
+                @touchcancel="onTouchEnd"
+                @touchmove="onTouchMove"
+              >
+                <img
+                  :src="getCardImage(getCardAtPosition(virtualRow.index, col - 1)!)"
+                  :alt="cardName(getCardAtPosition(virtualRow.index, col - 1)!)"
+                  loading="lazy"
+                  class="card-image"
+                />
+              </div>
+              <div v-else class="card-slot" />
+            </template>
+          </div>
         </div>
       </div>
     </div>
@@ -554,12 +652,19 @@ function stopDrag() {
 
 .card-grid {
   flex: 1;
-  display: grid;
-  grid-template-columns: repeat(6, minmax(90px, 1fr));
-  grid-auto-rows: min-content;
-  gap: 12px;
   overflow-y: auto;
   padding-right: 4px;
+}
+
+.virtual-row {
+  display: grid;
+}
+
+.pool-loading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-slot {
@@ -695,8 +800,7 @@ function stopDrag() {
   }
 
   .card-grid {
-    grid-template-columns: repeat(8, minmax(50px, 1fr));
-    gap: 8px;
+    overflow-y: auto;
   }
 
   .deck-grid {
@@ -761,8 +865,6 @@ function stopDrag() {
   }
 
   .card-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 4px;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0;
