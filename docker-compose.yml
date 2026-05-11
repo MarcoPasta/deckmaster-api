@@ -15,18 +15,18 @@ services:
   #     - db
   #   restart: unless-stopped
 
-  # frontend:
-  #   build:
-  #     context: ./frontend
-  #     dockerfile: Dockerfile
-  #   image: deckmaster_frontend:latest
-  #   ports:
-  #     - "8081:80"
-  #   depends_on:
-  #     - app
-  #   restart: unless-stopped
-  #   networks:
-  #     - shared
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: deckmaster_frontend:latest
+    ports:
+      - "8081:80"
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - shared
 
   app:
     build:
@@ -68,24 +68,24 @@ services:
     networks:
       - shared
 
-  # db:
-  #   image: postgres:15-alpine
-  #   # Use values from the project `.env` file via compose variable substitution.
-  #   environment:
-  #     POSTGRES_USER: ${DB_USER}
-  #     POSTGRES_PASSWORD: ${DB_PASSWORD}
-  #     POSTGRES_DB: ${DB_NAME}
-  #   volumes:
-  #     - postgres_data:/var/lib/postgresql/data
-  #   ports:
-  #     - "5432:5432"
-  #   healthcheck:
-  #     test: ["CMD", "pg_isready", "-U", "postgres"]
-  #     interval: 10s
-  #     timeout: 5s
-  #     retries: 5
-  #   networks:
-  #     - shared
+  db:
+    image: postgres:15-alpine
+    # Use values from the project `.env` file via compose variable substitution.
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - shared
 
   test-db:
     image: postgres:15-alpine

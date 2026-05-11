@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"bytes"
 	"image"
 	"image/color"
 	"image/draw"
@@ -16,8 +17,17 @@ import (
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"github.com/gin-gonic/gin"
+	"github.com/srwiley/oksvg"
+	"github.com/srwiley/rasterx"
 	_ "golang.org/x/image/webp"
+	xdraw "golang.org/x/image/draw"
 )
+
+//go:embed ../assets/pattern-bg-dark.svg
+var patternBgDarkSVG []byte
+
+//go:embed ../assets/pattern-bg-naruto.svg
+var patternBgNarutoSVG []byte
 
 func getFilesDir() string {
 	if dir := os.Getenv("FILES_DIR"); dir != "" {
@@ -30,12 +40,12 @@ func getFilesDir() string {
 }
 
 const (
-	cardWidth   = 120
-	cardHeight  = 168
+	cardWidth   = 240
+	cardHeight  = 336
 	cols        = 6
-	gap         = 16
-	stackOffset = 6
-	padding     = 20
+	gap         = 32
+	stackOffset = 12
+	padding     = 40
 )
 
 type cardGroup struct {
@@ -58,7 +68,7 @@ func GetPokemonDeckImage(ctx *gin.Context) {
 	}
 
 	groups := groupPokemonCards(deck.Entries)
-	img := renderDeckImage(groups)
+	img := renderDeckImage(groups, "pokemon")
 
 	ctx.Header("Content-Type", "image/png")
 	ctx.Header("Content-Disposition", `attachment; filename="`+deck.Name+`.png"`)
@@ -80,7 +90,7 @@ func GetNarutoDeckImage(ctx *gin.Context) {
 	}
 
 	groups := groupNarutoCards(deck.Entries)
-	img := renderDeckImage(groups)
+	img := renderDeckImage(groups, "naruto")
 
 	ctx.Header("Content-Type", "image/png")
 	ctx.Header("Content-Disposition", `attachment; filename="`+deck.Name+`.png"`)
@@ -133,7 +143,7 @@ func groupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
 	return groups
 }
 
-func renderDeckImage(groups []cardGroup) *image.RGBA {
+func renderDeckImage(groups []cardGroup, gameType string) *image.RGBA {
 	maxStack := 1
 	for _, g := range groups {
 		if g.count > maxStack {
@@ -147,9 +157,13 @@ func renderDeckImage(groups []cardGroup) *image.RGBA {
 
 	img := image.NewRGBA(image.Rect(0, 0, canvasWidth, canvasHeight))
 
-	// Fill background
-	bg := color.RGBA{0x16, 0x17, 0x1d, 0xff}
-	draw.Draw(img, img.Bounds(), &image.Uniform{bg}, image.Point{}, draw.Src)
+	bgImg := rasterizeSVGBackground(gameType, canvasWidth, canvasHeight)
+	if bgImg != nil {
+		draw.Draw(img, img.Bounds(), bgImg, image.Point{}, draw.Src)
+	} else {
+		bg := color.RGBA{0x16, 0x17, 0x1d, 0xff}
+		draw.Draw(img, img.Bounds(), &image.Uniform{bg}, image.Point{}, draw.Src)
+	}
 
 	for i, g := range groups {
 		cardImg := loadImageFile(g.imagePath)
@@ -165,17 +179,54 @@ func renderDeckImage(groups []cardGroup) *image.RGBA {
 		for n := 0; n < g.count; n++ {
 			x := baseX + n*stackOffset
 			y := baseY + n*stackOffset
-			drawScaled(img, cardImg, x, y, cardWidth, cardHeight)
+			drawScaledHighQuality(img, cardImg, x, y, cardWidth, cardHeight)
 		}
 
 		if g.count > 1 {
-			badgeX := baseX + (g.count-1)*stackOffset + cardWidth - 8
-			badgeY := baseY + (g.count-1)*stackOffset + cardHeight - 8
+			badgeX := baseX + (g.count-1)*stackOffset + cardWidth - 16
+			badgeY := baseY + (g.count-1)*stackOffset + cardHeight - 16
 			drawBadge(img, badgeX, badgeY, g.count)
 		}
 	}
 
 	return img
+}
+
+func rasterizeSVGBackground(gameType string, canvasWidth, canvasHeight int) *image.RGBA {
+	var svgData []byte
+	switch gameType {
+	case "pokemon":
+		svgData = patternBgDarkSVG
+	case "naruto":
+		svgData = patternBgNarutoSVG
+	default:
+		return nil
+	}
+
+	icon, err := oksvg.ReadIconStream(bytes.NewReader(svgData))
+	if err != nil {
+		return nil
+	}
+
+	svgW := int(icon.ViewBox.W)
+	svgH := int(icon.ViewBox.H)
+	if svgW == 0 || svgH == 0 {
+		return nil
+	}
+
+	icon.SetTarget(0, 0, float64(svgW), float64(svgH))
+	tile := image.NewRGBA(image.Rect(0, 0, svgW, svgH))
+	scanner := rasterx.NewScannerGV(svgW, svgH, tile, tile.Bounds())
+	dasher := rasterx.NewDasher(svgW, svgH, scanner)
+	icon.Draw(dasher, 1.0)
+
+	canvas := image.NewRGBA(image.Rect(0, 0, canvasWidth, canvasHeight))
+	for y := 0; y < canvasHeight; y += svgH {
+		for x := 0; x < canvasWidth; x += svgW {
+			draw.Draw(canvas, image.Rect(x, y, x+svgW, y+svgH), tile, image.Point{}, draw.Src)
+		}
+	}
+	return canvas
 }
 
 func loadImageFile(path string) image.Image {
