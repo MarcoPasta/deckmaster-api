@@ -93,22 +93,15 @@ async function copyAsImage() {
   if (!selectedDeck.value) return;
 
   const tcg = selectedTcg.value === "naruto" ? "naruto" : "pokemon";
-  const isMobile = window.innerWidth <= 480;
-  const newTab = isMobile ? window.open("", "_blank") : null;
+  const newTab = window.open("", "_blank");
 
   const blob = await getBlob(
     `/auth/${tcg}/decks/${selectedDeck.value.ID}/image`,
   );
 
-  if (isMobile) {
-    if (newTab) {
-      const url = URL.createObjectURL(blob);
-      newTab.location.href = url;
-    }
-  } else {
-    await navigator.clipboard.write([
-      new ClipboardItem({ "image/png": blob }),
-    ]);
+  if (newTab) {
+    const url = URL.createObjectURL(blob);
+    newTab.location.href = url;
   }
   shareMenuOpen.value = false;
 }

@@ -13,7 +13,6 @@ import (
 var Router *gin.Engine
 
 func SetupRouter() {
-	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	initRoutes(r)
 
@@ -22,7 +21,7 @@ func SetupRouter() {
 
 func initRoutes(r *gin.Engine) {
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://dev.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081"},
+		AllowOrigins:     []string{"https://dev.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081", "http://localhost:8080"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
