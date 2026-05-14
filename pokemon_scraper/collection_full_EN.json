@@ -1,0 +1,86 @@
+[
+    {
+        "set": "Perfect Order",
+        "uri": "me03/",
+        "category": "Mega Evolution",
+        "amount": 124
+    },
+    {
+        "set": "Ascended Heroes",
+        "uri": "me2pt5/",
+        "category": "Mega Evolution",
+        "amount": 295
+    },
+    {
+        "set": "Phantasmal Flames",
+        "uri": "me02/",
+        "category": "Mega Evolution",
+        "amount": 130
+    },
+    {
+        "set": "Mega Evolution",
+        "uri": "me01/",
+        "category": "Mega Evolution",
+        "amount": 188
+    },
+    {
+        "set": "White Flare",
+        "uri": "rsv10pt5/",
+        "category": "Scarlet & Violet",
+        "amount": 173
+    },
+    {
+        "set": "Black Bolt",
+        "uri": "zsv10pt5/",
+        "category": "Scarlet & Violet",
+        "amount": 172
+    },
+    {
+        "set": "Destined Rivals",
+        "uri": "sv10/",
+        "category": "Scarlet & Violet",
+        "amount": 244
+    },
+    {
+        "set": "Journey Together",
+        "uri": "sv09/",
+        "category": "Scarlet & Violet",
+        "amount": 190
+    },
+    {
+        "set": "Prismatic Evolutions",
+        "uri": "sv8pt5/",
+        "category": "Scarlet & Violet",
+        "amount": 180
+    },
+    {
+        "set": "Surging Sparks",
+        "uri": "sv08/",
+        "category": "Scarlet & Violet",
+        "amount": 252
+    },
+    {
+        "set": "Stellar Crown",
+        "uri": "sv07/",
+        "category": "Scarlet & Violet",
+        "amount": 175
+    },
+    {
+        "set": "Shrouded Fable",
+        "uri": "sv6pt5/",
+        "category": "Scarlet & Violet",
+        "amount": 99
+    },
+    {
+        "set": "Twilight Masquerade",
+        "uri": "sv06/",
+        "category": "Scarlet & Violet",
+        "amount": 226
+    },
+    {
+        "set": "Temporal Forces",
+        "uri": "sv05/",
+        "category": "Scarlet & Violet",
+        "amount": 218
+    }
+]

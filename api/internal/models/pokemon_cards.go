@@ -1,6 +1,8 @@
 package models
 
-import "gorm.io/gorm"
+import (
+	"gorm.io/gorm"
+)
 
 type PokemonCard struct {
 	gorm.Model
@@ -11,13 +13,13 @@ type PokemonCard struct {
 	EnergyType  string
 	Ability     string
 	Attacks     []Attack `gorm:"serializer:json"`
-	AttacksEN   []Attack `gorm:"serializer:json"`
 	Weakness    string
 	Resistance  string
 	RetreatCost int8
 	CardNumber  string
 	Set         string
 	Code        string
+	Language    string `json:"language" db:"language"`
 }
 
 type Attack struct {

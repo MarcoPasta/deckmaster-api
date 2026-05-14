@@ -1,0 +1,110 @@
+meta {
+  name: Import Decklist
+  type: http
+  seq: 2
+}
+
+get {
+  url: '''
+    {{baseUrl}}/api/pokemon/cards/names?decklist=Pokémon: 5
+    2 Munkidori SFA 72
+    1 Cornerstone Mask Ogerpon ex PRE 160
+    1 Crustle DRI 12
+    4 Dwebble DRI 11
+    2 Crustle DRI 12
+    
+    Trainer: 23
+    1 Xerosic's Machinations SFA 64
+    1 Hilda WHT 164
+    1 Colress's Tenacity SFA 57
+    1 Colress's Tenacity SFA 87
+    4 Jumbo Ice Cream PFL 91
+    1 Team Rocket's Petrel DRI 176
+    2 Poké Pad POR 113
+    3 Pokégear 3.0 SVI 186
+    1 Sacred Ash FLF 96
+    2 Team Rocket's Watchtower DRI 180
+    1 Air Balloon MEG 166
+    2 Boss's Orders PAL 248
+    1 Hero's Cape TEF 152
+    1 Team Rocket's Watchtower ASC 210
+    1 Lillie's Determination MEG 184
+    1 Pokégear 3.0 BLK 84
+    2 Lillie's Determination ASC 192
+    2 Buddy-Buddy Poffin TWM 223
+    1 Ultra Ball PAF 91
+    1 Lillie's Determination MEG 119
+    2 Boss's Orders BRS 132
+    1 Hilda WHT 171
+    3 Team Rocket's Petrel ASC 207
+    
+    Energie: 8
+    1 Rocky {F} Energy POR 87
+    1 Prism Energy ASC 216
+    1 Spiky Energy JTG 159
+    1 Prism Energy ASC 216
+    1 Basic {G} Energy SVALT 112
+    3 Mist Energy TEF 161
+    2 Spiky Energy JTG 159
+    4 Growing {G} Energy POR 86
+    
+    Karten insgesamt: 60
+    
+'''
+  body: text
+  auth: inherit
+}
+
+params:query {
+  decklist: '''
+    Pokémon: 5
+    2 Munkidori SFA 72
+    1 Cornerstone Mask Ogerpon ex PRE 160
+    1 Crustle DRI 12
+    4 Dwebble DRI 11
+    2 Crustle DRI 12
+    
+    Trainer: 23
+    1 Xerosic's Machinations SFA 64
+    1 Hilda WHT 164
+    1 Colress's Tenacity SFA 57
+    1 Colress's Tenacity SFA 87
+    4 Jumbo Ice Cream PFL 91
+    1 Team Rocket's Petrel DRI 176
+    2 Poké Pad POR 113
+    3 Pokégear 3.0 SVI 186
+    1 Sacred Ash FLF 96
+    2 Team Rocket's Watchtower DRI 180
+    1 Air Balloon MEG 166
+    2 Boss's Orders PAL 248
+    1 Hero's Cape TEF 152
+    1 Team Rocket's Watchtower ASC 210
+    1 Lillie's Determination MEG 184
+    1 Pokégear 3.0 BLK 84
+    2 Lillie's Determination ASC 192
+    2 Buddy-Buddy Poffin TWM 223
+    1 Ultra Ball PAF 91
+    1 Lillie's Determination MEG 119
+    2 Boss's Orders BRS 132
+    1 Hilda WHT 171
+    3 Team Rocket's Petrel ASC 207
+    
+    Energie: 8
+    1 Rocky {F} Energy POR 87
+    1 Prism Energy ASC 216
+    1 Spiky Energy JTG 159
+    1 Prism Energy ASC 216
+    1 Basic {G} Energy SVALT 112
+    3 Mist Energy TEF 161
+    2 Spiky Energy JTG 159
+    4 Growing {G} Energy POR 86
+    
+    Karten insgesamt: 60
+    
+  '''
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

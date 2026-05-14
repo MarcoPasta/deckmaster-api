@@ -1,4 +1,4 @@
-package seeder
+package main
 
 import (
 	"context"
@@ -88,28 +88,6 @@ func containsIdDuplicate(writtenCards *[]string, card models.DigimonCard, mode s
 		*writtenCards = append(*writtenCards, card.Id)
 		return false
 	}
-
-	// switch mode {
-	// case "digimon":
-	// case "pokemon":
-	// 	id := reflect.ValueOf(card).FieldByName("Id")
-	// 	log.Println("Checking card with ID:", id.Uint())
-	// 	if slices.Contains(*writtenCards, string(id.Uint())) {
-	// 		log.Println("Duplicate ID found:", id)
-	// 		return true
-	// 	} else {
-	// 		*writtenCards = append(*writtenCards, string(id.Uint()))
-	// 	}
-	// case "naruto":
-	// 	id := reflect.ValueOf(card).FieldByName("Id")
-	// 	log.Println("Checking card with ID:", id.Uint())
-	// 	if slices.Contains(*writtenCards, string(id.Uint())) {
-	// 		log.Println("Duplicate ID found:", id)
-	// 		return true
-	// 	} else {
-	// 		*writtenCards = append(*writtenCards, string(id.Uint()))
-	// 	}
-	// }
 }
 
 func cardMapper[T TCard](cards []T) []models.DigimonCard {

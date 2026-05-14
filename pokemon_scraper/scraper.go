@@ -57,7 +57,7 @@ func toInt16(s string) int16 {
 }
 
 // scrapeCard uses chromedp to extract card data from the rendered DOM
-func scrapeCard(ctx context.Context, browserCtx context.Context) (Card, error) {
+func scrapeCard(ctx context.Context, browserCtx context.Context, lang string) (Card, error) {
 	var card Card
 
 	var name, phase, hpRaw, energyType, cardNumber string
@@ -82,15 +82,20 @@ func scrapeCard(ctx context.Context, browserCtx context.Context) (Card, error) {
 	card.EnergyType = strings.TrimSpace(energyType)
 	card.CardNumber = strings.TrimSpace(cardNumber)
 
-	if strings.Contains(card.Phase, "Pokémon") || strings.Contains(card.Phase, "Mega-Entwicklungs-ex") {
+	if strings.Contains(card.Phase, "Pokémon") || strings.Contains(card.Phase, "Mega-Entwicklungs-ex") || strings.Contains(card.Phase, "Mega Evolution") {
 		card.CardType = "Pokemon"
-	} else if strings.Contains(card.Phase, "Item") || strings.Contains(card.Phase, "Unterstützer") || strings.Contains(card.Phase, "Stadion") || strings.Contains(card.Phase, "Ausrüstung") {
+	} else if strings.Contains(card.Phase, "Item") || strings.Contains(card.Phase, "Unterstützer") || strings.Contains(card.Phase, "Stadion") || strings.Contains(card.Phase, "Ausrüstung") ||
+		strings.Contains(card.Phase, "Supporter") || strings.Contains(card.Phase, "Stadium") || strings.Contains(card.Phase, "Tool") {
 		card.CardType = "Trainer"
 		card.Phase = "" // phase is not relevant for Trainer cards, so clear it out
 	}
 
-	// parse HP: strip "KP" prefix
-	hpStr := strings.TrimSpace(strings.TrimPrefix(strings.TrimSpace(hpRaw), "KP"))
+	// parse HP: strip "KP" (DE) or "HP" (EN) prefix
+	hpPrefix := "KP"
+	if lang == "en" {
+		hpPrefix = "HP"
+	}
+	hpStr := strings.TrimSpace(strings.TrimPrefix(strings.TrimSpace(hpRaw), hpPrefix))
 	if hpStr != "" {
 		card.Kp = toInt16(hpStr)
 	}
@@ -264,19 +269,37 @@ func newBrowserContext() (context.Context, context.CancelFunc) {
 }
 
 func main() {
-	// CLI usage: go run scraper.go [cards|images]
+	// CLI usage: go run scraper.go [cards|images] [de|en]
 	mode := "cards"
 	if len(os.Args) > 1 {
 		mode = os.Args[1]
 	}
 	if mode != "cards" && mode != "images" {
-		log.Fatalf("Usage: %s [cards|images]", os.Args[0])
+		log.Fatalf("Usage: %s [cards|images] [de|en]", os.Args[0])
 	}
-	fmt.Printf("Running in mode: %s\n", mode)
+
+	lang := "de"
+	if len(os.Args) > 2 {
+		lang = os.Args[2]
+	}
+	if lang != "de" && lang != "en" {
+		log.Fatalf("Usage: %s [cards|images] [de|en]", os.Args[0])
+	}
+	fmt.Printf("Running in mode: %s, language: %s\n", mode, lang)
 
 	baseUrlDE := "https://www.pokemon.com/de/pokemon-sammelkartenspiel/pokemon-karten/series/"
-	// baseUrlEN := "https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/series/"
-	imgURLDE := "https://assets.pokemon.com/static-assets/content-assets/cms2-de-de/img/cards/web/"
+	baseUrlEN := "https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/series/"
+
+	var baseURL, imgURL, imgSuffix string
+	if lang == "de" {
+		baseURL = baseUrlDE
+		imgURL = "https://assets.pokemon.com/static-assets/content-assets/cms2-de-de/img/cards/web/"
+		imgSuffix = "_DE_"
+	} else {
+		baseURL = baseUrlEN
+		imgURL = "https://assets.pokemon.com/static-assets/content-assets/cms2-en-us/img/cards/web/"
+		imgSuffix = "_EN_"
+	}
 
 	/* scraping details:
 	url: https://www.pokemon.com/de/pokemon-sammelkartenspiel/pokemon-karten/series/EX0?/Y/ --> Extension & Number followed by the card number, Example: /me02/1/
@@ -330,7 +353,7 @@ func main() {
 				}
 
 				// define the curling url
-				currUrl := baseUrlDE + set.Uri + fmt.Sprintf("%d/", i)
+				currUrl := baseURL + set.Uri + fmt.Sprintf("%d/", i)
 				fmt.Printf("Visiting url: %v\n", currUrl)
 				fmt.Printf("Start scraping set: %v\n", set.Set)
 
@@ -350,7 +373,7 @@ func main() {
 					continue
 				}
 
-				card, err := scrapeCard(timeoutCtx, browserCtx)
+				card, err := scrapeCard(timeoutCtx, browserCtx, lang)
 				timeoutCancel()
 				tabCancel()
 				if err != nil {
@@ -362,7 +385,7 @@ func main() {
 			case "images":
 				// directly download the image file via URL
 				upperCaseUri := strings.ToUpper(set.Uri)
-				curlImgUrl := imgURLDE + upperCaseUri + strings.Trim(upperCaseUri, "/") + "_DE_" + fmt.Sprintf("%d", i) + ".png"
+				curlImgUrl := imgURL + upperCaseUri + strings.Trim(upperCaseUri, "/") + imgSuffix + fmt.Sprintf("%d", i) + ".png"
 				fmt.Printf("Downloading image: %v\n", curlImgUrl)
 
 				err := downloadImage(curlImgUrl, set.Set, i)

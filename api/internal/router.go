@@ -39,45 +39,58 @@ func initRoutes(r *gin.Engine) {
 
 	// Digimon Cards
 	CardRoutes := api.Group("/digimon/cards")
-	CardRoutes.GET("", func(ctx *gin.Context) {
-		controller.FindAllDigimonCards(ctx)
-	})
-	CardRoutes.GET("/id/:id", func(ctx *gin.Context) {
-		controller.FindDigimonCardByID(ctx)
-	})
-	CardRoutes.GET("/name/:name", func(ctx *gin.Context) {
-		controller.FindDigimonCardsByName(ctx)
-	})
+	{
+		CardRoutes.GET("", func(ctx *gin.Context) {
+			controller.FindAllDigimonCards(ctx)
+		})
+		CardRoutes.GET("/id/:id", func(ctx *gin.Context) {
+			controller.FindDigimonCardByID(ctx)
+		})
+		CardRoutes.GET("/name/:name", func(ctx *gin.Context) {
+			controller.FindDigimonCardsByName(ctx)
+		})
+	}
 
 	// Digimon Filtered
 	DigimonFilteredRoutes := CardRoutes.Group("/filter")
-	DigimonFilteredRoutes.GET("/color", func(ctx *gin.Context) {
-		controller.FindDigimonCardsByColor(ctx)
-	})
+	{
+		DigimonFilteredRoutes.GET("/color", func(ctx *gin.Context) {
+			controller.FindDigimonCardsByColor(ctx)
+		})
+	}
 
 	// Pokemon Cards
 	PokemonCardRoutes := api.Group("/pokemon/cards")
-	PokemonCardRoutes.GET("", func(ctx *gin.Context) {
-		controller.FindAllPokemonCards(ctx)
-	})
-	PokemonCardRoutes.GET("/id/:id", func(ctx *gin.Context) {
-		controller.FindPokemonCardByID(ctx)
-	})
-	PokemonCardRoutes.GET("/name/:name", func(ctx *gin.Context) {
-		controller.FindPokemonCardsByName(ctx)
-	})
+	{
+		PokemonCardRoutes.GET("", func(ctx *gin.Context) {
+			controller.FindAllPokemonCards(ctx)
+		})
+		PokemonCardRoutes.GET("/id/:id", func(ctx *gin.Context) {
+			controller.FindPokemonCardByID(ctx)
+		})
+		PokemonCardRoutes.GET("/names", func(ctx *gin.Context) {
+			controller.FindSamePokemonCardsByNames(ctx)
+		})
+		PokemonCardRoutes.POST("/sets", func(ctx *gin.Context) {
+			controller.AddPokemonCardsBySets(ctx)
+		})
+	}
 
 	// Pokemon Filtered
 	PokemonFilteredRoutes := PokemonCardRoutes.Group("/filter")
-	PokemonFilteredRoutes.GET("/energy-type", func(ctx *gin.Context) {
-		controller.FindPokemonCardsByEnergyType(ctx)
-	})
+	{
+		PokemonFilteredRoutes.GET("/energy-type", func(ctx *gin.Context) {
+			controller.FindPokemonCardsByEnergyType(ctx)
+		})
+	}
 
 	// Naruto Cards
 	NarutoCardRoutes := api.Group("/naruto/cards")
-	NarutoCardRoutes.GET("", func(ctx *gin.Context) {
-		controller.FindAllNarutoCards(ctx)
-	})
+	{
+		NarutoCardRoutes.GET("", func(ctx *gin.Context) {
+			controller.FindAllNarutoCards(ctx)
+		})
+	}
 
 	// Authentication routes
 	protectedRoutes := api.Group("/auth")
@@ -120,7 +133,5 @@ func initRoutes(r *gin.Engine) {
 				controller.GetNarutoDeckImage(ctx)
 			})
 		}
-
 	}
-
 }

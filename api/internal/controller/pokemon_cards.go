@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster/api/internal/utils"
 	"github.com/gin-gonic/gin"
 )
 
@@ -38,10 +39,18 @@ func FindPokemonCardByID(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{"content": card})
 }
 
-func FindPokemonCardsByName(ctx *gin.Context) {
-	name := ctx.Param("name")
+func FindSamePokemonCardsByNames(ctx *gin.Context) {
+	decklist := ctx.Query("decklist")
 
-	cards, err := repository.FindPokemonCardsByName(ctx, name)
+	parsedList := utils.ParseDecklist(ctx, decklist)
+	if parsedList == nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{
+			"error": "Invalid decklist format.",
+		})
+		return
+	}
+
+	cards, err := repository.FindSamePokemonCardsByNames(ctx, parsedList)
 	if err != nil {
 		ctx.JSON(http.StatusNotFound, gin.H{
 			"error": "Cards not found.",
@@ -73,4 +82,28 @@ func FindPokemonCardsByEnergyType(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusOK, gin.H{"content": cards})
+}
+
+func AddPokemonCardsBySets(ctx *gin.Context) {
+
+	form, err := ctx.MultipartForm()
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{
+			"error": "Failed to parse multipart form.",
+		})
+		return
+	}
+
+	files := form.File["files"]
+	err = repository.AddPokemonCardsBySets(ctx, files)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, gin.H{
+			"error": "Failed to add cards.",
+		})
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{
+		"message": "Cards added successfully.",
+	})
 }
