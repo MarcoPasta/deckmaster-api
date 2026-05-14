@@ -70,6 +70,30 @@ export const api = {
   delete<T>(path: string, token?: string | null, options?: RequestOptions) {
     return request<T>("DELETE", path, token, options);
   },
+  async postForm<T>(
+    path: string,
+    token?: string | null,
+    formData?: FormData,
+    options: RequestOptions = {},
+  ): Promise<T> {
+    const url = new URL(BASE_URL + path);
+    const headers: Record<string, string> = { ...options.headers };
+    if (token) {
+      headers["Authorization"] = `Bearer ${token}`;
+    }
+    const res = await fetch(url.toString(), {
+      method: "POST",
+      headers,
+      body: formData,
+      signal: options.signal,
+    });
+    if (!res.ok) {
+      const text = await res.text().catch(() => "");
+      throw new ApiError(res.status, text || res.statusText);
+    }
+    if (res.status === 204) return undefined as T;
+    return res.json() as Promise<T>;
+  },
   async getBlob(
     path: string,
     token?: string | null,

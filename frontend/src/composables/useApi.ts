@@ -67,6 +67,20 @@ export function useApi() {
     }
   }
 
+  async function postForm<T>(path: string, formData: FormData) {
+    loading.value = true;
+    error.value = null;
+    try {
+      const token = await getToken();
+      return await api.postForm<T>(path, token, formData);
+    } catch (e) {
+      error.value = e instanceof ApiError ? e : null;
+      throw e;
+    } finally {
+      loading.value = false;
+    }
+  }
+
   async function getBlob(path: string, params?: Record<string, string>) {
     loading.value = true;
     error.value = null;
@@ -81,5 +95,5 @@ export function useApi() {
     }
   }
 
-  return { get, post, put, del, getBlob, loading, error };
+  return { get, post, put, del, postForm, getBlob, loading, error };
 }

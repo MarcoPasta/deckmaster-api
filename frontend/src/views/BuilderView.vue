@@ -114,9 +114,7 @@ watch(
 );
 
 const isLoading = computed(() =>
-  selectedTcg.value === "naruto"
-    ? naruto.loading.value
-    : pokemon.loading.value,
+  selectedTcg.value === "naruto" ? naruto.loading.value : pokemon.loading.value,
 );
 
 watch(
@@ -218,7 +216,8 @@ async function importDeck() {
     if (selectedTcg.value === "naruto") {
       imported = naruto.parseDeckList(text, naruto.allCards.value);
     } else {
-      imported = pokemon.parseDeckList(text, pokemon.allCards.value);
+      // imported = pokemon.parseDeckList(text, pokemon.allCards.value);
+      imported = await pokemon.parseDeckList(text, pokemon.allCards.value);
     }
     if (imported.length > 0) {
       chosenCards.value = imported;
@@ -289,7 +288,10 @@ const rowVirtualizer = useVirtualizer(
   })),
 );
 
-function getCardAtPosition(rowIndex: number, colIndex: number): AnyCard | undefined {
+function getCardAtPosition(
+  rowIndex: number,
+  colIndex: number,
+): AnyCard | undefined {
   return filteredCards.value[rowIndex * columnCount.value + colIndex];
 }
 
@@ -484,7 +486,10 @@ function stopDrag() {
       </div>
       <div v-else ref="cardGridEl" class="card-grid">
         <div
-          :style="{ height: rowVirtualizer.getTotalSize() + 'px', position: 'relative' }"
+          :style="{
+            height: rowVirtualizer.getTotalSize() + 'px',
+            position: 'relative',
+          }"
         >
           <div
             v-for="virtualRow in rowVirtualizer.getVirtualItems()"
@@ -506,16 +511,25 @@ function stopDrag() {
                 v-if="getCardAtPosition(virtualRow.index, col - 1)"
                 class="card-slot"
                 @click="addCard(getCardAtPosition(virtualRow.index, col - 1)!)"
-                @mouseenter="showTooltip(getCardAtPosition(virtualRow.index, col - 1)!, $event)"
+                @mouseenter="
+                  showTooltip(
+                    getCardAtPosition(virtualRow.index, col - 1)!,
+                    $event,
+                  )
+                "
                 @mousemove="moveTooltip($event)"
                 @mouseleave="hideTooltip"
-                @touchstart="onTouchStart(getCardAtPosition(virtualRow.index, col - 1)!)"
+                @touchstart="
+                  onTouchStart(getCardAtPosition(virtualRow.index, col - 1)!)
+                "
                 @touchend="onTouchEnd"
                 @touchcancel="onTouchEnd"
                 @touchmove="onTouchMove"
               >
                 <img
-                  :src="getCardImage(getCardAtPosition(virtualRow.index, col - 1)!)"
+                  :src="
+                    getCardImage(getCardAtPosition(virtualRow.index, col - 1)!)
+                  "
                   :alt="cardName(getCardAtPosition(virtualRow.index, col - 1)!)"
                   loading="lazy"
                   class="card-image"
