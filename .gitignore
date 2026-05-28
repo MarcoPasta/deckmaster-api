@@ -46,3 +46,6 @@ frontend/dist
 frontend/Dockerfile
 frontend/.dockerignore
 frontend/.claude/settings.local.json
+
+
+files/*
