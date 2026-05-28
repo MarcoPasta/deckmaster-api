@@ -1,0 +1,20 @@
+meta {
+  name: PUT Presigned URL For Bucket
+  type: http
+  seq: 1
+}
+
+put {
+  url: {{baseUrl}}/api/admin/bucket/presign-put/Test
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: {{token}}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

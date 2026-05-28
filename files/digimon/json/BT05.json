@@ -1,0 +1,3030 @@
+[
+    {
+        "Id": "BT5-001",
+        "name": "Koromon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Red"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Lesser"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking][Once Per Turn] If this Digimon has [Omnimon] or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) in its name, trigger ＜Draw 1＞. (Draw 1 card from your deck.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-002",
+        "name": "Tsunomon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Blue"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Lesser"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn] While this Digimon has [Garurumon] or [Omnimon] in its name, it gets +1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-003",
+        "name": "Pickmon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Minor"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking] If you have 3 or more Digimon in play, 1 of your opponent's Digimon gets -1000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-004",
+        "name": "Yokomon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Green"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Bulb"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn] When this card is trashed due to activating this Digimon's ＜Digi-Burst＞, 1 of your Digimon gets +2000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-005",
+        "name": "Tsumemon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Black"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking][Once Per Turn] If this Digimon has [Unidentified] in its type, trigger ＜Draw 1＞. (Draw 1 card from your deck.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-006",
+        "name": "Gigimon",
+        "cardType": "Digi-Egg",
+        "color": [
+            "Purple"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "In-Training",
+        "attribute": "",
+        "species": [
+            "Lesser"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn][Once Per Turn] When one of your other Digimon is deleted, this Digimon gets +2000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-007",
+        "name": "Agumon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Red 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "species": [
+            "Reptile"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) and 1 Digimon card with [Omnimon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-008",
+        "name": "Gaossmon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Red 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Virus",
+        "species": [
+            "Reptile"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn] Your other [Gaossmon] all get +3000 DP.[Opponent's Turn] Your opponent can't reduce digivolution costs."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-009",
+        "name": "Shoutmon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 3,
+        "dp": 1000,
+        "dvCost": [
+            "Red 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Mini",
+            "Dragon"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Shoutmon] in its name and 1 Digimon card with ＜Blitz＞ among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has ＜Blitz＞, it gets +2000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-010",
+        "name": "Greymon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 5,
+        "dp": 5000,
+        "dvCost": [
+            "Red 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "species": [
+            "Dinosaur"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If this Digimon has [Agumon] in its digivolution cards, gain 1 memory.",
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has [Omnimon] or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) in its name, it gets +2000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-011",
+        "name": "Meramon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 5,
+        "dp": 5000,
+        "dvCost": [
+            "Red 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Flame"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] 1 of your other Digimon gets +3000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-012",
+        "name": "Monochromon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 6,
+        "dp": 5000,
+        "dvCost": [
+            "Red 1 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Ankylosaur"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-013",
+        "name": "Triceramon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 5,
+        "dp": 8000,
+        "dvCost": [
+            "Red 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Ceratopsian"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-014",
+        "name": "OmniShoutmon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 8,
+        "dp": 7000,
+        "dvCost": [
+            "Red 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Dragonkin"
+        ],
+        "text": [
+            "[Effect]",
+            "Your [Shoutmon] can digivolve into this card in your hand for a memory cost of 4, ignoring this card's digivolution requirements.",
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has ＜Blitz＞, it gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-015",
+        "name": "MetalGreymon: Alterous Mode",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 8,
+        "dp": 8000,
+        "dvCost": [
+            "Red 3 from Lv.4",
+            "Red 1 from Lv.5"
+        ],
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If a Digimon card with [MetalGreymon] in its name is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less.",
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has [Omnimon] or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) in its name, it gets +2000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-016",
+        "name": "WarGreymon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 11,
+        "dp": 11000,
+        "dvCost": [
+            "Red 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Dragonkin"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If a Digimon card with [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with ＜Blocker＞.",
+            "[Inherited Effect]",
+            "[When Attacking] Delete 1 of your opponent's Digimon with 3000 DP or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-017",
+        "name": "ZeigGreymon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Red 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)",
+            "[Inherited Effect]",
+            "[Your Turn] When this Digimon attacks with ＜Blitz＞, it can also attack your opponent's unsuspended Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-018",
+        "name": "Dorbickmon",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Red 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Dragonkin/Big",
+            "Death-Stars"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking] You may trash 1 red Digimon card in your hand to add the trashed card's DP to this Digimon for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-019",
+        "name": "Shoutmon DX",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 13,
+        "dp": 12000,
+        "dvCost": [
+            "Red 4 from Lv.5",
+            "Red 2 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Composite"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-019",
+        "name": "Shoutmon DX",
+        "cardType": "Digimon",
+        "color": [
+            "Red"
+        ],
+        "cost": 13,
+        "dp": 12000,
+        "dvCost": [
+            "Red 4 from Lv.5",
+            "Red 2 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Composite"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-020",
+        "name": "Gabumon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Blue 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Reptile"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Garurumon] in its name and 1 Digimon card with [Omnimon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-021",
+        "name": "Syakomon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 3,
+        "dp": 3000,
+        "dvCost": [
+            "Blue 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Virus",
+        "species": [
+            "Crustacean"
+        ],
+        "text": [
+            "[Effect]",
+            "[Opponent's Turn] Your opponent can't reduce digivolution costs."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-022",
+        "name": "Bulucomon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 4,
+        "dp": 3000,
+        "dvCost": [
+            "Blue 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Mini",
+            "Dragon"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn][Once Per Turn] When you trash a digivolution card of 1 of your opponent's Digimon, gain 1 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-023",
+        "name": "Gesomon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 3,
+        "dp": 4000,
+        "dvCost": [
+            "Blue 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Mollusk"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-024",
+        "name": "Garurumon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 5,
+        "dp": 5000,
+        "dvCost": [
+            "Blue 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "species": [
+            "Beast"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If this Digimon has [Gabumon] in its digivolution cards, gain 1 memory.",
+            "[Inherited Effect]",
+            "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, it gets +1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-025",
+        "name": "Paledramon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 5,
+        "dp": 4000,
+        "dvCost": [
+            "Blue 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Dragon"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-026",
+        "name": "Coelamon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 6,
+        "dp": 5000,
+        "dvCost": [
+            "Blue 1 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Ancient",
+            "Fish"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-027",
+        "name": "MarineDevimon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 6,
+        "dp": 7000,
+        "dvCost": [
+            "Blue 2 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "species": [
+            "Aquabeast"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-028",
+        "name": "CrysPaledramon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 8,
+        "dp": 7000,
+        "dvCost": [
+            "Blue 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Dragonkin"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Trash the bottom digivolution card of all of your opponent's Digimon.",
+            "[Inherited Effect]",
+            "[Your Turn] If your opponent has a Digimon with no digivolution cards in play, this Digimon gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-029",
+        "name": "WereGarurumon: Sagittarius Mode",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 8,
+        "dp": 8000,
+        "dvCost": [
+            "Blue 3 from Lv.4",
+            "Blue 1 from Lv.5"
+        ],
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "species": [
+            "Beastkin"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn] While a Digimon card with [WereGarurumon] in its name is in this Digimon's digivolution cards, this Digimon gains ＜Jamming＞. (This Digimon can't be deleted in battles against Security Digimon.)",
+            "[Inherited Effect]",
+            "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, it gets +1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-030",
+        "name": "Neptunemon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 10,
+        "dp": 10000,
+        "dvCost": [
+            "Blue 2 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Shaman/Olympos",
+            "XII"
+        ],
+        "text": [
+            "[Effect]",
+            "[Opponent's Turn] This Digimon can't be attacked."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-031",
+        "name": "MetalGarurumon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 11,
+        "dp": 11000,
+        "dvCost": [
+            "Blue 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If a Digimon card with [Garurumon] is in this Digimon's digivolution cards, return 1 of your opponent's Digimon with an [On Deletion] effect to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon.",
+            "[Inherited Effect]",
+            "[When Attacking][Once Per Turn] Gain 1 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-032",
+        "name": "Hexeblaumon",
+        "cardType": "Digimon",
+        "color": [
+            "Blue"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Blue 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Magic",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking] Trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon. Then, if your opponent has a Digimon with no digivolution cards in play, this Digimon gains ＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon) for the turn.[All Turns] Your opponent's Digimon with no digivolution cards can't attack or block."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-033",
+        "name": "Cutemon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 3,
+        "dp": 3000,
+        "dvCost": [
+            "Yellow 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "species": [
+            "Fairy"
+        ],
+        "text": [
+            "[Effect]",
+            "[Opponent's Turn] Your opponent can't reduce digivolution costs."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-034",
+        "name": "Kotemon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Yellow 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Reptile"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 5 cards from the top of your deck. Add up to 2 yellow Digimon cards with [Warrior] and/or [Holy Warrior] in their types among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-035",
+        "name": "Starmons",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 3,
+        "dp": 1000,
+        "dvCost": [
+            "Yellow 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Major"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] For each Digimon you have in play, 1 of your opponent's Digimon gets -1000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-036",
+        "name": "Renamon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 4,
+        "dp": 3000,
+        "dvCost": [
+            "Yellow 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Beastkin"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] 1 of your opponent's Digimon gains ＜Security Attack -1＞ (This Digimon checks 1 fewer security cards) until the end of your opponent's next turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-037",
+        "name": "Gladimon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 4,
+        "dp": 4000,
+        "dvCost": [
+            "Yellow 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "species": [
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] You may search your security stack for 1 Digimon card with [Warrior] or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger ＜Recovery +1 (Deck)＞. (Place the top card of your deck on top of your security stack.) Then, shuffle your security stack."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-038",
+        "name": "Kyubimon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 5,
+        "dp": 4000,
+        "dvCost": [
+            "Yellow 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Mysterious",
+            "Beast"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn] All of your opponent's Security Digimon get -1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-039",
+        "name": "ShootingStarmon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 5,
+        "dp": 4000,
+        "dvCost": [
+            "Yellow 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Super",
+            "Major"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] 1 of your opponent's Digimon gets -3000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-040",
+        "name": "SuperStarmon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 6,
+        "dp": 7000,
+        "dvCost": [
+            "Yellow 2 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Mutant"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-041",
+        "name": "Taomon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 6,
+        "dp": 7000,
+        "dvCost": [
+            "Yellow 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Wizard"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn] All of your opponent's Security Digimon get -1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-042",
+        "name": "Knightmon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 7,
+        "dp": 7000,
+        "dvCost": [
+            "Yellow 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] 1 of your opponent's Digimon gets -4000 DP for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-043",
+        "name": "Jijimon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 10,
+        "dp": 10000,
+        "dvCost": [
+            "Yellow 2 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Ancient"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] Trigger ＜Recovery +1 (Deck)＞. (Place the top card of your deck on top of your security stack.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-044",
+        "name": "Sakuyamon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Yellow 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Shaman"
+        ],
+        "text": [
+            "[Effect]",
+            "[Opponent's Turn] When an opponent's Digimon moves from the breeding area to the battle area, it gains ＜Security Attack -3＞ (This Digimon checks 3 fewer security cards) for the turn.[Your Turn] All of your opponent's Security Digimon get -3000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-045",
+        "name": "LordKnightmon",
+        "cardType": "Digimon",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 13,
+        "dp": 11000,
+        "dvCost": [
+            "Yellow 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking] You may play a yellow level 3 Digimon card or a yellow Digimon card with [Warrior] in its type from your hand without paying its memory cost.[All Turns] For each other Digimon you have in play, this Digimon gets +1000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-046",
+        "name": "Terriermon Assistant",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 3,
+        "dp": 1000,
+        "dvCost": [
+            "Green 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "species": [
+            "Beast"
+        ],
+        "text": [
+            "[Effect]",
+            "[Main] ＜Digi-Burst 1＞ (Trash 1 of this Digimon's digivolution cards to activate the effect below.)・Reveal the top card of your deck. Add it to your hand if it's a green Digimon card. Otherwise, place it at the bottom of your deck."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-047",
+        "name": "Palmon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Green 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Vegetation"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] Place 1 [Palmon] from your trash under 1 of your green Digimon at the bottom of its digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-048",
+        "name": "Floramon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 3,
+        "dp": 4000,
+        "dvCost": [
+            "Green 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "Vegetation"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-049",
+        "name": "Kiwimon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 4,
+        "dp": 4000,
+        "dvCost": [
+            "Green 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Ancient",
+            "Bird"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 3 cards from the top of your deck. Add all Digimon cards with ＜Digisorption＞ among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-050",
+        "name": "Weedmon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 4,
+        "dp": 3000,
+        "dvCost": [
+            "Green 1 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Vegetation"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn] When this card is trashed due to activating this Digimon's ＜Digi-Burst＞, gain 1 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-051",
+        "name": "MoriShellmon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 6,
+        "dp": 7000,
+        "dvCost": [
+            "Green 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Mollusk"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-052",
+        "name": "Garbagemon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 5,
+        "dp": 8000,
+        "dvCost": [
+            "Green 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "species": [
+            "Mutant"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-053",
+        "name": "Deramon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 7,
+        "dp": 7000,
+        "dvCost": [
+            "Green 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Avian"
+        ],
+        "text": [
+            "[Effect]",
+            "[Your Turn] For each other suspended Digimon you have in play, this Digimon gets +2000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-054",
+        "name": "Piximon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 7,
+        "dp": 8000,
+        "dvCost": [
+            "Green 2 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Fairy"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-055",
+        "name": "BanchoLillymon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 11,
+        "dp": 11000,
+        "dvCost": [
+            "Green 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Fairy/Boss"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] Return 1 of your opponent's suspended Digimon to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-056",
+        "name": "Rafflesimon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Green 3 from Lv.5",
+            "Green 1 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Fairy"
+        ],
+        "text": [
+            "[Effect]",
+            "[Main] ＜Digi-Burst 2＞ (Trash 2 of this Digimon's Digivolution cards to activate the effect below.)・All of your Digimon get +2000 DP for the turn.[Your Turn][Once Per Turn] When one of your Digimon activates ＜Digi-Burst＞, 1 of your opponent's Digimon can't attack or block until the end of your opponent's next turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-057",
+        "name": "Rosemon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Green 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Fairy"
+        ],
+        "text": [
+            "[Effect]",
+            "[Main] ＜Digi-Burst 3＞ (Trash 3 of this Digimon's Digivolution cards to activate the effect below.)・All of your Digimon with ＜Digi-Burst＞ gain ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-058",
+        "name": "Argomon",
+        "cardType": "Digimon",
+        "color": [
+            "Green"
+        ],
+        "cost": 13,
+        "dp": 11000,
+        "dvCost": [
+            "Green 4 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Mutant"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Digisorption -2＞ (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2.)[When Digivolving] Suspend all of your opponent's Tamers.[All Turns] Your opponent's Tamers don't unsuspend."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-059",
+        "name": "Keramon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Black 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Unidentified] in its type and 1 [Arata Sanada] card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-060",
+        "name": "Monitamon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Black 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "species": [
+            "CRT"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Play] Look at the top card of your deck.[On Deletion] Reveal 3 cards from the top of your deck. You may play 1 [Monitamon] among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-061",
+        "name": "Commandramon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 4,
+        "dp": 2000,
+        "dvCost": [
+            "Black 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Virus",
+        "species": [
+            "Cyborg/D-Brigade"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-062",
+        "name": "Mekanorimon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 4,
+        "dp": 6000,
+        "dvCost": [
+            "Black 3 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Machine"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[Your Turn] This Digimon can't attack.[Opponent's Turn] When this Digimon deletes an opponent's Digimon in battle and survives, unsuspend it."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-063",
+        "name": "Kurisarimon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 5,
+        "dp": 4000,
+        "dvCost": [
+            "Black 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] If you don't have an [Arata Sanada] card in play, you may play one from your hand without paying its memory cost.",
+            "[Inherited Effect]",
+            "[Your Turn] All of your other Digimon with the same name as this Digimon gain ＜Rush＞. (This Digimon can attack the turn it comes into play.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-064",
+        "name": "BlackGaogamon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 5,
+        "dp": 5000,
+        "dvCost": [
+            "Black 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Beast"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has ＜Reboot＞, it gains ＜Jamming＞. (This Digimon can't be deleted in battles against Security Digimon.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-065",
+        "name": "Shademon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 6,
+        "dp": 5000,
+        "dvCost": [
+            "Black 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "[Security] At the end of the battle, play this card without paying its memory cost.＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[Your Turn] This Digimon can't attack."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-066",
+        "name": "WaruMonzaemon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 5,
+        "dp": 6000,
+        "dvCost": [
+            "Black 2 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "species": [
+            "Puppet"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-067",
+        "name": "Infermon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 7,
+        "dp": 6000,
+        "dvCost": [
+            "Black 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "Your [Keramon] can digivolve into this card in your hand for a memory cost of 4, ignoring this card's digivolution requirements.",
+            "[Inherited Effect]",
+            "[On Deletion] You may play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-068",
+        "name": "BlackMachGaogamon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 8,
+        "dp": 7000,
+        "dvCost": [
+            "Black 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Data",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.)",
+            "[Inherited Effect]",
+            "[Your Turn] While this Digimon has ＜Reboot＞, it gets +2000 DP."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-069",
+        "name": "BlackWarGreymon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 11,
+        "dp": 12000,
+        "dvCost": [
+            "Black 4 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Dragonkin"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Security Attack +1＞ (This Digimon checks 1 additional security card.)＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-070",
+        "name": "MetalGarurumon",
+        "cardType": "Digimon",
+        "color": [
+            "Black"
+        ],
+        "cost": 11,
+        "dp": 11000,
+        "dvCost": [
+            "Black 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Reboot＞ (Unsuspend this Digimon during your opponent's unsuspend phase.)[When Digivolving] ＜Digi-Burst 2＞ (Trash 2 of this Digimon's Digivolution cards to activate the effect below.)・Delete 1 of your opponent's Digimon with a play cost of 6 or less. If no Digimon was deleted by this effect, trash the top card of your opponent's security stack."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-071",
+        "name": "Guilmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 3,
+        "dp": 2000,
+        "dvCost": [
+            "Purple 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Virus",
+        "species": [
+            "Reptile"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] If this card was deleted by an effect, gain 1 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-072",
+        "name": "Fake Agumon Expert",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 3,
+        "dp": 1000,
+        "dvCost": [
+            "Purple 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Virus",
+        "species": [
+            "Dinosaur"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] You may return 1 level 3 Digimon card with an [On Deletion] effect other than [Fake Agumon Expert] from your trash to your hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-073",
+        "name": "Pillomon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 3,
+        "dp": 4000,
+        "dvCost": [
+            "Purple 0 from Lv.2"
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "species": [
+            "Mammal"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-074",
+        "name": "Troopmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 4,
+        "dp": 3000,
+        "dvCost": [
+            "Purple 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Data",
+        "species": [
+            "Undead"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] You may play 1 [Troopmon] from your hand without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-075",
+        "name": "Musyamon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 4,
+        "dp": 4000,
+        "dvCost": [
+            "Purple 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Wizard"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Jamming＞ (This Digimon can't be deleted in battles against Security Digimon.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-076",
+        "name": "BlackGrowlmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 5,
+        "dp": 4000,
+        "dvCost": [
+            "Purple 2 from Lv.3"
+        ],
+        "form": "Champion",
+        "attribute": "Virus",
+        "species": [
+            "Dark",
+            "Dragon"
+        ],
+        "text": [
+            "[Inherited Effect]",
+            "[Your Turn][Once Per Turn] When one of your other Digimon is deleted, this Digimon gains ＜Security Attack +1＞ (This Digimon checks 1 additional security card) for the turn."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-077",
+        "name": "Vajramon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 7,
+        "dp": 8000,
+        "dvCost": [
+            "Purple 2 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Beast/Deva"
+        ],
+        "text": [],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-078",
+        "name": "Jokermon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 7,
+        "dp": 7000,
+        "dvCost": [
+            "Purple 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "species": [
+            "Wizard"
+        ],
+        "text": [
+            "[Effect]",
+            "[On Deletion] You may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-079",
+        "name": "BlackWarGrowlmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 8,
+        "dp": 7000,
+        "dvCost": [
+            "Purple 3 from Lv.4"
+        ],
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "species": [
+            "Cyborg"
+        ],
+        "text": [
+            "[Effect]",
+            "[Main] ＜Digi-Burst 3＞ (Trash 3 of this Digimon's Digivolution cards to activate the effect below.)・You may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate.",
+            "[Inherited Effect]",
+            "[When Attacking][Once Per Turn] You may delete 1 of your other Digimon to unsuspend this Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-080",
+        "name": "Zanbamon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 10,
+        "dp": 10000,
+        "dvCost": [
+            "Purple 2 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Wizard"
+        ],
+        "text": [
+            "[Effect]",
+            "＜Retaliation＞ (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-081",
+        "name": "ChaosGallantmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 12,
+        "dp": 12000,
+        "dvCost": [
+            "Purple 4 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Dark",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] You may delete 1 of your other Digimon to delete 1 of your opponent's level 5 or lower Digimon.[Your Turn][Once Per Turn] When one of your other Digimon is deleted, you may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-081",
+        "name": "ChaosGallantmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 12,
+        "dp": 12000,
+        "dvCost": [
+            "Purple 4 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Dark",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] You may delete 1 of your other Digimon to delete 1 of your opponent's level 5 or lower Digimon.[Your Turn][Once Per Turn] When one of your other Digimon is deleted, you may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-081",
+        "name": "ChaosGallantmon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 12,
+        "dp": 12000,
+        "dvCost": [
+            "Purple 4 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Dark",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] You may delete 1 of your other Digimon to delete 1 of your opponent's level 5 or lower Digimon.[Your Turn][Once Per Turn] When one of your other Digimon is deleted, you may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-082",
+        "name": "Tactimon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Purple 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Data",
+        "species": [
+            "Wizard"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Attacking] Activate 1 of the effects below. If you have no other Digimon in play, activate all of the effects below instead.・Gain 1 memory.・This Digimon gets +2000 DP for the turn.・Delete up to 3 of your opponent's level 3 Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-083",
+        "name": "Megidramon",
+        "cardType": "Digimon",
+        "color": [
+            "Purple"
+        ],
+        "cost": 12,
+        "dp": 11000,
+        "dvCost": [
+            "Purple/Red 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Evil",
+            "Dragon/Four",
+            "Great",
+            "Dragons"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Both players trash the top 5 cards of their decks.[On Deletion] If you have a Tamer in play, you may play 1 level 6 Digimon card with [Gallantmon] in its name from your hand or trash without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-084",
+        "name": "Diaboromon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 11,
+        "dp": 11000,
+        "dvCost": [
+            "Black 3 from Lv.5"
+        ],
+        "form": "Mega",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] You may play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)"
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-085",
+        "name": "Armageddemon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Black/White 3 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "When playing this card from your hand, you may delete 1 of your [Diaboromon] to reduce this card's play cost by 12.＜Rush＞ (This Digimon can attack the turn it comes into play.)[All Turns] The [When Digivolving] effects on level 7 Digimon don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-085",
+        "name": "Armageddemon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Black/White 3 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Unknown",
+        "species": [
+            "Unidentified"
+        ],
+        "text": [
+            "[Effect]",
+            "When playing this card from your hand, you may delete 1 of your [Diaboromon] to reduce this card's play cost by 12.＜Rush＞ (This Digimon can attack the turn it comes into play.)[All Turns] The [When Digivolving] effects on level 7 Digimon don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-086",
+        "name": "Omnimon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 14000,
+        "dvCost": [
+            "Red/Blue 4 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend this Digimon.[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-086",
+        "name": "Omnimon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 14000,
+        "dvCost": [
+            "Red/Blue 4 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend this Digimon.[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-086",
+        "name": "Omnimon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 14000,
+        "dvCost": [
+            "Red/Blue 4 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend this Digimon.[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-086",
+        "name": "Omnimon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 14000,
+        "dvCost": [
+            "Red/Blue 4 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend this Digimon.[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-086",
+        "name": "Omnimon",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 14000,
+        "dvCost": [
+            "Red/Blue 4 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] ＜Blitz＞ (This Digimon can attack when your opponent has 1 or more memory.)[When Digivolving] Unsuspend this Digimon.[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-087",
+        "name": "Omnimon Zwart",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Black/Purple 6 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Trash the top 3 cards of your deck. Then, you may play up to 2 black and/or purple Digimon cards with play costs of 8 or less from your trash without paying their memory costs.[When Attacking] You may return 1 level 6 Digimon card in this Digimon's digivolution cards to its owner's hand to delete 1 of your opponent's unsuspended Digimon with a play cost of 12 or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-087",
+        "name": "Omnimon Zwart",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Black/Purple 6 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Trash the top 3 cards of your deck. Then, you may play up to 2 black and/or purple Digimon cards with play costs of 8 or less from your trash without paying their memory costs.[When Attacking] You may return 1 level 6 Digimon card in this Digimon's digivolution cards to its owner's hand to delete 1 of your opponent's unsuspended Digimon with a play cost of 12 or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-087",
+        "name": "Omnimon Zwart",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Black/Purple 6 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[When Digivolving] Trash the top 3 cards of your deck. Then, you may play up to 2 black and/or purple Digimon cards with play costs of 8 or less from your trash without paying their memory costs.[When Attacking] You may return 1 level 6 Digimon card in this Digimon's digivolution cards to its owner's hand to delete 1 of your opponent's unsuspended Digimon with a play cost of 12 or less."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-088",
+        "name": "Sora Takenouchi \u0026 Joe Kido",
+        "cardType": "Tamer",
+        "color": [
+            "Blue"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a Digimon with no digivolution cards in play, gain 2 memory.[Your Turn] When you attack with a blue Digimon, you may suspend this Tamer to trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-088",
+        "name": "Sora Takenouchi \u0026 Joe Kido",
+        "cardType": "Tamer",
+        "color": [
+            "Blue"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a Digimon with no digivolution cards in play, gain 2 memory.[Your Turn] When you attack with a blue Digimon, you may suspend this Tamer to trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-089",
+        "name": "Izzy Izumi \u0026 Mimi Tachikawa",
+        "cardType": "Tamer",
+        "color": [
+            "Green"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a suspended Digimon in play, gain 2 memory.[Your Turn] When you attack with a level 5 green Digimon, you may suspend this Tamer to reveal 3 cards from the top of your deck. You may digivolve 1 green level 6 Digimon card among them onto the attacking Digimon without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-089",
+        "name": "Izzy Izumi \u0026 Mimi Tachikawa",
+        "cardType": "Tamer",
+        "color": [
+            "Green"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a suspended Digimon in play, gain 2 memory.[Your Turn] When you attack with a level 5 green Digimon, you may suspend this Tamer to reveal 3 cards from the top of your deck. You may digivolve 1 green level 6 Digimon card among them onto the attacking Digimon without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-090",
+        "name": "Arata Sanada",
+        "cardType": "Tamer",
+        "color": [
+            "Black"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If a Digimon card with [Unidentified] in its type is in your trash, gain 1 memory.[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-090",
+        "name": "Arata Sanada",
+        "cardType": "Tamer",
+        "color": [
+            "Black"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If a Digimon card with [Unidentified] in its type is in your trash, gain 1 memory.[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-091",
+        "name": "Takumi Aiba",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 2,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Your Turn] When one of your Digimon digivolves, you may suspend this Tamer to trigger ＜Draw 1＞. (Draw 1 card from your deck.)[All Turns] All level 3 Digimon gain \"[When Attacking] Lose 1 memory.\"",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-091",
+        "name": "Takumi Aiba",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 2,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Your Turn] When one of your Digimon digivolves, you may suspend this Tamer to trigger ＜Draw 1＞. (Draw 1 card from your deck.)[All Turns] All level 3 Digimon gain \"[When Attacking] Lose 1 memory.\"",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-092",
+        "name": "Nokia Shiramine",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Garurumon], [Omnimon], or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]), in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-092",
+        "name": "Nokia Shiramine",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Garurumon], [Omnimon], or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]), in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1.",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-093",
+        "name": "Tai Kamiya \u0026 Matt Ishida",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.[Your Turn] All of your Digimon with [Omnimon] in their names gain ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-093",
+        "name": "Tai Kamiya \u0026 Matt Ishida",
+        "cardType": "Tamer",
+        "color": [
+            "White"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.[Your Turn] All of your Digimon with [Omnimon] in their names gain ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+            "[Security Effect]",
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-094",
+        "name": "Rowdy Rocker",
+        "cardType": "Option",
+        "color": [
+            "Red"
+        ],
+        "cost": 2,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] You may place 1 red level 4 or lower Digimon card from your hand under 1 of your Digimon as its bottom digivolution card. If you do, trigger ＜Draw 2＞. (Draw 2 cards from your deck.)",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-095",
+        "name": "Transcendent Sword",
+        "cardType": "Option",
+        "color": [
+            "Red"
+        ],
+        "cost": 7,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Delete 1 of your opponent's Digimon with 11000 DP or less. If you have a Digimon in play with [Omnimon] or [Greymon] (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]) in its name, delete 1 of your opponent's Digimon with 15000 DP or less instead.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-096",
+        "name": "Supreme Cannon",
+        "cardType": "Option",
+        "color": [
+            "Blue"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Return all of your opponent's Digimon with 3000 DP or less to their owners' hands. If you have a Digimon in play with [Garurumon] or [Omnimon] in its name, return all of your opponent's Digimon with 5000 DP or less to their owners' hands instead. Trash all of the digivolution cards of those Digimon.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-097",
+        "name": "Absolute Blast",
+        "cardType": "Option",
+        "color": [
+            "Blue"
+        ],
+        "cost": 6,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Trash the bottom digivolution card of 1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to the bottom of its owner's deck.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-098",
+        "name": "Meteor Shower",
+        "cardType": "Option",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] You may play 1 yellow Digimon card with [Starmon] in its name from your hand without paying its memory cost.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-099",
+        "name": "Spiral Masquerade",
+        "cardType": "Option",
+        "color": [
+            "Yellow"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] For each Digimon you have in play, activate the effect below.・1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-100",
+        "name": "Royal Nuts",
+        "cardType": "Option",
+        "color": [
+            "Green"
+        ],
+        "cost": 1,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Reveal 5 cards from the top of your deck. Add 1 Digimon card with ＜Digisorption＞ among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-101",
+        "name": "You Can't Actually Fly?",
+        "cardType": "Option",
+        "color": [
+            "Green"
+        ],
+        "cost": 3,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Suspend 1 of your opponent's Digimon. Then, if your opponent has a level 7 Digimon in play, trash the top card of their security stack.",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-102",
+        "name": "Wisselen",
+        "cardType": "Option",
+        "color": [
+            "Green"
+        ],
+        "cost": 6,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Up to 2 of your opponent's Digimon can't attack or block until the end of your opponent's next turn. Then, if you have a Digimon with ＜Digi-Burst＞ in play, gain 2 memory.",
+            "[Security Effect]",
+            "[Security] Up to 2 of your opponent's Digimon can't attack until the end of the turn. Then, if you have a Digimon with ＜Digi-Burst＞ in play, gain 2 memory."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-103",
+        "name": "A Blazing Storm of Metal!",
+        "cardType": "Option",
+        "color": [
+            "Black"
+        ],
+        "cost": 1,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Until the end of your opponent's next turn, all of your Digimon with ＜Reboot＞ get +1000 DP and ＜Blocker＞. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)",
+            "[Security Effect]",
+            "[Security] Your opponent's Digimon can't attack players for the turn. Then, add this card to your hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-104",
+        "name": "Catastrophe Cannon",
+        "cardType": "Option",
+        "color": [
+            "Black"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Trigger ＜De-Digivolve 2＞ on 1 of your opponent's Digimon. (Trash up to 2 cards from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.) Then, if you have a [Diaboromon] in play, you may play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-105",
+        "name": "Ultimate Flare",
+        "cardType": "Option",
+        "color": [
+            "Black"
+        ],
+        "cost": 8,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Trigger ＜De-Digivolve 3＞ on 1 of your opponent's Digimon. (Trash up to 3 cards from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.) Then, delete all of your opponent's Digimon with play costs of 3 or less.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-106",
+        "name": "Demonic Disaster",
+        "cardType": "Option",
+        "color": [
+            "Purple"
+        ],
+        "cost": 1,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] You may delete 1 of your Digimon to unsuspend 1 of your purple Digimon.",
+            "[Security Effect]",
+            "[Security] You may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-107",
+        "name": "Revive From the Darkness!",
+        "cardType": "Option",
+        "color": [
+            "Purple"
+        ],
+        "cost": 4,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Delete 1 of your purple Digimon. Then, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate.",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-108",
+        "name": "Earth Shaker",
+        "cardType": "Option",
+        "color": [
+            "Purple"
+        ],
+        "cost": 6,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] Delete 1 of your opponent's unsuspended level 4 Digimon and 1 of your opponent's unsuspended level 5 Digimon.",
+            "[Security Effect]",
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-109",
+        "name": "Mega Digimon Fusion!",
+        "cardType": "Option",
+        "color": [
+            "White"
+        ],
+        "cost": 0,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] The next time one of your Digimon digivolves from level 6 to level 7 this turn, reduce the memory cost of the digivolution by 6. At the end of the turn, return the Digimon that digivolved with this effect to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon.",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-110",
+        "name": "All Delete",
+        "cardType": "Option",
+        "color": [
+            "White"
+        ],
+        "cost": 10,
+        "dp": 0,
+        "dvCost": [
+            ""
+        ],
+        "form": "",
+        "attribute": "",
+        "species": null,
+        "text": [
+            "[Effect]",
+            "[Main] You may return 1 of your Digimon with [Omnimon] in its name to its owner's hand to delete all Digimon and Tamers. Trash all of the digivolution cards of the Digimon you returned with this effect.",
+            "[Security Effect]",
+            "[Security] Add this card to its owner's hand."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-111",
+        "name": "Omnimon (X Antibody)",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Red/Blue 6 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight/X-Antibody"
+        ],
+        "text": [
+            "[Effect]",
+            "Your Digimon with [Omnimon] in its name can digivolve into this card in your hand for a memory cost of 3, ignoring this card's digivolution requirements.[When Attacking] Delete 1 of your opponent's Digimon with DP less than or equal to this Digimon's DP.[Opponent's Turn] When your opponent's Digimon attacks, you may trash 2 of this Digimon's digivolution cards to end the attack."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-111",
+        "name": "Omnimon (X Antibody)",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 15000,
+        "dvCost": [
+            "Red/Blue 6 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "species": [
+            "Holy",
+            "Warrior/Royal",
+            "Knight/X-Antibody"
+        ],
+        "text": [
+            "[Effect]",
+            "Your Digimon with [Omnimon] in its name can digivolve into this card in your hand for a memory cost of 3, ignoring this card's digivolution requirements.[When Attacking] Delete 1 of your opponent's Digimon with DP less than or equal to this Digimon's DP.[Opponent's Turn] When your opponent's Digimon attacks, you may trash 2 of this Digimon's digivolution cards to end the attack."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-112",
+        "name": "Omnimon Zwart Defeat",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 13000,
+        "dvCost": [
+            "Black/Purple 3 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Holy",
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[Security] Play this card without battling and without paying its memory cost.[When Digivolving] Delete 1 of your opponent's Tamers.[On Deletion] Delete 1 of your opponent's Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    },
+    {
+        "Id": "BT5-112",
+        "name": "Omnimon Zwart Defeat",
+        "cardType": "Digimon",
+        "color": [
+            "White"
+        ],
+        "cost": 15,
+        "dp": 13000,
+        "dvCost": [
+            "Black/Purple 3 from Lv.6"
+        ],
+        "form": "Mega",
+        "attribute": "Virus",
+        "species": [
+            "Holy",
+            "Warrior"
+        ],
+        "text": [
+            "[Effect]",
+            "[Security] Play this card without battling and without paying its memory cost.[When Digivolving] Delete 1 of your opponent's Tamers.[On Deletion] Delete 1 of your opponent's Digimon."
+        ],
+        "set": "-BATTLE OF OMNI-"
+    }
+]

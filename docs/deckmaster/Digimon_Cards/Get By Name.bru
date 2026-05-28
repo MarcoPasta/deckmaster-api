@@ -1,0 +1,16 @@
+meta {
+  name: Get By Name
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/api/digimon/cards/name/Agumon
+  body: none
+  auth: none
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

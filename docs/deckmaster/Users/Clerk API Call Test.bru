@@ -1,0 +1,22 @@
+meta {
+  name: Clerk API Call Test
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{clerk_api}}/users/{{user_id}}
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{clerk_secret_key}}
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+}

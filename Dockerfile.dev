@@ -1,0 +1,38 @@
+FROM golang:1.26.2-trixie
+
+# Install common development tools and a shell
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+       ca-certificates \
+       curl \
+       git \
+       bash \
+       chromium \
+       build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js 24
+ENV NODE_VERSION=24.0.0
+RUN ARCH=$(dpkg --print-architecture) \
+    && curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${ARCH}.tar.xz \
+       | tar -xJ -C /usr/local --strip-components=1
+
+# Create a non-root developer user with UID 1000
+ARG USER=dev
+ARG UID=1000
+RUN useradd -m -u ${UID} -s /bin/bash ${USER}
+
+WORKDIR /workspace
+
+# Copy project files (useful for local dev; devcontainer will rebuild as needed)
+COPY . /workspace
+RUN chown -R ${USER}:${USER} /workspace
+
+USER ${USER}
+
+ENV GOPATH=/go
+ENV PATH=/go/bin:/usr/local/go/bin:$PATH
+
+EXPOSE 8080
+
+CMD ["/bin/bash"]

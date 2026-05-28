@@ -1,0 +1,20 @@
+meta {
+  name: GET Presigned URL For Bucket
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/api/admin/bucket/presign-get/Test
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: {{token}}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

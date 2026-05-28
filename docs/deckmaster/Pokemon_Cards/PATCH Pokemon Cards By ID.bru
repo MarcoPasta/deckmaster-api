@@ -1,0 +1,55 @@
+meta {
+  name: PATCH Pokemon Cards By ID
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{baseUrl}}/api/admin/pokemon/card/1
+  body: json
+  auth: inherit
+}
+
+headers {
+  user_id: {{user_id}}
+  Authorization: {{token}}
+}
+
+body:json {
+  {
+    "content": {
+      "ID": 1,
+      "CreatedAt": "2026-05-04T13:08:36.104813Z",
+      "UpdatedAt": "2026-05-05T07:42:09.305115Z",
+      "DeletedAt": null,
+      "CardType": "Pokemon",
+      "Phase": "Basis-Pokémon",
+      "Name": "Erikas Myrapla",
+      "Kp": 60,
+      "EnergyType": "Pflanze",
+      "Ability": "",
+      "Attacks": [
+        {
+          "cost": [
+            "Pflanze"
+          ],
+          "name": "Waghalsiger Sturmangriff",
+          "effect": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+          "damage": "30"
+        }
+      ],
+      "Weakness": "Feuer",
+      "Resistance": "",
+      "RetreatCost": 1,
+      "CardNumber": "1/217 Common",
+      "Set": "Erhabene Helden",
+      "Code": "asc",
+      "language": "de"
+    }
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
