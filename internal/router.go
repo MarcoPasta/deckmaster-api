@@ -193,6 +193,12 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			PokemondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
 				controller.GetPokemonDeckImage(ctx)
 			})
+			PokemondeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
+				controller.DeletePokemonDeck(ctx)
+			})
+			PokemondeckRoutes.PUT("/:id/update", func(ctx *gin.Context) {
+				controller.UpdatePokemonDeck(ctx)
+			})
 		}
 		NarutodeckRoutes := protectedRoutes.Group("/naruto/decks")
 		{

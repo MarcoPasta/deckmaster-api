@@ -1,0 +1,27 @@
+version: "3.8"
+
+# Development override: mounts the repository into the `dev` service so
+# editors and tools can work with live files. Use together with
+# `docker-compose.yml`:
+#
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build dev db
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: deckmaster_dev:local
+    volumes:
+      - .:/workspace:cached
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+      - test-db
+    stdin_open: true
+    tty: true
+    networks:
+      - shared

@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"gorm.io/gorm"
 )
 
 // marshalling types
@@ -21,6 +22,18 @@ type CreatePokemonDeckRequest struct {
 
 type CreateNarutoDeckRequest struct {
 	UserId  string                   `json:"userId" binding:"required"`
+	Name    string                   `json:"name" binding:"required"`
+	Entries []models.NarutoDeckEntry `json:"entries" binding:"required"`
+}
+
+type UpdatePokemonDeckRequest struct {
+	DeckId  uint                      `json:"deckId" binding:"required"`
+	Name    string                    `json:"name" binding:"required"`
+	Entries []models.PokemonDeckEntry `json:"entries" binding:"required"`
+}
+
+type UpdateNarutoDeckRequest struct {
+	DeckId  int                      `json:"deckId" binding:"required"`
 	Name    string                   `json:"name" binding:"required"`
 	Entries []models.NarutoDeckEntry `json:"entries" binding:"required"`
 }
@@ -46,6 +59,15 @@ func MarshalPokemonDeckRequest(body CreatePokemonDeckRequest) models.PokemonDeck
 func MarshalNarutoDeckRequest(body CreateNarutoDeckRequest) models.NarutoDecks {
 	return models.NarutoDecks{
 		UserId:  body.UserId,
+		Name:    body.Name,
+		Entries: body.Entries,
+	}
+}
+
+func MarshalUpdatePokemonDeckRequest(body UpdatePokemonDeckRequest) models.PokemonDecks {
+	fmt.Printf("Request body for marshalling: %+v\n", body)
+	return models.PokemonDecks{
+		Model:   gorm.Model{ID: uint(body.DeckId)},
 		Name:    body.Name,
 		Entries: body.Entries,
 	}

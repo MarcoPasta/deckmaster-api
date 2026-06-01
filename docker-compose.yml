@@ -1,0 +1,82 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: deckmaster_frontend:latest
+    ports:
+      - "8081:80"
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - shared
+
+  app:
+    build:
+      # Build context set to the `api` directory so the Dockerfile can COPY
+      # module files (`go.mod`/`go.sum`) and source from the same context.
+      context: .
+      dockerfile: Dockerfile
+      args:
+        TARGETOS: linux
+        TARGETARCH: amd64
+    image: deckmaster_app:latest
+    ports:
+      - "8080:8080"
+    # Load runtime environment variables from the .env file in project root
+    env_file:
+      - .env
+    depends_on:
+      - db
+    restart: unless-stopped
+    networks:
+      - shared
+
+  db:
+    image: postgres:15-alpine
+    # Use values from the project `.env` file via compose variable substitution.
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - shared
+
+  test-db:
+    image: postgres:15-alpine
+    # Use values from the project `.env` file via compose variable substitution.
+    environment:
+      POSTGRES_USER: ${TEST_DB_USER}
+      POSTGRES_PASSWORD: ${TEST_DB_PASSWORD}
+      POSTGRES_DB: ${TEST_DB_NAME}
+    volumes:
+      - postgres_test:/var/lib/postgresql/data
+    ports:
+      - "15432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - shared
+
+volumes:
+  postgres_data:
+  postgres_test:
+
+networks:
+  shared:
+    name: mirage-platform

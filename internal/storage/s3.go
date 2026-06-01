@@ -39,7 +39,6 @@ func CreateS3Client() Presigner {
 
 func (presigner Presigner) ListObjects(ctx *gin.Context, prefix string) ([]string, error) {
 	bucketName := os.Getenv("AWS_S3_BUCKET_NAME")
-	log.Println("AWS_S3_BUCKET_NAME: ", bucketName)
 	var keys []string
 	paginator := s3.NewListObjectsV2Paginator(presigner.Client, &s3.ListObjectsV2Input{
 		Bucket: &bucketName,

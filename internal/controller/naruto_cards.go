@@ -24,10 +24,7 @@ func FindAllNarutoCards(ctx *gin.Context) {
 }
 
 func FindNarutoCardImages(ctx *gin.Context, presigner storage.Presigner) {
-
-	log.Println("inside fetch images")
 	keys, err := presigner.ListObjects(ctx, "cards/naruto/")
-	log.Println("keys: ", keys)
 	if err != nil {
 		log.Printf("Error listing objects: %v\n", err)
 		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to list objects"})
@@ -35,7 +32,6 @@ func FindNarutoCardImages(ctx *gin.Context, presigner storage.Presigner) {
 	}
 
 	urls := make(map[string]string, len(keys))
-	log.Println("urls: ", urls)
 	for _, key := range keys {
 		signed, err := presigner.GetObject(ctx, key)
 		if err != nil {
