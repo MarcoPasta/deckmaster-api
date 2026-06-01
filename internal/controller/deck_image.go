@@ -9,12 +9,13 @@ import (
 	_ "image/jpeg"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster/api/internal/storage"
 	"github.com/MarcoPasta/deckmaster/api/internal/utils"
 	"github.com/gin-gonic/gin"
 	_ "golang.org/x/image/webp"
 )
 
-func GetPokemonDeckImage(ctx *gin.Context) {
+func GetPokemonDeckImage(ctx *gin.Context, s3Client storage.Presigner) {
 
 	idStr := ctx.Param("id")
 	id, err := strconv.ParseUint(idStr, 10, 64)
@@ -30,14 +31,14 @@ func GetPokemonDeckImage(ctx *gin.Context) {
 	}
 
 	groups := utils.GroupPokemonCards(deck.Entries)
-	img := utils.RenderDeckImage(groups, "pokemon")
+	img := utils.RenderDeckImage(ctx.Request.Context(), s3Client, groups, "pokemon")
 
 	ctx.Header("Content-Type", "image/png")
 	ctx.Header("Content-Disposition", `attachment; filename="`+deck.Name+`.png"`)
 	png.Encode(ctx.Writer, img)
 }
 
-func GetNarutoDeckImage(ctx *gin.Context) {
+func GetNarutoDeckImage(ctx *gin.Context, s3Client storage.Presigner) {
 	idStr := ctx.Param("id")
 	id, err := strconv.ParseUint(idStr, 10, 64)
 	if err != nil {
@@ -52,7 +53,7 @@ func GetNarutoDeckImage(ctx *gin.Context) {
 	}
 
 	groups := utils.GroupNarutoCards(deck.Entries)
-	img := utils.RenderDeckImage(groups, "naruto")
+	img := utils.RenderDeckImage(ctx.Request.Context(), s3Client, groups, "naruto")
 
 	ctx.Header("Content-Type", "image/png")
 	ctx.Header("Content-Disposition", `attachment; filename="`+deck.Name+`.png"`)

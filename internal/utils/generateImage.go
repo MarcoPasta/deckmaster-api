@@ -2,16 +2,17 @@ package utils
 
 import (
 	"bytes"
+	"context"
 	_ "embed"
 	"errors"
 	"image"
 	_ "image/png"
 	"log"
-	"os"
-	"path/filepath"
 	"strings"
+	"sync"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/storage"
 )
 
 //go:embed assets/pattern-bg-dark.png
@@ -50,16 +51,6 @@ var digit8PNG []byte
 //go:embed assets/digit_9.png
 var digit9PNG []byte
 
-func getFilesDir() string {
-	if dir := os.Getenv("FILES_DIR"); dir != "" {
-		return dir
-	}
-	if _, err := os.Stat("/files"); err == nil {
-		return "/files"
-	}
-	return "files"
-}
-
 const (
 	cardWidth   = 240
 	cardHeight  = 336
@@ -70,8 +61,8 @@ const (
 )
 
 type cardGroup struct {
-	imagePath string
-	count     int
+	s3Key string
+	count int
 }
 
 func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
@@ -81,7 +72,6 @@ func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
 	}
 	orderMap := make(map[uint]*seen)
 	var groups []cardGroup
-	base := getFilesDir()
 
 	for _, e := range entries {
 		if s, ok := orderMap[e.Card.ID]; ok {
@@ -90,9 +80,9 @@ func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
 		} else {
 			number := strings.Split(e.Card.CardNumber, "/")[0]
 			code := strings.ToLower(e.Card.Code)
-			path := filepath.Join(base, "pokemon", "images", code, code+"_"+number+".png")
+			key := "cards/pokemon/" + code + "_" + number + ".png"
 			orderMap[e.Card.ID] = &seen{index: len(groups), count: 1}
-			groups = append(groups, cardGroup{imagePath: path, count: 1})
+			groups = append(groups, cardGroup{s3Key: key, count: 1})
 		}
 	}
 	return groups
@@ -105,22 +95,21 @@ func GroupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
 	}
 	orderMap := make(map[uint]*seen)
 	var groups []cardGroup
-	base := getFilesDir()
 
 	for _, e := range entries {
 		if s, ok := orderMap[e.Card.ID]; ok {
 			s.count++
 			groups[s.index].count = s.count
 		} else {
-			path := filepath.Join(base, "naruto", "images", e.Card.CardNumber+"_"+e.Card.Rarity+".webp")
+			key := "cards/naruto/" + e.Card.CardNumber + "_" + e.Card.Rarity + ".webp"
 			orderMap[e.Card.ID] = &seen{index: len(groups), count: 1}
-			groups = append(groups, cardGroup{imagePath: path, count: 1})
+			groups = append(groups, cardGroup{s3Key: key, count: 1})
 		}
 	}
 	return groups
 }
 
-func RenderDeckImage(groups []cardGroup, gameType string) *image.RGBA {
+func RenderDeckImage(ctx context.Context, s3Client storage.Presigner, groups []cardGroup, gameType string) *image.RGBA {
 	maxStack := 1
 	for _, g := range groups {
 		if g.count > maxStack {
@@ -128,13 +117,33 @@ func RenderDeckImage(groups []cardGroup, gameType string) *image.RGBA {
 		}
 	}
 
+	// Download all card images from S3 concurrently
+	cardImages := make([]image.Image, len(groups))
+	var wg sync.WaitGroup
+	for i, g := range groups {
+		wg.Add(1)
+		go func(idx int, key string) {
+			defer wg.Done()
+			data, err := s3Client.DownloadObject(ctx, key)
+			if err != nil {
+				log.Printf("Failed to download %s: %v\n", key, err)
+				return
+			}
+			img, _, err := image.Decode(bytes.NewReader(data))
+			if err != nil {
+				log.Printf("Failed to decode %s: %v\n", key, err)
+				return
+			}
+			cardImages[idx] = img
+		}(i, g.s3Key)
+	}
+	wg.Wait()
+
 	// offset calc
 	extraOffset := (maxStack - 1) * stackOffset
 	rows := (len(groups) + cols - 1) / cols
 	canvasWidth := padding*2 + cols*cardWidth + (cols-1)*gap + extraOffset
 	canvasHeight := padding*2 + rows*(cardHeight+extraOffset) + (rows-1)*gap
-
-	// log.Println("Values of Canvas: ", canvasWidth, canvasHeight)
 
 	img := image.NewRGBA(image.Rect(0, 0, canvasWidth, canvasHeight))
 
@@ -143,12 +152,10 @@ func RenderDeckImage(groups []cardGroup, gameType string) *image.RGBA {
 		log.Fatalf("Error loading background image: %v\n", err)
 	}
 
-	// draw background for entire canvas first
-
 	drawBackground(img, bgImg, 0, 0, canvasWidth, canvasHeight)
 
 	for i, g := range groups {
-		cardImg := loadImageFile(g.imagePath)
+		cardImg := cardImages[i]
 		if cardImg == nil {
 			continue
 		}
@@ -163,12 +170,6 @@ func RenderDeckImage(groups []cardGroup, gameType string) *image.RGBA {
 			y := baseY + n*stackOffset
 			drawScaled(img, bgImg, cardImg, x, y, cardWidth, cardHeight)
 		}
-
-		// if g.count > 1 {
-		// 	badgeX := baseX + (g.count-1)*stackOffset + cardWidth - 16
-		// 	badgeY := baseY + (g.count-1)*stackOffset + cardHeight - 16
-		// 	drawBadge(img, badgeX, badgeY, g.count)
-		// }
 	}
 
 	return img
@@ -191,20 +192,6 @@ func loadBackgroundImage(gameType string) (image.Image, error) {
 		return nil, err
 	}
 	return img, nil
-}
-
-func loadImageFile(path string) image.Image {
-	f, err := os.Open(path)
-	if err != nil {
-		return nil
-	}
-	defer f.Close()
-
-	img, _, err := image.Decode(f)
-	if err != nil {
-		return nil
-	}
-	return img
 }
 
 func drawBackground(dst *image.RGBA, bg image.Image, x, y, w, h int) {

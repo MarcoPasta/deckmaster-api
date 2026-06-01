@@ -2,6 +2,7 @@ package storage
 
 import (
 	"context"
+	"io"
 	"log"
 	"os"
 	"time"
@@ -84,4 +85,17 @@ func (presigner Presigner) PutObject(ctx *gin.Context, objectKey string) (*v4.Pr
 			bucketName, objectKey, err)
 	}
 	return request, err
+}
+
+func (presigner Presigner) DownloadObject(ctx context.Context, objectKey string) ([]byte, error) {
+	bucketName := os.Getenv("AWS_S3_BUCKET_NAME")
+	result, err := presigner.Client.GetObject(ctx, &s3.GetObjectInput{
+		Bucket: &bucketName,
+		Key:    &objectKey,
+	})
+	if err != nil {
+		return nil, err
+	}
+	defer result.Body.Close()
+	return io.ReadAll(result.Body)
 }

@@ -191,7 +191,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.CreatePokemonDeck(ctx)
 			})
 			PokemondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
-				controller.GetPokemonDeckImage(ctx)
+				controller.GetPokemonDeckImage(ctx, presigner)
 			})
 			PokemondeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
 				controller.DeletePokemonDeck(ctx)
@@ -209,7 +209,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.CreateNarutoDeck(ctx)
 			})
 			NarutodeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
-				controller.GetNarutoDeckImage(ctx)
+				controller.GetNarutoDeckImage(ctx, presigner)
 			})
 		}
 	}
