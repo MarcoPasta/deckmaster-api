@@ -91,20 +91,30 @@ func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
 }
 
 func formatCardNumber(entry string) string {
-	number, err := strconv.Atoi(strings.Split(entry, "/")[0])
-	if err != nil {
-		log.Println("Error formatting card number: ", err)
-	}
-	fmt.Println("number after formatting: ", number)
+	// var number int
 
-	switch true {
-	case number > 10:
-		return fmt.Sprintf("%03d", number)
-	case number > 1:
-		return fmt.Sprintf("%02d", number)
-	default:
-		return fmt.Sprintf("%d", number)
+	fmt.Println("Entry before formatting: ", entry)
+	if !strings.Contains(entry, "M") {
+		number, err := strconv.Atoi(strings.Split(entry, "/")[0])
+		if err != nil {
+			log.Println("Error formatting card number: ", err)
+		}
+		fmt.Println("number after formatting: ", number)
+
+		if number < 10 {
+			log.Println("Value of number: ", number)
+			log.Println("Number: ", fmt.Sprintf("00%v", number))
+			return fmt.Sprintf("00%v", number)
+		}
+
+		if number < 100 {
+			log.Println("Value of number: ", number)
+			log.Println("Number: ", fmt.Sprintf("0%v", number))
+			return fmt.Sprintf("0%v", number)
+		}
 	}
+
+	return entry
 }
 
 func GroupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
