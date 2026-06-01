@@ -5,9 +5,11 @@ import (
 	"context"
 	_ "embed"
 	"errors"
+	"fmt"
 	"image"
 	_ "image/png"
 	"log"
+	"strconv"
 	"strings"
 	"sync"
 
@@ -88,6 +90,23 @@ func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
 	return groups
 }
 
+func formatCardNumber(entry string) string {
+	number, err := strconv.Atoi(strings.Split(entry, "/")[0])
+	if err != nil {
+		log.Println("Error formatting card number: ", err)
+	}
+	fmt.Println("number after formatting: ", number)
+
+	switch true {
+	case number > 10:
+		return fmt.Sprintf("%03d", number)
+	case number > 1:
+		return fmt.Sprintf("%02d", number)
+	default:
+		return fmt.Sprintf("%d", number)
+	}
+}
+
 func GroupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
 	type seen struct {
 		index int
@@ -101,7 +120,7 @@ func GroupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
 			s.count++
 			groups[s.index].count = s.count
 		} else {
-			key := "cards/naruto/" + e.Card.CardNumber + "_" + e.Card.Rarity + ".webp"
+			key := "cards/naruto/" + e.Card.Set + "_" + formatCardNumber(e.Card.CardNumber) + "_" + e.Card.Rarity + ".webp"
 			orderMap[e.Card.ID] = &seen{index: len(groups), count: 1}
 			groups = append(groups, cardGroup{s3Key: key, count: 1})
 		}
@@ -166,9 +185,14 @@ func RenderDeckImage(ctx context.Context, s3Client storage.Presigner, groups []c
 		baseY := padding + row*(cardHeight+extraOffset+gap)
 
 		for n := 0; n < g.count; n++ {
-			x := baseX + n*stackOffset
+			/* This part of the code creates the card stacks */
+			x := baseX // + n*stackOffset
 			y := baseY + n*stackOffset
 			drawScaled(img, bgImg, cardImg, x, y, cardWidth, cardHeight)
+		}
+
+		if g.count > 1 {
+			drawBadge(img, baseX+cardWidth, baseY+cardHeight, g.count)
 		}
 	}
 
@@ -213,65 +237,105 @@ func drawScaled(dst *image.RGBA, bg image.Image, src image.Image, x, y, w, h int
 	srcW := srcBounds.Dx()
 	srcH := srcBounds.Dy()
 
-	// then draw card on top
+	const radius = 12
+
 	for dy := 0; dy < h; dy++ {
 		srcY := srcBounds.Min.Y + dy*srcH/h
 		for dx := 0; dx < w; dx++ {
+			if !insideRoundedRect(dx, dy, w, h, radius) {
+				continue
+			}
 			srcX := srcBounds.Min.X + dx*srcW/w
-			dst.Set(x+dx, y+dy, src.At(srcX, srcY))
+			c := src.At(srcX, srcY)
+			if _, _, _, a := c.RGBA(); a > 0 {
+				dst.Set(x+dx, y+dy, c)
+			}
 		}
 	}
 }
 
-// func drawBadge(img *image.RGBA, x, y, count int) {
-// 	text := strconv.Itoa(count)
-// 	badgeWidth := 44
-// 	if len(text) > 1 {
-// 		badgeWidth = 52
-// 	}
-// 	badgeHeight := 44
+// insideRoundedRect returns true if (px, py) is inside a w×h rectangle
+// with the given corner radius.
+func insideRoundedRect(px, py, w, h, r int) bool {
+	// Check each corner quadrant
+	// Top-left
+	if px < r && py < r {
+		return circleContains(r-px, r-py, r)
+	}
+	// Top-right
+	if px >= w-r && py < r {
+		return circleContains(px-(w-r-1), r-py, r)
+	}
+	// Bottom-left
+	if px < r && py >= h-r {
+		return circleContains(r-px, py-(h-r-1), r)
+	}
+	// Bottom-right
+	if px >= w-r && py >= h-r {
+		return circleContains(px-(w-r-1), py-(h-r-1), r)
+	}
+	return true
+}
 
-// 	bx := x - badgeWidth
-// 	by := y - badgeHeight
+func circleContains(dx, dy, r int) bool {
+	return dx*dx+dy*dy <= r*r
+}
 
-// 	var badgeFile []byte
+func drawBadge(img *image.RGBA, x, y, count int) {
+	text := strconv.Itoa(count)
+	badgeWidth := 56
+	if len(text) > 1 {
+		badgeWidth = 64
+	}
+	badgeHeight := 56
 
-// 	switch count {
-// 	case 0:
-// 		badgeFile = digit0PNG
-// 	case 1:
-// 		badgeFile = digit1PNG
-// 	case 2:
-// 		badgeFile = digit2PNG
-// 	case 3:
-// 		badgeFile = digit3PNG
-// 	case 4:
-// 		badgeFile = digit4PNG
-// 	case 5:
-// 		badgeFile = digit5PNG
-// 	case 6:
-// 		badgeFile = digit6PNG
-// 	case 7:
-// 		badgeFile = digit7PNG
-// 	case 8:
-// 		badgeFile = digit8PNG
-// 	case 9:
-// 		badgeFile = digit9PNG
-// 	}
+	bx := x - badgeWidth
+	by := y - badgeHeight
 
-// 	badge, _, err := image.Decode(bytes.NewReader(badgeFile))
-// 	if err != nil {
-// 		log.Println("Error decoding badge image: ", err)
-// 		return
-// 	}
+	var badgeFile []byte
 
-// 	for dy := 0; dy < badgeHeight; dy++ {
-// 		for dx := 0; dx < badgeWidth; dx++ {
-// 			c := badge.At(badge.Bounds().Min.X+dx, badge.Bounds().Min.Y+dy)
-// 			if _, _, _, a := c.RGBA(); a > 0 {
-// 				img.Set(bx+dx, by+dy, c)
-// 			}
-// 		}
-// 	}
+	switch count {
+	case 0:
+		badgeFile = digit0PNG
+	case 1:
+		badgeFile = digit1PNG
+	case 2:
+		badgeFile = digit2PNG
+	case 3:
+		badgeFile = digit3PNG
+	case 4:
+		badgeFile = digit4PNG
+	case 5:
+		badgeFile = digit5PNG
+	case 6:
+		badgeFile = digit6PNG
+	case 7:
+		badgeFile = digit7PNG
+	case 8:
+		badgeFile = digit8PNG
+	case 9:
+		badgeFile = digit9PNG
+	}
 
-// }
+	badge, _, err := image.Decode(bytes.NewReader(badgeFile))
+	if err != nil {
+		log.Println("Error decoding badge image: ", err)
+		return
+	}
+
+	srcBounds := badge.Bounds()
+	srcW := srcBounds.Dx()
+	srcH := srcBounds.Dy()
+
+	for dy := 0; dy < badgeHeight; dy++ {
+		srcY := srcBounds.Min.Y + dy*srcH/badgeHeight
+		for dx := 0; dx < badgeWidth; dx++ {
+			srcX := srcBounds.Min.X + dx*srcW/badgeWidth
+			c := badge.At(srcX, srcY)
+			if _, _, _, a := c.RGBA(); a > 0 {
+				img.Set(bx+dx, by+dy, c)
+			}
+		}
+	}
+
+}
