@@ -49,7 +49,6 @@ WORKDIR /
 COPY --from=builder /app /app
 
 # Copy data files and migrations from the build context (rooted at /src)
-COPY --from=builder /src/files /files
 COPY --from=builder /src/migrations /migrations
 
 EXPOSE 8080
