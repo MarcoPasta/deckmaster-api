@@ -64,16 +64,27 @@ func GetPokemonCardByID(ctx *gin.Context) {
 
 func PatchPokemonCardByID(ctx *gin.Context) {
 
-	var body map[string]models.PokemonCard
+	var body models.PokemonCard
+
+	id, err := strconv.Atoi(ctx.Param("id"))
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{
+			"error": "Invalid card ID.",
+		})
+		return
+	}
+
 	if err := ctx.ShouldBind(&body); err != nil {
-		log.Println("Error binding JSON:", body["content"])
+		log.Println("Error binding JSON:", body, err)
 		ctx.JSON(http.StatusBadRequest, gin.H{
 			"error": "Invalid request body.",
 		})
 		return
 	}
 
-	rows, err := repository.PatchPokemonCardByID(ctx, body["content"])
+	log.Printf("Body: %+v\n", body)
+
+	rows, err := repository.PatchPokemonCardByID(ctx, id, body)
 	if err != nil {
 		ctx.JSON(http.StatusInternalServerError, gin.H{
 			"error": "Failed to update card.",

@@ -27,10 +27,12 @@ func GetPokemonCardByID(ctx *gin.Context, id string) (*models.PokemonCard, error
 	return &card, nil
 }
 
-func PatchPokemonCardByID(ctx *gin.Context, body models.PokemonCard) (int, error) {
-	rows, err := gorm.G[models.PokemonCard](DB).Where("id = ?", body.ID).Updates(ctx, body)
+func PatchPokemonCardByID(ctx *gin.Context, id int, body models.PokemonCard) (int, error) {
+
+	log.Printf("Updating card with ID %d: %+v\n", id, body)
+	rows, err := gorm.G[models.PokemonCard](DB).Where("id = ?", id).Updates(ctx, body)
 	if err != nil {
-		log.Printf("Error updating card with ID %d: %v\n", body.ID, err)
+		log.Printf("Error updating card with ID %d: %v\n", id, err)
 		return 0, err
 	}
 
