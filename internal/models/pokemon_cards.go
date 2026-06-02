@@ -19,7 +19,8 @@ type PokemonCard struct {
 	CardNumber  string
 	Set         string
 	Code        string
-	Language    string `json:"language" db:"language"`
+	Tags        []string `gorm:"serializer:json"`
+	Language    string   `json:"language" db:"language"`
 }
 
 type Attack struct {

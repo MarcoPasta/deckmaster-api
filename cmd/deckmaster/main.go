@@ -9,7 +9,7 @@ import (
 
 func main() {
 	repository.ConnectToDatabase(internal.GetDBString())
-	// repository.RunMigrations()
+	repository.RunMigrations()
 	internal.SetupRouter(storage.CreateS3Client())
 
 	// Start server on port 8080 (default)
