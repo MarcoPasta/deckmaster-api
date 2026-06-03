@@ -87,6 +87,25 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 		//////////////
+		digimonCard := adminRoutes.Group("/digimon")
+		digimonCard.Use(middleware.VerifyJWT())
+		digimonCard.Use(middleware.GetClerkUserRole())
+		digimonCard.Use(middleware.NeedsAdminRole())
+		{
+			digimonCard.GET("/card/:id", func(ctx *gin.Context) {
+				controller.GetDigimonCardByID(ctx)
+			})
+			digimonCard.PATCH("/card/:id", func(ctx *gin.Context) {
+				controller.PatchDigimonCardByID(ctx)
+			})
+			digimonCard.DELETE("/card/:id", func(ctx *gin.Context) {
+				controller.DeleteDigimonCardByID(ctx)
+			})
+			digimonCard.POST("/sets", func(ctx *gin.Context) {
+				controller.AddDigimonCardsBySets(ctx)
+			})
+		}
+
 		pokemonCard := adminRoutes.Group("/pokemon")
 		pokemonCard.Use(middleware.VerifyJWT())
 		pokemonCard.Use(middleware.GetClerkUserRole())
@@ -105,6 +124,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.AddPokemonCardsBySets(ctx)
 			})
 		}
+
 	}
 
 	// ---------------------------------------------------------------------------------------------------------------------
@@ -116,21 +136,24 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		CardRoutes.GET("", func(ctx *gin.Context) {
 			controller.FindAllDigimonCards(ctx)
 		})
-		CardRoutes.GET("/id/:id", func(ctx *gin.Context) {
-			controller.FindDigimonCardByID(ctx)
-		})
-		CardRoutes.GET("/name/:name", func(ctx *gin.Context) {
-			controller.FindDigimonCardsByName(ctx)
+		// CardRoutes.GET("/id/:id", func(ctx *gin.Context) {
+		// 	controller.FindDigimonCardByID(ctx)
+		// })
+		// CardRoutes.GET("/name/:name", func(ctx *gin.Context) {
+		// 	controller.FindDigimonCardsByName(ctx)
+		// })
+		CardRoutes.GET("/images", func(ctx *gin.Context) {
+			controller.FindDigimonCardImages(ctx, presigner)
 		})
 	}
 
 	// Digimon Filtered
-	DigimonFilteredRoutes := CardRoutes.Group("/filter")
-	{
-		DigimonFilteredRoutes.GET("/color", func(ctx *gin.Context) {
-			controller.FindDigimonCardsByColor(ctx)
-		})
-	}
+	// DigimonFilteredRoutes := CardRoutes.Group("/filter")
+	// {
+	// DigimonFilteredRoutes.GET("/color", func(ctx *gin.Context) {
+	// 	controller.FindDigimonCardsByColor(ctx)
+	// })
+	// }
 
 	// Pokemon Cards
 	PokemonCardRoutes := api.Group("/pokemon/cards")

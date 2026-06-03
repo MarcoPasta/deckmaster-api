@@ -5,3 +5,4 @@ echo "Go development dependencies installed successfully."
 echo "Adding bash alias"
 echo "alias ll=\"ls -l\"" >> ~/.bashrc
 echo "alias la=\"ls -la\"" >> ~/.bashrc
+echo "alias cgoose=\"./build/goose\"" >> ~/.bashrc

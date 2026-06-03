@@ -1,30 +1,24 @@
 package models
 
 import (
-	"time"
-
 	"gorm.io/gorm"
 )
 
 type DigimonCard struct {
-	Id        string `gorm:"primaryKey"`
-	Name      string
-	CardType  string
-	Color     []string `gorm:"serializer:json" collection_format:"multi"`
-	Cost      int8
-	Dp        int16
-	DvCost    []string `gorm:"serializer:json"`
-	Form      string
-	Attribute string
-	Species   []string `gorm:"serializer:json"` // "type" is a primitve, so we have to use species here
-	Text      []string `gorm:"serializer:json"`
-	Set       string
-	CreatedAt time.Time
-	UpdatedAt time.Time
-	DeletedAt gorm.DeletedAt `gorm:"index"`
+	gorm.Model
+	CardNumber string
+	Name       string
+	CardType   string
+	Color      []string `gorm:"serializer:json" collection_format:"multi"`
+	Cost       int8
+	Dp         int16
+	DvCost     []string `gorm:"serializer:json"`
+	Form       string
+	Attribute  string
+	Species    []string `gorm:"serializer:json"` // "type" is a primitve, so we have to use species here
+	Text       []string `gorm:"serializer:json"`
+	Set        string
 }
-
-type DigimonCardAltArt struct{}
 
 type DigimonDecks struct {
 	gorm.Model
