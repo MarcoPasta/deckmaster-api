@@ -17,11 +17,14 @@ import (
 	"github.com/MarcoPasta/deckmaster/api/internal/storage"
 )
 
-//go:embed assets/pattern-bg-dark.png
-var patternBgDarkPNG []byte
+//go:embed assets/pattern-bg-pokemon.png
+var patternBgPokemonPNG []byte
 
 //go:embed assets/pattern-bg-naruto.png
 var patternBgNarutoPNG []byte
+
+//go:embed assets/pattern-bg-digimon.png
+var patternBgDigimonPNG []byte
 
 //go:embed assets/digit_0.png
 var digit0PNG []byte
@@ -90,6 +93,7 @@ func GroupPokemonCards(entries []models.PokemonDeckEntry) []cardGroup {
 	return groups
 }
 
+// Naruto grouping helper method
 func formatCardNumber(entry string) string {
 	// var number int
 
@@ -131,6 +135,27 @@ func GroupNarutoCards(entries []models.NarutoDeckEntry) []cardGroup {
 			groups[s.index].count = s.count
 		} else {
 			key := "cards/naruto/" + e.Card.Set + "_" + formatCardNumber(e.Card.CardNumber) + "_" + e.Card.Rarity + ".webp"
+			orderMap[e.Card.ID] = &seen{index: len(groups), count: 1}
+			groups = append(groups, cardGroup{s3Key: key, count: 1})
+		}
+	}
+	return groups
+}
+
+func GroupDigimonCards(entries []models.DigimonDeckEntry) []cardGroup {
+	type seen struct {
+		index int
+		count int
+	}
+	orderMap := make(map[uint]*seen)
+	var groups []cardGroup
+
+	for _, e := range entries {
+		if s, ok := orderMap[e.Card.ID]; ok {
+			s.count++
+			groups[s.index].count = s.count
+		} else {
+			key := "cards/digimon/" + e.Card.CardNumber + ".png"
 			orderMap[e.Card.ID] = &seen{index: len(groups), count: 1}
 			groups = append(groups, cardGroup{s3Key: key, count: 1})
 		}
@@ -213,9 +238,11 @@ func loadBackgroundImage(gameType string) (image.Image, error) {
 	var imgData []byte
 	switch gameType {
 	case "pokemon":
-		imgData = patternBgDarkPNG
+		imgData = patternBgPokemonPNG
 	case "naruto":
 		imgData = patternBgNarutoPNG
+	case "digimon":
+		imgData = patternBgDigimonPNG
 	default:
 		return nil, errors.New("unsupported game type")
 	}

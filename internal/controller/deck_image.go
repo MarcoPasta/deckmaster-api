@@ -15,6 +15,29 @@ import (
 	_ "golang.org/x/image/webp"
 )
 
+func GetDigimonDeckImage(ctx *gin.Context, s3Client storage.Presigner) {
+
+	idStr := ctx.Param("id")
+	id, err := strconv.ParseUint(idStr, 10, 64)
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "invalid deck id"})
+		return
+	}
+
+	deck, err := repository.GetDigimonDeckById(ctx, uint(id))
+	if err != nil {
+		ctx.JSON(http.StatusNotFound, gin.H{"error": "deck not found"})
+		return
+	}
+
+	groups := utils.GroupDigimonCards(deck.Entries)
+	img := utils.RenderDeckImage(ctx.Request.Context(), s3Client, groups, "digimon")
+
+	ctx.Header("Content-Type", "image/png")
+	ctx.Header("Content-Disposition", `attachment; filename="`+deck.Name+`.png"`)
+	png.Encode(ctx.Writer, img)
+}
+
 func GetPokemonDeckImage(ctx *gin.Context, s3Client storage.Presigner) {
 
 	idStr := ctx.Param("id")
