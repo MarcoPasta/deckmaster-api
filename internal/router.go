@@ -204,6 +204,15 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			DigimondeckRoutes.POST("/create", func(ctx *gin.Context) {
 				controller.CreateDigimonDeck(ctx)
 			})
+			// DigimondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
+			// 	controller.GetDigimonDeckImage(ctx, presigner)
+			// })
+			DigimondeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
+				controller.DeleteDigimonDeck(ctx)
+			})
+			DigimondeckRoutes.PUT("/:id/update", func(ctx *gin.Context) {
+				controller.UpdateDigimonDeck(ctx)
+			})
 		}
 		PokemondeckRoutes := protectedRoutes.Group("/pokemon/decks")
 		{

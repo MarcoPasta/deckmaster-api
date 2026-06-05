@@ -78,20 +78,6 @@ func UpdatePokemonDeck(ctx context.Context, id string, updatedDeck models.Pokemo
 }
 
 func DeletePokemonDeck(ctx context.Context, id int) (int, error) {
-	// err := DB.Transaction(func(tx *gorm.DB) error {
-	// 	// Delete existing entries for this deck
-	// 	if err := tx.Where("deck_id = ?", id).Delete(&models.PokemonDeckEntry{}).Error; err != nil {
-	// 		return err
-	// 	}
-
-	// 	// Delete the deck itself
-	// 	if err := tx.Where("id = ?", id).Delete(&models.PokemonDecks{}).Error; err != nil {
-	// 		return err
-	// 	}
-
-	// 	return nil
-	// })
-
 	rows, err := gorm.G[models.PokemonDecks](DB).Where("id = ?", id).Delete(ctx)
 	if err != nil {
 		return 0, fmt.Errorf("failed to delete deck: %w", err)

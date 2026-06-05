@@ -1,8 +1,6 @@
 package utils
 
 import (
-	"fmt"
-
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"gorm.io/gorm"
 )
@@ -26,6 +24,12 @@ type CreateNarutoDeckRequest struct {
 	Entries []models.NarutoDeckEntry `json:"entries" binding:"required"`
 }
 
+type UpdateDigimonDeckRequest struct {
+	DeckId  uint                      `json:"deckId" binding:"required"`
+	Name    string                    `json:"name" binding:"required"`
+	Entries []models.DigimonDeckEntry `json:"entries" binding:"required"`
+}
+
 type UpdatePokemonDeckRequest struct {
 	DeckId  uint                      `json:"deckId" binding:"required"`
 	Name    string                    `json:"name" binding:"required"`
@@ -33,7 +37,7 @@ type UpdatePokemonDeckRequest struct {
 }
 
 type UpdateNarutoDeckRequest struct {
-	DeckId  int                      `json:"deckId" binding:"required"`
+	DeckId  uint                     `json:"deckId" binding:"required"`
 	Name    string                   `json:"name" binding:"required"`
 	Entries []models.NarutoDeckEntry `json:"entries" binding:"required"`
 }
@@ -48,7 +52,6 @@ func MarshalDigimonDeckRequest(body CreateDigimonDeckRequest) models.DigimonDeck
 }
 
 func MarshalPokemonDeckRequest(body CreatePokemonDeckRequest) models.PokemonDecks {
-	fmt.Printf("Request body for marshalling: %+v\n", body)
 	return models.PokemonDecks{
 		UserId:  body.UserId,
 		Name:    body.Name,
@@ -64,9 +67,24 @@ func MarshalNarutoDeckRequest(body CreateNarutoDeckRequest) models.NarutoDecks {
 	}
 }
 
+func MarshalUpdateDigimonDeckRequest(body UpdateDigimonDeckRequest) models.DigimonDecks {
+	return models.DigimonDecks{
+		Model:   gorm.Model{ID: uint(body.DeckId)},
+		Name:    body.Name,
+		Entries: body.Entries,
+	}
+}
+
 func MarshalUpdatePokemonDeckRequest(body UpdatePokemonDeckRequest) models.PokemonDecks {
-	fmt.Printf("Request body for marshalling: %+v\n", body)
 	return models.PokemonDecks{
+		Model:   gorm.Model{ID: uint(body.DeckId)},
+		Name:    body.Name,
+		Entries: body.Entries,
+	}
+}
+
+func MarshalUpdateNarutoDeckRequest(body UpdateNarutoDeckRequest) models.NarutoDecks {
+	return models.NarutoDecks{
 		Model:   gorm.Model{ID: uint(body.DeckId)},
 		Name:    body.Name,
 		Entries: body.Entries,
