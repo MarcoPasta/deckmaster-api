@@ -50,5 +50,7 @@ frontend/.claude/settings.local.json
 
 files/*
 build/goose
+cmd/deckmaster/tmp/
 cmd/deckmaster/tmp/deckmaster
 tmp/build-errors.log
+tmp/
