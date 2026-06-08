@@ -265,6 +265,12 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			NarutodeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
 				controller.GetNarutoDeckImage(ctx, presigner)
 			})
+			NarutodeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
+				controller.DeleteNarutoDeck(ctx)
+			})
+			NarutodeckRoutes.PUT("/:id/update", func(ctx *gin.Context) {
+				controller.UpdateNarutoDeck(ctx)
+			})
 		}
 	}
 }
