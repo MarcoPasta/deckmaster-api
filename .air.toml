@@ -1,23 +1,23 @@
 #:schema https://json.schemastore.org/any.json
 
-env_files = ["../.env"]
+env_files = [".env"]
 root = "."
 testdata_dir = ""
 tmp_dir = "tmp"
 
 [build]
   args_bin = []
-  cmd = "go build -o ./cmd/deckmaster/tmp/ ./cmd/deckmaster"
+  cmd = "go build -o ./cmd/deckmaster/tmp/ ./cmd/deckmaster/"
   delay = 1000
   entrypoint = ["./cmd/deckmaster/tmp/deckmaster"]
-  exclude_dir = ["assets", "tmp", "vendor", "testdata", "files/images"]
+  exclude_dir = ["assets", "tmp", "vendor", "testdata"]
   exclude_file = []
   exclude_regex = ["_test.go"]
   exclude_unchanged = false
   follow_symlink = false
   full_bin = ""
   ignore_dangerous_root_dir = false
-  include_dir = ["../files/json"]
+  include_dir = []
   include_ext = ["go", "tpl", "tmpl", "html"]
   include_file = []
   kill_delay = "0s"

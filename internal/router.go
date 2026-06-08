@@ -125,6 +125,25 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 
+		narutoCard := adminRoutes.Group("/naruto")
+		narutoCard.Use(middleware.VerifyJWT())
+		narutoCard.Use(middleware.GetClerkUserRole())
+		narutoCard.Use(middleware.NeedsAdminRole())
+		{
+			// narutoCard.GET("/card/:id", func(ctx *gin.Context) {
+			// 	controller.GetNarutoCardByID(ctx)
+			// })
+			// narutoCard.PATCH("/card/:id", func(ctx *gin.Context) {
+			// 	controller.PatchNarutoCardByID(ctx)
+			// })
+			// narutoCard.DELETE("/card/:id", func(ctx *gin.Context) {
+			// 	controller.DeleteNarutoCardByID(ctx)
+			// })
+			narutoCard.POST("/sets", func(ctx *gin.Context) {
+				controller.AddNarutoCardsBySets(ctx)
+			})
+		}
+
 	}
 
 	// ---------------------------------------------------------------------------------------------------------------------
@@ -182,6 +201,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	{
 		NarutoCardRoutes.GET("", func(ctx *gin.Context) {
 			controller.FindAllNarutoCards(ctx)
+		})
+		NarutoCardRoutes.GET("/names", func(ctx *gin.Context) {
+			controller.FindNarutoCardsByNames(ctx)
 		})
 		NarutoCardRoutes.GET("/images", func(ctx *gin.Context) {
 			controller.FindNarutoCardImages(ctx, presigner)

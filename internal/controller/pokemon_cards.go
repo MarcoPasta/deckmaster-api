@@ -117,7 +117,7 @@ func DeletePokemonCardByID(ctx *gin.Context) {
 func FindSamePokemonCardsByNames(ctx *gin.Context) {
 	decklist := ctx.Query("decklist")
 
-	parsedList := utils.ParseDecklist(ctx, decklist)
+	parsedList := utils.ParsePokemonDecklist(ctx, decklist)
 	if parsedList == nil {
 		ctx.JSON(http.StatusBadRequest, gin.H{
 			"error": "Invalid decklist format.",

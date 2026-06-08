@@ -9,16 +9,16 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type ImportDeck struct {
+type ImportPokemonDeck struct {
 	Count  int
 	Name   string
 	Code   string
 	Number string
 }
 
-func ParseDecklist(ctx *gin.Context, decklist string) []ImportDeck {
+func ParsePokemonDecklist(ctx *gin.Context, decklist string) []ImportPokemonDeck {
 
-	var imported []ImportDeck
+	var imported []ImportPokemonDeck
 	lines := strings.Split(decklist, "\n")
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
@@ -72,7 +72,7 @@ func ParseDecklist(ctx *gin.Context, decklist string) []ImportDeck {
 
 		log.Println("NEW NAME AFTER FINDIN PROMO: ", name)
 
-		imported = append(imported, ImportDeck{count, name, code, number})
+		imported = append(imported, ImportPokemonDeck{count, name, code, number})
 	}
 	return imported
 }

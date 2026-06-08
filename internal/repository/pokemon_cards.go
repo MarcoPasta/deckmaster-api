@@ -50,10 +50,10 @@ func DeletePokemonCardByID(ctx *gin.Context, id string) (int, error) {
 }
 
 // PokemonCardsByName
-func FindSamePokemonCardsByNames(ctx *gin.Context, parsedList []utils.ImportDeck) ([]models.PokemonCard, error) {
+func FindSamePokemonCardsByNames(ctx *gin.Context, parsedList []utils.ImportPokemonDeck) ([]models.PokemonCard, error) {
 
 	var cards []models.PokemonCard
-	var queue []utils.ImportDeck
+	var queue []utils.ImportPokemonDeck
 
 	for _, item := range parsedList {
 
