@@ -15,6 +15,7 @@ type NarutoCard struct {
 	Rarity      string   `json:"rarity"`
 	CardNumber  string   `json:"card_number"`
 	Set         string   `json:"set"`
+	Tags        []string `gorm:"serializer:json" json:"tags"`
 }
 
 type NarutoDecks struct {

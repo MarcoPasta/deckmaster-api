@@ -21,6 +21,9 @@ func SetupRouter(presigner storage.Presigner) {
 }
 
 func initRoutes(r *gin.Engine, presigner storage.Presigner) {
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## CORS config ##############################
+	//
 	r.Use(cors.New(cors.Config{
 		AllowOrigins:     []string{"https://dev.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE"},
@@ -36,14 +39,22 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		})
 	})
 
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## Routes Grouping ##############################
+	//
 	api := r.Group("/api")
 
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## Clerk ##############################
+	//
 	clerkRoutes := api.Group("/clerk")
-
 	clerkRoutes.GET("/session", func(ctx *gin.Context) {
 		controller.GetSessionToken(ctx)
 	})
 
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## User ##############################
+	//
 	userRoutes := clerkRoutes.Group("/user")
 	{
 		userRoutes.GET("/info", func(ctx *gin.Context) {
@@ -54,7 +65,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		})
 	}
 
-	// Admin Routes
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## Admin ##############################
+	//
 	adminRoutes := api.Group("/admin")
 	{
 		// Testing Endpoint
@@ -66,7 +79,10 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		adminRoutes.GET("/admin", middleware.NeedsAdminRole(), func(ctx *gin.Context) {
 			ctx.JSON(http.StatusOK, gin.H{"message": "Welcome, admin user!"})
 		})
-		// S3 Bucket
+
+		//
+		// ############################## Admin / S3 Bucket ##############################
+		//
 		bucketRoutes := adminRoutes.Group("/bucket")
 		bucketRoutes.Use(middleware.VerifyJWT())
 		bucketRoutes.Use(middleware.GetClerkUserRole())
@@ -86,7 +102,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				ctx.JSON(http.StatusOK, gin.H{"url": url.URL})
 			})
 		}
-		//////////////
+		//
+		// ############################## Admin / Digimon ##############################
+		//
 		digimonCard := adminRoutes.Group("/digimon")
 		digimonCard.Use(middleware.VerifyJWT())
 		digimonCard.Use(middleware.GetClerkUserRole())
@@ -106,6 +124,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 
+		// ############################## Admin / Pokemon ##############################
 		pokemonCard := adminRoutes.Group("/pokemon")
 		pokemonCard.Use(middleware.VerifyJWT())
 		pokemonCard.Use(middleware.GetClerkUserRole())
@@ -125,20 +144,23 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 
+		//
+		// ############################## Admin / Naruto ##############################
+		//
 		narutoCard := adminRoutes.Group("/naruto")
 		narutoCard.Use(middleware.VerifyJWT())
 		narutoCard.Use(middleware.GetClerkUserRole())
 		narutoCard.Use(middleware.NeedsAdminRole())
 		{
-			// narutoCard.GET("/card/:id", func(ctx *gin.Context) {
-			// 	controller.GetNarutoCardByID(ctx)
-			// })
-			// narutoCard.PATCH("/card/:id", func(ctx *gin.Context) {
-			// 	controller.PatchNarutoCardByID(ctx)
-			// })
-			// narutoCard.DELETE("/card/:id", func(ctx *gin.Context) {
-			// 	controller.DeleteNarutoCardByID(ctx)
-			// })
+			narutoCard.GET("/card/:id", func(ctx *gin.Context) {
+				controller.GetNarutoCardByID(ctx)
+			})
+			narutoCard.PATCH("/card/:id", func(ctx *gin.Context) {
+				controller.PatchNarutoCardByID(ctx)
+			})
+			narutoCard.DELETE("/card/:id", func(ctx *gin.Context) {
+				controller.DeleteNarutoCardByID(ctx)
+			})
 			narutoCard.POST("/sets", func(ctx *gin.Context) {
 				controller.AddNarutoCardsBySets(ctx)
 			})
@@ -147,9 +169,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	}
 
 	// ---------------------------------------------------------------------------------------------------------------------
-	// ############### Cards ###############
+	// ############################## Cards ##############################
 	//
-	// Digimon Cards
+	// ############################## Digimon ##############################
 	CardRoutes := api.Group("/digimon/cards")
 	{
 		CardRoutes.GET("", func(ctx *gin.Context) {
@@ -174,7 +196,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	// })
 	// }
 
-	// Pokemon Cards
+	// ############################## Pokemon ##############################
 	PokemonCardRoutes := api.Group("/pokemon/cards")
 	{
 		PokemonCardRoutes.GET("", func(ctx *gin.Context) {
@@ -196,7 +218,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		})
 	}
 
-	// Naruto Cards
+	// ############################## Naruto ##############################
 	NarutoCardRoutes := api.Group("/naruto/cards")
 	{
 		NarutoCardRoutes.GET("", func(ctx *gin.Context) {
@@ -210,14 +232,16 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		})
 	}
 
-	// Authentication routes
+	// ---------------------------------------------------------------------------------------------------------------------
+	// ############################## Protected Routes ##############################
 	protectedRoutes := api.Group("/auth")
 	protectedRoutes.Use(middleware.VerifyJWT())
 	{
 		protectedRoutes.GET("/user", func(ctx *gin.Context) {
 			controller.GetUserInfo(ctx)
 		})
-		// Digimon
+
+		// ############################## Digimon Decks ##############################
 		DigimondeckRoutes := protectedRoutes.Group("/digimon/decks")
 		{
 			DigimondeckRoutes.GET("/user", func(ctx *gin.Context) {
@@ -236,6 +260,8 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.UpdateDigimonDeck(ctx)
 			})
 		}
+
+		// ############################## Pokemon Decks ##############################
 		PokemondeckRoutes := protectedRoutes.Group("/pokemon/decks")
 		{
 			PokemondeckRoutes.GET("/user", func(ctx *gin.Context) {
@@ -254,6 +280,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.UpdatePokemonDeck(ctx)
 			})
 		}
+		// ############################## Naruto Decks ##############################
 		NarutodeckRoutes := protectedRoutes.Group("/naruto/decks")
 		{
 			NarutodeckRoutes.GET("/user", func(ctx *gin.Context) {

@@ -41,6 +41,37 @@ func FindNarutoCardsByNames(ctx context.Context, decklist []utils.ImportNarutoDe
 	return cards, nil
 }
 
+func GetNarutoCardByID(ctx *gin.Context, id string) (*models.NarutoCard, error) {
+	card, err := gorm.G[models.NarutoCard](DB).Where("id = ?", id).First(ctx)
+	if err != nil {
+		return nil, err
+	}
+
+	return &card, nil
+}
+
+func PatchNarutoCardByID(ctx *gin.Context, id int, body models.NarutoCard) (int, error) {
+
+	log.Printf("Updating card with ID %d: %+v\n", id, body)
+	rows, err := gorm.G[models.NarutoCard](DB).Where("id = ?", id).Updates(ctx, body)
+	if err != nil {
+		log.Printf("Error updating card with ID %d: %v\n", id, err)
+		return 0, err
+	}
+
+	return rows, nil
+}
+
+func DeleteNarutoCardByID(ctx *gin.Context, id string) (int, error) {
+	rows, err := gorm.G[models.NarutoCard](DB).Where("id = ?", id).Delete(ctx)
+	if err != nil {
+		log.Printf("Error deleting card with ID %s: %v\n", id, err)
+		return 0, err
+	}
+
+	return rows, nil
+}
+
 func AddNarutoCardsBySets(ctx *gin.Context, files []*multipart.FileHeader) error {
 	for _, file := range files {
 		cards, err := utils.DecodeCards(ctx, *file, models.NarutoCard{})
