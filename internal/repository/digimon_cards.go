@@ -13,7 +13,7 @@ import (
 
 // FindAllDigimonCards retrieves all Digimon cards from the database
 func FindAllDigimonCards(ctx *gin.Context) ([]models.DigimonCard, error) {
-	return gorm.G[models.DigimonCard](DB).Find(ctx)
+	return gorm.G[models.DigimonCard](DB).Order("id asc").Find(ctx)
 }
 
 // FindDigimonCardByID retrieves a single Digimon card by its ID

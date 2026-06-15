@@ -14,7 +14,7 @@ import (
 
 // FindAllPokemonCards retrieves all Pokemon cards from the database
 func FindAllPokemonCards(ctx *gin.Context) ([]models.PokemonCard, error) {
-	return gorm.G[models.PokemonCard](DB).Where("language = ?", "de").Find(ctx)
+	return gorm.G[models.PokemonCard](DB).Where("language = ?", "de").Order(utils.PokemonSetOrderCase()).Order("CAST(SPLIT_PART(card_number, '/', 1) AS INTEGER) asc").Find(ctx)
 }
 
 // PokemonCardByID

@@ -12,7 +12,7 @@ import (
 )
 
 func FindAllNarutoCards(ctx context.Context) ([]models.NarutoCard, error) {
-	return gorm.G[models.NarutoCard](DB).Find(ctx)
+	return gorm.G[models.NarutoCard](DB).Order("id asc").Find(ctx)
 }
 
 func FindNarutoCardsByNames(ctx context.Context, decklist []utils.ImportNarutoDeck) ([]models.NarutoCard, error) {
