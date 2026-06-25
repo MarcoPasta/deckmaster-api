@@ -26,7 +26,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	// ############################## CORS config ##############################
 	//
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://dev.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081"},
+		AllowOrigins:     []string{"https://prod.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},

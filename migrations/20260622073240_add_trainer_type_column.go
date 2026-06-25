@@ -15,7 +15,7 @@ func init() {
 
 func upAddTrainerTypeColumn(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is applied.
-	return repository.DB.Migrator().AddColumn(&models.PokemonCard{}, "trainer_type")
+	return repository.DB.Migrator().AutoMigrate(&models.PokemonCard{})
 }
 
 func downAddTrainerTypeColumn(ctx context.Context, tx *sql.Tx) error {
