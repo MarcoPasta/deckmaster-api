@@ -10,11 +10,12 @@ import (
 	"github.com/MarcoPasta/deckmaster/api/internal/utils"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 // FindAllPokemonCards retrieves all Pokemon cards from the database
 func FindAllPokemonCards(ctx *gin.Context) ([]models.PokemonCard, error) {
-	return gorm.G[models.PokemonCard](DB).Where("language = ?", "de").Order(utils.PokemonSetOrderCase()).Order("CAST(SPLIT_PART(card_number, '/', 1) AS INTEGER) asc").Find(ctx)
+	return gorm.G[models.PokemonCard](DB).Where("language = ?", "de").Order(utils.PokemonSetOrderCase()).Order("CAST(NULLIF(SPLIT_PART(card_number, '/', 1), '') AS INTEGER) asc").Find(ctx)
 }
 
 // PokemonCardByID
@@ -112,11 +113,23 @@ func AddPokemonCardsBySets(ctx *gin.Context, files []*multipart.FileHeader) erro
 		log.Printf("Decoded cards: %+v\n", cards)
 
 		for _, card := range cards {
-			log.Printf("Saving card to database: %s (ID: %s)\n", card.(models.PokemonCard).Name, card.(models.PokemonCard).ID)
 			save := card.(models.PokemonCard)
-			err := gorm.G[models.PokemonCard](DB).Create(ctx, &save)
+			err := DB.WithContext(ctx).
+				Clauses(clause.OnConflict{
+					Columns: []clause.Column{
+						{Name: "code"},
+						{Name: "card_number"},
+						{Name: "language"},
+					},
+					DoUpdates: clause.AssignmentColumns([]string{
+						"card_type", "trainer_type", "phase", "name", "kp",
+						"energy_type", "ability", "attacks", "weakness",
+						"resistance", "retreat_cost", "set", "tags", "updated_at",
+					}),
+				}).
+				Create(&save).Error
 			if err != nil {
-				log.Printf("Error saving Pokemon card to database: %v, error: %v\n", card.(models.PokemonCard).ID, err)
+				log.Printf("Error upserting Pokemon card to database: %s, error: %v\n", save.Name, err)
 				return err
 			}
 		}

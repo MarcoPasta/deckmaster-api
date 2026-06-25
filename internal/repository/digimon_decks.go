@@ -79,6 +79,20 @@ func UpdateDigimonDeck(ctx *gin.Context, id string, updatedDeck models.DigimonDe
 	return len(updatedDeck.Entries), nil
 }
 
+func UpdateDigimonDeckImage(ctx *gin.Context, id string, cardId string) error {
+	deckId, err := strconv.Atoi(id)
+	if err != nil {
+		return fmt.Errorf("invalid deck id: %w", err)
+	}
+
+	err = DB.Model(&models.DigimonDecks{}).Where("id = ?", deckId).Update("cover_card", cardId).Error
+	if err != nil {
+		return fmt.Errorf("failed to update deck image: %w", err)
+	}
+
+	return nil
+}
+
 func DeleteDigimonDeck(ctx *gin.Context, id string) (int, error) {
 	rows, err := gorm.G[models.DigimonDecks](DB).Where("id = ?", id).Delete(ctx)
 	if err != nil {

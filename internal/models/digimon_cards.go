@@ -22,9 +22,10 @@ type DigimonCard struct {
 
 type DigimonDecks struct {
 	gorm.Model
-	UserId  string             `json:"userId"`
-	Name    string             `json:"name"`
-	Entries []DigimonDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
+	UserId    string             `json:"userId"`
+	Name      string             `json:"name"`
+	CoverCard string             `json:"cover"`
+	Entries   []DigimonDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
 }
 
 type DigimonDeckEntry struct {

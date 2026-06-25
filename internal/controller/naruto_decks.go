@@ -70,6 +70,28 @@ func UpdateNarutoDeck(ctx *gin.Context) {
 
 }
 
+func UpdateNarutoDeckImage(ctx *gin.Context) {
+	id := ctx.Param("id")
+	if id == "" {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "deck id is required"})
+		return
+	}
+
+	cardId := ctx.Param("cardId")
+	if cardId == "" {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "cardId is required"})
+		return
+	}
+
+	err := repository.UpdateNarutoDeckImage(ctx, id, cardId)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"message": "Cover image updated successfully"})
+}
+
 func DeleteNarutoDeck(ctx *gin.Context) {
 	id := ctx.Param("id")
 	if id == "" {

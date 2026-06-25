@@ -3,9 +3,11 @@ package repository
 import (
 	"context"
 	"fmt"
+	"log"
 	"strconv"
 
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster/api/internal/utils"
 	"gorm.io/gorm"
 )
 
@@ -77,6 +79,20 @@ func UpdatePokemonDeck(ctx context.Context, id string, updatedDeck models.Pokemo
 	return len(updatedDeck.Entries), nil
 }
 
+func UpdatePokemonDeckImage(ctx context.Context, id string, cardId string) error {
+	deckId, err := strconv.Atoi(id)
+	if err != nil {
+		return fmt.Errorf("invalid deck id: %w", err)
+	}
+
+	err = DB.Model(&models.PokemonDecks{}).Where("id = ?", deckId).Update("cover_card", cardId).Error
+	if err != nil {
+		return fmt.Errorf("failed to update deck image: %w", err)
+	}
+
+	return nil
+}
+
 func DeletePokemonDeck(ctx context.Context, id int) (int, error) {
 	rows, err := gorm.G[models.PokemonDecks](DB).Where("id = ?", id).Delete(ctx)
 	if err != nil {
@@ -84,4 +100,27 @@ func DeletePokemonDeck(ctx context.Context, id int) (int, error) {
 	}
 	fmt.Printf("Deleted %d rows\n", rows)
 	return rows, nil
+}
+
+func GetPokemonDeckCardMarketList(ctx context.Context, cards []utils.GetPokemonDeckCardMarketListResponse) (string, error) {
+	// search for english versions of the cards in the database
+	var foundCards []models.PokemonCard
+	for _, card := range cards {
+		var foundCard models.PokemonCard
+		err := DB.Where("card_number = ?", card.CardNumber).Where("code = ?", card.Code).Where("language = ?", "en").First(&foundCard).Error
+		if err != nil {
+			log.Printf("Error fetching card with card number %s: %v\n", card.CardNumber, err)
+			continue
+		}
+		foundCards = append(foundCards, foundCard)
+	}
+
+	list, err := utils.CreatePokemonCardMarketList(foundCards)
+	if err != nil {
+		log.Printf("Error creating card market list: %v\n", err)
+		return "", fmt.Errorf("failed to create card market list: %w", err)
+	}
+
+	return list, nil
+
 }

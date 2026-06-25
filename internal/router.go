@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"log"
 	"net/http"
 	"time"
 
@@ -253,6 +254,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			DigimondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
 				controller.GetDigimonDeckImage(ctx, presigner)
 			})
+			DigimondeckRoutes.PATCH("/:id/image/update/:cardId", func(ctx *gin.Context) {
+				controller.UpdateDigimonDeckImage(ctx)
+			})
 			DigimondeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
 				controller.DeleteDigimonDeck(ctx)
 			})
@@ -273,11 +277,18 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			PokemondeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
 				controller.GetPokemonDeckImage(ctx, presigner)
 			})
+			PokemondeckRoutes.PATCH("/:id/image/update/:cardId", func(ctx *gin.Context) {
+				controller.UpdatePokemonDeckImage(ctx)
+			})
 			PokemondeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
 				controller.DeletePokemonDeck(ctx)
 			})
 			PokemondeckRoutes.PUT("/:id/update", func(ctx *gin.Context) {
 				controller.UpdatePokemonDeck(ctx)
+			})
+			PokemondeckRoutes.POST("/cardmarket", func(ctx *gin.Context) {
+				log.Println("Received request for Pokemon Deck Card Market List")
+				controller.GetPokemonDeckCardMarketList(ctx)
 			})
 		}
 		// ############################## Naruto Decks ##############################
@@ -291,6 +302,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 			NarutodeckRoutes.GET("/:id/image", func(ctx *gin.Context) {
 				controller.GetNarutoDeckImage(ctx, presigner)
+			})
+			NarutodeckRoutes.PATCH("/:id/image/update/:cardId", func(ctx *gin.Context) {
+				controller.UpdateNarutoDeckImage(ctx)
 			})
 			NarutodeckRoutes.DELETE("/:id/delete", func(ctx *gin.Context) {
 				controller.DeleteNarutoDeck(ctx)

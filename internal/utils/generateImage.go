@@ -57,12 +57,11 @@ var digit8PNG []byte
 var digit9PNG []byte
 
 const (
-	cardWidth   = 240
-	cardHeight  = 336
-	cols        = 6
-	gap         = 32
-	stackOffset = 12
-	padding     = 40
+	cardWidth  = 240
+	cardHeight = 336
+	gap        = 32
+	padding    = 40
+	maxCols    = 6
 )
 
 type cardGroup struct {
@@ -164,13 +163,6 @@ func GroupDigimonCards(entries []models.DigimonDeckEntry) []cardGroup {
 }
 
 func RenderDeckImage(ctx context.Context, s3Client storage.Presigner, groups []cardGroup, gameType string) *image.RGBA {
-	maxStack := 1
-	for _, g := range groups {
-		if g.count > maxStack {
-			maxStack = g.count
-		}
-	}
-
 	// Download all card images from S3 concurrently
 	cardImages := make([]image.Image, len(groups))
 	var wg sync.WaitGroup
@@ -193,11 +185,13 @@ func RenderDeckImage(ctx context.Context, s3Client storage.Presigner, groups []c
 	}
 	wg.Wait()
 
-	// offset calc
-	extraOffset := (maxStack - 1) * stackOffset
+	cols := len(groups)
+	if cols > maxCols {
+		cols = maxCols
+	}
 	rows := (len(groups) + cols - 1) / cols
-	canvasWidth := padding*2 + cols*cardWidth + (cols-1)*gap + extraOffset
-	canvasHeight := padding*2 + rows*(cardHeight+extraOffset) + (rows-1)*gap
+	canvasWidth := padding*2 + cols*cardWidth + (cols-1)*gap
+	canvasHeight := padding*2 + rows*cardHeight + (rows-1)*gap
 
 	img := image.NewRGBA(image.Rect(0, 0, canvasWidth, canvasHeight))
 
@@ -216,18 +210,12 @@ func RenderDeckImage(ctx context.Context, s3Client storage.Presigner, groups []c
 
 		col := i % cols
 		row := i / cols
-		baseX := padding + col*(cardWidth+gap)
-		baseY := padding + row*(cardHeight+extraOffset+gap)
-
-		for n := 0; n < g.count; n++ {
-			/* This part of the code creates the card stacks */
-			x := baseX // + n*stackOffset
-			y := baseY + n*stackOffset
-			drawScaled(img, bgImg, cardImg, x, y, cardWidth, cardHeight)
-		}
+		x := padding + col*(cardWidth+gap)
+		y := padding + row*(cardHeight+gap)
+		drawScaled(img, bgImg, cardImg, x, y, cardWidth, cardHeight)
 
 		if g.count > 1 {
-			drawBadge(img, baseX+cardWidth, baseY+cardHeight, g.count)
+			drawBadge(img, x+cardWidth, y+cardHeight, g.count)
 		}
 	}
 

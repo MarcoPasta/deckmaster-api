@@ -20,9 +20,10 @@ type NarutoCard struct {
 
 type NarutoDecks struct {
 	gorm.Model
-	UserId  string            `json:"userId"`
-	Name    string            `json:"name"`
-	Entries []NarutoDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
+	UserId    string            `json:"userId"`
+	Name      string            `json:"name"`
+	CoverCard string            `json:"cover"`
+	Entries   []NarutoDeckEntry `gorm:"foreignKey:DeckId;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"entries"`
 }
 
 type NarutoDeckEntry struct {

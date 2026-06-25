@@ -71,6 +71,28 @@ func UpdatePokemonDeck(ctx *gin.Context) {
 
 }
 
+func UpdatePokemonDeckImage(ctx *gin.Context) {
+	id := ctx.Param("id")
+	if id == "" {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "deck id is required"})
+		return
+	}
+
+	cardId := ctx.Param("cardId")
+	if cardId == "" {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "cardId is required"})
+		return
+	}
+
+	err := repository.UpdatePokemonDeckImage(ctx, id, cardId)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"message": "Cover image updated successfully"})
+}
+
 func DeletePokemonDeck(ctx *gin.Context) {
 	id := ctx.Param("id")
 	if id == "" {
@@ -92,4 +114,25 @@ func DeletePokemonDeck(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusOK, gin.H{"message": fmt.Sprintf("Deck deleted successfully, %d rows affected", rows)})
+}
+
+func GetPokemonDeckCardMarketList(ctx *gin.Context) {
+
+	var body utils.CardMarketRequest
+	err := ctx.ShouldBind(&body)
+	if err != nil {
+		fmt.Println("Binding error:", err)
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	req := utils.MarshalGetPokemonDeckCardMarketListResponse(body)
+	cards, err := repository.GetPokemonDeckCardMarketList(ctx, req)
+	if err != nil {
+		fmt.Println("Get card market list error:", err)
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"cards": cards})
 }

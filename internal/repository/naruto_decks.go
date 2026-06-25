@@ -77,6 +77,20 @@ func UpdateNarutoDeck(ctx context.Context, id string, updatedDeck models.NarutoD
 	return len(updatedDeck.Entries), nil
 }
 
+func UpdateNarutoDeckImage(ctx context.Context, id string, cardId string) error {
+	deckId, err := strconv.Atoi(id)
+	if err != nil {
+		return fmt.Errorf("invalid deck id: %w", err)
+	}
+
+	err = DB.Model(&models.NarutoDecks{}).Where("id = ?", deckId).Update("cover_card", cardId).Error
+	if err != nil {
+		return fmt.Errorf("failed to update deck image: %w", err)
+	}
+
+	return nil
+}
+
 func DeleteNarutoDeck(ctx context.Context, id int) (int, error) {
 	rows, err := gorm.G[models.NarutoDecks](DB).Where("id = ?", id).Delete(ctx)
 	if err != nil {
