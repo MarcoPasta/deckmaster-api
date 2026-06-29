@@ -15,10 +15,10 @@ func init() {
 
 func upAddTagsNaruto(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is applied.
-	return repository.DB.Migrator().AddColumn(&models.NarutoCard{}, "tags")
+	return repository.DB.Migrator().AutoMigrate(&models.NarutoCard{})
 }
 
 func downAddTagsNaruto(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is rolled back.
-	return repository.DB.Migrator().DropColumn(&models.NarutoCard{}, "tags")
+	return repository.DB.Migrator().DropColumn(&models.NarutoCard{}, "Tags")
 }

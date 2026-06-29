@@ -15,7 +15,7 @@ func init() {
 
 func upAddTagsPokemon(ctx context.Context, tx *sql.Tx) error {
 	// This code is executed when the migration is applied.
-	return repository.DB.Migrator().AddColumn(&models.PokemonCard{}, "Tags")
+	return repository.DB.Migrator().AutoMigrate(&models.PokemonCard{})
 }
 
 func downAddTagsPokemon(ctx context.Context, tx *sql.Tx) error {
