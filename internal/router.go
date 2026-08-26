@@ -167,11 +167,28 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 
+<<<<<<< HEAD
 	}
 
 	// ---------------------------------------------------------------------------------------------------------------------
 	// ############################## Cards ##############################
 	//
+=======
+		// User resync routes (admin only)
+		adminUsersRoutes := adminRoutes.Group("/users")
+		adminUsersRoutes.Use(middleware.VerifyJWT())
+		adminUsersRoutes.Use(middleware.GetClerkUserRole())
+		adminUsersRoutes.Use(middleware.NeedsAdminRole())
+		{
+			adminUsersRoutes.POST("/resync/:user_id", func(ctx *gin.Context) {
+				controller.AdminResyncUser(ctx)
+			})
+			adminUsersRoutes.POST("/resync-all", func(ctx *gin.Context) {
+				controller.AdminResyncAllUsers(ctx)
+			})
+		}
+	}
+>>>>>>> b3ffc9b (add user sync features)
 	// ############################## Digimon ##############################
 	CardRoutes := api.Group("/digimon/cards")
 	{
@@ -238,9 +255,41 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	protectedRoutes := api.Group("/auth")
 	protectedRoutes.Use(middleware.VerifyJWT())
 	{
+<<<<<<< HEAD
 		protectedRoutes.GET("/user", func(ctx *gin.Context) {
 			controller.GetUserInfo(ctx)
 		})
+=======
+		// User profile routes
+		protectedRoutes.GET("/profile", func(ctx *gin.Context) {
+			controller.GetUserProfile(ctx)
+		})
+		protectedRoutes.PUT("/profile", func(ctx *gin.Context) {
+			controller.UpdateUserProfile(ctx)
+		})
+
+		// Password change logging endpoint
+		protectedRoutes.POST("/profile/log-password-change", func(ctx *gin.Context) {
+			controller.LogPasswordChange(ctx)
+		})
+
+		// User social links routes
+		socialLinksRoutes := protectedRoutes.Group("/profile/social-links")
+		{
+			socialLinksRoutes.GET("", func(ctx *gin.Context) {
+				controller.GetSocialLinks(ctx)
+			})
+			socialLinksRoutes.POST("", func(ctx *gin.Context) {
+				controller.CreateSocialLink(ctx)
+			})
+			socialLinksRoutes.PUT("/:id", func(ctx *gin.Context) {
+				controller.UpdateSocialLink(ctx)
+			})
+			socialLinksRoutes.DELETE("/:id", func(ctx *gin.Context) {
+				controller.DeleteSocialLink(ctx)
+			})
+		}
+>>>>>>> b3ffc9b (add user sync features)
 
 		// ############################## Digimon Decks ##############################
 		DigimondeckRoutes := protectedRoutes.Group("/digimon/decks")
