@@ -10,14 +10,12 @@ import (
 	"os"
 	"strings"
 
-<<<<<<< HEAD
 	"github.com/gin-gonic/gin"
-=======
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
->>>>>>> b3ffc9b (add user sync features)
+
 )
 
 func CheckOptions(ctx *gin.Context) {
@@ -113,11 +111,9 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 	// Decode JSON data, assign new map with role data
 	var data map[string]map[string]string
 	json.NewDecoder(bytes.NewReader(body)).Decode(&data)
-<<<<<<< HEAD
 	log.Println("### Received Data For ### --> ", data["data"]["id"])
 
 	url := os.Getenv("CLERK_BACKEND_API") + "/users/" + data["data"]["id"]
-=======
 	userID := data["data"]["id"]
 	log.Println("### Received Data For ### --> ", userID)
 
@@ -131,7 +127,6 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 
 	// Also set role in Clerk for external compatibility
 	url := os.Getenv("CLERK_BACKEND_API") + "/users/" + userID
->>>>>>> b3ffc9b (add user sync features)
 
 	req, _ := http.NewRequest("PATCH", url, bytes.NewBufferString(`{"public_metadata": {"role": "user"}}`))
 
@@ -140,39 +135,25 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
-<<<<<<< HEAD
-		log.Println("### HandleClerkUserCreated error ### --> ", err)
-		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to change user role"})
-=======
 		log.Println("### HandleClerkUserCreated error setting Clerk role ### --> ", err)
 		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to set user role in Clerk"})
->>>>>>> b3ffc9b (add user sync features)
 		return
 	}
 	defer res.Body.Close()
 
 	resBody, err := io.ReadAll(res.Body)
 	if err != nil {
-<<<<<<< HEAD
-		log.Println("### HandleClerkUserCreated error ### --> ", err)
-=======
-		log.Println("### HandleClerkUserCreated error reading response ### --> ", err)
->>>>>>> b3ffc9b (add user sync features)
 		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to read response body"})
 		return
 	}
 
 	fmt.Println(res)
 	fmt.Println(string(resBody))
-
-<<<<<<< HEAD
 	ctx.JSON(http.StatusOK, gin.H{"message": "User role changed successfully" + string(resBody)})
 
-}
-=======
-	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
+}	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
 
-}
+
 
 // GetUserProfile returns the authenticated user's profile with social links
 func GetUserProfile(ctx *gin.Context) {
@@ -503,4 +484,3 @@ func LogPasswordChange(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, gin.H{"message": "Password change logged successfully"})
 }
->>>>>>> b3ffc9b (add user sync features)
