@@ -39,8 +39,24 @@ api/build/*
 #files
 api/cmd/deckmaster/tmp/deckmaster
 api/tmp/
+<<<<<<< HEAD
+=======
+api/files/*
+>>>>>>> main
 
 # frontend docker
 frontend/dist
 frontend/Dockerfile
 frontend/.dockerignore
+<<<<<<< HEAD
+=======
+frontend/.claude/settings.local.json
+
+
+files/*
+build/goose
+cmd/deckmaster/tmp/
+cmd/deckmaster/tmp/deckmaster
+tmp/build-errors.log
+tmp/
+>>>>>>> main

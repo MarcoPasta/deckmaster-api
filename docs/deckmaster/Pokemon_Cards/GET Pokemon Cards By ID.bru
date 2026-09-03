@@ -1,0 +1,21 @@
+meta {
+  name: GET Pokemon Cards By ID
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/api/admin/pokemon/card/1
+  body: none
+  auth: inherit
+}
+
+headers {
+  user_id: {{user_id}}
+  Authorization: {{token}}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

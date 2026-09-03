@@ -10,10 +10,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/gin-gonic/gin"
 	"github.com/MarcoPasta/deckmaster/api/internal/models"
 	"github.com/MarcoPasta/deckmaster/api/internal/repository"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
+
 )
 
 func CheckOptions(ctx *gin.Context) {
@@ -109,6 +111,9 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 	// Decode JSON data, assign new map with role data
 	var data map[string]map[string]string
 	json.NewDecoder(bytes.NewReader(body)).Decode(&data)
+	log.Println("### Received Data For ### --> ", data["data"]["id"])
+
+	url := os.Getenv("CLERK_BACKEND_API") + "/users/" + data["data"]["id"]
 	userID := data["data"]["id"]
 	log.Println("### Received Data For ### --> ", userID)
 
@@ -138,17 +143,17 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 
 	resBody, err := io.ReadAll(res.Body)
 	if err != nil {
-		log.Println("### HandleClerkUserCreated error reading response ### --> ", err)
 		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to read response body"})
 		return
 	}
 
 	fmt.Println(res)
 	fmt.Println(string(resBody))
+	ctx.JSON(http.StatusOK, gin.H{"message": "User role changed successfully" + string(resBody)})
 
-	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
+}	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
 
-}
+
 
 // GetUserProfile returns the authenticated user's profile with social links
 func GetUserProfile(ctx *gin.Context) {

@@ -31,6 +31,9 @@ func VerifyJWT() gin.HandlerFunc {
 				return
 			}
 
+			// write claims and user in gins context
+			ctx.Set("claims", claims)
+			ctx.Set("usr", usr)
 			// Sync or retrieve user from local database
 			localUser, err := repository.GetOrSyncUser(claims.Subject)
 			if err != nil {

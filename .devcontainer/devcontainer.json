@@ -7,9 +7,9 @@
   "runServices": ["db"],
   "shutdownAction": "stopCompose",
   "forwardPorts": [8080, 8000, 5432],
-  "postCreateCommand": "cp .env.example .env || true",
+  "postCreateCommand": "cp .env || true",
   "postStartCommand": "chmod +x ./install_dev_deps.sh",
-  "postAttachCommand": "./install_dev_deps.sh && export PATH=\"$HOME/.local/bin:$PATH\" && uv sync --directory deckmaster-api",
+  "postAttachCommand": "./install_dev_deps.sh && export PATH=\"$HOME/.local/bin:$PATH\"",
   "customizations": {
     "vscode": {
       "settings": {
@@ -21,13 +21,7 @@
         }
       },
       "extensions": [
-        "golang.go",
-        "Vue.volar",
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "be5invis.toml",
-        "FastAPILabs.fastapi-vscode",
-        "charliermarsh.ruff"
+        "golang.go"
       ]
     }
   }
