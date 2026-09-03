@@ -1,5 +1,3 @@
-version: "3.8"
-
 # Development override: mounts the repository into the `dev` service so
 # editors and tools can work with live files. Use together with
 # `docker-compose.yml`:
@@ -12,6 +10,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     image: deckmaster_dev:local
+
     volumes:
       - .:/workspace:cached
     env_file:

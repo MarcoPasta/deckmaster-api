@@ -13,9 +13,16 @@ RUN apt-get update \
 
 # Install Node.js 24
 ENV NODE_VERSION=24.0.0
+
 RUN ARCH=$(dpkg --print-architecture) \
-    && curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${ARCH}.tar.xz \
+    && case "$ARCH" in \
+        amd64) NODE_ARCH=x64 ;; \
+        arm64) NODE_ARCH=arm64 ;; \
+        *) echo "Unsupported architecture: $ARCH" && exit 1 ;; \
+       esac \
+    && curl -fsSL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${NODE_ARCH}.tar.xz" \
        | tar -xJ -C /usr/local --strip-components=1
+
 
 # Create a non-root developer user with UID 1000
 ARG USER=dev
