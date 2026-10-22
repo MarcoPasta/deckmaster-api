@@ -2,7 +2,7 @@
 # - Build stage uses the official Golang image to compile a static binary
 # - Final stage uses a minimal distroless image for a small runtime surface
 
-FROM golang:1.26.2-trixie AS builder
+FROM golang:1.27.3-trixie AS builder
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -39,7 +39,7 @@ RUN mkdir -p /home/nonroot \
 
 
 # Final image: minimal runtime with shell access
-FROM alpine:3.21
+FROM alpine:3.24
 
 RUN adduser -D -u 1000 nonroot
 
