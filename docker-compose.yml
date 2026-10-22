@@ -1,25 +1,25 @@
 
 services:
-  app:
-    build:
-      # Build context set to the `api` directory so the Dockerfile can COPY
-      # module files (`go.mod`/`go.sum`) and source from the same context.
-      context: .
-      dockerfile: Dockerfile
-      args:
-        TARGETOS: linux
-        TARGETARCH: amd64
-    image: deckmaster_app:latest
-    ports:
-      - "8080:8080"
-    # Load runtime environment variables from the .env file in project root
-    env_file:
-      - .env
-    depends_on:
-      - db
-    restart: unless-stopped
-    networks:
-      - shared
+  # app:
+  #   build:
+  #     # Build context set to the `api` directory so the Dockerfile can COPY
+  #     # module files (`go.mod`/`go.sum`) and source from the same context.
+  #     context: .
+  #     dockerfile: Dockerfile
+  #     args:
+  #       TARGETOS: linux
+  #       TARGETARCH: amd64
+  #   image: deckmaster_app:latest
+  #   ports:
+  #     - "8080:8080"
+  #   # Load runtime environment variables from the .env file in project root
+  #   env_file:
+  #     - .env
+  #   depends_on:
+  #     - db
+  #   restart: unless-stopped
+  #   networks:
+  #     - shared
 
   db:
     image: postgres:18-alpine
@@ -37,8 +37,8 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-    networks:
-      - shared
+    # networks:
+    #   - shared
 
   # test-db:
   #   image: postgres:18-alpine
@@ -61,8 +61,8 @@ services:
 
 volumes:
   postgres_data_18:
-  postgres_test:
+  # postgres_test:
 
-networks:
-  shared:
-    name: mirage-platform
+# networks:
+#   shared:
+#     name: mirage-platform

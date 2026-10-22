@@ -18,8 +18,8 @@ services:
       - "8080:8080"
     depends_on:
       - db
-      - test-db
+      # - test-db
     stdin_open: true
     tty: true
-    networks:
-      - shared
+    # networks:
+    #   - shared
