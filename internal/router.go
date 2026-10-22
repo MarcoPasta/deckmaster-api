@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/controller"
-	"github.com/MarcoPasta/deckmaster/api/internal/middleware"
-	"github.com/MarcoPasta/deckmaster/api/internal/storage"
+	"github.com/MarcoPasta/deckmaster-api/internal/controller"
+	"github.com/MarcoPasta/deckmaster-api/internal/middleware"
+	"github.com/MarcoPasta/deckmaster-api/internal/storage"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
@@ -166,17 +166,6 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.AddNarutoCardsBySets(ctx)
 			})
 		}
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	}
-
-	// ---------------------------------------------------------------------------------------------------------------------
-	// ############################## Cards ##############################
-	//
-=======
->>>>>>> main
 		// User resync routes (admin only)
 		adminUsersRoutes := adminRoutes.Group("/users")
 		adminUsersRoutes.Use(middleware.VerifyJWT())
@@ -191,10 +180,6 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 			})
 		}
 	}
-<<<<<<< HEAD
-=======
->>>>>>> b3ffc9b (add user sync features)
->>>>>>> main
 	// ############################## Digimon ##############################
 	CardRoutes := api.Group("/digimon/cards")
 	{
@@ -261,14 +246,6 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	protectedRoutes := api.Group("/auth")
 	protectedRoutes.Use(middleware.VerifyJWT())
 	{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-		protectedRoutes.GET("/user", func(ctx *gin.Context) {
-			controller.GetUserInfo(ctx)
-		})
-=======
->>>>>>> main
 		// User profile routes
 		protectedRoutes.GET("/profile", func(ctx *gin.Context) {
 			controller.GetUserProfile(ctx)
@@ -298,11 +275,6 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.DeleteSocialLink(ctx)
 			})
 		}
-<<<<<<< HEAD
-=======
->>>>>>> b3ffc9b (add user sync features)
->>>>>>> main
-
 		// ############################## Digimon Decks ##############################
 		DigimondeckRoutes := protectedRoutes.Group("/digimon/decks")
 		{

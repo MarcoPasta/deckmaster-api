@@ -6,7 +6,7 @@ import (
 	"log"
 	"mime/multipart"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
 	"github.com/gin-gonic/gin"
 )
 

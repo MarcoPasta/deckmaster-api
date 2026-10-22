@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
 	"github.com/clerk/clerk-sdk-go/v2"
 	clerkhttp "github.com/clerk/clerk-sdk-go/v2/http"
 	"github.com/clerk/clerk-sdk-go/v2/user"

@@ -10,12 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gin-gonic/gin"
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-
 )
 
 func CheckOptions(ctx *gin.Context) {
@@ -126,7 +124,7 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 	}
 
 	// Also set role in Clerk for external compatibility
-	url := os.Getenv("CLERK_BACKEND_API") + "/users/" + userID
+	url = os.Getenv("CLERK_BACKEND_API") + "/users/" + userID
 
 	req, _ := http.NewRequest("PATCH", url, bytes.NewBufferString(`{"public_metadata": {"role": "user"}}`))
 
@@ -151,9 +149,8 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 	fmt.Println(string(resBody))
 	ctx.JSON(http.StatusOK, gin.H{"message": "User role changed successfully" + string(resBody)})
 
-}	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
-
-
+	ctx.JSON(http.StatusOK, gin.H{"message": "User created and synced successfully", "user": localUser})
+}
 
 // GetUserProfile returns the authenticated user's profile with social links
 func GetUserProfile(ctx *gin.Context) {
@@ -189,9 +186,9 @@ func UpdateUserProfile(ctx *gin.Context) {
 	user := localUser.(*models.User)
 
 	var updateData struct {
-		FirstName   string                `json:"first_name"`
-		LastName    string                `json:"last_name"`
-		Phone       string                `json:"phone_number"`
+		FirstName   string                  `json:"first_name"`
+		LastName    string                  `json:"last_name"`
+		Phone       string                  `json:"phone_number"`
 		SocialLinks []models.UserSocialLink `json:"social_links"`
 	}
 
@@ -333,11 +330,11 @@ func CreateSocialLink(ctx *gin.Context) {
 	}
 
 	link := models.UserSocialLink{
-		ID:        uuid.New().String(),
-		UserID:    user.ID,
-		Platform:  input.Platform,
-		URL:       input.URL,
-		Label:     input.Label,
+		ID:       uuid.New().String(),
+		UserID:   user.ID,
+		Platform: input.Platform,
+		URL:      input.URL,
+		Label:    input.Label,
 	}
 
 	if err := repository.DB.Create(&link).Error; err != nil {

@@ -5,17 +5,17 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
-	"github.com/MarcoPasta/deckmaster/api/internal/storage"
-	"github.com/MarcoPasta/deckmaster/api/internal/utils"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/storage"
+	"github.com/MarcoPasta/deckmaster-api/internal/utils"
 	"github.com/gin-gonic/gin"
 )
 
 func FindPokemonCardImages(ctx *gin.Context, presigner storage.Presigner) {
 	keys, err := presigner.ListObjects(ctx, "cards/pokemon/")
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to list objects"})
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "S3::Failed to list objects"})
 		return
 	}
 

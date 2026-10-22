@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/storage"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/storage"
 )
 
 //go:embed assets/pattern-bg-pokemon.png

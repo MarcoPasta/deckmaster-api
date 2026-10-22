@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
 	"github.com/pressly/goose/v3"
 )
 

@@ -8,9 +8,9 @@ import (
 	_ "embed"
 	_ "image/jpeg"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
-	"github.com/MarcoPasta/deckmaster/api/internal/storage"
-	"github.com/MarcoPasta/deckmaster/api/internal/utils"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/storage"
+	"github.com/MarcoPasta/deckmaster-api/internal/utils"
 	"github.com/gin-gonic/gin"
 	_ "golang.org/x/image/webp"
 )

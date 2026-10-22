@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/MarcoPasta/deckmaster/api/internal"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
-	_ "github.com/MarcoPasta/deckmaster/api/migrations"
+	"github.com/MarcoPasta/deckmaster-api/internal"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
+	_ "github.com/MarcoPasta/deckmaster-api/migrations"
 	_ "github.com/lib/pq"
 	"github.com/pressly/goose/v3"
 )

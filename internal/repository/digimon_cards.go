@@ -5,8 +5,8 @@ import (
 	"log"
 	"mime/multipart"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/utils"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/utils"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

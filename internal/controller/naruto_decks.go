@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
-	"github.com/MarcoPasta/deckmaster/api/internal/utils"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/utils"
 	"github.com/gin-gonic/gin"
 )
 

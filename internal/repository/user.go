@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
 	"github.com/clerk/clerk-sdk-go/v2/user"
 	"github.com/google/uuid"
 )
@@ -154,12 +154,12 @@ func UpdateUserFromClerk(clerkUserID string) (*models.User, error) {
 
 	// Update local user record
 	updateData := map[string]interface{}{
-		"email":               email,
-		"first_name":         firstName,
-		"last_name":          lastName,
-		"profile_image_url":  imageURL,
-		"phone_number":       phoneNumber,
-		"clerk_synced_at":    &now,
+		"email":             email,
+		"first_name":        firstName,
+		"last_name":         lastName,
+		"profile_image_url": imageURL,
+		"phone_number":      phoneNumber,
+		"clerk_synced_at":   &now,
 	}
 
 	var localUser models.User

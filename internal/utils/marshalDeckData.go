@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
 	"gorm.io/gorm"
 )
 

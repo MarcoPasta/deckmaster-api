@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/MarcoPasta/deckmaster/api/internal"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
-	"github.com/MarcoPasta/deckmaster/api/internal/storage"
-	_ "github.com/MarcoPasta/deckmaster/api/migrations"
+	"github.com/MarcoPasta/deckmaster-api/internal"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/storage"
+	_ "github.com/MarcoPasta/deckmaster-api/migrations"
 )
 
 func main() {

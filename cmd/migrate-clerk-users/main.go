@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
-	"github.com/MarcoPasta/deckmaster/api/internal/repository"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/repository"
 	"github.com/clerk/clerk-sdk-go/v2"
 	clerkUser "github.com/clerk/clerk-sdk-go/v2/user"
 	"gorm.io/driver/postgres"

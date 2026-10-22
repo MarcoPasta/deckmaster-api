@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

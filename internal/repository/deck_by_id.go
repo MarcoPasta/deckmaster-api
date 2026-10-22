@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/MarcoPasta/deckmaster/api/internal/models"
+	"github.com/MarcoPasta/deckmaster-api/internal/models"
 )
 
 func GetDigimonDeckById(ctx context.Context, deckId uint) (models.DigimonDecks, error) {
