@@ -5,13 +5,13 @@ meta {
 }
 
 get {
-  url: {{baseUrl}}/admin/admin
+  url: {{base_url}}/api/admin/role
   body: none
   auth: none
 }
 
 headers {
-  Authorization: eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDIyMkFBQSIsImtpZCI6Imluc18zQmxlZ1lKU2d6TmRUNmJ3MkhYT054MFg4NTkiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3Nzk0NTM4ODUsImlhdCI6MTc3OTM2NzQ4NSwiaXNzIjoiaHR0cHM6Ly9icmF2ZS13b21iYXQtMS5jbGVyay5hY2NvdW50cy5kZXYiLCJqdGkiOiJiZWQ2NjMzOTY0YTI4MTJhOTI3ZCIsIm5iZiI6MTc3OTM2NzQ4MCwic3ViIjoidXNlcl8zQmxoRmZudTA1djlaZFlxdExQbUV3NklzR0wifQ.F8lH3aFfpSaTcrmDDtBWEj6ezpKuxn5X_pbjS1bfKEix8hCb87C_OG7M01BKbcO-Rg6uMPi8zNEEwE5_lrLgpGUZTb-j13zqOFByHspAY7G5HP_IpOJ9ZBJA4STG-qsEu2UNmS5po2oYGQzEB4vsnAggppOshZCTXen2ZbfSc2n1oXhH1PA-3U5sJ9vgPq7TCmQ24gSP4jYROP5lcLdsp7bt-Cw33y0phH92BYcQ3xgu6fTYiWO_wpzDIPZHphReC4RBHqXXwQwj3zHHB0QgeQUKsI4jSEr9kEZuJCj4Oys2w85hQkTN_5uAFNWx2PfPDWPeYFXqTK35i5Xq7w9vtg
+  Authorization: {{token}}
   user_id: {{user_id}}
 }
 
