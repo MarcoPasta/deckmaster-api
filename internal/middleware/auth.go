@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"fmt"
 	"net/http"
 	"os"
 
-	"github.com/MarcoPasta/deckmaster-api/internal/repository"
 	"github.com/clerk/clerk-sdk-go/v2"
 	clerkhttp "github.com/clerk/clerk-sdk-go/v2/http"
 	"github.com/clerk/clerk-sdk-go/v2/user"
@@ -15,6 +15,8 @@ import (
 func VerifyJWT() gin.HandlerFunc {
 
 	return func(ctx *gin.Context) {
+
+		fmt.Println("running auth")
 		clerk.SetKey(os.Getenv("CLERK_SECRET_KEY"))
 		// using middleware to retrieve claims from token
 		handler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -34,17 +36,6 @@ func VerifyJWT() gin.HandlerFunc {
 			// write claims and user in gins context
 			ctx.Set("claims", claims)
 			ctx.Set("usr", usr)
-			// Sync or retrieve user from local database
-			localUser, err := repository.GetOrSyncUser(claims.Subject)
-			if err != nil {
-				ctx.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": "Failed to sync user data"})
-				return
-			}
-
-			// write claims, clerk user, and local user in gin's context
-			ctx.Set("claims", claims)
-			ctx.Set("usr", usr)
-			ctx.Set("localUser", localUser)
 		})
 
 		// clerk middleware that parses the token

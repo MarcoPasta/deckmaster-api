@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"time"
@@ -26,7 +27,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	// ############################## CORS config ##############################
 	//
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://prod.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081"},
+		AllowOrigins:     []string{"https://prod.deckmaster.mirage-platform.cards", "https://deckmaster.mirage-platform.cards", "http://localhost:5173", "http://localhost:4173", "http://localhost:8081", "https://aloe-afoot-shingle.ngrok-free.dev"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
@@ -49,6 +50,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 	// ############################## Clerk ##############################
 	//
 	clerkRoutes := api.Group("/clerk")
+	clerkRoutes.POST("/", func(ctx *gin.Context) {
+		fmt.Println("Webhook arrived")
+	})
 	clerkRoutes.GET("/session", func(ctx *gin.Context) {
 		controller.GetSessionToken(ctx)
 	})
@@ -166,19 +170,7 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 				controller.AddNarutoCardsBySets(ctx)
 			})
 		}
-		// User resync routes (admin only)
-		adminUsersRoutes := adminRoutes.Group("/users")
-		adminUsersRoutes.Use(middleware.VerifyJWT())
-		adminUsersRoutes.Use(middleware.GetClerkUserRole())
-		adminUsersRoutes.Use(middleware.NeedsAdminRole())
-		{
-			adminUsersRoutes.POST("/resync/:user_id", func(ctx *gin.Context) {
-				controller.AdminResyncUser(ctx)
-			})
-			adminUsersRoutes.POST("/resync-all", func(ctx *gin.Context) {
-				controller.AdminResyncAllUsers(ctx)
-			})
-		}
+
 	}
 	// ############################## Digimon ##############################
 	CardRoutes := api.Group("/digimon/cards")
@@ -250,14 +242,9 @@ func initRoutes(r *gin.Engine, presigner storage.Presigner) {
 		protectedRoutes.GET("/profile", func(ctx *gin.Context) {
 			controller.GetUserProfile(ctx)
 		})
-		protectedRoutes.PUT("/profile", func(ctx *gin.Context) {
-			controller.UpdateUserProfile(ctx)
-		})
-
-		// Password change logging endpoint
-		protectedRoutes.POST("/profile/log-password-change", func(ctx *gin.Context) {
-			controller.LogPasswordChange(ctx)
-		})
+		// protectedRoutes.PUT("/profile", func(ctx *gin.Context) {
+		// 	controller.UpdateUserProfile(ctx)
+		// })
 
 		// User social links routes
 		socialLinksRoutes := protectedRoutes.Group("/profile/social-links")
