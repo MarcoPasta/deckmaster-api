@@ -2,6 +2,7 @@ package controller
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"log"
@@ -10,6 +11,8 @@ import (
 	"strings"
 
 	"github.com/MarcoPasta/deckmaster-api/internal/models"
+	"github.com/clerk/clerk-sdk-go/v2"
+	"github.com/clerk/clerk-sdk-go/v2/user"
 
 	"github.com/gin-gonic/gin"
 )
@@ -103,6 +106,7 @@ var errorCodes = map[string]int{
 	"authentication_invalid":     401,
 	"resource_not_found":         404,
 	"invalid_request_parameters": 412,
+	"form_param_value_invalid":   422,
 }
 
 func HandleClerkUserCreated(ctx *gin.Context) {
@@ -113,39 +117,30 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 		fmt.Println(err)
 	}
 
-	payload := strings.NewReader(`{
-		"public_metadata": {
-			"role": "user"
-		},
-		"private_metadata": {},
-		"unsafe_metadata": {}
-	}`)
-
-	req, err := http.NewRequest("PATCH", os.Getenv("CLERK_BACKEND_API")+fmt.Sprintf("/users/%v/metadata", hook.Data.Id), payload)
-	if err != nil {
-		log.Println(err)
+	var payload user.UpdateMetadataParams
+	meta := map[string]any{
+		"role": "user",
 	}
-	req.Header.Add("Content-Type", "application/json")
-	req.Header.Add("Authorization", "Bearer "+os.Getenv("CLERK_SECRET_KEY"))
-
-	res, err := http.DefaultClient.Do(req)
+	b, err := json.Marshal(meta) // must be an object, e.g. {"role":"user"}
 	if err != nil {
-		log.Println(err)
+		fmt.Println(err)
 	}
+	raw := json.RawMessage(b)
 
-	defer res.Body.Close()
-	body, err := io.ReadAll(res.Body)
-	if err != nil {
-		log.Println(err)
-	}
+	payload.PublicMetadata = &raw
 
 	var codes models.ClerkErrorResponse
-	err = json.Unmarshal(body, &codes)
+	_, err = user.UpdateMetadata(ctx, string(hook.Data.Id), &payload)
 	if err != nil {
 		log.Println(err)
+		err = json.Unmarshal([]byte(err.Error()), &codes)
+		if err != nil {
+			log.Println(err)
+		}
 	}
 
 	if len(codes.Errors) > 0 {
+		fmt.Println("received an error code: ", codes.Errors[0].Code)
 		ctx.JSON(errorCodes[codes.Errors[0].Code], codes.Errors[0].Message)
 	} else {
 		ctx.JSON(http.StatusOK, gin.H{"message": "user role created successfully"})
@@ -154,7 +149,40 @@ func HandleClerkUserCreated(ctx *gin.Context) {
 }
 
 // GetUserProfile returns the authenticated user's profile with social links
-func GetUserProfile(ctx *gin.Context) {}
+func GetUserProfile(ctx *gin.Context) {
+
+	id := ctx.Param("id")
+
+	userDataClerk, err := user.Get(ctx, id)
+	if err != nil {
+		// log.Println(err)
+		var apiErr *clerk.APIErrorResponse
+		if errors.As(err, &apiErr) {
+			switch apiErr.HTTPStatusCode {
+			case http.StatusUnauthorized:
+				// Secret key missing, wrong, or from another instance
+				log.Printf("clerk auth failed, check CLERK_SECRET_KEY: %v", err)
+			case http.StatusNotFound:
+				log.Printf("user %q not found: %v", id, err)
+			case http.StatusUnprocessableEntity:
+				// Validation problem, e.g. invalid metadata
+				for _, e := range apiErr.Errors {
+					log.Printf("clerk validation: code=%s msg=%s", e.Code, e.LongMessage)
+				}
+				log.Printf("invalid request to clerk: %v", err)
+			case http.StatusTooManyRequests:
+				log.Printf("clerk rate limit hit, retry later: %v", err)
+			default:
+				log.Printf("clerk API error (status %d): %v", apiErr.HTTPStatusCode, err)
+			}
+		}
+	}
+
+	fmt.Printf("%v\n", *userDataClerk.Username)
+
+	ctx.JSON(200, gin.H{"content: ": userDataClerk})
+
+}
 
 // GetSocialLinks returns all social links for the authenticated user
 func GetSocialLinks(ctx *gin.Context) {}

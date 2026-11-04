@@ -7,6 +7,7 @@ type ClerkUser struct {
 	Firstname string `json:"first_name"`
 	Lastname  string `json:"last_name"`
 	Username  string `json:"username"`
+	EMail     string `json:"email"`
 }
 
 type ClerkWebhook struct {

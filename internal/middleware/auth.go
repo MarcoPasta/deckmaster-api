@@ -1,9 +1,7 @@
 package middleware
 
 import (
-	"fmt"
 	"net/http"
-	"os"
 
 	"github.com/clerk/clerk-sdk-go/v2"
 	clerkhttp "github.com/clerk/clerk-sdk-go/v2/http"
@@ -15,9 +13,6 @@ import (
 func VerifyJWT() gin.HandlerFunc {
 
 	return func(ctx *gin.Context) {
-
-		fmt.Println("running auth")
-		clerk.SetKey(os.Getenv("CLERK_SECRET_KEY"))
 		// using middleware to retrieve claims from token
 		handler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			claims, ok := clerk.SessionClaimsFromContext(r.Context())

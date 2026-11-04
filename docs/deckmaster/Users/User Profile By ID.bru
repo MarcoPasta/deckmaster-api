@@ -1,0 +1,22 @@
+meta {
+  name: User Profile By ID
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{base_url}}/api/auth/user/profile/user_3BlhFfnu05v9ZdYqtLPmEw6IsGL
+  body: multipartForm
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+}

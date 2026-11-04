@@ -42,7 +42,7 @@ func InitRoutes(r *gin.Engine, presigner storage.Presigner) {
 
 	// init routes
 	AddClerkRoutes(api)
-	AddUserRoutes(protected)
+	AddUserRoutes(api, protected)
 	AddAdminRoutes(admin)
 	AddS3Routes(api, presigner)
 	AddDigimonRoutes(api, admin, protected, presigner)
